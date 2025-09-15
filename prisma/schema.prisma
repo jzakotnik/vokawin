@@ -1,12 +1,93 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
-  output   = "./prisma"
 }
 
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
+}
+
+enum GameStatus {
+  PENDING
+  ACTIVE
+  COMPLETED
+  CANCELLED
+}
+
+model User {
+  id                 Int                 @id @default(autoincrement())
+  name               String
+  email              String?             @unique
+  // Ownership
+  gameConfigurations GameConfiguration[]
+  games              Game[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model VocabularyList {
+  id                 Int                 @id @default(autoincrement())
+  source             String // e.g., book/course/source
+  sourceLang         String
+  targetLang         String
+  entries            VocabularyEntry[] // replaces String[] arrays
+  gameConfigurations GameConfiguration[] // many configs can reuse one list
+
+  // Optional: quick search/indexes
+  @@index([sourceLang, targetLang])
+}
+
+model VocabularyEntry {
+  id               Int            @id @default(autoincrement())
+  vocabularyListId Int
+  vocabularyList   VocabularyList @relation(fields: [vocabularyListId], references: [id], onDelete: Cascade)
+
+  // Keep an explicit order so start/end ranges are stable
+  position Int
+
+  sourceWord String
+  targetWord String
+
+  @@unique([vocabularyListId, position])
+}
+
+model GameConfiguration {
+  id     Int  @id @default(autoincrement())
+  userId Int
+  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  name             String? // e.g., "Speed round", "Unit 3 practice"
+  vocabularyListId Int
+  vocabularyList   VocabularyList @relation(fields: [vocabularyListId], references: [id])
+
+  // Range of entries by position (inclusive)
+  startPosition Int
+  endPosition   Int
+
+  games Game[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Prevent duplicate names per user (optional)
+  @@unique([userId, name])
+}
+
+model Game {
+  id     Int  @id @default(autoincrement())
+  userId Int
+  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  gameConfigurationId Int
+  gameConfiguration   GameConfiguration @relation(fields: [gameConfigurationId], references: [id], onDelete: Cascade)
+
+  accessCode String     @unique
+  status     GameStatus @default(PENDING)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([gameConfigurationId])
+  @@index([userId])
 }
