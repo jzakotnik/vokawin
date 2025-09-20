@@ -26,44 +26,33 @@ model User {
   updatedAt DateTime @updatedAt
 }
 
-model VocabularyList {
+model Vocabulary {
   id                 Int                 @id @default(autoincrement())
   source             String // e.g., book/course/source
   sourceLang         String
   targetLang         String
-  entries            VocabularyEntry[] // replaces String[] arrays
+  sourceWord         String
+  targetWord         String
+  comment            String              @default("No comment")
   gameConfigurations GameConfiguration[] // many configs can reuse one list
 
   // Optional: quick search/indexes
-  @@index([sourceLang, targetLang])
-}
-
-model VocabularyEntry {
-  id               Int            @id @default(autoincrement())
-  vocabularyListId Int
-  vocabularyList   VocabularyList @relation(fields: [vocabularyListId], references: [id], onDelete: Cascade)
-
-  // Keep an explicit order so start/end ranges are stable
-  position Int
-
-  sourceWord String
-  targetWord String
-
-  @@unique([vocabularyListId, position])
+  @@index([sourceLang, targetLang, sourceWord, targetWord, source])
 }
 
 model GameConfiguration {
-  id     Int  @id @default(autoincrement())
-  userId Int
-  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-  name             String? // e.g., "Speed round", "Unit 3 practice"
-  vocabularyListId Int
-  vocabularyList   VocabularyList @relation(fields: [vocabularyListId], references: [id])
+  id           Int        @id @default(autoincrement())
+  userId       Int
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mode         Int        @default(0)
+  name         String // e.g., "Speed round", "Unit 3 practice"
+  vocabularyId Int
+  vocabulary   Vocabulary @relation(fields: [vocabularyId], references: [id])
 
   // Range of entries by position (inclusive)
   startPosition Int
   endPosition   Int
+  nrWords       Int //how many words out of the range
 
   games Game[]
 

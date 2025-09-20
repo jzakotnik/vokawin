@@ -104,11 +104,13 @@ export default function VocabularyMatch() {
 
   const germanList: Word[] = order.map((id) => germanById[id]);
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function handleDragStart(event: any) {
     setActiveId(event.active.id as string);
   }
 
   // SWAP ONLY ON DROP
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function handleDragEnd(event: any) {
     const { active, over } = event;
     setActiveId(null);
