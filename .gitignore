@@ -45,3 +45,4 @@ prisma/dev.db
 
 # vokabel lists
 /input
+/database
