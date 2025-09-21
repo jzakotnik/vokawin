@@ -1,9 +1,5 @@
 // pages/api/example.ts
 import type { NextApiRequest, NextApiResponse } from "next";
-import { Prisma as GcP } from "@prisma/client";
-import { prisma as gcDb } from "@/lib/prisma";
-
-import { createUser, getUserByEmail } from "@/services/user";
 
 export default async function handler(
   req: NextApiRequest,

@@ -1,7 +1,5 @@
 // pages/api/vocabulary/import.ts
 import type { NextApiRequest, NextApiResponse } from "next";
-import type { Prisma as P } from "@prisma/client";
-import { bulkUpsertVocabulary } from "@/services/vocabulary";
 
 type Row = { col1?: unknown; col2?: unknown; rowNumber?: number };
 type Meta = {
