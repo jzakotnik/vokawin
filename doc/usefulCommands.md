@@ -1,6 +1,6 @@
 # Ensure DB
 ```
-curl -X POST http://localhost:3000/api/admin/ensure -H "Content-Type: application/json"
+curl -X POST http://localhost:3000/api/admin/ensureDB -H "Content-Type: application/json"
 ```
 
 # Create user

@@ -1,12 +1,13 @@
 // /lib/mongo.ts
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { MongoClient, Db } from "mongodb";
+import { ObjectId } from "mongodb";
 
 // ===== Types (your simplified set) =====
 export type GameStatus = "PENDING" | "ACTIVE" | "COMPLETED" | "CANCELLED";
 
 export interface UserDoc {
-  _id: any;
+  _id?: ObjectId;
   name: string;
   email: string;
   createdAt: Date;
@@ -14,7 +15,7 @@ export interface UserDoc {
 }
 
 export interface VocabularyDoc {
-  _id: any;
+  _id?: ObjectId;
   source: string;
   sourceLang: string;
   targetLang: string;
@@ -24,7 +25,7 @@ export interface VocabularyDoc {
 }
 
 export interface GameDoc {
-  _id: any;
+  _id?: ObjectId;
   userId: number; // per your type — stored as Number (int) in Mongo
   accessCode: string;
   status: GameStatus;
@@ -146,7 +147,6 @@ export async function ensureCollections(d: Db) {
       source: 1,
       // partial text support via array fields
       sourceWords: 1,
-      targetWords: 1,
     });
   }
 

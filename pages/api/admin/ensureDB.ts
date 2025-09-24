@@ -1,5 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { ensureCollections, getDb } from "@/lib/mongo";
+import { ensureCollections, getDb, VocabularyDoc } from "@/lib/mongo";
+import { Db } from "mongodb";
 
 export default async function handler(
   req: NextApiRequest,
@@ -10,14 +11,13 @@ export default async function handler(
   try {
     // Optional: return what collections exist now
     const db = await getDb();
-
     const names = (await db.listCollections().toArray())
       .map((c) => c.name)
       .sort();
 
     res.status(200).json({
       ok: true,
-      message: "Collections ensured (users, vocabulary, games).",
+      message: "Collections ensured (should be: users, vocabulary, games).",
       collections: names,
     });
   } catch (err: unknown) {
