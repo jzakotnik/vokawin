@@ -1,0 +1,66 @@
+{
+  "hostId": 42,
+  "accessCode": "ABCD12",
+  "status": "active",
+  "createdAt": { "$date": "2025-09-26T10:00:00Z" },
+  "updatedAt": { "$date": "2025-09-26T10:05:00Z" },
+  "startedAt": { "$date": "2025-09-26T10:02:00Z" },
+  "endedAt": null,
+  "gameMode": 1,
+  "name": "Friday Battle",
+  "vocabulary": { "listId": 7 },
+  "startPosition": 0,
+  "endPosition": 50,
+  "nrWords": 20,
+  "minPlayers": 2,
+  "maxPlayers": 8,
+  "players": [
+    {
+      "userId": 42,
+      "displayName": "Host",
+      "joinedAt": { "$date": "2025-09-26T09:58:00Z" },
+      "leftAt": null,
+      "isBot": false,
+      "score": 12,
+      "correctAnswers": 12,
+      "wrongAnswers": 3,
+      "streak": 4,
+      "isReady": true,
+      "team": null
+    },
+    {
+      "userId": 77,
+      "displayName": "Rival",
+      "joinedAt": { "$date": "2025-09-26T10:00:30Z" },
+      "leftAt": null,
+      "isBot": false,
+      "score": 9,
+      "correctAnswers": 9,
+      "wrongAnswers": 5,
+      "streak": 2,
+      "isReady": true,
+      "team": null
+    }
+  ],
+  "winnerUserIds": null,
+  "events": [
+    {
+      "type": "PLAYER_JOINED",
+      "ts": { "$date": "2025-09-26T09:58:00Z" },
+      "actorUserId": 42,
+      "payload": { "userId": 42 }
+    },
+    {
+      "type": "PLAYER_JOINED",
+      "ts": { "$date": "2025-09-26T10:00:30Z" },
+      "actorUserId": 77,
+      "payload": { "userId": 77 }
+    },
+    {
+      "type": "GAME_STARTED",
+      "ts": { "$date": "2025-09-26T10:02:00Z" },
+      "actorUserId": 42,
+      "payload": {}
+    }
+  ]
+}

@@ -157,7 +157,6 @@ export async function ensureCollections(d: Db) {
         $jsonSchema: {
           bsonType: "object",
           required: [
-            "userId",
             "accessCode",
             "status",
             "createdAt",
@@ -168,31 +167,100 @@ export async function ensureCollections(d: Db) {
             "startPosition",
             "endPosition",
             "nrWords",
+            "players",
+            "hostId",
           ],
           additionalProperties: false,
           properties: {
             _id: {},
-            userId: { bsonType: "int" }, // per your type
+            // host/owner of the lobby (used to start/end/kick, etc.)
+            hostId: { bsonType: "int" }, // keep your int user id type
+
+            // joinable via access code
             accessCode: { bsonType: "string" },
-            status: { enum: Array.from(GameStatuses) },
+
+            // lifecycle
+            status: { enum: Array.from(GameStatuses) }, // e.g., 'lobby','active','finished','abandoned'
             createdAt: { bsonType: "date" },
             updatedAt: { bsonType: "date" },
+            startedAt: { bsonType: ["date", "null"] }, // NEW
+            endedAt: { bsonType: ["date", "null"] }, // NEW
+
+            // config
             gameMode: { bsonType: "int" },
             name: { bsonType: "string" },
-            vocabulary: {}, // any
+            vocabulary: {}, // any (unchanged)
             startPosition: { bsonType: "int" },
             endPosition: { bsonType: "int" },
             nrWords: { bsonType: "int" },
+
+            // lobby constraints (optional)
+            minPlayers: { bsonType: ["int", "null"] },
+            maxPlayers: { bsonType: ["int", "null"] },
+
+            // multi-user: array of player objects
+            players: {
+              bsonType: "array",
+              minItems: 1,
+              items: {
+                bsonType: "object",
+                required: ["userId", "joinedAt", "score"],
+                additionalProperties: false,
+                properties: {
+                  userId: { bsonType: "int" }, // your user id type
+                  displayName: { bsonType: ["string", "null"] },
+                  joinedAt: { bsonType: "date" },
+                  leftAt: { bsonType: ["date", "null"] },
+                  isBot: { bsonType: ["bool", "null"] },
+                  // gameplay stats
+                  score: { bsonType: "int" }, // current/ending score
+                  correctAnswers: { bsonType: ["int", "null"] },
+                  wrongAnswers: { bsonType: ["int", "null"] },
+                  streak: { bsonType: ["int", "null"] },
+                  // per-player state
+                  isReady: { bsonType: ["bool", "null"] }, // for lobby ready checks
+                  team: { bsonType: ["string", "null"] }, // optional (if you add teams later)
+                },
+              },
+            },
+
+            // winners (supports ties & team modes)
+            winnerUserIds: {
+              bsonType: ["array", "null"],
+              items: { bsonType: "int" },
+            },
+
+            // optional lightweight event log (append-only, useful for audits/undo)
+            events: {
+              bsonType: ["array", "null"],
+              items: {
+                bsonType: "object",
+                required: ["type", "ts"],
+                additionalProperties: false,
+                properties: {
+                  type: { bsonType: "string" }, // e.g., 'PLAYER_JOINED','SCORE_UPDATED','GAME_STARTED','GAME_ENDED'
+                  ts: { bsonType: "date" },
+                  actorUserId: { bsonType: ["int", "null"] },
+                  payload: {}, // anything (kept flexible)
+                },
+              },
+            },
           },
         },
       },
     });
+
+    // Helpful indexes
     await d
       .collection("games")
       .createIndex({ accessCode: 1 }, { unique: true });
-    await d.collection("games").createIndex({ userId: 1 });
-    await d.collection("games").createIndex({ name: 1 });
+    await d.collection("games").createIndex({ status: 1, updatedAt: -1 });
+    await d.collection("games").createIndex({ "players.userId": 1, status: 1 });
   }
+
+  await d.collection("games").createIndex({ accessCode: 1 }, { unique: true });
+  await d.collection("games").createIndex({ userId: 1 });
+  await d.collection("games").createIndex({ name: 1 });
 }
 
 // ===== Helpers =====

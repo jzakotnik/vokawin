@@ -10,6 +10,13 @@ curl -i -sS -X POST http://localhost:3000/api/user \
   -d '{"name":"Jure","email":"jure@gmx.de"}'
 ```
 
+# Check vocabulary sources
+curl -X GET http://localhost:3000/api/vocabulary/sources
+
+
+# Check vocabulary for source Unit 3 - Book A
+curl -G "http://localhost:3000/api/vocabulary?source=Unit%203%20-%20Book%20A"
+
 
 # Run mongo
 docker run -d \
