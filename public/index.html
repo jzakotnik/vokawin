@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>VokaWin – Vokabel-Duell | Vocabulary Duel Game</title>
+    <meta
+      name="description"
+      content="Fordere deine Freunde zum Echtzeit-Vokabel-Duell heraus! Übe Englisch, Französisch und Latein mit Vokabeln aus deutschen Gymnasium-Schulbüchern. Challenge your friends to a realtime vocabulary matching duel!"
+    />
+    <meta
+      name="keywords"
+      content="vocabulary game, Vokabeltrainer, Vokabelspiel, English German, Green Line, Gymnasium, multiplayer, Schulvokabeln"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="VokaWin – Vokabel-Duell" />
+    <meta
+      property="og:description"
+      content="Fordere deine Freunde zum Echtzeit-Vokabel-Duell heraus! Bis zu 5 Spieler gleichzeitig."
+    />
+    <meta property="og:image" content="/images/og-image.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="VokaWin – Vocabulary Duel" />
+    <meta
+      name="twitter:description"
+      content="Realtime multiplayer vocabulary matching game for students"
+    />
+    <meta name="twitter:image" content="/images/og-image.png" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#facc15" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "VokaWin",
+        "description": "Realtime multiplayer vocabulary matching game for students. Echtzeit-Vokabel-Duell für Schüler.",
+        "applicationCategory": "EducationApplication",
+        "operatingSystem": "Web",
+        "inLanguage": ["de", "en"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="lang-toggle"></div>
+
+    <div class="container">
+      <header class="logo">
+        <img src="/images/logo-full.svg" alt="VokaWin" />
+      </header>
+
+      <main>
+        <!-- JOIN -->
+        <section class="join-section">
+          <p id="join-label">Tritt einem Spiel bei oder erzeuge eins</p>
+          <div class="code-input-row">
+            <input
+              type="text"
+              class="code-input"
+              id="join-code"
+              placeholder="CODE"
+              maxlength="5"
+              autocomplete="off"
+              aria-label="Game code"
+            />
+            <button
+              class="btn btn-secondary btn-small"
+              id="join-btn"
+              aria-label="Join game"
+            >
+              Beitreten
+            </button>
+          </div>
+        </section>
+        <!-- BOOK SELECTION -->
+        <section class="section">
+          <div class="section-title" id="section-book-title">
+            Buch auswählen
+          </div>
+          <select
+            class="book-select"
+            id="book-select"
+            aria-label="Select textbook"
+          ></select>
+        </section>
+
+        <!-- WORD RANGE -->
+        <section class="section">
+          <div class="section-title" id="section-range-title">
+            Wortbereich auswählen
+          </div>
+
+          <div class="word-range-display">
+            <div>
+              <div class="range-label" id="from-label">Von</div>
+              <div class="range-value" id="from-display">Wort antippen…</div>
+            </div>
+            <div class="range-arrow">→</div>
+            <div>
+              <div class="range-label" id="to-label">Bis</div>
+              <div class="range-value" id="to-display">Wort antippen…</div>
+            </div>
+            <div>
+              <div class="range-label" id="words-label">Wörter</div>
+              <div class="range-value" id="range-count">–</div>
+            </div>
+          </div>
+
+          <input
+            type="text"
+            class="search-input"
+            id="search-input"
+            placeholder="Wörter suchen…"
+            aria-label="Search words"
+          />
+          <div
+            class="word-browser"
+            id="word-browser"
+            role="listbox"
+            aria-label="Word list"
+          ></div>
+        </section>
+
+        <!-- WORD COUNT -->
+        <section class="section">
+          <div class="section-title" id="section-count-title">
+            Wörter pro Spiel
+          </div>
+          <div
+            class="count-picker"
+            role="radiogroup"
+            aria-label="Words per game"
+          >
+            <div class="count-option" data-count="8" role="radio" tabindex="0">
+              8
+            </div>
+            <div
+              class="count-option selected"
+              data-count="10"
+              role="radio"
+              tabindex="0"
+              aria-checked="true"
+            >
+              10
+            </div>
+            <div class="count-option" data-count="12" role="radio" tabindex="0">
+              12
+            </div>
+          </div>
+        </section>
+
+        <!-- PLAYER COUNT -->
+        <section class="section">
+          <div class="section-title" id="section-players-title">
+            Spieleranzahl
+          </div>
+          <div
+            class="player-picker"
+            role="radiogroup"
+            aria-label="Number of players"
+          >
+            <div
+              class="player-option selected"
+              data-players="2"
+              role="radio"
+              tabindex="0"
+              aria-checked="true"
+            >
+              2
+            </div>
+            <div
+              class="player-option"
+              data-players="3"
+              role="radio"
+              tabindex="0"
+            >
+              3
+            </div>
+            <div
+              class="player-option"
+              data-players="4"
+              role="radio"
+              tabindex="0"
+            >
+              4
+            </div>
+            <div
+              class="player-option"
+              data-players="5"
+              role="radio"
+              tabindex="0"
+            >
+              5
+            </div>
+          </div>
+        </section>
+
+        <button
+          class="btn btn-primary"
+          id="create-btn"
+          disabled
+          aria-label="Create game"
+        >
+          Spiel erstellen
+        </button>
+      </main>
+    </div>
+
+    <script src="/js/i18n.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/home.js"></script>
+  </body>
+</html>

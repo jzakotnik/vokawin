@@ -1,0 +1,31 @@
+# VokaWin
+
+> Realtime multiplayer vocabulary matching game for students
+
+VokaWin is a free, open-source web application where 2–5 players compete to match vocabulary pairs as fast as possible. It is designed for German Gymnasium students practicing foreign language vocabulary.
+
+## How It Works
+
+1. A player selects a textbook, chooses a word range, and creates a game.
+2. Other players join using a 5-letter game code or invite link.
+3. After a 5-second countdown, all players see the same shuffled word pairs.
+4. Players tap words to match source language with target language.
+5. The first player to finish triggers a 30-second timer for others.
+6. Points are awarded for correct matches; ties are broken by speed.
+
+## Supported Textbooks
+
+- Green Line 2 (English–German, 885 words)
+- More books can be added as JSON files (French, Latin, etc.)
+
+## Technical Details
+
+- Stack: Node.js, Express, Socket.IO, vanilla HTML/CSS/JS
+- No accounts or database required
+- Mobile-friendly, works on any modern browser
+- Supports 2–5 simultaneous players
+- Available in German and English UI
+
+## URL
+
+https://vokawin.de

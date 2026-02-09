@@ -1,116 +1,85 @@
-# ⚔️ Vocab Battle
+# VokaWin – Vocabulary Duel
 
-A real-time multiplayer vocabulary training app built with **Next.js**,
-**Tailwind CSS**, **shadcn/ui**, and **Prisma**.\
-Challenge friends (or strangers) to fast-paced vocabulary battles and
-level up your language skills!
+Realtime multiplayer vocabulary matching game for 2–5 players.  
+Designed for German Gymnasium students practicing foreign language vocabulary.
 
-------------------------------------------------------------------------
+## Quick Start
 
-## 🚀 Features
-
--   🔥 **Real-time battles** -- Compete against others in vocabulary
-    duels\
--   🎨 **Modern UI** -- Styled with Tailwind and shadcn/ui components\
--   🗂 **Database powered** -- Prisma ORM with a relational DB (SQLite,
-    PostgreSQL, etc.)\
--   🌐 **Next.js 13+** -- App Router, API routes, and server components\
--   📱 **Responsive design** -- Works great on desktop and mobile
-
-------------------------------------------------------------------------
-
-## 🛠️ Tech Stack
-
--   [Next.js](https://nextjs.org/) -- React framework\
--   [Tailwind CSS](https://tailwindcss.com/) -- Utility-first styling\
--   [shadcn/ui](https://ui.shadcn.com/) -- Accessible and beautiful
-    components\
--   [Prisma](https://www.prisma.io/) -- Next-gen ORM\
--   [WebSockets /
-    Real-time](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
-    -- For battle sync (via Next.js Route Handlers +
-    ws/socket.io/Ably/etc.)
-
-------------------------------------------------------------------------
-
-## 📦 Getting Started
-
-### 1. Clone the repository
-
-``` bash
-git clone https://github.com/yourusername/vocab-battle.git
-cd vocab-battle
-```
-
-### 2. Install dependencies
-
-``` bash
+```bash
 npm install
-# or
-yarn install
+npm start
 ```
 
-### 3. Set up environment variables
+Open `http://localhost:3000`.
 
-Create a `.env` file in the root of the project:
+## How to Play
 
-``` env
-DATABASE_URL="file:./dev.db" # or your PostgreSQL/MySQL connection string
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
+1. Select a textbook and word range
+2. Choose how many words (8, 10, or 12) and how many players (2–5)
+3. Create game → share the code or link with friends
+4. Once players join, the creator can start (or it auto-starts when full)
+5. Match source words to target words by tapping pairs
+6. First to finish triggers a 30-second timer for everyone else
+7. Highest score wins, ties broken by speed
+
+## Adding New Books
+
+1. Create a JSON file in `/data/`:
+```json
+{
+  "id": "my-book",
+  "words": [
+    { "source": "Haus", "target": "house" },
+    { "source": "Schule", "target": "school" }
+  ]
+}
 ```
 
-### 4. Set up the database
-
-``` bash
-npx prisma migrate dev
+2. Add an entry to `/data/catalog.json`:
+```json
+{
+  "id": "my-book",
+  "title": "My Book",
+  "subtitle": "English, Grade 7",
+  "language": { "source": "de", "target": "en" },
+  "wordCount": 2
+}
 ```
 
-(Optional) Open Prisma Studio to view/edit the DB:
+Supported languages: `de`, `en`, `fr`, `la` (UI labels adapt automatically).
 
-``` bash
-npx prisma studio
+## Project Structure
+
+```
+├── server/
+│   ├── index.js           Express + routes + startup
+│   ├── gameManager.js     Game state logic (no I/O)
+│   ├── socketHandler.js   Socket.IO event wiring
+│   └── utils.js           Shuffle, code gen, scoring
+├── public/
+│   ├── index.html         Home page (thin shell)
+│   ├── game.html          Game page (thin shell)
+│   ├── css/               Split stylesheets
+│   ├── js/                Client modules
+│   │   ├── i18n.js        Translation system
+│   │   ├── utils.js       Shared utilities
+│   │   ├── home.js        Home page logic
+│   │   └── game.js        Game logic
+│   ├── i18n/              Translation files (de, en)
+│   └── images/            Logo, favicons, OG image
+├── data/
+│   ├── catalog.json       Book index
+│   └── *.json             Per-book word lists
+└── package.json
 ```
 
-### 5. Run the development server
+## Tech Stack
 
-``` bash
-npm run dev
-# or
-yarn dev
-```
+- Node.js + Express (static files + REST API)
+- Socket.IO (realtime game sync)
+- Vanilla HTML/CSS/JS (no framework, no build step)
+- In-memory game state (no database)
 
-Visit 👉 <http://localhost:3000>
+## License
 
-------------------------------------------------------------------------
-
-## 🧩 Project Structure
-
-    .
-    ├── app/                # Next.js app router
-    ├── components/         # Reusable UI components (shadcn)
-    ├── lib/                # Utilities, helpers
-    ├── prisma/             # Prisma schema and migrations
-    ├── public/             # Static assets
-    ├── styles/             # Tailwind styles
-    └── README.md
-
-------------------------------------------------------------------------
-
-## 🌍 Deployment
-
-You can deploy the app easily to [Vercel](https://vercel.com/)
-(recommended).\
-Make sure to set your `DATABASE_URL` in the Vercel project settings.
-
-------------------------------------------------------------------------
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull
-request.
-
-------------------------------------------------------------------------
-
-## 📜 License
-
-MIT License © 2025
+MIT
