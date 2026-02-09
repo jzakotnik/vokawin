@@ -8,7 +8,11 @@ const setupSocketHandler = require('./socketHandler');
 
 const app = express();
 const server = http.createServer(app);
-const io = new Server(server);
+const io = new Server(server, {
+  // Fix 4: More tolerant ping settings for mobile standby
+  pingInterval: 25000,
+  pingTimeout: 30000,
+});
 
 app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use(express.json());
@@ -69,7 +73,6 @@ app.post('/api/create-game', (req, res) => {
       words: rangeWords,
     });
 
-    // Find language info from catalog
     const catalogEntry = catalog.find(c => c.id === bookId);
 
     res.json({

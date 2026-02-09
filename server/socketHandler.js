@@ -1,10 +1,19 @@
 function setupSocketHandler(io, gameManager) {
   io.on('connection', (socket) => {
     let currentGame = null;
+    let currentToken = null;
     let playerNumber = null;
 
-    socket.on('join-game', (code) => {
-      const result = gameManager.joinGame(code, socket.id);
+    /**
+     * join-game now accepts { code, playerToken } from client.
+     * playerToken is null for first join, set for reconnects.
+     */
+    socket.on('join-game', (data) => {
+      // Support both old format (string) and new format (object)
+      const code = typeof data === 'string' ? data : data.code;
+      const clientToken = typeof data === 'string' ? null : (data.playerToken || null);
+
+      const result = gameManager.joinGame(code, clientToken, socket.id);
 
       if (result.error) {
         socket.emit('error-msg', result.error);
@@ -13,18 +22,29 @@ function setupSocketHandler(io, gameManager) {
 
       const game = result.game;
       currentGame = code;
+      currentToken = result.playerToken;
       playerNumber = result.playerNumber;
       socket.join(code);
 
       const playerCount = gameManager.getPlayerCount(code);
 
+      // Send joined confirmation with the authoritative playerToken
       socket.emit('joined', {
         playerNumber,
+        playerToken: result.playerToken,
         status: game.status,
         playerCount,
         maxPlayers: game.maxPlayers,
-        isCreator: game.creatorId === socket.id,
+        isCreator: game.creatorToken === result.playerToken,
       });
+
+      if (result.reconnect) {
+        // Send full state sync so client can reconstruct the correct screen
+        const state = gameManager.getGameState(code, currentToken);
+        if (state) {
+          socket.emit('game-state-sync', state);
+        }
+      }
 
       // Notify all players about updated count
       io.to(code).emit('player-count', {
@@ -32,18 +52,17 @@ function setupSocketHandler(io, gameManager) {
         max: game.maxPlayers,
       });
 
-      // Auto-start if game is exactly full (maxPlayers reached)
+      // Auto-start if game is exactly full
       if (playerCount === game.maxPlayers && game.status === 'waiting') {
         startCountdown(code);
       }
     });
 
-    // Creator manually starts with fewer than max players
     socket.on('creator-start', () => {
-      if (!currentGame) return;
+      if (!currentGame || !currentToken) return;
       const game = gameManager.getGame(currentGame);
       if (!game) return;
-      if (game.creatorId !== socket.id) return;
+      if (game.creatorToken !== currentToken) return;
       if (!gameManager.canStart(currentGame)) return;
 
       startCountdown(currentGame);
@@ -77,7 +96,6 @@ function setupSocketHandler(io, gameManager) {
       const game = gameManager.getGame(currentGame);
       if (!game) return;
 
-      // Broadcast to all OTHER players
       socket.to(currentGame).emit('player-progress', {
         playerNumber,
         matched: data.matched,
@@ -86,21 +104,18 @@ function setupSocketHandler(io, gameManager) {
     });
 
     socket.on('submit-answer', (data) => {
-      if (!currentGame) return;
+      if (!currentGame || !currentToken) return;
 
-      const result = gameManager.submitAnswer(currentGame, socket.id, data.matches);
+      const result = gameManager.submitAnswer(currentGame, currentToken, data.matches);
       if (!result) return;
 
-      // Notify others that this player finished
       socket.to(currentGame).emit('player-finished', {
         playerNumber: result.playerNumber,
       });
 
-      // All submitted? End game immediately
       if (result.submissionCount === result.playerCount) {
         endGame(currentGame);
       } else if (result.submissionCount === 1) {
-        // First finisher → give others 30 seconds
         const game = gameManager.getGame(currentGame);
         if (game) {
           game.finishTimeout = setTimeout(() => {
@@ -118,16 +133,15 @@ function setupSocketHandler(io, gameManager) {
     }
 
     socket.on('request-rematch', () => {
-      if (!currentGame) return;
+      if (!currentGame || !currentToken) return;
 
-      const result = gameManager.addRematchVote(currentGame, socket.id);
+      const result = gameManager.addRematchVote(currentGame, currentToken);
       if (!result) return;
 
       if (result.rematchStarting) {
         io.to(currentGame).emit('rematch-start');
         startCountdown(currentGame);
       } else {
-        // Notify others about the vote
         socket.to(currentGame).emit('rematch-requested', {
           votes: result.votes,
           needed: result.needed,
@@ -136,8 +150,8 @@ function setupSocketHandler(io, gameManager) {
     });
 
     socket.on('disconnect', () => {
-      if (currentGame) {
-        gameManager.disconnectPlayer(currentGame, socket.id);
+      if (currentGame && currentToken) {
+        gameManager.disconnectPlayer(currentGame, currentToken);
         socket.to(currentGame).emit('player-disconnected', { playerNumber });
       }
     });

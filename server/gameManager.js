@@ -1,9 +1,13 @@
 const { generateCode, shuffleArray, scoreSubmission } = require('./utils');
+const crypto = require('crypto');
+
+function generateToken() {
+  return crypto.randomBytes(16).toString('hex');
+}
 
 class GameManager {
   constructor() {
     this.games = new Map();
-    // Cleanup every 10 minutes
     this.cleanupInterval = setInterval(() => this.cleanup(), 10 * 60 * 1000);
   }
 
@@ -26,14 +30,15 @@ class GameManager {
       leftOrder,
       rightOrder,
       maxPlayers: Math.min(Math.max(maxPlayers || 2, 2), 5),
-      players: {},        // socketId -> { number, connected }
-      creatorId: null,     // socketId of game creator
-      status: 'waiting',   // waiting | countdown | playing | finished
-      submissions: {},     // socketId -> { playerNumber, correct, total, timeTaken, matches }
-      startTime: null,
+      players: {},          // playerToken -> { number, connected, socketId }
+      creatorToken: null,
+      status: 'waiting',    // waiting | countdown | playing | finished
+      submissions: {},      // playerToken -> { playerNumber, correct, total, timeTaken, matches }
+      startTime: null,      // authoritative server timestamp
       countdownTimer: null,
       finishTimeout: null,
       rematchVotes: null,
+      lastResults: null,    // cached for reconnecting players
       createdAt: Date.now(),
     };
 
@@ -45,32 +50,56 @@ class GameManager {
     return this.games.get(code);
   }
 
-  joinGame(code, socketId) {
+  /**
+   * Join or reconnect to a game.
+   * @param {string} code - Game code
+   * @param {string|null} playerToken - Existing token (reconnect) or null (new join)
+   * @param {string} socketId - Current socket ID
+   */
+  joinGame(code, playerToken, socketId) {
     const game = this.games.get(code);
     if (!game) return { error: 'gameNotFound' };
 
-    const playerIds = Object.keys(game.players);
-
-    // Already in the game (reconnect)
-    if (game.players[socketId]) {
-      game.players[socketId].connected = true;
-      return { game, playerNumber: game.players[socketId].number, reconnect: true };
+    // Reconnect: player has a valid token for this game
+    if (playerToken && game.players[playerToken]) {
+      const player = game.players[playerToken];
+      player.connected = true;
+      player.socketId = socketId;
+      return {
+        game,
+        playerNumber: player.number,
+        playerToken,
+        reconnect: true,
+      };
     }
 
-    // Game full
-    if (playerIds.length >= game.maxPlayers) {
+    // New join: check capacity and status
+    const playerCount = Object.keys(game.players).length;
+    if (playerCount >= game.maxPlayers) {
       return { error: 'gameFull' };
     }
-
-    const playerNumber = playerIds.length + 1;
-    game.players[socketId] = { number: playerNumber, connected: true };
-
-    // First player is the creator
-    if (playerNumber === 1) {
-      game.creatorId = socketId;
+    if (game.status !== 'waiting') {
+      return { error: 'gameInProgress' };
     }
 
-    return { game, playerNumber, reconnect: false };
+    const token = generateToken();
+    const playerNumber = playerCount + 1;
+    game.players[token] = {
+      number: playerNumber,
+      connected: true,
+      socketId,
+    };
+
+    if (playerNumber === 1) {
+      game.creatorToken = token;
+    }
+
+    return {
+      game,
+      playerNumber,
+      playerToken: token,
+      reconnect: false,
+    };
   }
 
   getPlayerCount(code) {
@@ -101,19 +130,21 @@ class GameManager {
       words: game.words,
       leftOrder: game.leftOrder,
       rightOrder: game.rightOrder,
+      startTime: game.startTime, // authoritative
     };
   }
 
-  submitAnswer(code, socketId, matches) {
+  submitAnswer(code, playerToken, matches) {
     const game = this.games.get(code);
     if (!game || game.status !== 'playing') return null;
-    if (!game.players[socketId]) return null;
+    if (!game.players[playerToken]) return null;
+    if (game.submissions[playerToken]) return null; // already submitted
 
     const timeTaken = (Date.now() - game.startTime) / 1000;
     const correct = scoreSubmission(matches);
 
-    game.submissions[socketId] = {
-      playerNumber: game.players[socketId].number,
+    game.submissions[playerToken] = {
+      playerNumber: game.players[playerToken].number,
       correct,
       total: game.words.length,
       timeTaken: Math.round(timeTaken * 10) / 10,
@@ -121,7 +152,7 @@ class GameManager {
     };
 
     return {
-      playerNumber: game.players[socketId].number,
+      playerNumber: game.players[playerToken].number,
       submissionCount: Object.keys(game.submissions).length,
       playerCount: Object.keys(game.players).length,
     };
@@ -137,9 +168,8 @@ class GameManager {
 
     const results = [...Object.values(game.submissions)];
 
-    // Players who didn't submit get 0
-    for (const [pid, player] of Object.entries(game.players)) {
-      if (!game.submissions[pid]) {
+    for (const [token, player] of Object.entries(game.players)) {
+      if (!game.submissions[token]) {
         results.push({
           playerNumber: player.number,
           correct: 0,
@@ -150,27 +180,27 @@ class GameManager {
       }
     }
 
-    // Sort: most correct first, then fastest
     results.sort((a, b) => {
       if (b.correct !== a.correct) return b.correct - a.correct;
       return a.timeTaken - b.timeTaken;
     });
 
-    return { results, words: game.words };
+    const resultData = { results, words: game.words };
+    game.lastResults = resultData;
+    return resultData;
   }
 
-  addRematchVote(code, socketId) {
+  addRematchVote(code, playerToken) {
     const game = this.games.get(code);
     if (!game) return null;
 
     if (!game.rematchVotes) game.rematchVotes = new Set();
-    game.rematchVotes.add(socketId);
+    game.rematchVotes.add(playerToken);
 
     const playerCount = Object.keys(game.players).length;
-    const needed = Math.ceil(playerCount / 2); // majority
+    const needed = Math.ceil(playerCount / 2);
 
     if (game.rematchVotes.size >= needed) {
-      // Reset for rematch
       const selected = shuffleArray(game.words);
       game.words = selected;
       game.leftOrder = shuffleArray(selected.map((_, i) => i));
@@ -179,6 +209,7 @@ class GameManager {
       game.submissions = {};
       game.rematchVotes = null;
       game.startTime = null;
+      game.lastResults = null;
       if (game.finishTimeout) clearTimeout(game.finishTimeout);
       return { rematchStarting: true };
     }
@@ -186,10 +217,60 @@ class GameManager {
     return { rematchStarting: false, votes: game.rematchVotes.size, needed };
   }
 
-  disconnectPlayer(code, socketId) {
+  disconnectPlayer(code, playerToken) {
     const game = this.games.get(code);
-    if (!game || !game.players[socketId]) return;
-    game.players[socketId].connected = false;
+    if (!game || !game.players[playerToken]) return;
+    game.players[playerToken].connected = false;
+    game.players[playerToken].socketId = null;
+  }
+
+  /**
+   * Full game state for reconnecting players.
+   */
+  getGameState(code, playerToken) {
+    const game = this.games.get(code);
+    if (!game || !game.players[playerToken]) return null;
+
+    const player = game.players[playerToken];
+    const playerCount = Object.keys(game.players).length;
+
+    const state = {
+      status: game.status,
+      playerNumber: player.number,
+      playerCount,
+      maxPlayers: game.maxPlayers,
+      isCreator: game.creatorToken === playerToken,
+    };
+
+    if (game.status === 'playing' || game.status === 'countdown') {
+      state.words = game.words;
+      state.leftOrder = game.leftOrder;
+      state.rightOrder = game.rightOrder;
+      state.startTime = game.startTime;
+      state.hasSubmitted = !!game.submissions[playerToken];
+
+      // Which players have submitted
+      state.submittedPlayers = Object.values(game.submissions)
+        .map(s => s.playerNumber);
+    }
+
+    if (game.status === 'finished' && game.lastResults) {
+      state.results = game.lastResults;
+    }
+
+    return state;
+  }
+
+  /**
+   * Find playerToken by socketId (for disconnect handling).
+   */
+  findTokenBySocket(code, socketId) {
+    const game = this.games.get(code);
+    if (!game) return null;
+    for (const [token, player] of Object.entries(game.players)) {
+      if (player.socketId === socketId) return token;
+    }
+    return null;
   }
 
   cleanup() {
