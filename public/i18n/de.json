@@ -15,6 +15,7 @@
   "home.createGame": "Spiel erstellen",
   "home.creating": "Wird erstellt…",
   "home.joinGame": "Tritt einem Spiel bei",
+  "home.divider": "ODER",
   "home.enterCode": "CODE",
   "home.join": "Beitreten",
   "home.codeError": "Gib einen 5-stelligen Code ein",
@@ -24,6 +25,8 @@
   "home.tapWord": "Wort antippen…",
 
   "lobby.shareCode": "Teile diesen Code mit deinen Mitspielern:",
+  "lobby.shareLink": "📤 Einladung teilen",
+  "lobby.shareMessage": "Komm zu VokaWin! Code: {code}",
   "lobby.copyLink": "📋 Einladungslink kopieren",
   "lobby.copied": "✓ Kopiert!",
   "lobby.copyFail": "Konnte nicht kopiert werden – teile den Code manuell",

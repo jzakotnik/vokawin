@@ -35,6 +35,7 @@ function applyTranslations() {
   document.getElementById('join-label').textContent = t('home.joinGame');
   document.getElementById('join-code').placeholder = t('home.enterCode');
   document.getElementById('join-btn').textContent = t('home.join');
+  document.getElementById('divider-text').textContent = t('home.divider');
   document.getElementById('from-label').textContent = t('home.rangeFrom');
   document.getElementById('to-label').textContent = t('home.rangeTo');
   document.getElementById('words-label').textContent = t('home.rangeWords');

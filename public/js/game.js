@@ -38,7 +38,15 @@ async function init() {
 
 function applyTranslations() {
   document.getElementById('lobby-share-text').textContent = i18n.t('lobby.shareCode');
-  document.getElementById('copy-link-btn').textContent = i18n.t('lobby.copyLink');
+  
+  // Adapt button text based on Web Share API availability
+  const shareBtn = document.getElementById('copy-link-btn');
+  if (navigator.share) {
+    shareBtn.textContent = i18n.t('lobby.shareLink');
+  } else {
+    shareBtn.textContent = i18n.t('lobby.copyLink');
+  }
+  
   document.getElementById('lobby-waiting').innerHTML =
     i18n.t('lobby.waiting') + '<span class="dot-anim"></span>';
   document.getElementById('start-now-btn').textContent = i18n.t('lobby.startNow');
@@ -130,16 +138,31 @@ function connectSocket() {
     setTimeout(() => window.location.href = '/', 2000);
   });
 
-  // Copy link
-  document.getElementById('copy-link-btn').addEventListener('click', () => {
+  // Share/Copy link with native share support
+  document.getElementById('copy-link-btn').addEventListener('click', async () => {
     const url = `${window.location.origin}/game.html?code=${gameCode}`;
-    navigator.clipboard.writeText(url).then(() => {
-      const btn = document.getElementById('copy-link-btn');
-      btn.textContent = i18n.t('lobby.copied');
-      setTimeout(() => btn.textContent = i18n.t('lobby.copyLink'), 2000);
-    }).catch(() => {
-      showToast(i18n.t('lobby.copyFail'));
-    });
+    const btn = document.getElementById('copy-link-btn');
+    
+    // Try native share first (mobile devices)
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: 'VokaWin',
+          text: i18n.t('lobby.shareMessage', { code: gameCode }),
+          url: url
+        });
+        // Success - no need to change button text as share dialog handled it
+      } catch (err) {
+        // User cancelled or share failed - silently ignore
+        if (err.name !== 'AbortError') {
+          // If it's not a user cancellation, fall back to clipboard
+          fallbackToCopy(url, btn);
+        }
+      }
+    } else {
+      // Fallback to clipboard for desktop
+      fallbackToCopy(url, btn);
+    }
   });
 
   // Creator start button
@@ -159,6 +182,18 @@ function connectSocket() {
   // New game
   document.getElementById('new-game-btn').addEventListener('click', () => {
     window.location.href = '/';
+  });
+}
+
+function fallbackToCopy(url, btn) {
+  navigator.clipboard.writeText(url).then(() => {
+    const originalText = btn.textContent;
+    btn.textContent = i18n.t('lobby.copied');
+    setTimeout(() => {
+      btn.textContent = navigator.share ? i18n.t('lobby.shareLink') : i18n.t('lobby.copyLink');
+    }, 2000);
+  }).catch(() => {
+    showToast(i18n.t('lobby.copyFail'));
   });
 }
 

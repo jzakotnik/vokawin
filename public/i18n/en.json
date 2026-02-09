@@ -14,7 +14,8 @@
   "home.maxPlayers": "Number of players",
   "home.createGame": "Create Game",
   "home.creating": "Creating…",
-  "home.joinGame": "Or join an existing game",
+  "home.joinGame": "Join an existing game",
+  "home.divider": "OR",
   "home.enterCode": "CODE",
   "home.join": "Join",
   "home.codeError": "Enter a 5-letter code",
@@ -24,6 +25,8 @@
   "home.tapWord": "tap a word…",
 
   "lobby.shareCode": "Share this code with your opponents:",
+  "lobby.shareLink": "📤 Share Invite",
+  "lobby.shareMessage": "Join me on VokaWin! Code: {code}",
   "lobby.copyLink": "📋 Copy Invite Link",
   "lobby.copied": "✓ Copied!",
   "lobby.copyFail": "Could not copy – share code manually",
