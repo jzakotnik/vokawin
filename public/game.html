@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>VokaWin – Spiel läuft!</title>
+    <meta
+      name="description"
+      content="VokaWin Vokabel-Duell – Echtzeit-Vokabelspiel für bis zu 5 Spieler"
+    />
+    <meta name="robots" content="noindex" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#facc15" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="/css/game.css" />
+
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div class="lang-toggle"></div>
+
+    <div class="container">
+      <header class="logo">
+        <img src="logo-full.svg" alt="VokaWin" />
+      </header>
+
+      <!-- LOBBY -->
+      <section id="screen-lobby" class="lobby">
+        <p id="lobby-share-text" class="waiting-text">
+          Teile diesen Code mit deinen Mitspielern:
+        </p>
+        <div
+          class="game-code-display"
+          id="game-code"
+          aria-label="Game code"
+        ></div>
+
+        <div
+          class="player-slots"
+          id="player-slots"
+          aria-label="Player slots"
+        ></div>
+        <p class="waiting-text" id="player-count-text"></p>
+
+        <button
+          class="btn btn-secondary"
+          id="copy-link-btn"
+          style="margin-bottom: 12px"
+        >
+          📋 Einladungslink kopieren
+        </button>
+        <button
+          class="btn btn-primary hidden"
+          id="start-now-btn"
+          style="margin-bottom: 12px"
+        >
+          Jetzt starten
+        </button>
+        <p class="waiting-text" id="lobby-waiting">
+          Warte auf Mitspieler<span class="dot-anim"></span>
+        </p>
+      </section>
+
+      <!-- COUNTDOWN -->
+      <div
+        id="screen-countdown"
+        class="countdown-overlay hidden"
+        aria-live="assertive"
+      >
+        <div class="countdown-number" id="countdown-num"></div>
+      </div>
+
+      <!-- GAME -->
+      <section id="screen-game" class="game-board hidden">
+        <div class="game-header">
+          <div class="timer" id="timer" aria-label="Timer">0.0s</div>
+          <div
+            class="players-status"
+            id="players-status"
+            aria-label="Player progress"
+          ></div>
+        </div>
+        <div class="columns">
+          <div>
+            <div class="column-header" id="col-left-header">Deutsch</div>
+            <div
+              class="left-col"
+              id="left-col"
+              role="listbox"
+              aria-label="Source words"
+            ></div>
+          </div>
+          <div>
+            <div class="column-header" id="col-right-header">English</div>
+            <div
+              class="right-col"
+              id="right-col"
+              role="listbox"
+              aria-label="Target words"
+            ></div>
+          </div>
+        </div>
+        <div class="submit-row">
+          <div class="match-count" id="match-count" aria-live="polite">
+            0 / 0
+          </div>
+          <button class="btn btn-primary" id="done-btn" disabled>
+            Fertig!
+          </button>
+        </div>
+      </section>
+
+      <!-- RESULTS -->
+      <section id="screen-results" class="results hidden">
+        <div class="result-icon" id="result-icon" aria-hidden="true"></div>
+        <h2 id="result-title"></h2>
+        <p id="result-subtitle" style="color: var(--text-dim)"></p>
+
+        <div class="score-cards" id="score-cards" aria-label="Scores"></div>
+        <div class="results-words" id="results-words"></div>
+
+        <div class="result-actions">
+          <button class="btn btn-primary" id="rematch-btn">🔄 Nochmal!</button>
+          <button class="btn btn-secondary" id="new-game-btn">
+            Neues Spiel
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <script src="/js/i18n.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/game.js"></script>
+  </body>
+</html>

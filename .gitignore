@@ -36,13 +36,3 @@ yarn-error.log*
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-
-/prisma/prisma
-prisma/dev.db
-
-# vokabel lists
-/input
-/database

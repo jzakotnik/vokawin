@@ -1,0 +1,17 @@
+{
+  "name": "VokaWin – Vocabulary Duel",
+  "short_name": "VokaWin",
+  "description": "Realtime multiplayer vocabulary matching game for students",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#facc15",
+  "icons": [
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

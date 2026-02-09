@@ -1,0 +1,3545 @@
+{
+  "id": "green-line-2",
+  "words": [
+    {
+      "source": "See",
+      "target": "lake"
+    },
+    {
+      "source": "bedeckt",
+      "target": "cloudy"
+    },
+    {
+      "source": "um … herum",
+      "target": "around"
+    },
+    {
+      "source": "Feuer",
+      "target": "fire"
+    },
+    {
+      "source": "Stock",
+      "target": "stick"
+    },
+    {
+      "source": "Klettern",
+      "target": "rock climbing"
+    },
+    {
+      "source": "Kunsthandwerk",
+      "target": "arts and crafts"
+    },
+    {
+      "source": "stattdessen",
+      "target": "instead"
+    },
+    {
+      "source": "Fotowettbewerb",
+      "target": "photography contest"
+    },
+    {
+      "source": "Typ",
+      "target": "guy"
+    },
+    {
+      "source": "Pyramide",
+      "target": "pyramid"
+    },
+    {
+      "source": "Mumie",
+      "target": "mummy"
+    },
+    {
+      "source": "scherzen",
+      "target": "to joke"
+    },
+    {
+      "source": "Fahrt",
+      "target": "ride"
+    },
+    {
+      "source": "bald",
+      "target": "soon"
+    },
+    {
+      "source": "unterrichten",
+      "target": "to teach"
+    },
+    {
+      "source": "Kunststückchen",
+      "target": "trick"
+    },
+    {
+      "source": "Weißt du was?",
+      "target": "Guess what?"
+    },
+    {
+      "source": "raten",
+      "target": "to guess"
+    },
+    {
+      "source": "abklatschen",
+      "target": "to give a high five"
+    },
+    {
+      "source": "früh",
+      "target": "early"
+    },
+    {
+      "source": "üben",
+      "target": "to practise"
+    },
+    {
+      "source": "Trainer/-in",
+      "target": "coach"
+    },
+    {
+      "source": "örtlich",
+      "target": "local"
+    },
+    {
+      "source": "Nachricht(en)",
+      "target": "news (sg)"
+    },
+    {
+      "source": "Botschaft",
+      "target": "message"
+    },
+    {
+      "source": "Postkarte",
+      "target": "postcard"
+    },
+    {
+      "source": "Freizeitpark",
+      "target": "fun park"
+    },
+    {
+      "source": "Zeltplatz",
+      "target": "campsite"
+    },
+    {
+      "source": "Berg",
+      "target": "mountain"
+    },
+    {
+      "source": "Wald",
+      "target": "forest"
+    },
+    {
+      "source": "Zelt",
+      "target": "tent"
+    },
+    {
+      "source": "Norden",
+      "target": "north"
+    },
+    {
+      "source": "Süden",
+      "target": "south"
+    },
+    {
+      "source": "warst",
+      "target": "were"
+    },
+    {
+      "source": "war",
+      "target": "was"
+    },
+    {
+      "source": "zuerst",
+      "target": "at first"
+    },
+    {
+      "source": "einzige/-r/-s",
+      "target": "only"
+    },
+    {
+      "source": "Erwachsene/-r",
+      "target": "adult"
+    },
+    {
+      "source": "Achterbahn",
+      "target": "rollercoaster"
+    },
+    {
+      "source": "überhaupt",
+      "target": "at all"
+    },
+    {
+      "source": "sogar",
+      "target": "even"
+    },
+    {
+      "source": "besser",
+      "target": "better"
+    },
+    {
+      "source": "als (bei Vergleichen)",
+      "target": "than"
+    },
+    {
+      "source": "Alter",
+      "target": "age"
+    },
+    {
+      "source": "aufgeregt",
+      "target": "excited"
+    },
+    {
+      "source": "gehörlos",
+      "target": "deaf"
+    },
+    {
+      "source": "Hilfszentrum",
+      "target": "support centre"
+    },
+    {
+      "source": "Tanz",
+      "target": "dance"
+    },
+    {
+      "source": "Unterricht",
+      "target": "class"
+    },
+    {
+      "source": "gegen",
+      "target": "against"
+    },
+    {
+      "source": "gehören (zu)",
+      "target": "to belong (to)"
+    },
+    {
+      "source": "Behinderung",
+      "target": "disability"
+    },
+    {
+      "source": "Unterstützung",
+      "target": "support (no pl)"
+    },
+    {
+      "source": "Schulfach",
+      "target": "subject"
+    },
+    {
+      "source": "Theater",
+      "target": "drama"
+    },
+    {
+      "source": "Produktdesign",
+      "target": "design technology"
+    },
+    {
+      "source": "entwerfen",
+      "target": "to design"
+    },
+    {
+      "source": "Produkt",
+      "target": "product"
+    },
+    {
+      "source": "Wissenschaft",
+      "target": "science"
+    },
+    {
+      "source": "Biologie",
+      "target": "biology"
+    },
+    {
+      "source": "Chemie",
+      "target": "chemistry"
+    },
+    {
+      "source": "Physik",
+      "target": "physics"
+    },
+    {
+      "source": "Sozialwissenschaften",
+      "target": "humanities (pl)"
+    },
+    {
+      "source": "Geografie",
+      "target": "geography"
+    },
+    {
+      "source": "Programmierung",
+      "target": "coding"
+    },
+    {
+      "source": "Chor",
+      "target": "choir"
+    },
+    {
+      "source": "willkommen heißen",
+      "target": "to welcome"
+    },
+    {
+      "source": "Messe",
+      "target": "fair"
+    },
+    {
+      "source": "Geld sammeln",
+      "target": "to raise money"
+    },
+    {
+      "source": "Kumpel",
+      "target": "buddy (infml)"
+    },
+    {
+      "source": "Anwesenheitskontrolle",
+      "target": "registration"
+    },
+    {
+      "source": "Mathematik",
+      "target": "maths"
+    },
+    {
+      "source": "Religion (Schulfach)",
+      "target": "RE (= Religious Education)"
+    },
+    {
+      "source": "französisch",
+      "target": "French"
+    },
+    {
+      "source": "Sportunterricht",
+      "target": "PE (= Physical Education)"
+    },
+    {
+      "source": "Akzent",
+      "target": "accent"
+    },
+    {
+      "source": "ankommen",
+      "target": "to arrive"
+    },
+    {
+      "source": "Trip",
+      "target": "trip"
+    },
+    {
+      "source": "fliegen",
+      "target": "to fly, flew"
+    },
+    {
+      "source": "Koffer",
+      "target": "bag"
+    },
+    {
+      "source": "fertig",
+      "target": "ready"
+    },
+    {
+      "source": "selbst",
+      "target": "himself"
+    },
+    {
+      "source": "Ich möchte …",
+      "target": "I’d like to … (= I would like to)"
+    },
+    {
+      "source": "umziehen",
+      "target": "to move (into)"
+    },
+    {
+      "source": "auspacken",
+      "target": "to unpack"
+    },
+    {
+      "source": "Amerikanisch",
+      "target": "American"
+    },
+    {
+      "source": "Abschied",
+      "target": "farewell"
+    },
+    {
+      "source": "versprechen",
+      "target": "to promise"
+    },
+    {
+      "source": "hassen",
+      "target": "to hate"
+    },
+    {
+      "source": "wahr",
+      "target": "true"
+    },
+    {
+      "source": "Fußball",
+      "target": "soccer (AE)"
+    },
+    {
+      "source": "Seite",
+      "target": "page"
+    },
+    {
+      "source": "beitreten",
+      "target": "to join"
+    },
+    {
+      "source": "heute Morgen",
+      "target": "this morning"
+    },
+    {
+      "source": "Reise",
+      "target": "journey"
+    },
+    {
+      "source": "Flughafen",
+      "target": "airport"
+    },
+    {
+      "source": "weinen",
+      "target": "to cry"
+    },
+    {
+      "source": "reparieren",
+      "target": "to fix"
+    },
+    {
+      "source": "streichen",
+      "target": "to paint"
+    },
+    {
+      "source": "lachen",
+      "target": "to laugh"
+    },
+    {
+      "source": "gestern",
+      "target": "yesterday"
+    },
+    {
+      "source": "Ereignis",
+      "target": "event"
+    },
+    {
+      "source": "chatten (sich online unterhalten)",
+      "target": "to chat"
+    },
+    {
+      "source": "vor (zeitlich)",
+      "target": "ago"
+    },
+    {
+      "source": "organisieren",
+      "target": "to organise"
+    },
+    {
+      "source": "normal",
+      "target": "normal"
+    },
+    {
+      "source": "(viel) Glück",
+      "target": "good luck"
+    },
+    {
+      "source": "präsentieren",
+      "target": "to present"
+    },
+    {
+      "source": "Wohltätigkeitsorganisation",
+      "target": "charity"
+    },
+    {
+      "source": "Organisation",
+      "target": "organisation"
+    },
+    {
+      "source": "sammeln",
+      "target": "to collect"
+    },
+    {
+      "source": "krank",
+      "target": "sick"
+    },
+    {
+      "source": "arm",
+      "target": "poor"
+    },
+    {
+      "source": "Umwelt",
+      "target": "environment"
+    },
+    {
+      "source": "international",
+      "target": "international"
+    },
+    {
+      "source": "klatschen",
+      "target": "to clap"
+    },
+    {
+      "source": "Auge",
+      "target": "eye"
+    },
+    {
+      "source": "aufräumen",
+      "target": "to tidy (up)"
+    },
+    {
+      "source": "Müll",
+      "target": "rubbish"
+    },
+    {
+      "source": "Gefühl",
+      "target": "feeling"
+    },
+    {
+      "source": "sauber",
+      "target": "clean"
+    },
+    {
+      "source": "Verkauf",
+      "target": "sale"
+    },
+    {
+      "source": "Austausch",
+      "target": "exchange"
+    },
+    {
+      "source": "Fertigkeit",
+      "target": "skill"
+    },
+    {
+      "source": "Ausstattung",
+      "target": "equipment"
+    },
+    {
+      "source": "zum Beispiel",
+      "target": "for example"
+    },
+    {
+      "source": "Roboter",
+      "target": "robot"
+    },
+    {
+      "source": "interessiert sein an",
+      "target": "to be interested in"
+    },
+    {
+      "source": "kreatives Schreiben",
+      "target": "creative writing"
+    },
+    {
+      "source": "Autor/-in",
+      "target": "author"
+    },
+    {
+      "source": "sowohl … als auch …",
+      "target": "both … and …"
+    },
+    {
+      "source": "Fotograf/-in",
+      "target": "photographer"
+    },
+    {
+      "source": "übrigens",
+      "target": "by the way"
+    },
+    {
+      "source": "Herbst",
+      "target": "fall (AE)"
+    },
+    {
+      "source": "andere/-r/-s",
+      "target": "else"
+    },
+    {
+      "source": "Aufführung",
+      "target": "performance"
+    },
+    {
+      "source": "Sprache",
+      "target": "language"
+    },
+    {
+      "source": "Hose",
+      "target": "pants (pl) (AE)"
+    },
+    {
+      "source": "Pommes frites",
+      "target": "French fries (pl) (AE)"
+    },
+    {
+      "source": "trotzdem",
+      "target": "anyway"
+    },
+    {
+      "source": "Keks",
+      "target": "biscuit"
+    },
+    {
+      "source": "Süßigkeiten",
+      "target": "candy (AE)"
+    },
+    {
+      "source": "Keks",
+      "target": "cookie (AE)"
+    },
+    {
+      "source": "(sich) entscheiden",
+      "target": "to decide"
+    },
+    {
+      "source": "Note",
+      "target": "grade (AE)"
+    },
+    {
+      "source": "schlau",
+      "target": "clever"
+    },
+    {
+      "source": "schlau",
+      "target": "smart"
+    },
+    {
+      "source": "funktionieren",
+      "target": "to work"
+    },
+    {
+      "source": "während (+ Nomen)",
+      "target": "during (+ noun)"
+    },
+    {
+      "source": "verwirrt",
+      "target": "confused"
+    },
+    {
+      "source": "jmdn. (an einem Ort) herumführen",
+      "target": "to show sb around (a place)"
+    },
+    {
+      "source": "genießen",
+      "target": "to enjoy"
+    },
+    {
+      "source": "ohne",
+      "target": "without"
+    },
+    {
+      "source": "lächeln",
+      "target": "to smile"
+    },
+    {
+      "source": "Vorbereitung",
+      "target": "preparation"
+    },
+    {
+      "source": "flüstern",
+      "target": "to whisper"
+    },
+    {
+      "source": "diskutieren",
+      "target": "to discuss"
+    },
+    {
+      "source": "Zeug",
+      "target": "stuff"
+    },
+    {
+      "source": "Fotobox",
+      "target": "photo booth"
+    },
+    {
+      "source": "Wie du willst.",
+      "target": "It's up to you."
+    },
+    {
+      "source": "verpassen",
+      "target": "to miss"
+    },
+    {
+      "source": "stammeln",
+      "target": "to stammer"
+    },
+    {
+      "source": "erkennen",
+      "target": "to realise"
+    },
+    {
+      "source": "sich etw. einfallen lassen",
+      "target": "to come up with sth"
+    },
+    {
+      "source": "Gedanke",
+      "target": "thought"
+    },
+    {
+      "source": "eilen",
+      "target": "to rush"
+    },
+    {
+      "source": "durch",
+      "target": "through"
+    },
+    {
+      "source": "jmdn. im Stich lassen",
+      "target": "to let sb down"
+    },
+    {
+      "source": "bestimmt",
+      "target": "definitely"
+    },
+    {
+      "source": "Entscheidung",
+      "target": "decision"
+    },
+    {
+      "source": "einrichten",
+      "target": "to set up, set up"
+    },
+    {
+      "source": "wie",
+      "target": "as"
+    },
+    {
+      "source": "schwer",
+      "target": "heavy"
+    },
+    {
+      "source": "winken",
+      "target": "to wave"
+    },
+    {
+      "source": "erstarren",
+      "target": "to freeze"
+    },
+    {
+      "source": "peinlich",
+      "target": "awkward"
+    },
+    {
+      "source": "Was ist los?",
+      "target": "What’s the matter?"
+    },
+    {
+      "source": "das Schweigen brechen",
+      "target": "to break the silence"
+    },
+    {
+      "source": "brechen",
+      "target": "to break, broke"
+    },
+    {
+      "source": "reiben",
+      "target": "to rub"
+    },
+    {
+      "source": "erklären",
+      "target": "to explain"
+    },
+    {
+      "source": "Bin ich blöd!",
+      "target": "Stupid me!"
+    },
+    {
+      "source": "verschwinden",
+      "target": "to disappear"
+    },
+    {
+      "source": "konnte/konntest/konntet/konnten",
+      "target": "could"
+    },
+    {
+      "source": "enttäuscht",
+      "target": "disappointed"
+    },
+    {
+      "source": "stehlen",
+      "target": "to steal , stole"
+    },
+    {
+      "source": "drehen",
+      "target": "to turn"
+    },
+    {
+      "source": "einander",
+      "target": "each other"
+    },
+    {
+      "source": "Film",
+      "target": "movie (AE)"
+    },
+    {
+      "source": "eines Tages",
+      "target": "one day"
+    },
+    {
+      "source": "während",
+      "target": "as"
+    },
+    {
+      "source": "rollen",
+      "target": "to roll"
+    },
+    {
+      "source": "posieren",
+      "target": "to pose"
+    },
+    {
+      "source": "Vorfahr/-in",
+      "target": "ancestor"
+    },
+    {
+      "source": "Urgroßvater",
+      "target": "great-grandfather"
+    },
+    {
+      "source": "reich",
+      "target": "rich"
+    },
+    {
+      "source": "Urgroßmutter",
+      "target": "great-grandmother"
+    },
+    {
+      "source": "Universität",
+      "target": "university"
+    },
+    {
+      "source": "Brennholz",
+      "target": "firewood"
+    },
+    {
+      "source": "Schiefertafel",
+      "target": "slate"
+    },
+    {
+      "source": "jung",
+      "target": "young"
+    },
+    {
+      "source": "Tafel",
+      "target": "board"
+    },
+    {
+      "source": "Übung",
+      "target": "exercise"
+    },
+    {
+      "source": "Wettlauf",
+      "target": "race"
+    },
+    {
+      "source": "fahren",
+      "target": "to travel"
+    },
+    {
+      "source": "plötzlich",
+      "target": "suddenly"
+    },
+    {
+      "source": "suchen (nach)",
+      "target": "to search for"
+    },
+    {
+      "source": "wo man … kann/soll",
+      "target": "where to …"
+    },
+    {
+      "source": "Suchmaschine",
+      "target": "search engine"
+    },
+    {
+      "source": "Ergebnis",
+      "target": "result"
+    },
+    {
+      "source": "diese dort",
+      "target": "those"
+    },
+    {
+      "source": "filtern",
+      "target": "to filter"
+    },
+    {
+      "source": "Kritik",
+      "target": "rating"
+    },
+    {
+      "source": "Benutzer/-in",
+      "target": "user"
+    },
+    {
+      "source": "Kritik",
+      "target": "review"
+    },
+    {
+      "source": "Kritiker/-in",
+      "target": "reviewer"
+    },
+    {
+      "source": "Thema",
+      "target": "topic"
+    },
+    {
+      "source": "(das) Reisen",
+      "target": "travel"
+    },
+    {
+      "source": "schrecklich",
+      "target": "awful"
+    },
+    {
+      "source": "super",
+      "target": "awesome"
+    },
+    {
+      "source": "eingeben",
+      "target": "to enter"
+    },
+    {
+      "source": "Stichwort",
+      "target": "key word"
+    },
+    {
+      "source": "hübsch",
+      "target": "pretty"
+    },
+    {
+      "source": "Tee",
+      "target": "tea"
+    },
+    {
+      "source": "(sich) ausdenken",
+      "target": "to think of"
+    },
+    {
+      "source": "Art",
+      "target": "kind"
+    },
+    {
+      "source": "Besitzer/-in",
+      "target": "owner"
+    },
+    {
+      "source": "Speisekarte",
+      "target": "menu"
+    },
+    {
+      "source": "Kind",
+      "target": "child , children (pl)"
+    },
+    {
+      "source": "Freiluft-",
+      "target": "outdoor"
+    },
+    {
+      "source": "Blick",
+      "target": "look"
+    },
+    {
+      "source": "Stadt",
+      "target": "city"
+    },
+    {
+      "source": "berühmt",
+      "target": "famous"
+    },
+    {
+      "source": "Sehenswürdigkeit",
+      "target": "sight"
+    },
+    {
+      "source": "Attraktion",
+      "target": "attraction"
+    },
+    {
+      "source": "Geschäft",
+      "target": "business"
+    },
+    {
+      "source": "Hauptstadt",
+      "target": "capital (city)"
+    },
+    {
+      "source": "Jahrhundert",
+      "target": "century"
+    },
+    {
+      "source": "Kultur",
+      "target": "culture"
+    },
+    {
+      "source": "Politik",
+      "target": "politics"
+    },
+    {
+      "source": "Nachbarschaft",
+      "target": "neighbourhood"
+    },
+    {
+      "source": "nennen",
+      "target": "to name"
+    },
+    {
+      "source": "Eigenschaft",
+      "target": "feature"
+    },
+    {
+      "source": "Fakt",
+      "target": "fact"
+    },
+    {
+      "source": "ursprünglich",
+      "target": "originally"
+    },
+    {
+      "source": "Römer/-in",
+      "target": "Roman"
+    },
+    {
+      "source": "von",
+      "target": "out of"
+    },
+    {
+      "source": "Glocke",
+      "target": "bell"
+    },
+    {
+      "source": "der/die/das am häufigsten besuchte",
+      "target": "most-visited"
+    },
+    {
+      "source": "über Nacht",
+      "target": "overnight"
+    },
+    {
+      "source": "Aufenthalt",
+      "target": "stay"
+    },
+    {
+      "source": "Turm",
+      "target": "tower"
+    },
+    {
+      "source": "Region",
+      "target": "region"
+    },
+    {
+      "source": "die Londoner U-Bahn",
+      "target": "the Tube"
+    },
+    {
+      "source": "Statue",
+      "target": "statue"
+    },
+    {
+      "source": "Spitze",
+      "target": "top"
+    },
+    {
+      "source": "Säule",
+      "target": "column"
+    },
+    {
+      "source": "Künstler/-in",
+      "target": "artist"
+    },
+    {
+      "source": "Brücke",
+      "target": "bridge"
+    },
+    {
+      "source": "Aussicht",
+      "target": "view"
+    },
+    {
+      "source": "Kathedrale",
+      "target": "cathedral"
+    },
+    {
+      "source": "Kirche",
+      "target": "church"
+    },
+    {
+      "source": "königlich",
+      "target": "royal"
+    },
+    {
+      "source": "Hochzeit",
+      "target": "wedding"
+    },
+    {
+      "source": "zentral",
+      "target": "central"
+    },
+    {
+      "source": "Schlacht",
+      "target": "battle"
+    },
+    {
+      "source": "beide",
+      "target": "both"
+    },
+    {
+      "source": "Haltestelle",
+      "target": "stop"
+    },
+    {
+      "source": "Verkehrsmittel",
+      "target": "transport"
+    },
+    {
+      "source": "billig",
+      "target": "cheap"
+    },
+    {
+      "source": "Art und Weise",
+      "target": "way"
+    },
+    {
+      "source": "Taxi",
+      "target": "cab"
+    },
+    {
+      "source": "öffentliche Verkehrsmittel",
+      "target": "public transport (no pl)"
+    },
+    {
+      "source": "Chipkarte",
+      "target": "smartcard"
+    },
+    {
+      "source": "aufladen",
+      "target": "to top up"
+    },
+    {
+      "source": "Guthaben",
+      "target": "credit"
+    },
+    {
+      "source": "Kopfsteinpflaster",
+      "target": "cobblestone"
+    },
+    {
+      "source": "Zugang",
+      "target": "access (no pl)"
+    },
+    {
+      "source": "MS (Multiple Sklerose)",
+      "target": "MS (multiple sclerosis)"
+    },
+    {
+      "source": "dennoch",
+      "target": "still"
+    },
+    {
+      "source": "hier: sich fortbewegen",
+      "target": "to get around"
+    },
+    {
+      "source": "selbstsüchtig",
+      "target": "selfish"
+    },
+    {
+      "source": "(sich) streiten",
+      "target": "to fight, fought"
+    },
+    {
+      "source": "knapp",
+      "target": "tight"
+    },
+    {
+      "source": "Areal",
+      "target": "area"
+    },
+    {
+      "source": "einer Meinung sein (mit)",
+      "target": "to agree (with)"
+    },
+    {
+      "source": "Blindenhund",
+      "target": "guide dog"
+    },
+    {
+      "source": "blind",
+      "target": "blind"
+    },
+    {
+      "source": "Gebäude",
+      "target": "building"
+    },
+    {
+      "source": "Fahrer/-in",
+      "target": "driver"
+    },
+    {
+      "source": "Lift",
+      "target": "lift"
+    },
+    {
+      "source": "Passagier/-in",
+      "target": "passenger"
+    },
+    {
+      "source": "Rampe",
+      "target": "ramp"
+    },
+    {
+      "source": "Treppe",
+      "target": "stairs (pl)"
+    },
+    {
+      "source": "auch",
+      "target": "also"
+    },
+    {
+      "source": "einsteigen",
+      "target": "to get into"
+    },
+    {
+      "source": "Luft",
+      "target": "air"
+    },
+    {
+      "source": "Fish-and-Chips-Bude",
+      "target": "chippie"
+    },
+    {
+      "source": "Detail",
+      "target": "detail"
+    },
+    {
+      "source": "hoch",
+      "target": "high"
+    },
+    {
+      "source": "schön",
+      "target": "beautiful"
+    },
+    {
+      "source": "entspannend",
+      "target": "relaxing"
+    },
+    {
+      "source": "Chinese/Chinesin",
+      "target": "Chinese"
+    },
+    {
+      "source": "niedlich",
+      "target": "cute"
+    },
+    {
+      "source": "üblich",
+      "target": "usual"
+    },
+    {
+      "source": "verschwenden",
+      "target": "to waste"
+    },
+    {
+      "source": "fantastisch",
+      "target": "fantastic"
+    },
+    {
+      "source": "weniger",
+      "target": "less"
+    },
+    {
+      "source": "kurz",
+      "target": "short"
+    },
+    {
+      "source": "Maus",
+      "target": "mouse, mice (pl)"
+    },
+    {
+      "source": "Zentimeter",
+      "target": "centimetre (cm)"
+    },
+    {
+      "source": "groß",
+      "target": "tall"
+    },
+    {
+      "source": "Erde",
+      "target": "world"
+    },
+    {
+      "source": "Detektiv/-in",
+      "target": "detective"
+    },
+    {
+      "source": "reagieren",
+      "target": "to react"
+    },
+    {
+      "source": "jeder",
+      "target": "everybody"
+    },
+    {
+      "source": "Angeber/-in",
+      "target": "show-off"
+    },
+    {
+      "source": "ungewöhnlich",
+      "target": "unusual"
+    },
+    {
+      "source": "dumm",
+      "target": "stupid"
+    },
+    {
+      "source": "Zuschauer/-in",
+      "target": "viewer"
+    },
+    {
+      "source": "Handlungsort",
+      "target": "location"
+    },
+    {
+      "source": "Landschaft",
+      "target": "scenery"
+    },
+    {
+      "source": "Nahaufnahme",
+      "target": "close-up"
+    },
+    {
+      "source": "Hintergrund",
+      "target": "background"
+    },
+    {
+      "source": "Gegenstand",
+      "target": "object"
+    },
+    {
+      "source": "aussteigen (aus einem Bus/Zug)",
+      "target": "to get off, got off (a bus/train)"
+    },
+    {
+      "source": "Haltestelle",
+      "target": "station"
+    },
+    {
+      "source": "nahe",
+      "target": "close"
+    },
+    {
+      "source": "hinuntergehen",
+      "target": "to go down"
+    },
+    {
+      "source": "einbiegen",
+      "target": "to turn"
+    },
+    {
+      "source": "rechts",
+      "target": "right"
+    },
+    {
+      "source": "geradeaus",
+      "target": "straight on"
+    },
+    {
+      "source": "überqueren",
+      "target": "to cross"
+    },
+    {
+      "source": "Fußweg",
+      "target": "footpath"
+    },
+    {
+      "source": "entlang",
+      "target": "along"
+    },
+    {
+      "source": "links",
+      "target": "left"
+    },
+    {
+      "source": "Seite",
+      "target": "side"
+    },
+    {
+      "source": "Stufe",
+      "target": "step"
+    },
+    {
+      "source": "vorbei (an)",
+      "target": "past"
+    },
+    {
+      "source": "gegenüber",
+      "target": "opposite"
+    },
+    {
+      "source": "auf der rechten/linken Seite",
+      "target": "on the right/left"
+    },
+    {
+      "source": "dunkel",
+      "target": "dark"
+    },
+    {
+      "source": "gespenstisch",
+      "target": "spooky"
+    },
+    {
+      "source": "Fleck",
+      "target": "spot"
+    },
+    {
+      "source": "Geist",
+      "target": "ghost"
+    },
+    {
+      "source": "Blut",
+      "target": "blood"
+    },
+    {
+      "source": "Spuk-",
+      "target": "haunted"
+    },
+    {
+      "source": "sterben",
+      "target": "to die"
+    },
+    {
+      "source": "töten",
+      "target": "to kill"
+    },
+    {
+      "source": "Tod",
+      "target": "death"
+    },
+    {
+      "source": "Verlies",
+      "target": "dungeon"
+    },
+    {
+      "source": "Mord",
+      "target": "murder"
+    },
+    {
+      "source": "übernatürlich",
+      "target": "supernatural"
+    },
+    {
+      "source": "Energie",
+      "target": "energy"
+    },
+    {
+      "source": "du (selbst)",
+      "target": "yourself"
+    },
+    {
+      "source": "sGeelbfäenrgnis",
+      "target": "prison"
+    },
+    {
+      "source": "werden",
+      "target": "to become, became"
+    },
+    {
+      "source": "König",
+      "target": "king"
+    },
+    {
+      "source": "Königin",
+      "target": "queen"
+    },
+    {
+      "source": "einschließen",
+      "target": "to lock"
+    },
+    {
+      "source": "Bestrafung",
+      "target": "punishment"
+    },
+    {
+      "source": "schneiden",
+      "target": "to cut (off), cut (off)"
+    },
+    {
+      "source": "Gefangene/-r",
+      "target": "prisoner"
+    },
+    {
+      "source": "Spieß",
+      "target": "pike"
+    },
+    {
+      "source": "Rabe",
+      "target": "raven"
+    },
+    {
+      "source": "Kneipe",
+      "target": "pub"
+    },
+    {
+      "source": "Spur",
+      "target": "trail"
+    },
+    {
+      "source": "elegant",
+      "target": "elegant"
+    },
+    {
+      "source": "Gentleman",
+      "target": "gentleman, gentlemen (pl)"
+    },
+    {
+      "source": "aufwachen",
+      "target": "to wake up, woke up"
+    },
+    {
+      "source": "Nacht",
+      "target": "night"
+    },
+    {
+      "source": "Opfer",
+      "target": "victim"
+    },
+    {
+      "source": "viktorianisch",
+      "target": "Victorian"
+    },
+    {
+      "source": "Serienmörder/-in",
+      "target": "serial killer"
+    },
+    {
+      "source": "dreckig",
+      "target": "dirty"
+    },
+    {
+      "source": "Ratte",
+      "target": "rat"
+    },
+    {
+      "source": "schrecklich",
+      "target": "terrible"
+    },
+    {
+      "source": "Krankheit",
+      "target": "disease"
+    },
+    {
+      "source": "Perspektive",
+      "target": "perspective"
+    },
+    {
+      "source": "heißen",
+      "target": "to be called"
+    },
+    {
+      "source": "damit",
+      "target": "so"
+    },
+    {
+      "source": "weitergehen",
+      "target": "to go on"
+    },
+    {
+      "source": "Kopfhörer",
+      "target": "headset"
+    },
+    {
+      "source": "Prinz",
+      "target": "prince"
+    },
+    {
+      "source": "Einstellung",
+      "target": "setting"
+    },
+    {
+      "source": "bauen",
+      "target": "to build, built"
+    },
+    {
+      "source": "Schloss",
+      "target": "castle"
+    },
+    {
+      "source": "Zoo",
+      "target": "zoo"
+    },
+    {
+      "source": "Löwe",
+      "target": "lion"
+    },
+    {
+      "source": "Bär",
+      "target": "bear"
+    },
+    {
+      "source": "jemand, der im Schlamm nach",
+      "target": "mudlark"
+    },
+    {
+      "source": "vweeriktaufen kann",
+      "target": "far"
+    },
+    {
+      "source": "Silber",
+      "target": "silver"
+    },
+    {
+      "source": "Arm",
+      "target": "arm"
+    },
+    {
+      "source": "anprobieren",
+      "target": "to try on"
+    },
+    {
+      "source": "greifen",
+      "target": "to grab"
+    },
+    {
+      "source": "Handgelenk",
+      "target": "wrist"
+    },
+    {
+      "source": "abnehmen",
+      "target": "to take off , took off"
+    },
+    {
+      "source": "vorsichtig sein",
+      "target": "to be careful"
+    },
+    {
+      "source": "fallen (lassen)",
+      "target": "to drop"
+    },
+    {
+      "source": "wegrollen",
+      "target": "to roll off"
+    },
+    {
+      "source": "Es ist weg.",
+      "target": "It’s gone."
+    },
+    {
+      "source": "Glück haben",
+      "target": "to be lucky"
+    },
+    {
+      "source": "Es ist Ebbe.",
+      "target": "The tide is out."
+    },
+    {
+      "source": "Schlamm",
+      "target": "mud"
+    },
+    {
+      "source": "Ufer",
+      "target": "shore"
+    },
+    {
+      "source": "schlammig",
+      "target": "muddy"
+    },
+    {
+      "source": "nass",
+      "target": "wet"
+    },
+    {
+      "source": "Eimer",
+      "target": "bucket"
+    },
+    {
+      "source": "kleiner Spaten",
+      "target": "trowel"
+    },
+    {
+      "source": "Verschmutzung",
+      "target": "pollution"
+    },
+    {
+      "source": "tot",
+      "target": "dead"
+    },
+    {
+      "source": "angespült werden",
+      "target": "to wash up"
+    },
+    {
+      "source": "menschlich",
+      "target": "human"
+    },
+    {
+      "source": "Körper",
+      "target": "body"
+    },
+    {
+      "source": "igitt",
+      "target": "yuk"
+    },
+    {
+      "source": "zurückgehen auf",
+      "target": "to go back to"
+    },
+    {
+      "source": "der/die/das meiste",
+      "target": "(the) most"
+    },
+    {
+      "source": "kaputt",
+      "target": "broken"
+    },
+    {
+      "source": "nicht mehr",
+      "target": "not any more"
+    },
+    {
+      "source": "halten",
+      "target": "to hold, held"
+    },
+    {
+      "source": "Stück",
+      "target": "piece"
+    },
+    {
+      "source": "Tonpfeife",
+      "target": "clay pipe"
+    },
+    {
+      "source": "Glücksbringer",
+      "target": "lucky charm"
+    },
+    {
+      "source": "Schatz",
+      "target": "treasure"
+    },
+    {
+      "source": "bemerken",
+      "target": "to notice"
+    },
+    {
+      "source": "Münze",
+      "target": "coin"
+    },
+    {
+      "source": "schreien",
+      "target": "to scream"
+    },
+    {
+      "source": "ziehen",
+      "target": "to pull"
+    },
+    {
+      "source": "Fels",
+      "target": "rock"
+    },
+    {
+      "source": "Dir wird der Weg abgeschnitten.",
+      "target": "You're going to be cut off."
+    },
+    {
+      "source": "dramatisch",
+      "target": "dramatic"
+    },
+    {
+      "source": "sicher",
+      "target": "safely"
+    },
+    {
+      "source": "auf",
+      "target": "onto"
+    },
+    {
+      "source": "Idiot/-in",
+      "target": "idiot"
+    },
+    {
+      "source": "Unterschied",
+      "target": "difference"
+    },
+    {
+      "source": "Wein",
+      "target": "wine"
+    },
+    {
+      "source": "Etat",
+      "target": "budget"
+    },
+    {
+      "source": "mindestens",
+      "target": "at least"
+    },
+    {
+      "source": "umsonst",
+      "target": "for free"
+    },
+    {
+      "source": "füttern",
+      "target": "to feed, fed"
+    },
+    {
+      "source": "Das ist nicht erlaubt.",
+      "target": "That isn't allowed."
+    },
+    {
+      "source": "Athlet/-in",
+      "target": "athlete"
+    },
+    {
+      "source": "Weg",
+      "target": "trail"
+    },
+    {
+      "source": "Dinosaurier",
+      "target": "dinosaur"
+    },
+    {
+      "source": "Zukunft",
+      "target": "future"
+    },
+    {
+      "source": "Punktestand",
+      "target": "score"
+    },
+    {
+      "source": "hochladen (ins Internet)",
+      "target": "to upload"
+    },
+    {
+      "source": "wollen, dass jmd. etw. tut",
+      "target": "to want sb to do sth"
+    },
+    {
+      "source": "soziales Netzwerk",
+      "target": "social network"
+    },
+    {
+      "source": "teilen",
+      "target": "to share"
+    },
+    {
+      "source": "schaffen",
+      "target": "to create"
+    },
+    {
+      "source": "Profil",
+      "target": "profile"
+    },
+    {
+      "source": "Prozent",
+      "target": "percent (%)"
+    },
+    {
+      "source": "Kommunikation über digitale Nachrichtendienste",
+      "target": "messaging"
+    },
+    {
+      "source": "Website",
+      "target": "site"
+    },
+    {
+      "source": "streamen",
+      "target": "to stream"
+    },
+    {
+      "source": "herunterladen (aus dem Internet)",
+      "target": "to download"
+    },
+    {
+      "source": "recherchieren",
+      "target": "to research"
+    },
+    {
+      "source": "Datei",
+      "target": "file"
+    },
+    {
+      "source": "Konferenz",
+      "target": "conference"
+    },
+    {
+      "source": "Serie",
+      "target": "series, series (pl)"
+    },
+    {
+      "source": "Recherche",
+      "target": "research (no pl)"
+    },
+    {
+      "source": "kommunizieren",
+      "target": "to communicate"
+    },
+    {
+      "source": "süchtig (nach)",
+      "target": "addicted (to)"
+    },
+    {
+      "source": "verlässlich",
+      "target": "reliable"
+    },
+    {
+      "source": "vertrauen",
+      "target": "to trust"
+    },
+    {
+      "source": "limitieren (auf)",
+      "target": "to limit (to)"
+    },
+    {
+      "source": "positiv",
+      "target": "positive"
+    },
+    {
+      "source": "Meerschweinchen",
+      "target": "guinea pig"
+    },
+    {
+      "source": "nonstop",
+      "target": "nonstop"
+    },
+    {
+      "source": "verbringen (Zeit)",
+      "target": "to spend, spent, spent"
+    },
+    {
+      "source": "mein/-er/-e/-es",
+      "target": "mine"
+    },
+    {
+      "source": "ausführen",
+      "target": "to take for a walk"
+    },
+    {
+      "source": "flaumig",
+      "target": "fluffy"
+    },
+    {
+      "source": "bis jetzt",
+      "target": "so far"
+    },
+    {
+      "source": "verletzen",
+      "target": "to hurt, hurt, hurt"
+    },
+    {
+      "source": "Jugendliche/-r",
+      "target": "kid (coll)"
+    },
+    {
+      "source": "Arzt/Ärztin",
+      "target": "doctor"
+    },
+    {
+      "source": "besuchen",
+      "target": "to see, saw, seen"
+    },
+    {
+      "source": "Runde",
+      "target": "round"
+    },
+    {
+      "source": "Selfie",
+      "target": "selfie"
+    },
+    {
+      "source": "Filmemacher/-in",
+      "target": "filmmaker"
+    },
+    {
+      "source": "audiovisueller Effekt",
+      "target": "audio-visual effect"
+    },
+    {
+      "source": "Charakter",
+      "target": "character"
+    },
+    {
+      "source": "Atmosphäre",
+      "target": "atmosphere"
+    },
+    {
+      "source": "laut",
+      "target": "loud"
+    },
+    {
+      "source": "jemals",
+      "target": "ever"
+    },
+    {
+      "source": "berühren",
+      "target": "to touch"
+    },
+    {
+      "source": "Tarantel (Spinnenart)",
+      "target": "tarantula"
+    },
+    {
+      "source": "hilfsbereit",
+      "target": "helpful"
+    },
+    {
+      "source": "wie man …",
+      "target": "how to …"
+    },
+    {
+      "source": "Ägypter/-in",
+      "target": "Egyptian"
+    },
+    {
+      "source": "Spinne",
+      "target": "spider"
+    },
+    {
+      "source": "nennen",
+      "target": "to call"
+    },
+    {
+      "source": "privat",
+      "target": "private"
+    },
+    {
+      "source": "Haarschnitt",
+      "target": "haircut"
+    },
+    {
+      "source": "Drehbuch",
+      "target": "script"
+    },
+    {
+      "source": "filmen",
+      "target": "to film"
+    },
+    {
+      "source": "hier: Leckerli",
+      "target": "treat"
+    },
+    {
+      "source": "kommentieren",
+      "target": "to comment (on)"
+    },
+    {
+      "source": "vorbereiten",
+      "target": "to prepare"
+    },
+    {
+      "source": "beißen",
+      "target": "to bite, bit, bitten"
+    },
+    {
+      "source": "jmdm. Angst machen",
+      "target": "to scare sb"
+    },
+    {
+      "source": "weg",
+      "target": "away"
+    },
+    {
+      "source": "Mal",
+      "target": "time"
+    },
+    {
+      "source": "motivierend",
+      "target": "motivating"
+    },
+    {
+      "source": "Pappe",
+      "target": "cardboard"
+    },
+    {
+      "source": "Schild",
+      "target": "sign"
+    },
+    {
+      "source": "Einführung",
+      "target": "introduction"
+    },
+    {
+      "source": "klar",
+      "target": "clear"
+    },
+    {
+      "source": "als",
+      "target": "as"
+    },
+    {
+      "source": "jmdn. vorstellen",
+      "target": "to introduce sb (to)"
+    },
+    {
+      "source": "Schlange",
+      "target": "snake"
+    },
+    {
+      "source": "wild",
+      "target": "wild"
+    },
+    {
+      "source": "sich um jmdn./etw. kümmern",
+      "target": "to take care of sb/sth"
+    },
+    {
+      "source": "keine Ahnung",
+      "target": "no idea"
+    },
+    {
+      "source": "Kommentar",
+      "target": "comment"
+    },
+    {
+      "source": "prüfen",
+      "target": "to check out (coll)"
+    },
+    {
+      "source": "säubern",
+      "target": "to clean"
+    },
+    {
+      "source": "jmdn. in Ruhe lassen",
+      "target": "to leave sb alone"
+    },
+    {
+      "source": "Tierheim",
+      "target": "rescue centre"
+    },
+    {
+      "source": "träumen",
+      "target": "to dream, dreamt, dreamt"
+    },
+    {
+      "source": "Käfig",
+      "target": "cage"
+    },
+    {
+      "source": "übernehmen",
+      "target": "to adopt"
+    },
+    {
+      "source": "täglich",
+      "target": "daily"
+    },
+    {
+      "source": "Erfahrung",
+      "target": "experience"
+    },
+    {
+      "source": "sein",
+      "target": "to be like"
+    },
+    {
+      "source": "Raum",
+      "target": "space"
+    },
+    {
+      "source": "Schauspieler/-in",
+      "target": "actor"
+    },
+    {
+      "source": "als Nächstes",
+      "target": "next"
+    },
+    {
+      "source": "bei",
+      "target": "by"
+    },
+    {
+      "source": "was für ein Glück",
+      "target": "how lucky"
+    },
+    {
+      "source": "(sich) ausleihen",
+      "target": "to borrow"
+    },
+    {
+      "source": "hinzufügen",
+      "target": "to add"
+    },
+    {
+      "source": "sorgfältig",
+      "target": "carefully"
+    },
+    {
+      "source": "Stein",
+      "target": "stone"
+    },
+    {
+      "source": "Blatt",
+      "target": "leaf, leaves (pl)"
+    },
+    {
+      "source": "nach unten",
+      "target": "downstairs"
+    },
+    {
+      "source": "kennenlernen",
+      "target": "to meet, met, met"
+    },
+    {
+      "source": "folgen",
+      "target": "to follow"
+    },
+    {
+      "source": "bersten",
+      "target": "to burst , burst, burst"
+    },
+    {
+      "source": "fliehen",
+      "target": "to escape (from)"
+    },
+    {
+      "source": "ernsthaft",
+      "target": "serious"
+    },
+    {
+      "source": "aufgebracht",
+      "target": "upset"
+    },
+    {
+      "source": "riesig",
+      "target": "huge"
+    },
+    {
+      "source": "sich beruhigen",
+      "target": "to calm down"
+    },
+    {
+      "source": "Abenteuer",
+      "target": "adventure"
+    },
+    {
+      "source": "Stunde",
+      "target": "hour"
+    },
+    {
+      "source": "ganz",
+      "target": "whole"
+    },
+    {
+      "source": "herüberkommen",
+      "target": "to come over"
+    },
+    {
+      "source": "eilen",
+      "target": "to hurry (up)"
+    },
+    {
+      "source": "in Schwierigkeiten geraten",
+      "target": "to get into trouble"
+    },
+    {
+      "source": "Lärm",
+      "target": "noise"
+    },
+    {
+      "source": "sich zu Tode erschrecken",
+      "target": "to jump out of one's skin"
+    },
+    {
+      "source": "ruhig",
+      "target": "calm"
+    },
+    {
+      "source": "entspannt",
+      "target": "relaxed"
+    },
+    {
+      "source": "Wahl",
+      "target": "choice"
+    },
+    {
+      "source": "Entschuldigung",
+      "target": "excuse"
+    },
+    {
+      "source": "hineingehen",
+      "target": "to enter"
+    },
+    {
+      "source": "Licht",
+      "target": "light"
+    },
+    {
+      "source": "umschlagen",
+      "target": "to turn back"
+    },
+    {
+      "source": "Decke",
+      "target": "cover"
+    },
+    {
+      "source": "erschrocken",
+      "target": "terrified"
+    },
+    {
+      "source": "auftauchen",
+      "target": "to appear"
+    },
+    {
+      "source": "sich vorbeischieben",
+      "target": "to push past"
+    },
+    {
+      "source": "panisch werden",
+      "target": "to panic"
+    },
+    {
+      "source": "grausam",
+      "target": "cruel"
+    },
+    {
+      "source": "fast",
+      "target": "nearly"
+    },
+    {
+      "source": "realistisch",
+      "target": "realistic"
+    },
+    {
+      "source": "doch",
+      "target": "after all"
+    },
+    {
+      "source": "Anfang",
+      "target": "beginning"
+    },
+    {
+      "source": "Ende",
+      "target": "ending"
+    },
+    {
+      "source": "einen Versuch machen",
+      "target": "to give sth a try"
+    },
+    {
+      "source": "ausprobieren",
+      "target": "to try out"
+    },
+    {
+      "source": "Briefträger",
+      "target": "postman"
+    },
+    {
+      "source": "Tor",
+      "target": "gate"
+    },
+    {
+      "source": "faul",
+      "target": "lazy"
+    },
+    {
+      "source": "Brief",
+      "target": "letter"
+    },
+    {
+      "source": "Schildkröte",
+      "target": "tortoise"
+    },
+    {
+      "source": "Das ist mir egal!",
+      "target": "I don't care!"
+    },
+    {
+      "source": "löschen",
+      "target": "to delete"
+    },
+    {
+      "source": "Grund",
+      "target": "reason"
+    },
+    {
+      "source": "Feier",
+      "target": "celebration"
+    },
+    {
+      "source": "Chance",
+      "target": "chance"
+    },
+    {
+      "source": "Verwandte/-r",
+      "target": "relative"
+    },
+    {
+      "source": "einmal",
+      "target": "once"
+    },
+    {
+      "source": "pro Jahr",
+      "target": "a year"
+    },
+    {
+      "source": "religiös",
+      "target": "religious"
+    },
+    {
+      "source": "Urlaub",
+      "target": "holiday"
+    },
+    {
+      "source": "Tradition",
+      "target": "tradition"
+    },
+    {
+      "source": "Lagerfeuer",
+      "target": "bonfire"
+    },
+    {
+      "source": "Karneval",
+      "target": "carnival"
+    },
+    {
+      "source": "Weihnachten",
+      "target": "Christmas"
+    },
+    {
+      "source": "irisch",
+      "target": "Irish"
+    },
+    {
+      "source": "traditionell",
+      "target": "traditional"
+    },
+    {
+      "source": "Creme",
+      "target": "cream"
+    },
+    {
+      "source": "Turnier",
+      "target": "tournament"
+    },
+    {
+      "source": "karibisch",
+      "target": "Caribbean"
+    },
+    {
+      "source": "Zeremonie",
+      "target": "ceremony"
+    },
+    {
+      "source": "Gottesdienst",
+      "target": "service"
+    },
+    {
+      "source": "Glamour",
+      "target": "glamour"
+    },
+    {
+      "source": "Feuerwerk",
+      "target": "fireworks (pl)"
+    },
+    {
+      "source": "Parade",
+      "target": "parade"
+    },
+    {
+      "source": "Sendung",
+      "target": "broadcast"
+    },
+    {
+      "source": "Menschenmenge",
+      "target": "crowd"
+    },
+    {
+      "source": "Respekt",
+      "target": "respect"
+    },
+    {
+      "source": "behalten",
+      "target": "to keep , kept, kept"
+    },
+    {
+      "source": "Sekunde",
+      "target": "second"
+    },
+    {
+      "source": "fangen",
+      "target": "to catch, caught, caught"
+    },
+    {
+      "source": "Mannschaftskamerad/-in",
+      "target": "teammate"
+    },
+    {
+      "source": "punkten",
+      "target": "to score"
+    },
+    {
+      "source": "Tor",
+      "target": "goal"
+    },
+    {
+      "source": "hart",
+      "target": "tough"
+    },
+    {
+      "source": "Fußballspieler/-in",
+      "target": "footballer"
+    },
+    {
+      "source": "schießen",
+      "target": "to kick"
+    },
+    {
+      "source": "zupassen",
+      "target": "to pass"
+    },
+    {
+      "source": "angreifen",
+      "target": "to tackle"
+    },
+    {
+      "source": "Typ (ugs.)",
+      "target": "bloke (fam)"
+    },
+    {
+      "source": "Angriff",
+      "target": "tackle"
+    },
+    {
+      "source": "Verletzung",
+      "target": "injury"
+    },
+    {
+      "source": "Fähigkeit",
+      "target": "ability"
+    },
+    {
+      "source": "Basketballspiel mit Spielern mit und ohne Behinderung",
+      "target": "inclusive zone basketball"
+    },
+    {
+      "source": "inklusiv",
+      "target": "inclusive"
+    },
+    {
+      "source": "Zone",
+      "target": "zone"
+    },
+    {
+      "source": "Spieler/-in",
+      "target": "player"
+    },
+    {
+      "source": "Spielfeld",
+      "target": "court"
+    },
+    {
+      "source": "motivieren",
+      "target": "to motivate"
+    },
+    {
+      "source": "individuell",
+      "target": "individual"
+    },
+    {
+      "source": "möglich",
+      "target": "possible"
+    },
+    {
+      "source": "Netz",
+      "target": "net"
+    },
+    {
+      "source": "Liga",
+      "target": "league"
+    },
+    {
+      "source": "Statistik(en)",
+      "target": "statistics (pl)"
+    },
+    {
+      "source": "fast",
+      "target": "almost"
+    },
+    {
+      "source": "so … wie",
+      "target": "as … as"
+    },
+    {
+      "source": "geringste/-r/-s",
+      "target": "the least"
+    },
+    {
+      "source": "Radfahren",
+      "target": "cycling"
+    },
+    {
+      "source": "Leichtathletik",
+      "target": "athletics (no pl)"
+    },
+    {
+      "source": "Kampfsport",
+      "target": "martial arts"
+    },
+    {
+      "source": "eintausend",
+      "target": "a/one thousand"
+    },
+    {
+      "source": "Quelle",
+      "target": "source"
+    },
+    {
+      "source": "offiziell",
+      "target": "official"
+    },
+    {
+      "source": "unterstützen",
+      "target": "to support"
+    },
+    {
+      "source": "sich verbessern",
+      "target": "to improve"
+    },
+    {
+      "source": "sich beschweren",
+      "target": "to complain"
+    },
+    {
+      "source": "Training",
+      "target": "practice"
+    },
+    {
+      "source": "etw. verändern",
+      "target": "to make a difference (to sth)"
+    },
+    {
+      "source": "Regen",
+      "target": "rain"
+    },
+    {
+      "source": "peinlich",
+      "target": "embarrassing"
+    },
+    {
+      "source": "Turnschuh",
+      "target": "trainer"
+    },
+    {
+      "source": "Wettervorhersage",
+      "target": "weather forecast"
+    },
+    {
+      "source": "sonnig",
+      "target": "sunny"
+    },
+    {
+      "source": "regnerisch",
+      "target": "rainy"
+    },
+    {
+      "source": "windig",
+      "target": "windy"
+    },
+    {
+      "source": "stürmisch",
+      "target": "stormy"
+    },
+    {
+      "source": "Flagge",
+      "target": "flag"
+    },
+    {
+      "source": "Stepptanz",
+      "target": "tap dancing"
+    },
+    {
+      "source": "an etw. dranbleiben",
+      "target": "to stick with sth , stuck, stuck"
+    },
+    {
+      "source": "asiatisch",
+      "target": "Asian"
+    },
+    {
+      "source": "vermeiden",
+      "target": "to avoid"
+    },
+    {
+      "source": "Liste mit häufig gestellten Fragen",
+      "target": "FAQ"
+    },
+    {
+      "source": "ruhig bleiben",
+      "target": "to keep calm"
+    },
+    {
+      "source": "trainieren",
+      "target": "to train"
+    },
+    {
+      "source": "Bewegung",
+      "target": "move"
+    },
+    {
+      "source": "möglicherweise",
+      "target": "probably"
+    },
+    {
+      "source": "grundlegend",
+      "target": "basic"
+    },
+    {
+      "source": "Freunde finden",
+      "target": "to make friends"
+    },
+    {
+      "source": "flexibel",
+      "target": "flexible"
+    },
+    {
+      "source": "Selbstverteidigung",
+      "target": "self-defence"
+    },
+    {
+      "source": "sich konzentrieren (auf)",
+      "target": "to focus (on)"
+    },
+    {
+      "source": "Kontrolle",
+      "target": "control"
+    },
+    {
+      "source": "Note",
+      "target": "mark"
+    },
+    {
+      "source": "klicken",
+      "target": "to click"
+    },
+    {
+      "source": "Mitglied",
+      "target": "member"
+    },
+    {
+      "source": "Kostprobe",
+      "target": "taster"
+    },
+    {
+      "source": "Druck",
+      "target": "pressure"
+    },
+    {
+      "source": "Gesundheit",
+      "target": "health"
+    },
+    {
+      "source": "Motivation",
+      "target": "motivation"
+    },
+    {
+      "source": "professionell",
+      "target": "professional"
+    },
+    {
+      "source": "unmöglich",
+      "target": "impossible"
+    },
+    {
+      "source": "Protein",
+      "target": "protein"
+    },
+    {
+      "source": "Schulter",
+      "target": "shoulder"
+    },
+    {
+      "source": "verdreht",
+      "target": "twisted"
+    },
+    {
+      "source": "Fußgelenk",
+      "target": "ankle"
+    },
+    {
+      "source": "erreichen",
+      "target": "to reach"
+    },
+    {
+      "source": "Kapitän/-in",
+      "target": "captain"
+    },
+    {
+      "source": "doch",
+      "target": "though"
+    },
+    {
+      "source": "Führer/-in",
+      "target": "leader"
+    },
+    {
+      "source": "Vertrauen",
+      "target": "confidence"
+    },
+    {
+      "source": "Treffen",
+      "target": "meeting"
+    },
+    {
+      "source": "damit",
+      "target": "so (that)"
+    },
+    {
+      "source": "bester",
+      "target": "top"
+    },
+    {
+      "source": "Torjäger/-in",
+      "target": "scorer"
+    },
+    {
+      "source": "obwohl",
+      "target": "although"
+    },
+    {
+      "source": "wann immer",
+      "target": "whenever"
+    },
+    {
+      "source": "auch wenn",
+      "target": "even though"
+    },
+    {
+      "source": "Außenseiter/-in",
+      "target": "underdog"
+    },
+    {
+      "source": "Linksaußen/Rechtsaußen",
+      "target": "winger"
+    },
+    {
+      "source": "scheinen",
+      "target": "to seem"
+    },
+    {
+      "source": "schüchtern",
+      "target": "shy"
+    },
+    {
+      "source": "selbstsicher",
+      "target": "confident"
+    },
+    {
+      "source": "Aufmerksamkeit",
+      "target": "attention"
+    },
+    {
+      "source": "Typ",
+      "target": "type"
+    },
+    {
+      "source": "eine Weile",
+      "target": "a while"
+    },
+    {
+      "source": "es ins Team schaffen",
+      "target": "to make the team"
+    },
+    {
+      "source": "Gewinner/-in",
+      "target": "champion"
+    },
+    {
+      "source": "Sprinter/-in",
+      "target": "sprinter"
+    },
+    {
+      "source": "Olympia-",
+      "target": "Olympic"
+    },
+    {
+      "source": "Taucher/-in",
+      "target": "diver"
+    },
+    {
+      "source": "Rekord",
+      "target": "record"
+    },
+    {
+      "source": "Rennfahrer/-in",
+      "target": "racer"
+    },
+    {
+      "source": "Rivale/Rivalin",
+      "target": "rival"
+    },
+    {
+      "source": "Ruf",
+      "target": "image"
+    },
+    {
+      "source": "Finale",
+      "target": "final"
+    },
+    {
+      "source": "Artikel",
+      "target": "article"
+    },
+    {
+      "source": "verletzen",
+      "target": "to injure"
+    },
+    {
+      "source": "Elfmeter",
+      "target": "penalty shot"
+    },
+    {
+      "source": "schockierend",
+      "target": "shocking"
+    },
+    {
+      "source": "Reserve",
+      "target": "reserve"
+    },
+    {
+      "source": "Stürmer/-in",
+      "target": "striker"
+    },
+    {
+      "source": "Bank",
+      "target": "bench"
+    },
+    {
+      "source": "Spielfeld",
+      "target": "pitch"
+    },
+    {
+      "source": "an jmds. Stelle sein",
+      "target": "to be in sb’s shoes"
+    },
+    {
+      "source": "Schuss",
+      "target": "shot"
+    },
+    {
+      "source": "verfehlen",
+      "target": "to miss"
+    },
+    {
+      "source": "Verteidiger/-in",
+      "target": "defender"
+    },
+    {
+      "source": "wegen",
+      "target": "because of"
+    },
+    {
+      "source": "Schiedsrichter/-in",
+      "target": "referee"
+    },
+    {
+      "source": "Dribbling",
+      "target": "dribbling"
+    },
+    {
+      "source": "Sieg",
+      "target": "victory"
+    },
+    {
+      "source": "die Hälfte",
+      "target": "half, halves (pl) (of)"
+    },
+    {
+      "source": "Meter",
+      "target": "metre (m)"
+    },
+    {
+      "source": "Kurve",
+      "target": "curve"
+    },
+    {
+      "source": "Kameramann",
+      "target": "cameraman, cameramen (pl)"
+    },
+    {
+      "source": "Bein",
+      "target": "leg"
+    },
+    {
+      "source": "Sanitäter/-in",
+      "target": "medic"
+    },
+    {
+      "source": "Tragbahre",
+      "target": "stretcher"
+    },
+    {
+      "source": "Spielerwechsel",
+      "target": "substitution"
+    },
+    {
+      "source": "Tribüne",
+      "target": "stand"
+    },
+    {
+      "source": "foulen",
+      "target": "to foul"
+    },
+    {
+      "source": "verletzt",
+      "target": "injured"
+    },
+    {
+      "source": "schießen (auf)",
+      "target": "to shoot, shot, shot (at)"
+    },
+    {
+      "source": "Punkt",
+      "target": "point"
+    },
+    {
+      "source": "Unterbrechung",
+      "target": "interruption"
+    },
+    {
+      "source": "Unfall",
+      "target": "accident"
+    },
+    {
+      "source": "Verlängerung",
+      "target": "extra time"
+    },
+    {
+      "source": "legendär",
+      "target": "legendary"
+    },
+    {
+      "source": "enden",
+      "target": "to end"
+    },
+    {
+      "source": "Netz",
+      "target": "web"
+    },
+    {
+      "source": "attraktiv",
+      "target": "attractive"
+    },
+    {
+      "source": "könnte/könntest/könntet/könnten (vielleicht)",
+      "target": "might"
+    },
+    {
+      "source": "könnte/könntest/könntet/könnten",
+      "target": "could"
+    },
+    {
+      "source": "schottisch",
+      "target": "Scottish"
+    },
+    {
+      "source": "Stimme",
+      "target": "voice"
+    },
+    {
+      "source": "Herr/-in",
+      "target": "master"
+    },
+    {
+      "source": "Narr/Närrin",
+      "target": "fool"
+    },
+    {
+      "source": "Fee",
+      "target": "fairy"
+    },
+    {
+      "source": "Reim",
+      "target": "rhyme"
+    },
+    {
+      "source": "Surfen",
+      "target": "surfing"
+    },
+    {
+      "source": "Surfbrett",
+      "target": "surfboard"
+    },
+    {
+      "source": "österreichisch",
+      "target": "Austrian"
+    },
+    {
+      "source": "Vertrag",
+      "target": "contract"
+    },
+    {
+      "source": "Schottenkaro (bestimmtes Muster eines Clans)",
+      "target": "tartan"
+    },
+    {
+      "source": "Sstcahtotftitnednesntoff",
+      "target": "to take place"
+    },
+    {
+      "source": "Wanderer/Wanderin",
+      "target": "hiker"
+    },
+    {
+      "source": "Berggipfel",
+      "target": "peak"
+    },
+    {
+      "source": "rau",
+      "target": "rugged"
+    },
+    {
+      "source": "Landschaft",
+      "target": "landscape"
+    },
+    {
+      "source": "Paradies",
+      "target": "paradise"
+    },
+    {
+      "source": "Freund/-in",
+      "target": "lover"
+    },
+    {
+      "source": "landschaftlich schön",
+      "target": "scenic"
+    },
+    {
+      "source": "Dudelsack",
+      "target": "bagpipes (pl)"
+    },
+    {
+      "source": "Kilt",
+      "target": "kilt"
+    },
+    {
+      "source": "unglaublich",
+      "target": "amazing"
+    },
+    {
+      "source": "historisch",
+      "target": "historic"
+    },
+    {
+      "source": "Natur",
+      "target": "nature"
+    },
+    {
+      "source": "Radfahren",
+      "target": "biking"
+    },
+    {
+      "source": "Wandern",
+      "target": "hiking"
+    },
+    {
+      "source": "Haggis (schottisches Gericht aus in einem Schafsmagen gekochten",
+      "target": "haggis"
+    },
+    {
+      "source": "SDciahlaefkstinnereien und Haferschrot)",
+      "target": "dialect"
+    },
+    {
+      "source": "Unabhängigkeit",
+      "target": "independence (no pl)"
+    },
+    {
+      "source": "Beziehung",
+      "target": "relationship"
+    },
+    {
+      "source": "Schotte/Schottin",
+      "target": "Scot"
+    },
+    {
+      "source": "abstimmen",
+      "target": "to vote (for)"
+    },
+    {
+      "source": "eine/-r/-s",
+      "target": "one, ones (pl)"
+    },
+    {
+      "source": "keltisch",
+      "target": "Celtic"
+    },
+    {
+      "source": "gälisch",
+      "target": "Gaelic"
+    },
+    {
+      "source": "buchen",
+      "target": "to book"
+    },
+    {
+      "source": "Kreditkarte",
+      "target": "credit card"
+    },
+    {
+      "source": "Reiß mir nicht den Kopf ab!",
+      "target": "Don't bite my head off!"
+    },
+    {
+      "source": "Hostel",
+      "target": "hostel"
+    },
+    {
+      "source": "Land",
+      "target": "countryside"
+    },
+    {
+      "source": "Kajakfahren",
+      "target": "kayaking"
+    },
+    {
+      "source": "Show, in der historischer Alltag nachgespielt wird",
+      "target": "living history show"
+    },
+    {
+      "source": "teilnehmen (an)",
+      "target": "to take part (in)"
+    },
+    {
+      "source": "historisch",
+      "target": "historical"
+    },
+    {
+      "source": "(sich) fürchten",
+      "target": "to be afraid (of)"
+    },
+    {
+      "source": "heute Abend",
+      "target": "tonight"
+    },
+    {
+      "source": "Meinung",
+      "target": "opinion"
+    },
+    {
+      "source": "Stiefel",
+      "target": "boot"
+    },
+    {
+      "source": "Handschuh",
+      "target": "glove"
+    },
+    {
+      "source": "dick (nicht für Personen)",
+      "target": "thick"
+    },
+    {
+      "source": "dünn",
+      "target": "thin"
+    },
+    {
+      "source": "Gute Reise!",
+      "target": "Bon voyage!"
+    },
+    {
+      "source": "unglücklich",
+      "target": "unhappy"
+    },
+    {
+      "source": "unvorsichtig",
+      "target": "careless"
+    },
+    {
+      "source": "vergesslich",
+      "target": "forgetful"
+    },
+    {
+      "source": "unordentlich",
+      "target": "untidy"
+    },
+    {
+      "source": "sauber",
+      "target": "tidy"
+    },
+    {
+      "source": "Rollkoffer",
+      "target": "trolley"
+    },
+    {
+      "source": "Pass auf dich auf!/Passt auf euch auf!",
+      "target": "Take care!"
+    },
+    {
+      "source": "glaubwürdig",
+      "target": "believable"
+    },
+    {
+      "source": "geduldig",
+      "target": "patient"
+    },
+    {
+      "source": "hilflos",
+      "target": "helpless"
+    },
+    {
+      "source": "unrealistisch",
+      "target": "unrealistic"
+    },
+    {
+      "source": "Gespräch",
+      "target": "conversation"
+    },
+    {
+      "source": "Feedback",
+      "target": "feedback"
+    },
+    {
+      "source": "Schal",
+      "target": "scarf , scarves (pl)"
+    },
+    {
+      "source": "einchecken",
+      "target": "to check into"
+    },
+    {
+      "source": "Räucherlachs",
+      "target": "smoked salmon"
+    },
+    {
+      "source": "Shortbread (Buttergebäck)",
+      "target": "shortbread"
+    },
+    {
+      "source": "abenteuerlich",
+      "target": "adventurous"
+    },
+    {
+      "source": "escxhpneerilml entierfreudig",
+      "target": "quick"
+    },
+    {
+      "source": "magisch",
+      "target": "magical"
+    },
+    {
+      "source": "sich (etwas) vorstellen",
+      "target": "to imagine"
+    },
+    {
+      "source": "Hirsch",
+      "target": "deer, deer (pl)"
+    },
+    {
+      "source": "friedlich",
+      "target": "peaceful"
+    },
+    {
+      "source": "Sonne",
+      "target": "sun"
+    },
+    {
+      "source": "Hochland",
+      "target": "highland"
+    },
+    {
+      "source": "Kuh",
+      "target": "cow"
+    },
+    {
+      "source": "Schnee",
+      "target": "snow"
+    },
+    {
+      "source": "Nationalgericht",
+      "target": "national dish"
+    },
+    {
+      "source": "Berg",
+      "target": "hill"
+    },
+    {
+      "source": "Führer/-in",
+      "target": "guide"
+    },
+    {
+      "source": "nachspielen",
+      "target": "to act out"
+    },
+    {
+      "source": "müssen",
+      "target": "to have to"
+    },
+    {
+      "source": "Spielzeug",
+      "target": "toy"
+    },
+    {
+      "source": "Viadukt",
+      "target": "viaduct"
+    },
+    {
+      "source": "Dampf",
+      "target": "steam"
+    },
+    {
+      "source": "vorbeigehen",
+      "target": "to go by"
+    },
+    {
+      "source": "Fell",
+      "target": "coat"
+    },
+    {
+      "source": "schottisches Fest, bei dem getanzt",
+      "target": "ceilidh"
+    },
+    {
+      "source": "Privatsphäre",
+      "target": "privacy"
+    },
+    {
+      "source": "nicht dürfen",
+      "target": "must not"
+    },
+    {
+      "source": "Tänzer/-in",
+      "target": "dancer"
+    },
+    {
+      "source": "Insel",
+      "target": "island"
+    },
+    {
+      "source": "Hafen",
+      "target": "harbour"
+    },
+    {
+      "source": "seekrank werden",
+      "target": "to get seasick"
+    },
+    {
+      "source": "Fähre",
+      "target": "ferry"
+    },
+    {
+      "source": "Ankündigung",
+      "target": "announcement"
+    },
+    {
+      "source": "Flug",
+      "target": "flight"
+    },
+    {
+      "source": "Gate",
+      "target": "gate"
+    },
+    {
+      "source": "relevant",
+      "target": "relevant"
+    },
+    {
+      "source": "fortfahren",
+      "target": "to continue"
+    },
+    {
+      "source": "Geheimnis",
+      "target": "secret"
+    },
+    {
+      "source": "Hunderte (von)",
+      "target": "hundreds of"
+    },
+    {
+      "source": "Gang",
+      "target": "corridor"
+    },
+    {
+      "source": "Ausgang",
+      "target": "way out"
+    },
+    {
+      "source": "ungeduldig",
+      "target": "impatient"
+    },
+    {
+      "source": "Richtung",
+      "target": "direction"
+    },
+    {
+      "source": "Eule",
+      "target": "owl"
+    },
+    {
+      "source": "rufen (Eule)",
+      "target": "to hoot"
+    },
+    {
+      "source": "allein",
+      "target": "on one's own"
+    },
+    {
+      "source": "leer",
+      "target": "empty"
+    },
+    {
+      "source": "Hals",
+      "target": "neck"
+    },
+    {
+      "source": "putzen",
+      "target": "to brush"
+    },
+    {
+      "source": "etw. weiter tun",
+      "target": "to keep (+ -ing)"
+    },
+    {
+      "source": "sich verirrt haben",
+      "target": "to be lost"
+    },
+    {
+      "source": "mithalten (mit)",
+      "target": "to keep up (with)"
+    },
+    {
+      "source": "langsamer werden",
+      "target": "to slow down"
+    },
+    {
+      "source": "(sich) entspannen",
+      "target": "to relax"
+    },
+    {
+      "source": "gleiten",
+      "target": "to float"
+    },
+    {
+      "source": "Kerze",
+      "target": "candle"
+    },
+    {
+      "source": "Pförtner/-in",
+      "target": "gatekeeper"
+    },
+    {
+      "source": "spazieren gehen",
+      "target": "to go for a walk"
+    },
+    {
+      "source": "Empfang",
+      "target": "reception"
+    },
+    {
+      "source": "gefrieren",
+      "target": "to run cold"
+    },
+    {
+      "source": "scrollen",
+      "target": "to scroll"
+    },
+    {
+      "source": "sie selbst",
+      "target": "herself"
+    },
+    {
+      "source": "beweisen",
+      "target": "to prove"
+    },
+    {
+      "source": "fahren",
+      "target": "to drive, drove, driven"
+    },
+    {
+      "source": "negativ",
+      "target": "negative"
+    },
+    {
+      "source": "Kleiderordnung",
+      "target": "dress code"
+    },
+    {
+      "source": "Linedance",
+      "target": "line dancing"
+    }
+  ]
+}

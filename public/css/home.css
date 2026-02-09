@@ -1,0 +1,112 @@
+/* WORD RANGE DISPLAY */
+.word-range-display {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 14px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.range-label {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+.range-value {
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+  min-height: 1.3em;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.range-arrow {
+  color: var(--text-dim);
+  font-size: 1.2rem;
+}
+
+/* WORD BROWSER */
+.word-browser {
+  background: var(--surface);
+  border-radius: var(--radius);
+  max-height: 40dvh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.word-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--surface2);
+  cursor: pointer;
+  transition: background 0.1s;
+  gap: 8px;
+}
+
+.word-item:last-child { border-bottom: none; }
+.word-item:active { background: var(--surface2); }
+
+.word-item .source {
+  font-weight: 600;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.word-item .target {
+  color: var(--text-dim);
+  text-align: right;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.word-item.in-range {
+  background: rgba(250, 204, 21, 0.08);
+}
+
+.word-item.is-from {
+  background: rgba(250, 204, 21, 0.2);
+  border-left: 3px solid var(--accent);
+}
+
+.word-item.is-to {
+  background: rgba(167, 139, 250, 0.2);
+  border-left: 3px solid var(--accent2);
+}
+
+.word-item .word-num {
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  min-width: 28px;
+}
+
+/* JOIN SECTION */
+.join-section {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--surface2);
+  text-align: center;
+}
+
+.join-section p {
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+
+.code-input-row {
+  display: flex;
+  gap: 10px;
+}
