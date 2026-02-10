@@ -1,0 +1,7277 @@
+{
+  "id": "campus-c-1-3",
+  "words": [
+    {
+      "source": "Großvater",
+      "target": "avus"
+    },
+    {
+      "source": "Feld, freier Platz",
+      "target": "campus"
+    },
+    {
+      "source": "Pferd",
+      "target": "equus"
+    },
+    {
+      "source": "und, auch",
+      "target": "et"
+    },
+    {
+      "source": "Mauer",
+      "target": "mûrus"
+    },
+    {
+      "source": "Mädchen, Freundin",
+      "target": "puella"
+    },
+    {
+      "source": "Sklavin, Dienerin",
+      "target": "serva"
+    },
+    {
+      "source": "Sklave, Diener",
+      "target": "servus"
+    },
+    {
+      "source": "Wald",
+      "target": "silva"
+    },
+    {
+      "source": "Weg, Straße",
+      "target": "via"
+    },
+    {
+      "source": "Dorf, Gasse",
+      "target": "vîcus"
+    },
+    {
+      "source": "Haus, Landhaus",
+      "target": "vîlla"
+    },
+    {
+      "source": "warum?",
+      "target": "cûr?"
+    },
+    {
+      "source": "müssen, sollen",
+      "target": "dêbêre"
+    },
+    {
+      "source": "doleô schmerzen, wehtun",
+      "target": "dolêre,"
+    },
+    {
+      "source": "sein, sich befinden",
+      "target": "esse"
+    },
+    {
+      "source": "er (sie, es) ist",
+      "target": "est"
+    },
+    {
+      "source": "mahnen, ermahnen",
+      "target": "monêre"
+    },
+    {
+      "source": "nicht",
+      "target": "nôn"
+    },
+    {
+      "source": "Adv. nun, jetzt",
+      "target": "nunc"
+    },
+    {
+      "source": "Auge",
+      "target": "oculus"
+    },
+    {
+      "source": "pâreô gehorchen",
+      "target": "pârêre,"
+    },
+    {
+      "source": "was?",
+      "target": "quid?"
+    },
+    {
+      "source": "lachen, auslachen",
+      "target": "rîdêre"
+    },
+    {
+      "source": "sie sind",
+      "target": "sunt"
+    },
+    {
+      "source": "taceô schweigen, verschweigen",
+      "target": "tacêre,"
+    },
+    {
+      "source": "timeô fürchten, Angst haben",
+      "target": "timêre,"
+    },
+    {
+      "source": "augeô vergrößern, vermehren",
+      "target": "augêre,"
+    },
+    {
+      "source": "Herr",
+      "target": "dominus"
+    },
+    {
+      "source": "Adv. hier",
+      "target": "hîc"
+    },
+    {
+      "source": "Adv. dort",
+      "target": "ibî"
+    },
+    {
+      "source": "Sprache, Rede",
+      "target": "lingua"
+    },
+    {
+      "source": "denn, nämlich",
+      "target": "nam"
+    },
+    {
+      "source": "und nicht, auch nicht",
+      "target": "neque"
+    },
+    {
+      "source": "… neque weder … noch",
+      "target": "neque"
+    },
+    {
+      "source": "wer?",
+      "target": "quis?"
+    },
+    {
+      "source": "respondeô antworten",
+      "target": "respondêre,"
+    },
+    {
+      "source": "aber, sondern",
+      "target": "sed"
+    },
+    {
+      "source": "sedeô sitzen",
+      "target": "sedêre,"
+    },
+    {
+      "source": "terreô erschrecken",
+      "target": "terrêre,"
+    },
+    {
+      "source": "Freund",
+      "target": "amîcus"
+    },
+    {
+      "source": "doceô lehren, unterrichten",
+      "target": "docêre,"
+    },
+    {
+      "source": "gaudeô sich freuen",
+      "target": "gaudêre,"
+    },
+    {
+      "source": "Adv. schon, bereits; nun",
+      "target": "iam"
+    },
+    {
+      "source": "iam nicht mehr",
+      "target": "nôn"
+    },
+    {
+      "source": "Adv. niemals",
+      "target": "numquam"
+    },
+    {
+      "source": "praebeô geben, hinhalten",
+      "target": "praebêre,"
+    },
+    {
+      "source": "Adv. zuerst",
+      "target": "prîmô"
+    },
+    {
+      "source": "Adv. richtig, zu Recht",
+      "target": "rêctê"
+    },
+    {
+      "source": "Adv. oft",
+      "target": "saepe"
+    },
+    {
+      "source": "studeô sich bemühen, studieren",
+      "target": "studêre,"
+    },
+    {
+      "source": "(Schreib-)Tafel, Gemälde",
+      "target": "tabula"
+    },
+    {
+      "source": "teneô halten, festhalten, besitzen",
+      "target": "tenêre,"
+    },
+    {
+      "source": "Adv. da, dann, darauf, damals",
+      "target": "tum"
+    },
+    {
+      "source": "wem?",
+      "target": "cui?"
+    },
+    {
+      "source": "auch, sogar",
+      "target": "etiam"
+    },
+    {
+      "source": "fleô weinen, beweinen",
+      "target": "flêre,"
+    },
+    {
+      "source": "Schwert",
+      "target": "gladius"
+    },
+    {
+      "source": "deshalb",
+      "target": "itaque"
+    },
+    {
+      "source": "Adv. wiederum, zum zweiten Mal",
+      "target": "iterum"
+    },
+    {
+      "source": "lateô verborgen sein",
+      "target": "latêre,"
+    },
+    {
+      "source": "placeô gefallen",
+      "target": "placêre,"
+    },
+    {
+      "source": "Verbrecher",
+      "target": "scelerâtus"
+    },
+    {
+      "source": "Ton, Klang, Geräusch",
+      "target": "sonus"
+    },
+    {
+      "source": "Adv. sofort",
+      "target": "statim"
+    },
+    {
+      "source": "Adv. plötzlich",
+      "target": "subitô"
+    },
+    {
+      "source": "Adv. (nachgestellt) nur",
+      "target": "tantum"
+    },
+    {
+      "source": "torqueô drehen; quälen",
+      "target": "torquêre,"
+    },
+    {
+      "source": "Adv. bis jetzt, noch",
+      "target": "adhûc"
+    },
+    {
+      "source": "Äolus (Herr über die Winde)",
+      "target": "Aeolus"
+    },
+    {
+      "source": "Wasser",
+      "target": "aqua"
+    },
+    {
+      "source": "Nahrung, Speise, Futter",
+      "target": "cibus"
+    },
+    {
+      "source": "compleô anfüllen, auffüllen",
+      "target": "complêre,"
+    },
+    {
+      "source": "Menge, Vorrat",
+      "target": "côpia"
+    },
+    {
+      "source": "dêleô zerstören, vernichten",
+      "target": "dêlêre,"
+    },
+    {
+      "source": "Gott, Gottheit",
+      "target": "deus"
+    },
+    {
+      "source": "Dank",
+      "target": "grâtia"
+    },
+    {
+      "source": "habêre danken",
+      "target": "grâtiam"
+    },
+    {
+      "source": "habeô haben, halten",
+      "target": "habêre,"
+    },
+    {
+      "source": "Volk",
+      "target": "populus"
+    },
+    {
+      "source": "Adv. sicherlich, tatsächlich",
+      "target": "profectô"
+    },
+    {
+      "source": "Adv. immer",
+      "target": "semper"
+    },
+    {
+      "source": "Wind",
+      "target": "ventus"
+    },
+    {
+      "source": "Freundin",
+      "target": "amîca"
+    },
+    {
+      "source": "Insel; Wohnblock",
+      "target": "însula"
+    },
+    {
+      "source": "Träne",
+      "target": "lacrima"
+    },
+    {
+      "source": "Freude",
+      "target": "laetitia"
+    },
+    {
+      "source": "moveô bewegen, beeindrucken",
+      "target": "movêre,"
+    },
+    {
+      "source": "Adv. bald",
+      "target": "mox"
+    },
+    {
+      "source": "pateô offenstehen",
+      "target": "patêre,"
+    },
+    {
+      "source": "Rom",
+      "target": "Rôma"
+    },
+    {
+      "source": "Adv. endlich",
+      "target": "tandem"
+    },
+    {
+      "source": "(Menschen-)Menge",
+      "target": "turba"
+    },
+    {
+      "source": "valeô gesund sein, stark sein, Einfluss haben",
+      "target": "valêre,"
+    },
+    {
+      "source": "valête! Leb wohl! Lebt wohl!",
+      "target": "valê!"
+    },
+    {
+      "source": "videô sehen",
+      "target": "vidêre,"
+    },
+    {
+      "source": "amô lieben",
+      "target": "amâre,"
+    },
+    {
+      "source": "Mahlzeit, Essen",
+      "target": "cêna"
+    },
+    {
+      "source": "dêlectô erfreuen, unterhalten",
+      "target": "dêlectâre,"
+    },
+    {
+      "source": "Herrin, Dame",
+      "target": "domina"
+    },
+    {
+      "source": "Tochter",
+      "target": "fîlia"
+    },
+    {
+      "source": "intrô betreten, eintreten",
+      "target": "intrâre,"
+    },
+    {
+      "source": "labôrô arbeiten, sich anstrengen",
+      "target": "labôrâre,"
+    },
+    {
+      "source": "(Ess-)Tisch",
+      "target": "mênsa"
+    },
+    {
+      "source": "ôrnô ausstatten, schmücken",
+      "target": "ôrnâre,"
+    },
+    {
+      "source": "parô (vor)bereiten, vorhaben (m. Inf.); erwerben",
+      "target": "parâre,"
+    },
+    {
+      "source": "properô eilen, sich beeilen",
+      "target": "properâre,"
+    },
+    {
+      "source": "rogô bitten, fragen",
+      "target": "rogâre,"
+    },
+    {
+      "source": "Adv. so",
+      "target": "sîc"
+    },
+    {
+      "source": "vocô nennen, benennen, rufen",
+      "target": "vocâre,"
+    },
+    {
+      "source": "Afrika",
+      "target": "Âfrica"
+    },
+    {
+      "source": "Asien",
+      "target": "Asia"
+    },
+    {
+      "source": "Adv. gut",
+      "target": "bene"
+    },
+    {
+      "source": "Kriegsgefangener",
+      "target": "captîvus"
+    },
+    {
+      "source": "cênô essen",
+      "target": "cênâre,"
+    },
+    {
+      "source": "Adv. lange (Zeit)",
+      "target": "diû"
+    },
+    {
+      "source": "List, Täuschung",
+      "target": "dolus"
+    },
+    {
+      "source": "dubitô zweifeln; zögern (m. Inf.)",
+      "target": "dubitâre,"
+    },
+    {
+      "source": "Europa (Erdteil)",
+      "target": "Eurôpa"
+    },
+    {
+      "source": "Familie",
+      "target": "familia"
+    },
+    {
+      "source": "Sohn",
+      "target": "fîlius"
+    },
+    {
+      "source": "Unrecht, Beleidigung",
+      "target": "iniûria"
+    },
+    {
+      "source": "Heimat",
+      "target": "patria"
+    },
+    {
+      "source": "Provinz",
+      "target": "prôvincia"
+    },
+    {
+      "source": "Kampf",
+      "target": "pûgna"
+    },
+    {
+      "source": "pûgnô kämpfen",
+      "target": "pûgnâre,"
+    },
+    {
+      "source": "Römer, Einwohner Roms",
+      "target": "Rômânus"
+    },
+    {
+      "source": "spectô betrachten, anschauen, hinsehen",
+      "target": "spectâre,"
+    },
+    {
+      "source": "superô besiegen, überwinden, übertreffen",
+      "target": "superâre,"
+    },
+    {
+      "source": "Syrien",
+      "target": "Syria"
+    },
+    {
+      "source": "woher?",
+      "target": "unde?"
+    },
+    {
+      "source": "Ätna (Vulkan auf Sizilien)",
+      "target": "Aetna"
+    },
+    {
+      "source": "audiô hören",
+      "target": "audîre,"
+    },
+    {
+      "source": "Kreta (Insel im Mittelmeer)",
+      "target": "Crêta"
+    },
+    {
+      "source": "dêsîderô sich sehnen nach, vermissen",
+      "target": "dêsîderâre,"
+    },
+    {
+      "source": "dêsîderâre sich nach der Heimat sehnen",
+      "target": "patriam"
+    },
+    {
+      "source": "exspectô warten (auf), erwarten",
+      "target": "exspectâre,"
+    },
+    {
+      "source": "habitô wohnen, bewohnen",
+      "target": "habitâre,"
+    },
+    {
+      "source": "Spiel; Schule",
+      "target": "lûdus"
+    },
+    {
+      "source": "nesciô nicht wissen, nicht kennen, nicht verstehen",
+      "target": "nescîre,"
+    },
+    {
+      "source": "nichts",
+      "target": "nihil"
+    },
+    {
+      "source": "sciô wissen, kennen, verstehen",
+      "target": "scîre,"
+    },
+    {
+      "source": "Sizilien (Insel im Mittelmeer)",
+      "target": "Sicilia"
+    },
+    {
+      "source": "wo?",
+      "target": "ubî?"
+    },
+    {
+      "source": "veniô kommen",
+      "target": "venîre,"
+    },
+    {
+      "source": "Vulkan(us) (Gott des Feuers)",
+      "target": "Vulcânus"
+    },
+    {
+      "source": "aedificô bauen",
+      "target": "aedificâre,"
+    },
+    {
+      "source": "Gebäude",
+      "target": "aedificium"
+    },
+    {
+      "source": "Wohltat",
+      "target": "beneficium"
+    },
+    {
+      "source": "Concordia (Göttin der Eintracht)",
+      "target": "Concordia"
+    },
+    {
+      "source": "Beratung, Beschluss, Plan, Rat",
+      "target": "cônsilium"
+    },
+    {
+      "source": "Kurie (Sitzungsgebäude des Senats)",
+      "target": "cûria"
+    },
+    {
+      "source": "Göttin",
+      "target": "dea"
+    },
+    {
+      "source": "Schüler",
+      "target": "discipulus"
+    },
+    {
+      "source": "Geschenk",
+      "target": "dônum"
+    },
+    {
+      "source": "Forum, Marktplatz",
+      "target": "forum"
+    },
+    {
+      "source": "Getreide",
+      "target": "frûmentum"
+    },
+    {
+      "source": "Begabung, Talent, Verstand",
+      "target": "ingenium"
+    },
+    {
+      "source": "Adv. gerne",
+      "target": "libenter"
+    },
+    {
+      "source": "Tor",
+      "target": "porta"
+    },
+    {
+      "source": "Saturn (Gott der Saat und der Zeit)",
+      "target": "Sâturnus"
+    },
+    {
+      "source": "Tempel",
+      "target": "templum"
+    },
+    {
+      "source": "Wort, Äußerung",
+      "target": "verbum"
+    },
+    {
+      "source": "Präp. m. Akk. zu, bei, nach, an",
+      "target": "ad"
+    },
+    {
+      "source": "basilicam esse bei der Markthalle sein",
+      "target": "ad"
+    },
+    {
+      "source": "basilicam properâre zu der Markthalle eilen",
+      "target": "ad"
+    },
+    {
+      "source": "Präp. m. Akk. vor",
+      "target": "ante"
+    },
+    {
+      "source": "cênam vor dem Essen",
+      "target": "ante"
+    },
+    {
+      "source": "vîllam vor dem Landhaus",
+      "target": "ante"
+    },
+    {
+      "source": "Markthalle, Gerichtshalle",
+      "target": "basilica"
+    },
+    {
+      "source": "Präp. m. Abl. mit, zusammen mit",
+      "target": "cum"
+    },
+    {
+      "source": "amîcô mit dem Freund",
+      "target": "cum"
+    },
+    {
+      "source": "/ ex Präp. m. Abl. aus, von … her",
+      "target": "ê"
+    },
+    {
+      "source": "patriâ aus der Heimat",
+      "target": "ê"
+    },
+    {
+      "source": "aedificiô aus dem Gebäude",
+      "target": "ex"
+    },
+    {
+      "source": "Präp. m. Abl. in, an, auf, bei (wo?)",
+      "target": "in"
+    },
+    {
+      "source": "aquâ im Wasser",
+      "target": "in"
+    },
+    {
+      "source": "Präp. m. Akk. in (… hinein), nach (wohin?)",
+      "target": "in"
+    },
+    {
+      "source": "aquam ins Wasser",
+      "target": "in"
+    },
+    {
+      "source": "indicô anzeigen, melden",
+      "target": "indicâre,"
+    },
+    {
+      "source": "maneô bleiben, (er)warten",
+      "target": "manêre,"
+    },
+    {
+      "source": "Schmuck(stück)",
+      "target": "ôrnâmentum"
+    },
+    {
+      "source": "Präp. m. Akk. hinter, nach",
+      "target": "post"
+    },
+    {
+      "source": "vîllam hinter dem Landhaus",
+      "target": "post"
+    },
+    {
+      "source": "cênam nach dem Essen",
+      "target": "post"
+    },
+    {
+      "source": "Preis, Wert",
+      "target": "pretium"
+    },
+    {
+      "source": "probô prüfen, beweisen, für gut befinden",
+      "target": "probâre,"
+    },
+    {
+      "source": "Präp. m. Abl. ohne",
+      "target": "sine"
+    },
+    {
+      "source": "amîcô ohne den Freund",
+      "target": "sine"
+    },
+    {
+      "source": "Schatten",
+      "target": "umbra"
+    },
+    {
+      "source": "clâmô laut rufen, schreien",
+      "target": "clâmâre,"
+    },
+    {
+      "source": "Nom. ich (betont)",
+      "target": "ego"
+    },
+    {
+      "source": "errô umherirren, (sich) irren",
+      "target": "errâre,"
+    },
+    {
+      "source": "inveniô finden, erfinden",
+      "target": "invenîre,"
+    },
+    {
+      "source": "Akk. mich",
+      "target": "mê"
+    },
+    {
+      "source": "mit mir",
+      "target": "mêcum"
+    },
+    {
+      "source": "Dat. mir",
+      "target": "mihi"
+    },
+    {
+      "source": "Partikel im dir. Fragesatz (unübersetzt)",
+      "target": "-ne"
+    },
+    {
+      "source": "Dat. uns",
+      "target": "nôbîs"
+    },
+    {
+      "source": "Akk. uns",
+      "target": "nôs"
+    },
+    {
+      "source": "Nom. wir (betont)",
+      "target": "nôs"
+    },
+    {
+      "source": "mê ohne mich",
+      "target": "sine"
+    },
+    {
+      "source": "Akk. dich",
+      "target": "tê"
+    },
+    {
+      "source": "mit dir",
+      "target": "têcum"
+    },
+    {
+      "source": "Dat. dir",
+      "target": "tibi"
+    },
+    {
+      "source": "Nom. du (betont)",
+      "target": "tû"
+    },
+    {
+      "source": "Dat. euch",
+      "target": "vôbîs"
+    },
+    {
+      "source": "mit euch",
+      "target": "vôbîscum"
+    },
+    {
+      "source": "Akk. euch",
+      "target": "vôs"
+    },
+    {
+      "source": "Nom. ihr (betont)",
+      "target": "vôs"
+    },
+    {
+      "source": "a, um gut, tüchtig",
+      "target": "bonus,"
+    },
+    {
+      "source": "ae, a alle (zusammen)",
+      "target": "cûnctî,"
+    },
+    {
+      "source": "m. Abl. von, von … her, von … weg, von … herab; über",
+      "target": "dê"
+    },
+    {
+      "source": "templô vom Tempel herab",
+      "target": "dê"
+    },
+    {
+      "source": "Befehl, Herrschaft, Reich",
+      "target": "imperium"
+    },
+    {
+      "source": "laudô loben",
+      "target": "laudâre,"
+    },
+    {
+      "source": "a, um groß, bedeutend",
+      "target": "magnus,"
+    },
+    {
+      "source": "a, um mein",
+      "target": "meus,"
+    },
+    {
+      "source": "ae, a viele",
+      "target": "multî,"
+    },
+    {
+      "source": "a, um viel",
+      "target": "multus,"
+    },
+    {
+      "source": "narrô erzählen",
+      "target": "narrâre,"
+    },
+    {
+      "source": "lûdô narrâre vom Spiel / über das Spiel erzählen",
+      "target": "dê"
+    },
+    {
+      "source": "a, um neu, ungewöhnlich",
+      "target": "novus,"
+    },
+    {
+      "source": "a, um klein, gering",
+      "target": "parvus,"
+    },
+    {
+      "source": "(angehängt) und",
+      "target": "-que"
+    },
+    {
+      "source": "servaeque Sklaven und Sklavinnen",
+      "target": "servî"
+    },
+    {
+      "source": "a, um römisch; Subst. Römer",
+      "target": "Rômânus,"
+    },
+    {
+      "source": "a, um dein",
+      "target": "tuus,"
+    },
+    {
+      "source": "wie",
+      "target": "ut"
+    },
+    {
+      "source": "agrî m Acker, Feld, Gebiet",
+      "target": "ager,"
+    },
+    {
+      "source": "imperô befehlen, herrschen (über)",
+      "target": "imperâre,"
+    },
+    {
+      "source": "imperâre über (die) Völker herrschen",
+      "target": "populîs"
+    },
+    {
+      "source": "lîbera, lîberum frei",
+      "target": "lîber,"
+    },
+    {
+      "source": "magistrî m Lehrer, Meister",
+      "target": "magister,"
+    },
+    {
+      "source": "misera, miserum arm, erbärmlich, unglücklich",
+      "target": "miser,"
+    },
+    {
+      "source": "nigra, nigrum schwarz, dunkel",
+      "target": "niger,"
+    },
+    {
+      "source": "nostra, nostrum unser",
+      "target": "noster,"
+    },
+    {
+      "source": "puerî m Junge",
+      "target": "puer,"
+    },
+    {
+      "source": "pulchra, pulchrum schön",
+      "target": "pulcher,"
+    },
+    {
+      "source": "vestra, vestrum euer",
+      "target": "vester,"
+    },
+    {
+      "source": "virî m Mann",
+      "target": "vir,"
+    },
+    {
+      "source": "Leben",
+      "target": "vîta"
+    },
+    {
+      "source": "/ ab Präp. m. Abl. von, von … her",
+      "target": "â"
+    },
+    {
+      "source": "basilicâ venîre von der Markthalle kommen",
+      "target": "â"
+    },
+    {
+      "source": "oppidô venîre von der Stadt kommen",
+      "target": "ab"
+    },
+    {
+      "source": "Kampanien (fruchtbare Landschaft südlich von Rom)",
+      "target": "Campânia"
+    },
+    {
+      "source": "Wagen, Karren",
+      "target": "carrus"
+    },
+    {
+      "source": "dîcô sagen, sprechen",
+      "target": "dîcere,"
+    },
+    {
+      "source": "dûcô führen, ziehen",
+      "target": "dûcere,"
+    },
+    {
+      "source": "mittô (los)lassen, schicken, werfen",
+      "target": "mittere,"
+    },
+    {
+      "source": "Bote, Nachricht",
+      "target": "nûntius"
+    },
+    {
+      "source": "Stadt (Kleinstadt)",
+      "target": "oppidum"
+    },
+    {
+      "source": "ostendô zeigen, erklären",
+      "target": "ostendere,"
+    },
+    {
+      "source": "Präp. m. Akk. durch, hindurch",
+      "target": "per"
+    },
+    {
+      "source": "silvam durch den Wald",
+      "target": "per"
+    },
+    {
+      "source": "relinquô verlassen, zurücklassen",
+      "target": "relinquere,"
+    },
+    {
+      "source": "scrîbô schreiben, beschreiben",
+      "target": "scrîbere,"
+    },
+    {
+      "source": "stô stehen",
+      "target": "stâre,"
+    },
+    {
+      "source": "trahô schleppen, ziehen",
+      "target": "trahere,"
+    },
+    {
+      "source": "Vesuv (Vulkan in Kampanien)",
+      "target": "Vesuvius"
+    },
+    {
+      "source": "Weinberg, Weinstock",
+      "target": "vînea"
+    },
+    {
+      "source": "addûcô heranführen, veranlassen",
+      "target": "addûcere,"
+    },
+    {
+      "source": "adsum da sein, helfen",
+      "target": "adesse,"
+    },
+    {
+      "source": "adesse dem Freund helfen",
+      "target": "amîcô"
+    },
+    {
+      "source": "Hilfe",
+      "target": "auxilium"
+    },
+    {
+      "source": "bibô trinken",
+      "target": "bibere,"
+    },
+    {
+      "source": "cônsistô stehen bleiben, haltmachen, sich aufstellen",
+      "target": "cônsistere,"
+    },
+    {
+      "source": "dêdûcô wegführen, hinführen",
+      "target": "dêdûcere,"
+    },
+    {
+      "source": "dêsum abwesend sein, fehlen",
+      "target": "dêesse,"
+    },
+    {
+      "source": "êdûcô herausführen",
+      "target": "êdûcere,"
+    },
+    {
+      "source": "a, um gestorben, tot",
+      "target": "mortuus,"
+    },
+    {
+      "source": "a, um voll",
+      "target": "plênus,"
+    },
+    {
+      "source": "portô bringen, tragen",
+      "target": "portâre,"
+    },
+    {
+      "source": "possum können",
+      "target": "posse,"
+    },
+    {
+      "source": "Wein",
+      "target": "vînum"
+    },
+    {
+      "source": "aspiciô erblicken, ansehen",
+      "target": "aspicere,"
+    },
+    {
+      "source": "(nachgestellt) aber, andererseits",
+      "target": "autem"
+    },
+    {
+      "source": "autem tacent. Die Jungen aber schweigen.",
+      "target": "Puerî"
+    },
+    {
+      "source": "capiô fassen, nehmen, erobern",
+      "target": "capere,"
+    },
+    {
+      "source": "dêscendô herabsteigen",
+      "target": "dêscendere,"
+    },
+    {
+      "source": "faciô machen, tun, handeln",
+      "target": "facere,"
+    },
+    {
+      "source": "mehr",
+      "target": "magis"
+    },
+    {
+      "source": "… quam mehr … als",
+      "target": "magis"
+    },
+    {
+      "source": "(etwa) nicht?",
+      "target": "nônne?"
+    },
+    {
+      "source": "als, wie",
+      "target": "quam"
+    },
+    {
+      "source": "… quam mehr … als",
+      "target": "magis"
+    },
+    {
+      "source": "pulchrum est templum! Wie schön ist der Tempel",
+      "target": "Quam"
+    },
+    {
+      "source": "warum nicht?",
+      "target": "quîn?"
+    },
+    {
+      "source": "Opfer, Heiligtum",
+      "target": "sacrum"
+    },
+    {
+      "source": "facere ein Opfer bringen, opfern",
+      "target": "sacrum"
+    },
+    {
+      "source": "a, um der höchste, oberste",
+      "target": "summus,"
+    },
+    {
+      "source": "Präp. m. Akk. bei",
+      "target": "apud"
+    },
+    {
+      "source": "amîcôs bei Freunden",
+      "target": "apud"
+    },
+    {
+      "source": "a, um klar, hell, berühmt",
+      "target": "clârus,"
+    },
+    {
+      "source": "creô erschaffen, wählen",
+      "target": "creâre,"
+    },
+    {
+      "source": "Adv. heute",
+      "target": "hodiê"
+    },
+    {
+      "source": "honôris m Ehre, Ehrenamt",
+      "target": "honor,"
+    },
+    {
+      "source": "imperâtôris m Befehlshaber, Feldherr, Kaiser",
+      "target": "imperâtor,"
+    },
+    {
+      "source": "honôre esse in Ehren stehen, angesehen sein",
+      "target": "in"
+    },
+    {
+      "source": "es ist erlaubt, es ist möglich",
+      "target": "licet"
+    },
+    {
+      "source": "mercâtôris m Kaufmann, Händler",
+      "target": "mercâtor,"
+    },
+    {
+      "source": "petô aufsuchen, (er)streben, bitten, verlangen",
+      "target": "petere,"
+    },
+    {
+      "source": "senâtôris m Senator",
+      "target": "senâtor,"
+    },
+    {
+      "source": "a, um so groß, so viel",
+      "target": "tantus,"
+    },
+    {
+      "source": "Titus (röm. Kaiser 79-81 n. Chr.)",
+      "target": "Titus"
+    },
+    {
+      "source": "uxôris f Ehefrau",
+      "target": "uxor,"
+    },
+    {
+      "source": "vêndô verkaufen",
+      "target": "vêndere,"
+    },
+    {
+      "source": "amôris m Liebe",
+      "target": "amor,"
+    },
+    {
+      "source": "Geist, Mut, Gesinnung",
+      "target": "animus"
+    },
+    {
+      "source": "clâmôris m Geschrei, Lärm",
+      "target": "clâmor,"
+    },
+    {
+      "source": "Subj. während, solange, bis",
+      "target": "dum"
+    },
+    {
+      "source": "fûris m Dieb",
+      "target": "fûr,"
+    },
+    {
+      "source": "animô habêre im Sinn haben, vorhaben",
+      "target": "in"
+    },
+    {
+      "source": "lîberô befreien, freilassen",
+      "target": "lîberâre,"
+    },
+    {
+      "source": "mulieris f Frau",
+      "target": "mulier,"
+    },
+    {
+      "source": "Geld, Vermögen",
+      "target": "pecûnia"
+    },
+    {
+      "source": "Subj. obwohl",
+      "target": "quamquam"
+    },
+    {
+      "source": "Subj. weil",
+      "target": "quia"
+    },
+    {
+      "source": "Subj. weil; dass",
+      "target": "quod"
+    },
+    {
+      "source": "Akk. / Abl. sich",
+      "target": "sê"
+    },
+    {
+      "source": "Subj. wenn, falls",
+      "target": "sî"
+    },
+    {
+      "source": "sorôris f Schwester",
+      "target": "soror,"
+    },
+    {
+      "source": "volô wollen",
+      "target": "velle,"
+    },
+    {
+      "source": "Caesaris m Cäsar; Kaiser",
+      "target": "Caesar,"
+    },
+    {
+      "source": "a, um lieb, teuer, wertvoll",
+      "target": "cârus,"
+    },
+    {
+      "source": "cîvitâtis f Gemeinde, Staat",
+      "target": "cîvitâs,"
+    },
+    {
+      "source": "frâtris m Bruder",
+      "target": "frâter,"
+    },
+    {
+      "source": "Adv. gestern",
+      "target": "herî"
+    },
+    {
+      "source": "lîbertâtis f Freiheit",
+      "target": "lîbertâs,"
+    },
+    {
+      "source": "mâtris f Mutter",
+      "target": "mâter,"
+    },
+    {
+      "source": "patris m Vater",
+      "target": "pater,"
+    },
+    {
+      "source": "potestâtis f (Amts-)Gewalt, Macht",
+      "target": "potestâs,"
+    },
+    {
+      "source": "salûtô (be)grüßen",
+      "target": "salûtâre,"
+    },
+    {
+      "source": "salvête! sei gegrüßt! seid gegrüßt!",
+      "target": "salvê!"
+    },
+    {
+      "source": "servitûtis f Sklaverei",
+      "target": "servitûs,"
+    },
+    {
+      "source": "so",
+      "target": "tam"
+    },
+    {
+      "source": "… quam so … wie",
+      "target": "tam"
+    },
+    {
+      "source": "nôn tam pulchra est quam Rôma. Capua ist nicht so schön wie Rom.",
+      "target": "Capua"
+    },
+    {
+      "source": "Vespasian (röm. Kaiser 69-79 n. Chr.)",
+      "target": "Vespasiânus"
+    },
+    {
+      "source": "voluntâtis f Wille, Absicht",
+      "target": "voluntâs,"
+    },
+    {
+      "source": "a, um alt, altertümlich",
+      "target": "antîquus,"
+    },
+    {
+      "source": "(wildes) Tier",
+      "target": "bêstia"
+    },
+    {
+      "source": "Himmel",
+      "target": "caelum"
+    },
+    {
+      "source": "ae, a die übrigen",
+      "target": "cêterî,"
+    },
+    {
+      "source": "dô geben",
+      "target": "dare,"
+    },
+    {
+      "source": "Diana (Göttin der Jagd)",
+      "target": "Diâna"
+    },
+    {
+      "source": "exîstimô meinen, einschätzen",
+      "target": "exîstimâre,"
+    },
+    {
+      "source": "Iovis m Jupiter (höchster Gott der Römer)",
+      "target": "Iuppiter,"
+    },
+    {
+      "source": "Merkur (der Götterbote)",
+      "target": "Mercurius"
+    },
+    {
+      "source": "Minerva (Göttin der Weisheit)",
+      "target": "Minerva"
+    },
+    {
+      "source": "Neptun (Gott des Meeres)",
+      "target": "Neptûnus"
+    },
+    {
+      "source": "nûntiô melden",
+      "target": "nûntiâre,"
+    },
+    {
+      "source": "servô bewahren, retten; beobachten",
+      "target": "servâre,"
+    },
+    {
+      "source": "Adv. nur",
+      "target": "sôlum"
+    },
+    {
+      "source": "Erde, Land",
+      "target": "terra"
+    },
+    {
+      "source": "a, um bunt, verschieden, vielfältig",
+      "target": "varius,"
+    },
+    {
+      "source": "Amphitheater",
+      "target": "amphitheâtrum"
+    },
+    {
+      "source": "Jahr",
+      "target": "annus"
+    },
+    {
+      "source": "dolôris m Schmerz",
+      "target": "dolor,"
+    },
+    {
+      "source": "exerceô üben, trainieren; quälen",
+      "target": "exercêre,"
+    },
+    {
+      "source": "gladiâtôris m Gladiator",
+      "target": "gladiâtor,"
+    },
+    {
+      "source": "interficiô töten, vernichten",
+      "target": "interficere,"
+    },
+    {
+      "source": "mortis f (Gen. Pl. -ium) Tod",
+      "target": "mors,"
+    },
+    {
+      "source": "Aufgabe, Geschäft; Angelegenheit",
+      "target": "negôtium"
+    },
+    {
+      "source": "partis f (Gen. Pl. -ium) Teil, Seite",
+      "target": "pars,"
+    },
+    {
+      "source": "Präp. m. Akk. wegen",
+      "target": "propter"
+    },
+    {
+      "source": "amôrem wegen der Liebe",
+      "target": "propter"
+    },
+    {
+      "source": "urbis f (Gen. Pl. -ium) Stadt; die Stadt Rom",
+      "target": "urbs,"
+    },
+    {
+      "source": "oder",
+      "target": "vel"
+    },
+    {
+      "source": "vel vînum Wasser oder Wein",
+      "target": "aqua"
+    },
+    {
+      "source": "victôris m Sieger",
+      "target": "victor,"
+    },
+    {
+      "source": "virtûtis f Tapferkeit, Tüchtigkeit, Leistung",
+      "target": "virtûs,"
+    },
+    {
+      "source": "âmittô aufgeben, verlieren",
+      "target": "âmittere,"
+    },
+    {
+      "source": "fontis m (Gen. Pl. -ium) Quelle, Ursprung",
+      "target": "fôns,"
+    },
+    {
+      "source": "hominis m Mensch",
+      "target": "homô,"
+    },
+    {
+      "source": "Stunde",
+      "target": "hôra"
+    },
+    {
+      "source": "leônis m Löwe",
+      "target": "leô,"
+    },
+    {
+      "source": "magnitûdinis f Größe",
+      "target": "magnitûdô,"
+    },
+    {
+      "source": "montis m (Gen. Pl. -ium) Berg",
+      "target": "môns,"
+    },
+    {
+      "source": "multitûdinis f große Zahl, Menge",
+      "target": "multitûdô,"
+    },
+    {
+      "source": "nâtiônis f Volk, Volksstamm",
+      "target": "nâtiô,"
+    },
+    {
+      "source": "Subj. wenn nicht",
+      "target": "nisî"
+    },
+    {
+      "source": "regiônis f Gebiet, Gegend, Richtung",
+      "target": "regiô,"
+    },
+    {
+      "source": "sôlis m Sonne",
+      "target": "sôl,"
+    },
+    {
+      "source": "surgô aufrichten; sich erheben, aufstehen",
+      "target": "surgere,"
+    },
+    {
+      "source": "(im dir. Fragesatz) oder (etwa)",
+      "target": "an"
+    },
+    {
+      "source": "Adv. vorher, früher",
+      "target": "anteâ"
+    },
+    {
+      "source": "cûrô pflegen, sorgen für",
+      "target": "cûrâre,"
+    },
+    {
+      "source": "cûrâre das Pferd pflegen",
+      "target": "equum"
+    },
+    {
+      "source": "cûrâre für die Familie sorgen",
+      "target": "familiam"
+    },
+    {
+      "source": "a, um schlecht, schlimm",
+      "target": "malus,"
+    },
+    {
+      "source": "a, um erstaunlich, sonderbar",
+      "target": "mîrus,"
+    },
+    {
+      "source": "Ungeheuer",
+      "target": "mônstrum"
+    },
+    {
+      "source": "Gefahr",
+      "target": "perîculum"
+    },
+    {
+      "source": "Adv. erstens, zuerst, zum ersten Mal",
+      "target": "prîmum"
+    },
+    {
+      "source": "Präp. m. Abl. unter (wo?)",
+      "target": "sub"
+    },
+    {
+      "source": "carrô esse unter dem Wagen liegen",
+      "target": "sub"
+    },
+    {
+      "source": "Präp. m. Akk. unter (wohin?)",
+      "target": "sub"
+    },
+    {
+      "source": "carrum trahere unter den Wagen ziehen",
+      "target": "sub"
+    },
+    {
+      "source": "a, um hoch, tief",
+      "target": "altus,"
+    },
+    {
+      "source": "compleô, complêvî anfüllen, auffüllen",
+      "target": "complêre,"
+    },
+    {
+      "source": "Subj. m. Ind. als (plötzlich); (immer) wenn",
+      "target": "cum"
+    },
+    {
+      "source": "dêleô, dêlêvî zerstören, vernichten",
+      "target": "dêlêre,"
+    },
+    {
+      "source": "Vok. (oh) Götter!",
+      "target": "dî!"
+    },
+    {
+      "source": "sum, fuî sein, sich befinden",
+      "target": "esse,"
+    },
+    {
+      "source": "fleô, flêvî weinen, beweinen",
+      "target": "flêre,"
+    },
+    {
+      "source": "Flucht",
+      "target": "fuga"
+    },
+    {
+      "source": "lûcis f Licht, Tageslicht",
+      "target": "lûx,"
+    },
+    {
+      "source": "vôce mit lauter Stimme",
+      "target": "magnâ"
+    },
+    {
+      "source": "Adv. noch nicht",
+      "target": "nôndum"
+    },
+    {
+      "source": "noctis f (Gen. Pl. -ium) Nacht",
+      "target": "nox,"
+    },
+    {
+      "source": "possum, potuî können",
+      "target": "posse,"
+    },
+    {
+      "source": "salûtis f Gesundheit, Rettung, Gruß, Glück",
+      "target": "salûs,"
+    },
+    {
+      "source": "Dach; Haus",
+      "target": "têctum"
+    },
+    {
+      "source": "timôris m Angst, Furcht",
+      "target": "timor,"
+    },
+    {
+      "source": "volô, voluî wollen",
+      "target": "velle,"
+    },
+    {
+      "source": "vôcis f Stimme, Äußerung, Laut",
+      "target": "vôx,"
+    },
+    {
+      "source": "armôrum n Pl. Gerät, Waffen",
+      "target": "arma,"
+    },
+    {
+      "source": "cadô fallen",
+      "target": "cadere,"
+    },
+    {
+      "source": "castrôrum n Pl. Lager",
+      "target": "castra,"
+    },
+    {
+      "source": "sag! sprich!",
+      "target": "dîc!"
+    },
+    {
+      "source": "führe!",
+      "target": "dûc!"
+    },
+    {
+      "source": "tu! mach! handle!",
+      "target": "fac!"
+    },
+    {
+      "source": "iaceô liegen",
+      "target": "iacêre,"
+    },
+    {
+      "source": "ea, id dieser, diese, dieses; er, sie, es",
+      "target": "is,"
+    },
+    {
+      "source": "lîberôrum m Pl. Kinder",
+      "target": "lîberî,"
+    },
+    {
+      "source": "Pompêiôrum m Pl. Pompeji (Stadt in Mittelitalien)",
+      "target": "Pompêî,"
+    },
+    {
+      "source": "Adv. nachher, später",
+      "target": "posteâ"
+    },
+    {
+      "source": "reliquiârum f Pl. Überbleibsel, Überrest, Ruine",
+      "target": "reliquiae,"
+    },
+    {
+      "source": "temptô angreifen; prüfen, versuchen",
+      "target": "temptâre,"
+    },
+    {
+      "source": "tenebrârum f Pl. Dunkelheit, Finsternis",
+      "target": "tenebrae,"
+    },
+    {
+      "source": "âmittô, âmîsî aufgeben, verlieren",
+      "target": "âmittere,"
+    },
+    {
+      "source": "aspiciô, aspexî erblicken, ansehen",
+      "target": "aspicere,"
+    },
+    {
+      "source": "augeô, auxî vergrößern, vermehren",
+      "target": "augêre,"
+    },
+    {
+      "source": "cadô, cecidî fallen",
+      "target": "cadere,"
+    },
+    {
+      "source": "dô, dedî geben",
+      "target": "dare,"
+    },
+    {
+      "source": "dîcô, dîxî sagen, sprechen",
+      "target": "dîcere,"
+    },
+    {
+      "source": "dûco, dûxî führen, ziehen",
+      "target": "dûcere,"
+    },
+    {
+      "source": "Schau! Sieh da! Schaut! Seht da!",
+      "target": "ecce"
+    },
+    {
+      "source": "(nachgestellt) nämlich",
+      "target": "enim"
+    },
+    {
+      "source": "auch wenn, obwohl",
+      "target": "etsî"
+    },
+    {
+      "source": "maneô, mânsî bleiben, (er)warten",
+      "target": "manêre,"
+    },
+    {
+      "source": "mittô, mîsî (los)lassen, schicken, werfen",
+      "target": "mittere,"
+    },
+    {
+      "source": "Denkmal",
+      "target": "monumentum"
+    },
+    {
+      "source": "occidô, occidî (zu Boden) fallen, umkommen, untergehen",
+      "target": "occidere,"
+    },
+    {
+      "source": "Küste",
+      "target": "ôra"
+    },
+    {
+      "source": "praestô, praestitî m. Akk. gewähren, leisten, zeigen",
+      "target": "praestâre,"
+    },
+    {
+      "source": "respondeô, respondî antworten",
+      "target": "respondêre,"
+    },
+    {
+      "source": "rîdeô, rîsî lachen, auslachen",
+      "target": "rîdêre,"
+    },
+    {
+      "source": "scrîbô, scrîpsî schreiben, beschreiben",
+      "target": "scrîbere,"
+    },
+    {
+      "source": "sentiô, sênsî fühlen, meinen, wahrnehmen",
+      "target": "sentîre,"
+    },
+    {
+      "source": "stô, stetî stehen",
+      "target": "stâre,"
+    },
+    {
+      "source": "Statue",
+      "target": "statua"
+    },
+    {
+      "source": "Beschäftigung, Engagement, Interesse",
+      "target": "studium"
+    },
+    {
+      "source": "torqueô, torsî drehen; quälen",
+      "target": "torquêre,"
+    },
+    {
+      "source": "trahô, trâxî schleppen, ziehen",
+      "target": "trahere,"
+    },
+    {
+      "source": "agô, êgî handeln, treiben, verhandeln",
+      "target": "agere,"
+    },
+    {
+      "source": "capiô, cêpî fassen, nehmen; erobern",
+      "target": "capere,"
+    },
+    {
+      "source": "comprehendô, comprehendî begreifen, ergreifen, festnehmen",
+      "target": "comprehendere,"
+    },
+    {
+      "source": "capere einen Plan (Entschluss) fassen",
+      "target": "cônsilium"
+    },
+    {
+      "source": "dêscendô, dêscendî herabsteigen",
+      "target": "dêscendere,"
+    },
+    {
+      "source": "Erzählung, Geschichte, Theaterstück",
+      "target": "fâbula"
+    },
+    {
+      "source": "faciô, fêcî machen, tun, handeln",
+      "target": "facere,"
+    },
+    {
+      "source": "Handlung, Tat, Tatsache",
+      "target": "factum"
+    },
+    {
+      "source": "Fluss",
+      "target": "fluvius"
+    },
+    {
+      "source": "interficiô, interfêcî töten, vernichten",
+      "target": "interficere,"
+    },
+    {
+      "source": "inveniô, invênî finden, erfinden",
+      "target": "invenîre,"
+    },
+    {
+      "source": "Adv. so",
+      "target": "ita"
+    },
+    {
+      "source": "moveô, môvî bewegen, beeindrucken",
+      "target": "movêre,"
+    },
+    {
+      "source": "relinquô, relîquî verlassen, zurücklassen",
+      "target": "relinquere,"
+    },
+    {
+      "source": "rêgis m König",
+      "target": "rêx,"
+    },
+    {
+      "source": "sedeô, sêdî sitzen",
+      "target": "sedêre,"
+    },
+    {
+      "source": "veniô, vênî kommen",
+      "target": "venîre,"
+    },
+    {
+      "source": "vertô, vertî drehen, wenden",
+      "target": "vertere,"
+    },
+    {
+      "source": "videô, vîdî sehen",
+      "target": "vidêre,"
+    },
+    {
+      "source": "vincô, vîcî (be)siegen, übertreffen",
+      "target": "vincere,"
+    },
+    {
+      "source": "Adv. kaum, (nur) mit Mühe",
+      "target": "vix"
+    },
+    {
+      "source": "careô m. Abl. frei sein von, ohne (etw.) sein, nicht haben",
+      "target": "carêre,"
+    },
+    {
+      "source": "carêre keine Freunde haben, ohne Freunde sein",
+      "target": "amîcîs"
+    },
+    {
+      "source": "Zerberus (der dreiköpfige Höllenhund)",
+      "target": "Cerberus"
+    },
+    {
+      "source": "m. Abl. traurig sein über",
+      "target": "dolêre"
+    },
+    {
+      "source": "dolêre über ein Unrecht traurig sein",
+      "target": "iniûriâ"
+    },
+    {
+      "source": "hôrâ in dieser Stunde",
+      "target": "eâ"
+    },
+    {
+      "source": "annô in diesem Jahr",
+      "target": "eô"
+    },
+    {
+      "source": "m Eurystheus (mythischer König von Mykene)",
+      "target": "Eurystheus"
+    },
+    {
+      "source": "m. Abl. sich freuen über",
+      "target": "gaudêre"
+    },
+    {
+      "source": "gaudêre sich über die Hilfe freuen",
+      "target": "auxiliô"
+    },
+    {
+      "source": "labôris m Arbeit, Anstrengung",
+      "target": "labor,"
+    },
+    {
+      "source": "m. Abl. leiden an, in Not / Sorge sein wegen",
+      "target": "labôrâre"
+    },
+    {
+      "source": "labôrâre an Schmerzen leiden",
+      "target": "dolôribus"
+    },
+    {
+      "source": "lîbera, lîberum (â) m. Abl. frei von",
+      "target": "lîber,"
+    },
+    {
+      "source": "(â) timôre frei von Angst",
+      "target": "lîber"
+    },
+    {
+      "source": "nachts",
+      "target": "nocte"
+    },
+    {
+      "source": "Dienst, Pflicht(gefühl)",
+      "target": "officium"
+    },
+    {
+      "source": "ostendô, ostendî zeigen, erklären",
+      "target": "ostendere,"
+    },
+    {
+      "source": "post (ein) wenig später",
+      "target": "paulô"
+    },
+    {
+      "source": "Plûtônis m Pluto (Gott der Unterwelt)",
+      "target": "Plûtô,"
+    },
+    {
+      "source": "lûce bei Tagesanbruch",
+      "target": "prîmâ"
+    },
+    {
+      "source": "a, um der erste",
+      "target": "prîmus,"
+    },
+    {
+      "source": "prohibeô (â m. Abl.) abhalten (von), hindern (an)",
+      "target": "prohibêre,"
+    },
+    {
+      "source": "lacrimîs prohibêre von den Tränen abhalten, am Weinen hindern",
+      "target": "(â)"
+    },
+    {
+      "source": "â m. Abl. bewahren vor, retten vor",
+      "target": "servâre"
+    },
+    {
+      "source": "dennoch, jedoch",
+      "target": "tamen"
+    },
+    {
+      "source": "alia, aliud ein anderer",
+      "target": "alius,"
+    },
+    {
+      "source": "animadvertô, animadvertî m. AcI / Akk. bemerken",
+      "target": "animadvertere,"
+    },
+    {
+      "source": "Krieg",
+      "target": "bellum"
+    },
+    {
+      "source": "cêdô, cessî gehen, nachgeben, weichen",
+      "target": "cêdere,"
+    },
+    {
+      "source": "/ certô Adv. gewiss, sicherlich",
+      "target": "certê"
+    },
+    {
+      "source": "cônsistô, cônstitî stehenbleiben, haltmachen, sich aufstellen",
+      "target": "cônsistere,"
+    },
+    {
+      "source": "es ist bekannt, es steht fest",
+      "target": "cônstat"
+    },
+    {
+      "source": "ôrum m Pl. die Griechen",
+      "target": "Graecî,"
+    },
+    {
+      "source": "a, um ehrenhaft, angesehen",
+      "target": "honestus,"
+    },
+    {
+      "source": "Lâocoontis m Laokoon (trojanischer Priester)",
+      "target": "Lâocoôn,"
+    },
+    {
+      "source": "Adv. allmählich",
+      "target": "paulâtim"
+    },
+    {
+      "source": "petô, petîvî aufsuchen, (er)streben, bitten, verlangen",
+      "target": "petere,"
+    },
+    {
+      "source": "putô glauben, meinen",
+      "target": "putâre,"
+    },
+    {
+      "source": "a, um trojanisch; Subst. Trojaner (Einwohner von Troja)",
+      "target": "Trôiânus,"
+    },
+    {
+      "source": "Aenêae m Äneas (Trojaner und Stammvater der Römer)",
+      "target": "Aenêâs,"
+    },
+    {
+      "source": "Carthâginis f Karthago (Stadt in Nordafrika)",
+      "target": "Carthâgô,"
+    },
+    {
+      "source": "cîvis m (Gen. Pl. -ium) Bürger",
+      "target": "cîvis,"
+    },
+    {
+      "source": "côgitô denken, beabsichtigen",
+      "target": "côgitâre,"
+    },
+    {
+      "source": "conveniô, convênî zusammenkommen, zusammenpassen, besuchen",
+      "target": "convenîre,"
+    },
+    {
+      "source": "Dîdônis f Dido (die Gründerin und Königin Karthagos)",
+      "target": "Dîdô,"
+    },
+    {
+      "source": "fînis m (Gen. Pl. -ium) Ende, Grenze, Ziel, Zweck; Pl. Gebiet",
+      "target": "fînis,"
+    },
+    {
+      "source": "Ehemann",
+      "target": "marîtus"
+    },
+    {
+      "source": "es gehört sich, es ist nötig",
+      "target": "oportet"
+    },
+    {
+      "source": "quaerô, quaesîvî erwerben wollen, suchen, fragen",
+      "target": "quaerere,"
+    },
+    {
+      "source": "mit sich, bei sich",
+      "target": "sêcum"
+    },
+    {
+      "source": "Dat. sich",
+      "target": "sibi"
+    },
+    {
+      "source": "a, um sein, ihr",
+      "target": "suus,"
+    },
+    {
+      "source": "vîvô, vîxî leben",
+      "target": "vîvere,"
+    },
+    {
+      "source": "Frechheit, Kühnheit",
+      "target": "audâcia"
+    },
+    {
+      "source": "caedô, cecîdî fällen, töten",
+      "target": "caedere,"
+    },
+    {
+      "source": "Präp. m. Akk. rings um, um … herum",
+      "target": "circum"
+    },
+    {
+      "source": "mûrôs um die Mauern (herum)",
+      "target": "circum"
+    },
+    {
+      "source": "dêmônstrô beweisen, darlegen",
+      "target": "dêmônstrâre,"
+    },
+    {
+      "source": "dêspêrô die Hoffnung aufgeben, verzweifeln",
+      "target": "dêspêrâre,"
+    },
+    {
+      "source": "salûte dêspêrâre die Hoffnung auf Rettung aufgeben",
+      "target": "dê"
+    },
+    {
+      "source": "dônô schenken",
+      "target": "dônâre,"
+    },
+    {
+      "source": "Eisen; Waffe",
+      "target": "ferrum"
+    },
+    {
+      "source": "Italien",
+      "target": "Italia"
+    },
+    {
+      "source": "Latînôrum m Pl. die Latiner (Volksstamm in Italien)",
+      "target": "Latînî,"
+    },
+    {
+      "source": "Latinus (König der Latiner)",
+      "target": "Latînus"
+    },
+    {
+      "source": "mûniô bauen, befestigen, schützen",
+      "target": "mûnîre,"
+    },
+    {
+      "source": "occîdô, occîdî niederschlagen, töten",
+      "target": "occîdere,"
+    },
+    {
+      "source": "Adv. freilich, gewiss, wenigstens, zwar",
+      "target": "quidem"
+    },
+    {
+      "source": "spêrô erwarten, hoffen",
+      "target": "spêrâre,"
+    },
+    {
+      "source": "surgô, surrêxî aufrichten; sich erheben, aufstehen",
+      "target": "surgere,"
+    },
+    {
+      "source": "Turnus (Anführer der Rutuler, Gegner des Äneas)",
+      "target": "Turnus"
+    },
+    {
+      "source": "Gefallen; Nachsicht, Verzeihung",
+      "target": "venia"
+    },
+    {
+      "source": "violô verwunden, verletzen, entehren",
+      "target": "violâre,"
+    },
+    {
+      "source": "âcris, âcre energisch, heftig, scharf",
+      "target": "âcer,"
+    },
+    {
+      "source": "bibô, bibî trinken",
+      "target": "bibere,"
+    },
+    {
+      "source": "celeris, celere schnell",
+      "target": "celer,"
+    },
+    {
+      "source": "comitis m/f Begleiter(in), Gefährte, Gefährtin",
+      "target": "comes,"
+    },
+    {
+      "source": "Faustulus (Hirte, der Romulus und Remus entdeckte)",
+      "target": "Faustulus"
+    },
+    {
+      "source": "iuvenis m junger Mann; Adj. jung",
+      "target": "iuvenis,"
+    },
+    {
+      "source": "mîlitis m Soldat",
+      "target": "mîles,"
+    },
+    {
+      "source": "pellô, pepulî stoßen, schlagen, (ver)treiben",
+      "target": "pellere,"
+    },
+    {
+      "source": "repellô, reppulî zurückstoßen, abweisen, vertreiben",
+      "target": "repellere,"
+    },
+    {
+      "source": "Merkmal, Zeichen; Statue",
+      "target": "sîgnum"
+    },
+    {
+      "source": "Adv. wie",
+      "target": "tamquam"
+    },
+    {
+      "source": "accûsô anklagen, beschuldigen",
+      "target": "accûsâre,"
+    },
+    {
+      "source": "Amulius (König von Alba, Bruder des Numitor)",
+      "target": "Amûlius"
+    },
+    {
+      "source": "e grausam",
+      "target": "crûdêlis,"
+    },
+    {
+      "source": "dêfendô, dêfendî (â m. Abl.) abwehren, verteidigen (vor / gegen)",
+      "target": "dêfendere,"
+    },
+    {
+      "source": "e angenehm, süß",
+      "target": "dulcis,"
+    },
+    {
+      "source": "e kräftig, tapfer",
+      "target": "fortis,"
+    },
+    {
+      "source": "Ort, Platz, Stelle",
+      "target": "locus"
+    },
+    {
+      "source": "e jeder, ganz; Pl. alle",
+      "target": "omnis,"
+    },
+    {
+      "source": "Subj. m. Ind. nachdem, als",
+      "target": "postquam"
+    },
+    {
+      "source": "e traurig, unfreundlich",
+      "target": "trîstis,"
+    },
+    {
+      "source": "e unanständig, hässlich, schändlich",
+      "target": "turpis,"
+    },
+    {
+      "source": "a, um einer, ein einziger",
+      "target": "ûnus,"
+    },
+    {
+      "source": "ê / ex m. Abl. einer von",
+      "target": "ûnus"
+    },
+    {
+      "source": "accipiô, accêpî erhalten, erfahren, annehmen",
+      "target": "accipere,"
+    },
+    {
+      "source": "der Aventin (am Tiber gelegener Hügel Roms)",
+      "target": "Aventînus"
+    },
+    {
+      "source": "condô, condidî verwahren, verbergen; erbauen, gründen",
+      "target": "condere,"
+    },
+    {
+      "source": "contendô, contendî sich anstrengen, kämpfen; eilen; behaupten",
+      "target": "contendere,"
+    },
+    {
+      "source": "dêligô, dêlêgî (aus)wählen",
+      "target": "dêligere,"
+    },
+    {
+      "source": "a, um geeignet, passend",
+      "target": "idôneus,"
+    },
+    {
+      "source": "Adv. am meisten, besonders",
+      "target": "maximê"
+    },
+    {
+      "source": "Adv. sehr, viel",
+      "target": "multum"
+    },
+    {
+      "source": "valêre großen Einfluss haben",
+      "target": "multum"
+    },
+    {
+      "source": "Natur, Wesen, Beschaffenheit",
+      "target": "nâtûra"
+    },
+    {
+      "source": "a, um geeignet, günstig",
+      "target": "opportûnus,"
+    },
+    {
+      "source": "der Palatin (einer der sieben Hügel Roms)",
+      "target": "Palâtium"
+    },
+    {
+      "source": "quae, quod welcher, welche, welches; der, die, das",
+      "target": "quî,"
+    },
+    {
+      "source": "indekl. sechs",
+      "target": "sex"
+    },
+    {
+      "source": "arcessô, arcessîvî herbeirufen, holen",
+      "target": "arcessere,"
+    },
+    {
+      "source": "e gemeinsam, allgemein",
+      "target": "commûnis,"
+    },
+    {
+      "source": "crêdô, crêdidî glauben, anvertrauen",
+      "target": "crêdere,"
+    },
+    {
+      "source": "… et sowohl … als auch",
+      "target": "et"
+    },
+    {
+      "source": "Schicksal, Glück",
+      "target": "fortûna"
+    },
+    {
+      "source": "Ruhm, Ehre",
+      "target": "glôria"
+    },
+    {
+      "source": "hostis m (Gen. Pl. -ium) Feind (Landesfeind)",
+      "target": "hostis,"
+    },
+    {
+      "source": "e leer, wertlos",
+      "target": "inânis,"
+    },
+    {
+      "source": "occupô besetzen, einnehmen",
+      "target": "occupâre,"
+    },
+    {
+      "source": "auf welche Weise, wie",
+      "target": "quemadmodum"
+    },
+    {
+      "source": "a, um sicher",
+      "target": "tûtus,"
+    },
+    {
+      "source": "aestâtis f Sommer",
+      "target": "aestâs,"
+    },
+    {
+      "source": "aperiô, aperuî aufdecken, öffnen",
+      "target": "aperîre,"
+    },
+    {
+      "source": "a, um glücklich, reich",
+      "target": "beâtus,"
+    },
+    {
+      "source": "cônfirmô bekräftigen, ermutigen, stärken",
+      "target": "cônfirmâre,"
+    },
+    {
+      "source": "Pflege, Sorge",
+      "target": "cûra"
+    },
+    {
+      "source": "Hersilia (die sabinische Ehefrau des Romulus)",
+      "target": "Hersilia"
+    },
+    {
+      "source": "môris m Sitte, Brauch; Pl. Charakter",
+      "target": "môs,"
+    },
+    {
+      "source": "omittô, omîsî aufgeben, beiseite lassen",
+      "target": "omittere,"
+    },
+    {
+      "source": "wann",
+      "target": "quandô"
+    },
+    {
+      "source": "agere ein Leben führen, leben",
+      "target": "vîtam"
+    },
+    {
+      "source": "appetô, appetîvî erstreben, haben wollen; angreifen",
+      "target": "appetere,"
+    },
+    {
+      "source": "a, um golden, aus Gold",
+      "target": "aureus,"
+    },
+    {
+      "source": "gerere Krieg führen",
+      "target": "bellum"
+    },
+    {
+      "source": "das Kapitol (bedeutendster der sieben Hügel Roms)",
+      "target": "Capitôlium"
+    },
+    {
+      "source": "concêdô, concessî erlauben, nachgeben, zugestehen",
+      "target": "concêdere,"
+    },
+    {
+      "source": "Menge, Vorrat, Möglichkeit; Pl. Truppen",
+      "target": "côpia"
+    },
+    {
+      "source": "Adv. also, deshalb",
+      "target": "ergô"
+    },
+    {
+      "source": "gerô, gessî ausführen, führen, tragen",
+      "target": "gerere,"
+    },
+    {
+      "source": "gerere Krieg führen",
+      "target": "bellum"
+    },
+    {
+      "source": "Belohnung, Lohn",
+      "target": "praemium"
+    },
+    {
+      "source": "resistô, restitî stehen bleiben; Widerstand leisten",
+      "target": "resistere,"
+    },
+    {
+      "source": "Tarpêius Spurius Tarpeius (röm. Befehlshaber)",
+      "target": "Spurius"
+    },
+    {
+      "source": "a, um dumm",
+      "target": "stultus,"
+    },
+    {
+      "source": "Tarpeia (Tochter des Spurius Tarpeius)",
+      "target": "Tarpêia"
+    },
+    {
+      "source": "Tatius (König der Sabiner)",
+      "target": "Tatius"
+    },
+    {
+      "source": "abeô, abiî weggehen",
+      "target": "abîre,"
+    },
+    {
+      "source": "adeô, adiî (m. Akk.) herantreten (an), bitten, aufsuchen",
+      "target": "adîre,"
+    },
+    {
+      "source": "adîre an einen Senator herantreten, einen Senator bitten",
+      "target": "senâtôrem"
+    },
+    {
+      "source": "Maximum adîre den Circus Maximus aufsuchen",
+      "target": "Circum"
+    },
+    {
+      "source": "Maximus Circus Maximus (Rennbahn für Wagenrennen in Rom)",
+      "target": "Circus"
+    },
+    {
+      "source": "exeô, exiî herausgehen, hinausgehen",
+      "target": "exîre,"
+    },
+    {
+      "source": "ineô, iniî hineingehen (in), beginnen",
+      "target": "inîre,"
+    },
+    {
+      "source": "eô, iî, itum gehen",
+      "target": "îre,"
+    },
+    {
+      "source": "praetereô, praeteriî übergehen, vorbeigehen (an)",
+      "target": "praeterîre,"
+    },
+    {
+      "source": "praeterîre am Lager vorbeigehen",
+      "target": "castra"
+    },
+    {
+      "source": "praeterîre eine Tatsache übergehen",
+      "target": "factum"
+    },
+    {
+      "source": "Lucius Junius Brutus (Befreier Roms)",
+      "target": "Brûtus"
+    },
+    {
+      "source": "gemitûs m Seufzen, Traurigkeit",
+      "target": "gemitus,"
+    },
+    {
+      "source": "Adv. also, folglich",
+      "target": "igitur"
+    },
+    {
+      "source": "a, um froh; fruchtbar",
+      "target": "laetus,"
+    },
+    {
+      "source": "manûs f Hand; Schar (von Bewaffneten)",
+      "target": "manus,"
+    },
+    {
+      "source": "metûs m Angst",
+      "target": "metus,"
+    },
+    {
+      "source": "pertineô ad m. Akk. betreffen, gehören (zu), sich erstrecken (bis)",
+      "target": "pertinêre,"
+    },
+    {
+      "source": "portûs m Hafen",
+      "target": "portus,"
+    },
+    {
+      "source": "a, um stolz, überheblich",
+      "target": "superbus,"
+    },
+    {
+      "source": "e derartig, ein solcher, so (beschaffen)",
+      "target": "tâlis,"
+    },
+    {
+      "source": "Superbus Tarquinius Superbus (etruskischer König von Rom)",
+      "target": "Tarquinius"
+    },
+    {
+      "source": "vultûs m Gesicht, Gesichtsausdruck; Pl. Gesichtszüge",
+      "target": "vultus,"
+    },
+    {
+      "source": "Sache, Ursache, Grund; Prozess",
+      "target": "causa"
+    },
+    {
+      "source": "diêî m Tag",
+      "target": "diês,"
+    },
+    {
+      "source": "Lukretia (Heldin der röm. Frühgeschichte)",
+      "target": "Lucrêtia"
+    },
+    {
+      "source": "a, um der mittlere, in der Mitte (von)",
+      "target": "medius,"
+    },
+    {
+      "source": "in turbâ mitten in der Menge",
+      "target": "mediâ"
+    },
+    {
+      "source": "perniciêî f Verderben, Vernichtung",
+      "target": "perniciês,"
+    },
+    {
+      "source": "adversae f Pl. Unglück",
+      "target": "rês"
+    },
+    {
+      "source": "futûrae f Pl. Zukunft",
+      "target": "rês"
+    },
+    {
+      "source": "pûblica f Staat",
+      "target": "rês"
+    },
+    {
+      "source": "secundae f Pl. Glück",
+      "target": "rês"
+    },
+    {
+      "source": "reî f Angelegenheit, Ding, Sache",
+      "target": "rês,"
+    },
+    {
+      "source": "speî f Erwartung, Hoffnung",
+      "target": "spês,"
+    },
+    {
+      "source": "e leicht (zu tun)",
+      "target": "facilis,"
+    },
+    {
+      "source": "Frau",
+      "target": "fêmina"
+    },
+    {
+      "source": "Form, Gestalt, Schönheit",
+      "target": "fôrma"
+    },
+    {
+      "source": "haec, hoc dieser, diese, dieses (hier); folgender",
+      "target": "hic,"
+    },
+    {
+      "source": "mîlitem laudô. Diesen Soldaten (hier) lobe ich.",
+      "target": "Hunc"
+    },
+    {
+      "source": "haec dîxit: Der Soldat sagte Folgendes:",
+      "target": "Mîles"
+    },
+    {
+      "source": "hâc cîvitâte libenter vîvô.“ „In diesem (unserem) Staat lebe ich gerne.“",
+      "target": "„In"
+    },
+    {
+      "source": "illa, illud jener, jene, jenes; der (dort); damalig, berühmt",
+      "target": "ille,"
+    },
+    {
+      "source": "vir est servus. Jener Mann (der Mann dort) ist ein Sklave.",
+      "target": "Ille"
+    },
+    {
+      "source": "illîus audiô. Ich höre die Stimme von jenem (seine Stimme).",
+      "target": "Vôcem"
+    },
+    {
+      "source": "bellum crûdêle fuit. Der damalige (dieser berühmte) Krieg war grausam.",
+      "target": "Illud"
+    },
+    {
+      "source": "legô, lêgî lesen; auswählen",
+      "target": "legere,"
+    },
+    {
+      "source": "Mârtis m Mars (der röm. Kriegsgott)",
+      "target": "Mârs,"
+    },
+    {
+      "source": "Erinnerung, Gedächtnis; Zeit",
+      "target": "memoria"
+    },
+    {
+      "source": "tenêre im Gedächtnis behalten",
+      "target": "memoriâ"
+    },
+    {
+      "source": "… quidem nicht einmal",
+      "target": "nê"
+    },
+    {
+      "source": "Mârs quidem nicht einmal Mars",
+      "target": "nê"
+    },
+    {
+      "source": "sinô, sîvî (zu)lassen, erlauben",
+      "target": "sinere,"
+    },
+    {
+      "source": "Laden, Wirtshaus",
+      "target": "taberna"
+    },
+    {
+      "source": "Schulter, Oberarm",
+      "target": "umerus"
+    },
+    {
+      "source": "Adv. jemals",
+      "target": "umquam"
+    },
+    {
+      "source": "auctôris m Anführer, Gründer, Schriftsteller, Verfasser",
+      "target": "auctor,"
+    },
+    {
+      "source": "dîligentis gewissenhaft, sorgfältig",
+      "target": "dîligêns,"
+    },
+    {
+      "source": "dîvitis reich",
+      "target": "dîves,"
+    },
+    {
+      "source": "fêlîcis erfolgreich, glückbringend, glücklich",
+      "target": "fêlîx,"
+    },
+    {
+      "source": "Adv. im Inneren, innen",
+      "target": "intus"
+    },
+    {
+      "source": "librî m Buch",
+      "target": "liber,"
+    },
+    {
+      "source": "ôrum n Pl. viel(es)",
+      "target": "multa,"
+    },
+    {
+      "source": "scîre viel(es) wissen",
+      "target": "multa"
+    },
+    {
+      "source": "ae, a einige, manche",
+      "target": "nônnûllî,"
+    },
+    {
+      "source": "omnium n Pl. alles",
+      "target": "omnia,"
+    },
+    {
+      "source": "posse alles können",
+      "target": "omnia"
+    },
+    {
+      "source": "pauperis arm",
+      "target": "pauper,"
+    },
+    {
+      "source": "sapientis klug, weise",
+      "target": "sapiêns,"
+    },
+    {
+      "source": "sortis f (Gen. Pl. -ium) Los, Orakelspruch, Schicksal",
+      "target": "sors,"
+    },
+    {
+      "source": "thermârum f Pl. warme Bäder, Thermen",
+      "target": "thermae,"
+    },
+    {
+      "source": "veteris alt",
+      "target": "vetus,"
+    },
+    {
+      "source": "/ atque und, und auch",
+      "target": "ac"
+    },
+    {
+      "source": "Sand, Kampfplatz",
+      "target": "arêna"
+    },
+    {
+      "source": "/ ac und, und auch",
+      "target": "atque"
+    },
+    {
+      "source": "cessô zögern, rasten",
+      "target": "cessâre,"
+    },
+    {
+      "source": "cônspectûs m Anblick, Blickfeld",
+      "target": "cônspectus,"
+    },
+    {
+      "source": "currô, cucurrî laufen, eilen",
+      "target": "currere,"
+    },
+    {
+      "source": "(ich) allerdings, freilich",
+      "target": "equidem"
+    },
+    {
+      "source": "impetûs m Angriff, Schwung",
+      "target": "impetus,"
+    },
+    {
+      "source": "incipiô, coepî (incêpî) anfangen, beginnen",
+      "target": "incipere,"
+    },
+    {
+      "source": "ingentis gewaltig, ungeheuer",
+      "target": "ingêns,"
+    },
+    {
+      "source": "laedô, laesî beschädigen, verletzen, beleidigen",
+      "target": "laedere,"
+    },
+    {
+      "source": "(nachgestellt) auch",
+      "target": "quoque"
+    },
+    {
+      "source": "quoque gaudeô. Auch ich freue mich.",
+      "target": "Ego"
+    },
+    {
+      "source": "sollicitô aufhetzen, beunruhigen, erregen",
+      "target": "sollicitâre,"
+    },
+    {
+      "source": "turbô durcheinanderbringen, stören",
+      "target": "turbâre,"
+    },
+    {
+      "source": "Präp. m. Akk. gegen",
+      "target": "contrâ"
+    },
+    {
+      "source": "hostês gegen die Feinde",
+      "target": "contrâ"
+    },
+    {
+      "source": "Adv. dann, darauf",
+      "target": "deinde"
+    },
+    {
+      "source": "Adv. schließlich, zuletzt",
+      "target": "dênique"
+    },
+    {
+      "source": "a, um (m. Abl.) wert, würdig (einer Sache)",
+      "target": "dîgnus,"
+    },
+    {
+      "source": "dîgnus einer Belohnung würdig",
+      "target": "praemiô"
+    },
+    {
+      "source": "excitô erregen, ermuntern, wecken",
+      "target": "excitâre,"
+    },
+    {
+      "source": "Schandtat, Gemeinheit",
+      "target": "flâgitium"
+    },
+    {
+      "source": "înfêlîcis unglücklich",
+      "target": "înfêlîx,"
+    },
+    {
+      "source": "înstô, înstitî bevorstehen, hart zusetzen",
+      "target": "înstâre,"
+    },
+    {
+      "source": "înstat. Eine Gefahr steht bevor.",
+      "target": "Perîculum"
+    },
+    {
+      "source": "înstâre den Feinden hart zusetzen",
+      "target": "hostibus"
+    },
+    {
+      "source": "atque iterum Adv. immer wieder",
+      "target": "iterum"
+    },
+    {
+      "source": "obiciô, obiêcî darbieten, vorwerfen",
+      "target": "obicere,"
+    },
+    {
+      "source": "bêstiîs obicere einen Verbrecher den wilden Tieren vorwerfen",
+      "target": "scelerâtum"
+    },
+    {
+      "source": "iniûriam obicere dem Gefährten ein Unrecht vorwerfen",
+      "target": "comitî"
+    },
+    {
+      "source": "perterreô sehr erschrecken, einschüchtern",
+      "target": "perterrêre,"
+    },
+    {
+      "source": "Strafe, Hinrichtung, flehentliches Bitten",
+      "target": "supplicium"
+    },
+    {
+      "source": "timêre vor der Strafe (Hinrichtung) Angst haben",
+      "target": "supplicium"
+    },
+    {
+      "source": "deôs movêre durch flehentliches Bitten die Götter bewegen",
+      "target": "suppliciîs"
+    },
+    {
+      "source": "tegô, têxî bedecken, schützen, verbergen",
+      "target": "tegere,"
+    },
+    {
+      "source": "(Angriffs-)Waffe, Geschoss",
+      "target": "têlum"
+    },
+    {
+      "source": "accidô, accidî geschehen, sich ereignen",
+      "target": "accidere,"
+    },
+    {
+      "source": "corporis n Körper, Leichnam",
+      "target": "corpus,"
+    },
+    {
+      "source": "crîminis n Verbrechen, Vorwurf, Beschuldigung",
+      "target": "crîmen,"
+    },
+    {
+      "source": "domûs f Haus",
+      "target": "domus,"
+    },
+    {
+      "source": "generis n Abstammung, Art, Geschlecht",
+      "target": "genus,"
+    },
+    {
+      "source": "negô leugnen, verneinen, verweigern",
+      "target": "negâre,"
+    },
+    {
+      "source": "nôminis n Name",
+      "target": "nômen,"
+    },
+    {
+      "source": "a, um (Gen. nûllîus, Dat. nûllî) kein",
+      "target": "nûllus,"
+    },
+    {
+      "source": "pectoris n Brust, Herz",
+      "target": "pectus,"
+    },
+    {
+      "source": "pedis m Fuß",
+      "target": "pês,"
+    },
+    {
+      "source": "rapiô, rapuî wegführen, rauben, wegreißen",
+      "target": "rapere,"
+    },
+    {
+      "source": "sceleris n Verbrechen; Schurke",
+      "target": "scelus,"
+    },
+    {
+      "source": "temporis n (günstige) Zeit, Umstände",
+      "target": "tempus,"
+    },
+    {
+      "source": "vulneris n Wunde, Verlust (milit.)",
+      "target": "vulnus,"
+    },
+    {
+      "source": "cantô singen",
+      "target": "cantâre,"
+    },
+    {
+      "source": "carminis n Gedicht, Lied",
+      "target": "carmen,"
+    },
+    {
+      "source": "a, um sicher, bestimmt",
+      "target": "certus,"
+    },
+    {
+      "source": "fundô, fûdî (aus)gießen, zerstreuen",
+      "target": "fundere,"
+    },
+    {
+      "source": "gentis f (Gen. Pl. -ium) Familienverband, Stamm, Volk",
+      "target": "gêns,"
+    },
+    {
+      "source": "Opfertier, Schlachtopfer",
+      "target": "hostia"
+    },
+    {
+      "source": "pereô, periî umkommen, zugrunde gehen",
+      "target": "perîre,"
+    },
+    {
+      "source": "precis f Bitte, Gebet",
+      "target": "prex,"
+    },
+    {
+      "source": "reprehendô, reprehendî schimpfen, kritisieren",
+      "target": "reprehendere,"
+    },
+    {
+      "source": "sacerdôtis m/f Priester(in)",
+      "target": "sacerdôs,"
+    },
+    {
+      "source": "a, um ehrwürdig, heilig",
+      "target": "sânctus,"
+    },
+    {
+      "source": "sanguinis m Blut",
+      "target": "sanguis,"
+    },
+    {
+      "source": "senâtûs m Senat, Senatsversammlung",
+      "target": "senâtus,"
+    },
+    {
+      "source": "tribuô, tribuî schenken, zuteilen",
+      "target": "tribuere,"
+    },
+    {
+      "source": "animâlis n (Gen. Pl. -ium) Lebewesen, Tier",
+      "target": "animal,"
+    },
+    {
+      "source": "capitis n Kopf; Hauptstadt",
+      "target": "caput,"
+    },
+    {
+      "source": "mihi dolet. Der Kopf tut mir weh.",
+      "target": "Caput"
+    },
+    {
+      "source": "caput imperiî est. Rom ist die Hauptstadt des Reiches.",
+      "target": "Rôma"
+    },
+    {
+      "source": "indekl. zehn",
+      "target": "decem"
+    },
+    {
+      "source": "duae, duo zwei",
+      "target": "duo,"
+    },
+    {
+      "source": "indekl. zwölf",
+      "target": "duodecim"
+    },
+    {
+      "source": "indekl. achtzehn",
+      "target": "duodêvîgintî"
+    },
+    {
+      "source": "fugiô, fûgî (m. Akk.) fliehen (vor), meiden",
+      "target": "fugere,"
+    },
+    {
+      "source": "portum fugere zum Hafen fliehen",
+      "target": "ad"
+    },
+    {
+      "source": "fugere vor der Gefahr fliehen, die Gefahr meiden",
+      "target": "perîculum"
+    },
+    {
+      "source": "maris n (Abl. Sg. -î, Nom. / Akk. Pl. -ia, Gen. Pl. -Miueme)r",
+      "target": "mare,"
+    },
+    {
+      "source": "moenium n Pl. Mauern, Stadtmauern",
+      "target": "moenia,"
+    },
+    {
+      "source": "nâvis f (Gen. Pl. -ium) Schiff",
+      "target": "nâvis,"
+    },
+    {
+      "source": "indekl. neun",
+      "target": "novem"
+    },
+    {
+      "source": "Zahl, Menge",
+      "target": "numerus"
+    },
+    {
+      "source": "indekl. acht",
+      "target": "octô"
+    },
+    {
+      "source": "indekl. vier",
+      "target": "quattuor"
+    },
+    {
+      "source": "indekl. vierzehn",
+      "target": "quattuordecim"
+    },
+    {
+      "source": "indekl. fünfzehn",
+      "target": "quîndecim"
+    },
+    {
+      "source": "indekl. fünf",
+      "target": "quînque"
+    },
+    {
+      "source": "wie viel(e)?",
+      "target": "quot?"
+    },
+    {
+      "source": "senâtôrês adsunt? Wie viele Senatoren sind da?",
+      "target": "Quot"
+    },
+    {
+      "source": "indekl. sechzehn",
+      "target": "sêdecim"
+    },
+    {
+      "source": "indekl. sieben",
+      "target": "septem"
+    },
+    {
+      "source": "indekl. siebzehn",
+      "target": "septendecim"
+    },
+    {
+      "source": "indekl. dreizehn",
+      "target": "trêdecim"
+    },
+    {
+      "source": "três, tria drei",
+      "target": "três,"
+    },
+    {
+      "source": "turris f (Akk. Sg. -im, Abl. Sg. -î, Gen. Pl. -ium) Turm",
+      "target": "turris,"
+    },
+    {
+      "source": "indekl. elf",
+      "target": "ûndecim"
+    },
+    {
+      "source": "indekl. neunzehn",
+      "target": "ûndêvîgintî"
+    },
+    {
+      "source": "indekl. zwanzig",
+      "target": "vîgintî"
+    },
+    {
+      "source": "Adv. ungefähr",
+      "target": "circiter"
+    },
+    {
+      "source": "complûra mehrere",
+      "target": "complûrês,"
+    },
+    {
+      "source": "damnô (m. Gen.) verurteilen (wegen)",
+      "target": "damnâre,"
+    },
+    {
+      "source": "crîminis damnâre einen Dieb wegen eines Verbrechens verurteilen",
+      "target": "fûrem"
+    },
+    {
+      "source": "Fenster",
+      "target": "fenestra"
+    },
+    {
+      "source": "impediô hindern, verhindern",
+      "target": "impedîre,"
+    },
+    {
+      "source": "Zorn, Wut",
+      "target": "îra"
+    },
+    {
+      "source": "iûdicis m Richter",
+      "target": "iûdex,"
+    },
+    {
+      "source": "lêgis f Gesetz, Bedingung",
+      "target": "lêx,"
+    },
+    {
+      "source": "Adv. fast",
+      "target": "paene"
+    },
+    {
+      "source": "Strafe",
+      "target": "poena"
+    },
+    {
+      "source": "remaneô, remânsî (zurück)bleiben",
+      "target": "remanêre,"
+    },
+    {
+      "source": "speciêî f Anblick, Aussehen, Schein",
+      "target": "speciês,"
+    },
+    {
+      "source": "a, um (Gen. tôtîus, Dat. tôtî) ganz, gesamt",
+      "target": "tôtus,"
+    },
+    {
+      "source": "arcessô, arcessîvî, arcessîtum herbeirufen, holen",
+      "target": "arcessere,"
+    },
+    {
+      "source": "a, um bewaffnet",
+      "target": "armâtus,"
+    },
+    {
+      "source": "dô, dedî, datum geben",
+      "target": "dare,"
+    },
+    {
+      "source": "a, um der zehnte",
+      "target": "decimus,"
+    },
+    {
+      "source": "ducis m/f Anführer(in)",
+      "target": "dux,"
+    },
+    {
+      "source": "a, um etruskisch, Subst. Etrusker",
+      "target": "Etrûscus,"
+    },
+    {
+      "source": "Adv. hierher",
+      "target": "hûc"
+    },
+    {
+      "source": "moneô, monuî, monitum mahnen, ermahnen",
+      "target": "monêre,"
+    },
+    {
+      "source": "a, um der neunte",
+      "target": "nônus,"
+    },
+    {
+      "source": "ôris n Gesicht, Mund",
+      "target": "ôs,"
+    },
+    {
+      "source": "petô, petîvî, petîtum aufsuchen, (er)streben, bitten, verlangen",
+      "target": "petere,"
+    },
+    {
+      "source": "quaerô, quaesîvî, quaesîtum erwerben wollen, suchen, fragen",
+      "target": "quaerere,"
+    },
+    {
+      "source": "a, um der vierte",
+      "target": "quârtus,"
+    },
+    {
+      "source": "a, um der fünfte",
+      "target": "quîntus,"
+    },
+    {
+      "source": "wohin?",
+      "target": "quô?"
+    },
+    {
+      "source": "a, um der zweite; günstig",
+      "target": "secundus,"
+    },
+    {
+      "source": "factum Herculis die zweite Tat des Herkules",
+      "target": "secundum"
+    },
+    {
+      "source": "secundus günstiger Wind",
+      "target": "ventus"
+    },
+    {
+      "source": "a, um der siebte",
+      "target": "septimus,"
+    },
+    {
+      "source": "serviô dienen, Sklave sein",
+      "target": "servîre,"
+    },
+    {
+      "source": "a, um der sechste",
+      "target": "sextus,"
+    },
+    {
+      "source": "Gefährte, Verbündeter",
+      "target": "socius"
+    },
+    {
+      "source": "terreô, terruî, territum erschrecken",
+      "target": "terrêre,"
+    },
+    {
+      "source": "a, um der dritte",
+      "target": "tertius,"
+    },
+    {
+      "source": "… alius der eine … der andere",
+      "target": "alius"
+    },
+    {
+      "source": "capiô, cêpî, captum fassen, nehmen; erobern",
+      "target": "capere,"
+    },
+    {
+      "source": "comprehendô, comprehendî, comprehêbnesgurmeifen, ergreifen, festnehmen",
+      "target": "comprehendere,"
+    },
+    {
+      "source": "coniciô, coniêcî, coniectum (zusammen)werfen, folgern, vermuten",
+      "target": "conicere,"
+    },
+    {
+      "source": "dûco, dûxî, ductum führen, ziehen",
+      "target": "dûcere,"
+    },
+    {
+      "source": "faciô, fêcî, factum machen, tun, handeln",
+      "target": "facere,"
+    },
+    {
+      "source": "interficiô, interfêcî, interfectum töten, vernichten",
+      "target": "interficere,"
+    },
+    {
+      "source": "inveniô, invênî, inventum finden, erfinden",
+      "target": "invenîre,"
+    },
+    {
+      "source": "laedô, laesî, laesum beschädigen, verletzen, beleidigen",
+      "target": "laedere,"
+    },
+    {
+      "source": "Buchstabe; Pl. Brief; Literatur, Wissenschaft",
+      "target": "littera"
+    },
+    {
+      "source": "mittô, mîsî, missum (los)lassen, schicken, werfen",
+      "target": "mittere,"
+    },
+    {
+      "source": "ae, a wenige",
+      "target": "paucî,"
+    },
+    {
+      "source": "recitô vortragen, vorlesen",
+      "target": "recitâre,"
+    },
+    {
+      "source": "reprehendô, reprehendî, reprehênsum schimpfen, kritisieren",
+      "target": "reprehendere,"
+    },
+    {
+      "source": "rîdeô, rîsî, rîsum lachen, auslachen",
+      "target": "rîdêre,"
+    },
+    {
+      "source": "trahô, trâxî, tractum schleppen, ziehen",
+      "target": "trahere,"
+    },
+    {
+      "source": "Adv. von allen Seiten, von überallher",
+      "target": "undique"
+    },
+    {
+      "source": "veniô, vênî, ventum kommen",
+      "target": "venîre,"
+    },
+    {
+      "source": "est man kam",
+      "target": "ventum"
+    },
+    {
+      "source": "videô, vîdî, vîsum sehen",
+      "target": "vidêre,"
+    },
+    {
+      "source": "vincô, vîcî, victum (be)siegen, übertreffen",
+      "target": "vincere,"
+    },
+    {
+      "source": "f (Akk. vim, Abl. vî) Gewalt, Kraft, Menge",
+      "target": "vîs"
+    },
+    {
+      "source": "accipiô, accêpî, acceptum erhalten, erfahren, annehmen",
+      "target": "accipere,"
+    },
+    {
+      "source": "capî von Liebe ergriffen werden",
+      "target": "amôre"
+    },
+    {
+      "source": "animadvertô, animadvertî, animadversumb e mm.e ArkceIn / Akk.",
+      "target": "animadvertere,"
+    },
+    {
+      "source": "aber, dagegen, jedoch",
+      "target": "at"
+    },
+    {
+      "source": "calamitâtis f Schaden, Unglück",
+      "target": "calamitâs,"
+    },
+    {
+      "source": "cônsîdô, cônsêdî, cônsessum sich setzen, sich niederlassen",
+      "target": "cônsîdere,"
+    },
+    {
+      "source": "dêdûcô, dêdûxî, dêductum wegführen, hinführen",
+      "target": "dêdûcere,"
+    },
+    {
+      "source": "Europa (die Tochter des phönizischen Königs Agenor)",
+      "target": "Eurôpa"
+    },
+    {
+      "source": "e schwer",
+      "target": "gravis,"
+    },
+    {
+      "source": "lîtoris n Küste, Strand",
+      "target": "lîtus,"
+    },
+    {
+      "source": "mûtô (ver)ändern, verwandeln",
+      "target": "mûtâre,"
+    },
+    {
+      "source": "perterreô, perterruî, perterritum sehr erschrecken, einschüchtern",
+      "target": "perterrêre,"
+    },
+    {
+      "source": "a, um großartig",
+      "target": "praeclârus,"
+    },
+    {
+      "source": "rapiô, rapuî, raptum wegführen, rauben, wegreißen",
+      "target": "rapere,"
+    },
+    {
+      "source": "redeô, rediî, reditum zurückgehen, zurückkehren",
+      "target": "redîre,"
+    },
+    {
+      "source": "tangô, tetigî, tâctum berühren",
+      "target": "tangere,"
+    },
+    {
+      "source": "Stier",
+      "target": "taurus"
+    },
+    {
+      "source": "Rücken",
+      "target": "tergum"
+    },
+    {
+      "source": "virginis f Mädchen, Jungfrau",
+      "target": "virgô,"
+    },
+    {
+      "source": "animô esse guten Mutes sein, zuversichtlich sein",
+      "target": "bonô"
+    },
+    {
+      "source": "cônstituô, cônstituî, cônstitûtum festsetzen, beschließen",
+      "target": "cônstituere,"
+    },
+    {
+      "source": "modî / eiusmodî derartig, so beschaffen",
+      "target": "eius"
+    },
+    {
+      "source": "ignis m Feuer",
+      "target": "ignis,"
+    },
+    {
+      "source": "vincula dare in Fesseln legen, fesseln, gefangen nehmen",
+      "target": "in"
+    },
+    {
+      "source": "interrogô fragen",
+      "target": "interrogâre,"
+    },
+    {
+      "source": "Art, Weise; Maß",
+      "target": "modus"
+    },
+    {
+      "source": "e sterblich; Subst. Mensch",
+      "target": "mortâlis,"
+    },
+    {
+      "source": "moveô, môvî, môtum bewegen, beeindrucken",
+      "target": "movêre,"
+    },
+    {
+      "source": "a, um notwendig",
+      "target": "necessârius,"
+    },
+    {
+      "source": "m. Dat. es gefällt jdm., jd. beschließt",
+      "target": "placet"
+    },
+    {
+      "source": "placet es gefällt mir, ich beschließe",
+      "target": "mihi"
+    },
+    {
+      "source": "a, um (m. Gen.) voll (von / mit)",
+      "target": "plênus,"
+    },
+    {
+      "source": "timôris voller Angst",
+      "target": "plênus"
+    },
+    {
+      "source": "Promêtheî Prometheus (Göttersohn, Schöpfer der Menschen)",
+      "target": "Promêtheus,"
+    },
+    {
+      "source": "relinquô, relîquî, relictum verlassen, zurücklassen",
+      "target": "relinquere,"
+    },
+    {
+      "source": "statuô, statuî, statûtum aufstellen, beschließen, festsetzen",
+      "target": "statuere,"
+    },
+    {
+      "source": "torqueô, torsî, tortum drehen; quälen",
+      "target": "torquêre,"
+    },
+    {
+      "source": "Band, Fessel; Pl. Gefängnis",
+      "target": "vinculum"
+    },
+    {
+      "source": "addûcô, addûxî, adductum heranführen, veranlassen",
+      "target": "addûcere,"
+    },
+    {
+      "source": "âeris m Luft",
+      "target": "âêr,"
+    },
+    {
+      "source": "condô, condidî, conditum verwahren, verbergen; erbauen, gründen",
+      "target": "condere,"
+    },
+    {
+      "source": "Ikarus (der Sohn des Dädalus)",
+      "target": "Îcarus"
+    },
+    {
+      "source": "a, um breit, ausgedehnt",
+      "target": "lâtus,"
+    },
+    {
+      "source": "Aufenthalt, Verzögerung",
+      "target": "mora"
+    },
+    {
+      "source": "nêminis niemand",
+      "target": "nêmô,"
+    },
+    {
+      "source": "Subj. bevor, eher als",
+      "target": "priusquam"
+    },
+    {
+      "source": "retineô, retinuî, retentum behalten, festhalten, zurückhalten",
+      "target": "retinêre,"
+    },
+    {
+      "source": "solvô, solvî, solûtum lösen, auflösen; bezahlen",
+      "target": "solvere,"
+    },
+    {
+      "source": "solvere die Fesseln lösen",
+      "target": "vincula"
+    },
+    {
+      "source": "solvere Strafe bezahlen, bestraft werden",
+      "target": "poenam"
+    },
+    {
+      "source": "Schlaf",
+      "target": "somnus"
+    },
+    {
+      "source": "Welle, Gewässer",
+      "target": "unda"
+    },
+    {
+      "source": "vehementis energisch, heftig",
+      "target": "vehemêns,"
+    },
+    {
+      "source": "vîtô meiden, vermeiden",
+      "target": "vîtâre,"
+    },
+    {
+      "source": "volô fliegen, eilen",
+      "target": "volâre,"
+    },
+    {
+      "source": "aestimô einschätzen, beurteilen;",
+      "target": "aestimâre,"
+    },
+    {
+      "source": "appellô anrufen; m. dopp. Akk. nennen",
+      "target": "appellâre,"
+    },
+    {
+      "source": "Altar",
+      "target": "âra"
+    },
+    {
+      "source": "colô, coluî, cultum bewirtschaften, pflegen; verehren",
+      "target": "colere,"
+    },
+    {
+      "source": "colere die Felder bewirtschaften",
+      "target": "agrôs"
+    },
+    {
+      "source": "colere die Götter verehren",
+      "target": "deôs"
+    },
+    {
+      "source": "dîcô, dîxî, dictum sagen, sprechen;",
+      "target": "dîcere,"
+    },
+    {
+      "source": "dûco, dûxî, ductum führen, ziehen;",
+      "target": "dûcere,"
+    },
+    {
+      "source": "faciô, fêcî, factum machen, tun, handeln;",
+      "target": "facere,"
+    },
+    {
+      "source": "Präp. m. Akk. in (… hinein), nach (wohin?);",
+      "target": "in"
+    },
+    {
+      "source": "Latona (Göttin)",
+      "target": "Lâtôna"
+    },
+    {
+      "source": "legô, lêgî, lêctum lesen; auswählen",
+      "target": "legere,"
+    },
+    {
+      "source": "a, um gottlos, verbrecherisch",
+      "target": "nefârius,"
+    },
+    {
+      "source": "Niobe (Königin von Theben)",
+      "target": "Nioba"
+    },
+    {
+      "source": "nôminô nennen",
+      "target": "nôminâre,"
+    },
+    {
+      "source": "pariô, peperî, partum zur Welt bringen, gebären; schaffen",
+      "target": "parere,"
+    },
+    {
+      "source": "parere einen Sohn zur Welt bringen",
+      "target": "fîlium"
+    },
+    {
+      "source": "parere (sich) Ruhm (ver)schaffen",
+      "target": "glôriam"
+    },
+    {
+      "source": "potentis mächtig, stark",
+      "target": "potêns,"
+    },
+    {
+      "source": "putô glauben, meinen;",
+      "target": "putâre,"
+    },
+    {
+      "source": "superôrum m Pl. die Götter",
+      "target": "superî,"
+    },
+    {
+      "source": "Tantalus (Sohn des Jupiter)",
+      "target": "Tantalus"
+    },
+    {
+      "source": "vindicô beanspruchen, bestrafen;",
+      "target": "vindicâre,"
+    },
+    {
+      "source": "sibi vindicâre alles für sich beanspruchen",
+      "target": "omnia"
+    },
+    {
+      "source": "vindicâre eine List bestrafen",
+      "target": "dolum"
+    },
+    {
+      "source": "hostês vindicâre gegen die Feinde vorgehen",
+      "target": "in"
+    },
+    {
+      "source": "a, um bitter, grausam, rücksichtslos",
+      "target": "âcerbus,"
+    },
+    {
+      "source": "commoveô, commôvî, commôtum bewegen, veranlassen",
+      "target": "commovêre,"
+    },
+    {
+      "source": "condiciônis f Bedingung, Lage, Verabredung",
+      "target": "condiciô,"
+    },
+    {
+      "source": "coniugis m/f Gatte, Gattin",
+      "target": "coniûnx,"
+    },
+    {
+      "source": "Eurydike (Gattin des Orpheus)",
+      "target": "Eurydica"
+    },
+    {
+      "source": "flectô, flexî, flexum biegen, (hin)lenken, umstimmen",
+      "target": "flectere,"
+    },
+    {
+      "source": "iubeô, iussî, iussum (m. Akk.) anordnen, befehlen",
+      "target": "iubêre,"
+    },
+    {
+      "source": "sôlum …, sed etiam nicht nur …, sondern auch",
+      "target": "nôn"
+    },
+    {
+      "source": "nûbô, nûpsî, nûptum m. Dat. heiraten",
+      "target": "nûbere,"
+    },
+    {
+      "source": "nûbere einen jungen Mann heiraten",
+      "target": "iuvenî"
+    },
+    {
+      "source": "Orpheî Orpheus (berühmter thrakischer Sänger)",
+      "target": "Orpheus,"
+    },
+    {
+      "source": "perdô, perdidî, perditum verlieren, verschwenden, zugrunde richten",
+      "target": "perdere,"
+    },
+    {
+      "source": "perdere seine Stimme verlieren",
+      "target": "vôcem"
+    },
+    {
+      "source": "perdere Zeit verschwenden",
+      "target": "tempus"
+    },
+    {
+      "source": "pûblicam perdere den Staat zugrunde richten",
+      "target": "rem"
+    },
+    {
+      "source": "redûcô, redûxî, reductum zurückführen, zurückziehen",
+      "target": "redûcere,"
+    },
+    {
+      "source": "respiciô, respexî, respectum zurückblicken, berücksichtigen",
+      "target": "respicere,"
+    },
+    {
+      "source": "Adv. gleichzeitig, zugleich",
+      "target": "simul"
+    },
+    {
+      "source": "der Tartarus, die Unterwelt",
+      "target": "Tartarus"
+    },
+    {
+      "source": "vetô, vetuî, vetitum (m. Akk.) verbieten",
+      "target": "vetâre,"
+    },
+    {
+      "source": "(tempore) nach kurzer Zeit, bald (darauf)",
+      "target": "brevî"
+    },
+    {
+      "source": "dêbeô, dêbuî, dêbitum müssen, sollen, schulden",
+      "target": "dêbêre,"
+    },
+    {
+      "source": "dêligô, dêlêgî, dêlêctum (aus)wählen",
+      "target": "dêligere,"
+    },
+    {
+      "source": "effugiô, effûgî (m. Akk.) entfliehen, entkommen",
+      "target": "effugere,"
+    },
+    {
+      "source": "fallô, fefellî täuschen, betrügen",
+      "target": "fallere,"
+    },
+    {
+      "source": "servâre die Treue halten; sein Wort halten",
+      "target": "fidem"
+    },
+    {
+      "source": "fideî f Glaube, Treue, Vertrauen, Zuverlässigkeit",
+      "target": "fidês,"
+    },
+    {
+      "source": "Adv. im Gegenteil, ja sogar",
+      "target": "immô"
+    },
+    {
+      "source": "înferôrum m Pl. die Bewohner der Unterwelt, Unterwelt",
+      "target": "înferî,"
+    },
+    {
+      "source": "obsecrô anflehen, bitten",
+      "target": "obsecrâre,"
+    },
+    {
+      "source": "premô, pressî, pressum (unter)drücken, bedrängen",
+      "target": "premere,"
+    },
+    {
+      "source": "prômittô, prômîsî, prômissum versprechen",
+      "target": "prômittere,"
+    },
+    {
+      "source": "regô, rêxî, rêctum beherrschen, leiten, lenken",
+      "target": "regere,"
+    },
+    {
+      "source": "Fels, Stein",
+      "target": "saxum"
+    },
+    {
+      "source": "Sisyphos (König von Korinth)",
+      "target": "Sîsyphus"
+    },
+    {
+      "source": "môns m Berggipfel, die höchste Stelle des Berges",
+      "target": "summus"
+    },
+    {
+      "source": "(tempore) nach kurzer Zeit, bald darauf",
+      "target": "brevî"
+    },
+    {
+      "source": "volvô, volvî, volûtum rollen, wälzen; überlegen",
+      "target": "volvere,"
+    },
+    {
+      "source": "cônsulô, cônsuluî, cônsultum m. Akk. um Rat fragen;",
+      "target": "cônsulere,"
+    },
+    {
+      "source": "cônsulere die Götter um Rat fragen",
+      "target": "deôs"
+    },
+    {
+      "source": "cônsulere für die Verbündeten sorgen",
+      "target": "sociîs"
+    },
+    {
+      "source": "hostês cônsulere gegen die Feinde vorgehen",
+      "target": "in"
+    },
+    {
+      "source": "iuvô, iûvî m. Akk. unterstützen, helfen; erfreuen",
+      "target": "iuvâre,"
+    },
+    {
+      "source": "neglegô, neglêxî, neglêctum nicht (be)achten, vernachlässigen",
+      "target": "neglegere,"
+    },
+    {
+      "source": "parcô, pepercî m. Dat. schonen, verschonen",
+      "target": "parcere,"
+    },
+    {
+      "source": "parcere die Kriegsgefangenen (ver)schonen",
+      "target": "captîvîs"
+    },
+    {
+      "source": "persuâdeô, persuâsî, persuâsum m. Dat. überreden, überzeugen (m. AcI)",
+      "target": "persuâdêre,"
+    },
+    {
+      "source": "persuâdêre die Senatoren überzeugen",
+      "target": "senâtôribus"
+    },
+    {
+      "source": "plêbis f (nicht adeliges, einfaches) Volk",
+      "target": "plêbs,"
+    },
+    {
+      "source": "praesum, praefuî m. Dat. leiten, an der Spitze stehen",
+      "target": "praeesse,"
+    },
+    {
+      "source": "mîlitibus praeest. Der Feldherr steht an der Spitze der Soldaten.",
+      "target": "Imperâtor"
+    },
+    {
+      "source": "Präp. m. Abl. vor; anstelle von, für",
+      "target": "prô"
+    },
+    {
+      "source": "domô sedêre vor dem Haus sitzen",
+      "target": "prô"
+    },
+    {
+      "source": "amîcô respondêre für den Freund, anstelle des Freundes antworten",
+      "target": "prô"
+    },
+    {
+      "source": "prôvideô, prôvîdî, prôvîsum m. Akk. vorhersehen;",
+      "target": "prôvidêre,"
+    },
+    {
+      "source": "prôvidêre eine Gefahr vorhersehen",
+      "target": "perîculum"
+    },
+    {
+      "source": "prôvidêre für die Bürger sorgen",
+      "target": "cîvibus"
+    },
+    {
+      "source": "quaerô, quaesîvî, quaesîtum ex / dê m . Abl. erwerben wollen, suchen;",
+      "target": "quaerere,"
+    },
+    {
+      "source": "mercâtôre pretium quaerere den Händler nach dem Preis fragen",
+      "target": "ê"
+    },
+    {
+      "source": "senis m Greis, alter Mann",
+      "target": "senex,"
+    },
+    {
+      "source": "vestis f (Gen. Pl. -ium) Kleidung, Pl. Kleider",
+      "target": "vestis,"
+    },
+    {
+      "source": "alô, aluî, altum ernähren, großziehen",
+      "target": "alere,"
+    },
+    {
+      "source": "venîre zu Hilfe kommen",
+      "target": "auxiliô"
+    },
+    {
+      "source": "âvertô, âvertî, âversum abwenden, vertreiben",
+      "target": "âvertere,"
+    },
+    {
+      "source": "Coriolan (röm. Patrizier)",
+      "target": "Coriolânus"
+    },
+    {
+      "source": "dare zum Vorwurf machen",
+      "target": "crîminî"
+    },
+    {
+      "source": "esse Sorge bereiten",
+      "target": "cûrae"
+    },
+    {
+      "source": "dêserô, dêseruî, dêsertum im Stich lassen, verlassen",
+      "target": "dêserere,"
+    },
+    {
+      "source": "discô, didicî lernen, erfahren",
+      "target": "discere,"
+    },
+    {
+      "source": "efficiô, effêcî, effectum bewirken, herstellen",
+      "target": "efficere,"
+    },
+    {
+      "source": "frangô, frêgî, frâctum zerbrechen (trans.)",
+      "target": "frangere,"
+    },
+    {
+      "source": "tabulam frangit. Der Sklave zerbricht die Schreibtafel.",
+      "target": "Servus"
+    },
+    {
+      "source": "Präp. m. Akk. innerhalb (von)",
+      "target": "intrâ"
+    },
+    {
+      "source": "mûros innerhalb der Mauern",
+      "target": "intrâ"
+    },
+    {
+      "source": "decem annôs innerhalb von zehn Jahren",
+      "target": "intrâ"
+    },
+    {
+      "source": "(im Hauptsatz) etwa?",
+      "target": "num?"
+    },
+    {
+      "source": "esse Verderben bringen",
+      "target": "perniciêî"
+    },
+    {
+      "source": "pônô, posuî, positum (auf)stellen, (hin)legen, setzen",
+      "target": "pônere,"
+    },
+    {
+      "source": "esse von Nutzen sein, nützlich sein",
+      "target": "ûsuî"
+    },
+    {
+      "source": "ûsûs m Nutzen, Benutzung",
+      "target": "ûsus,"
+    },
+    {
+      "source": "arcis f Burg",
+      "target": "arx,"
+    },
+    {
+      "source": "cûstôdis m/f Wächter(in)",
+      "target": "cûstôs,"
+    },
+    {
+      "source": "dêsinô, dêsiî, dêsitum aufhören",
+      "target": "dêsinere,"
+    },
+    {
+      "source": "exercitûs m Heer",
+      "target": "exercitus,"
+    },
+    {
+      "source": "a, um gallisch, Subst. Gallier",
+      "target": "Gallus,"
+    },
+    {
+      "source": "haereô, haesî hängen, stecken bleiben",
+      "target": "haerêre,"
+    },
+    {
+      "source": "eadem, idem derselbe, der gleiche",
+      "target": "îdem,"
+    },
+    {
+      "source": "… quî derselbe … wie",
+      "target": "îdem"
+    },
+    {
+      "source": "Kampf, Schlacht",
+      "target": "proelium"
+    },
+    {
+      "source": "e wie (beschaffen), was für ein(e)",
+      "target": "quâlis,"
+    },
+    {
+      "source": "sacra, sacrum (m. Gen.) (jdm.) heilig, geweiht",
+      "target": "sacer,"
+    },
+    {
+      "source": "Schweigen",
+      "target": "silentium"
+    },
+    {
+      "source": "… quâlis so beschaffen … wie (beschaffen)",
+      "target": "tâlis"
+    },
+    {
+      "source": "… quantum so viel … wie (viel)",
+      "target": "tantum"
+    },
+    {
+      "source": "… quantus so groß … wie (groß)",
+      "target": "tantus"
+    },
+    {
+      "source": "indekl. so viele",
+      "target": "tot"
+    },
+    {
+      "source": "… quot so viele … wie (viele)",
+      "target": "tot"
+    },
+    {
+      "source": "Fußsohle, Spur, Stelle",
+      "target": "vestîgium"
+    },
+    {
+      "source": "addô, addidî, additum hinzufügen",
+      "target": "addere,"
+    },
+    {
+      "source": "Freundschaft",
+      "target": "amîcitia"
+    },
+    {
+      "source": "a, um offen, offenkundig",
+      "target": "apertus,"
+    },
+    {
+      "source": "augeô, auxî, auctum vergrößern, vermehren",
+      "target": "augêre,"
+    },
+    {
+      "source": "cupiô, cupîvî, cupîtum wünschen, verlangen",
+      "target": "cupere,"
+    },
+    {
+      "source": "dext(e)ra, dext(e)rum rechts",
+      "target": "dexter,"
+    },
+    {
+      "source": "(manus) die Rechte, die rechte Hand",
+      "target": "dext(e)ra"
+    },
+    {
+      "source": "Hamilcaris m Hamilkar (Vater Hannibals)",
+      "target": "Hamilcar,"
+    },
+    {
+      "source": "Hannibalis m Hannibal (karthagischer Feldherr, 247-183 v. Chr.)",
+      "target": "Hannibal,"
+    },
+    {
+      "source": "e unsterblich",
+      "target": "immortâlis,"
+    },
+    {
+      "source": "iûrô schwören",
+      "target": "iûrâre,"
+    },
+    {
+      "source": "esse verhasst sein",
+      "target": "odiô"
+    },
+    {
+      "source": "Hass",
+      "target": "odium"
+    },
+    {
+      "source": "pellô, pepulî, pulsum stoßen, schlagen, (ver)treiben",
+      "target": "pellere,"
+    },
+    {
+      "source": "Präp. m. Akk. über (… hinaus), jenseits",
+      "target": "trâns"
+    },
+    {
+      "source": "montês über die Berge, jenseits der Berge",
+      "target": "trâns"
+    },
+    {
+      "source": "vertô, vertî, versum drehen, wenden",
+      "target": "vertere,"
+    },
+    {
+      "source": "agminis n Heereszug",
+      "target": "agmen,"
+    },
+    {
+      "source": "Alpium f Pl. die Alpen",
+      "target": "Alpês,"
+    },
+    {
+      "source": "oder",
+      "target": "aut"
+    },
+    {
+      "source": "cônficiô, cônfêcî, cônfectum fertig machen, beenden",
+      "target": "cônficere,"
+    },
+    {
+      "source": "dêfendô, dêfendî, dêfênsum abwehren, verteidigen",
+      "target": "dêfendere,"
+    },
+    {
+      "source": "expellô, expulî, expulsum vertreiben, verbannen",
+      "target": "expellere,"
+    },
+    {
+      "source": "incipiô, coepî (incêpî), inceptum anfangen, beginnen",
+      "target": "incipere,"
+    },
+    {
+      "source": "însidiârum f Pl. Falle, Attentat, Hinterlist",
+      "target": "însidiae,"
+    },
+    {
+      "source": "itineris n Reise, Marsch, Weg",
+      "target": "iter,"
+    },
+    {
+      "source": "obiciô, obiêcî, obiectum darbieten, vorwerfen",
+      "target": "obicere,"
+    },
+    {
+      "source": "ôrâtiônis f Rede",
+      "target": "ôrâtiô,"
+    },
+    {
+      "source": "a, um punisch, karthagisch; Subst. Punier, Karthager",
+      "target": "Poenus,"
+    },
+    {
+      "source": "prôcêdô, prôcessî (vorwärts)gehen, vorrücken",
+      "target": "prôcêdere,"
+    },
+    {
+      "source": "subeô, subiî auf sich nehmen, herangehen",
+      "target": "subîre,"
+    },
+    {
+      "source": "supersum, superfuî überleben, übrig sein",
+      "target": "superesse,"
+    },
+    {
+      "source": "trânseô, trânsiî durchqueren, hinübergehen, überschreiten",
+      "target": "trânsîre,"
+    },
+    {
+      "source": "Adv. ad m. Akk. bis (zu)",
+      "target": "ûsque"
+    },
+    {
+      "source": "ad campum îre bis zum Feld gehen",
+      "target": "ûsque"
+    },
+    {
+      "source": "agô, êgî, âctum handeln, treiben, verhandeln",
+      "target": "agere,"
+    },
+    {
+      "source": "Silber",
+      "target": "argentum"
+    },
+    {
+      "source": "cônsulis m Konsul",
+      "target": "cônsul,"
+    },
+    {
+      "source": "a, um unbekannt",
+      "target": "îgnôtus,"
+    },
+    {
+      "source": "lûctûs m Trauer",
+      "target": "lûctus,"
+    },
+    {
+      "source": "Subj. m. Konj. dass nicht, nicht zu (m. Inf.)",
+      "target": "nê"
+    },
+    {
+      "source": "Subj. m. Konj. dass nicht;",
+      "target": "nê"
+    },
+    {
+      "source": "est, nê es besteht die Gefahr, dass",
+      "target": "perîculum"
+    },
+    {
+      "source": "ne fürchten, dass",
+      "target": "timêre,"
+    },
+    {
+      "source": "occîdô, occîdî, occîsum niederschlagen, töten",
+      "target": "occîdere,"
+    },
+    {
+      "source": "ôrô (an)beten, bitten",
+      "target": "ôrâre,"
+    },
+    {
+      "source": "est, nê m. Konj. es besteht die Gefahr, dass",
+      "target": "perîculum"
+    },
+    {
+      "source": "Adv. schließlich",
+      "target": "postrêmô"
+    },
+    {
+      "source": "pôstulô fordern",
+      "target": "pôstulâre,"
+    },
+    {
+      "source": "Beute",
+      "target": "praeda"
+    },
+    {
+      "source": "a, um je ein, jeder einzelne",
+      "target": "singulus,"
+    },
+    {
+      "source": "suôrum m Pl. die Seinen, die Ihren, seine (ihre) Leute",
+      "target": "suî,"
+    },
+    {
+      "source": "nê m. Konj. fürchten, dass",
+      "target": "timêre,"
+    },
+    {
+      "source": "Subj. m. Konj. dass, zu (m. Inf.)",
+      "target": "ut"
+    },
+    {
+      "source": "Sieg",
+      "target": "victôria"
+    },
+    {
+      "source": "iuventûte von Jugend an",
+      "target": "â"
+    },
+    {
+      "source": "Präp. m. Akk. gegen",
+      "target": "adversus"
+    },
+    {
+      "source": "cônsulês gegen die Konsuln",
+      "target": "adversus"
+    },
+    {
+      "source": "auris f (Gen. Pl. -ium) Ohr",
+      "target": "auris,"
+    },
+    {
+      "source": "a, um christlich; Subst. Christ",
+      "target": "Chrîstiânus,"
+    },
+    {
+      "source": "circumdô, circumdedî, circumdatum umgeben",
+      "target": "circúmdare,"
+    },
+    {
+      "source": "convertô, convertî, conversum verändern, (um)wenden",
+      "target": "convertere,"
+    },
+    {
+      "source": "a, um jüdisch; Subst. Jude",
+      "target": "Iûdaeus,"
+    },
+    {
+      "source": "iuventûtis f Jugend",
+      "target": "iuventûs,"
+    },
+    {
+      "source": "Subj. m. Konj. dass nicht;",
+      "target": "nê"
+    },
+    {
+      "source": "opprimô, oppressî, oppressum bedrohen, niederwerfen, unterdrücken",
+      "target": "opprimere,"
+    },
+    {
+      "source": "pergô, perrêxî aufbrechen; weitermachen",
+      "target": "pergere,"
+    },
+    {
+      "source": "quaedam, quiddam subst. ein gewisser, (irgend)einer; Pl. einige",
+      "target": "quîdam,"
+    },
+    {
+      "source": "quaedam, quoddam adj. ein gewisser, (irgend)ein; Pl. einige",
+      "target": "quîdam,"
+    },
+    {
+      "source": "respondeô, respondî, respônsum antworten",
+      "target": "respondêre,"
+    },
+    {
+      "source": "scrîbô, scrîpsî, scrîptum schreiben, beschreiben",
+      "target": "scrîbere,"
+    },
+    {
+      "source": "trâdô, trâdidî, trâditum übergeben, überliefern",
+      "target": "trâdere,"
+    },
+    {
+      "source": "Subj. m. Konj. dass, sodass, damit, um zu (m. Inf.)",
+      "target": "ut"
+    },
+    {
+      "source": "a, um ewig",
+      "target": "aeternus,"
+    },
+    {
+      "source": "Adv. vorher",
+      "target": "ante"
+    },
+    {
+      "source": "Christus",
+      "target": "Chrîstus"
+    },
+    {
+      "source": "comperiô, comperî, compertum (genau) erfahren",
+      "target": "comperîre,"
+    },
+    {
+      "source": "crucis f Kreuz",
+      "target": "crux,"
+    },
+    {
+      "source": "a, um FALSCH",
+      "target": "falsus,"
+    },
+    {
+      "source": "(guter / schlechter) Ruf, Gerücht",
+      "target": "fâma"
+    },
+    {
+      "source": "frequentis häufig, zahlreich",
+      "target": "frequêns,"
+    },
+    {
+      "source": "furôris m Wahnsinn, Wut",
+      "target": "furor,"
+    },
+    {
+      "source": "a, um ungern, gegen den Willen",
+      "target": "invîtus,"
+    },
+    {
+      "source": "ista, istud dieser, diese, dieses (da)",
+      "target": "iste,"
+    },
+    {
+      "source": "metuô, metuî (sich) fürchten",
+      "target": "metuere,"
+    },
+    {
+      "source": "necô töten",
+      "target": "necâre,"
+    },
+    {
+      "source": "(um) ein wenig",
+      "target": "paulô"
+    },
+    {
+      "source": "perveniô, pervênî, perventum ad / in m. Akk.kommen zu / nach",
+      "target": "pervenîre,"
+    },
+    {
+      "source": "forum pervenîre zum Forum kommen",
+      "target": "ad"
+    },
+    {
+      "source": "a, um friedlich, ruhig, sanft",
+      "target": "placidus,"
+    },
+    {
+      "source": "a, um verbrecherisch, schändlich; Subst. Verbrecher",
+      "target": "scelerâtus,"
+    },
+    {
+      "source": "animadvertô, animadvertî, animadversumb e mme. rAkecnI ;/ vAokrkg.ehen gegen",
+      "target": "animadvertere,"
+    },
+    {
+      "source": "in senâtum gegen den Senat vorgehen",
+      "target": "animadvertere"
+    },
+    {
+      "source": "cultûs m Bildung, Lebensweise, Pflege, Verehrung",
+      "target": "cultus,"
+    },
+    {
+      "source": "Subj. m. Konj. als, nachdem; weil; obwohl, während (dagegen)",
+      "target": "cum"
+    },
+    {
+      "source": "dêpônô, dêposuî, dêpositum niederlegen, aufgeben",
+      "target": "dêpônere,"
+    },
+    {
+      "source": "dîmittô, dîmîsî, dîmissum aufgeben, entlassen",
+      "target": "dîmittere,"
+    },
+    {
+      "source": "Diokletian (röm. Kaiser 284- 305 n. Chr.)",
+      "target": "Dioclêtiânus"
+    },
+    {
+      "source": "gerô, gessî, gestum ausführen, führen, tragen",
+      "target": "gerere,"
+    },
+    {
+      "source": "impellô, impulî, impulsum antreiben, veranlassen",
+      "target": "impellere,"
+    },
+    {
+      "source": "(est) (es ist) notwendig",
+      "target": "necesse"
+    },
+    {
+      "source": "Adv. heimlich",
+      "target": "occultê"
+    },
+    {
+      "source": "Adv. sofort",
+      "target": "prôtinus"
+    },
+    {
+      "source": "restituô, restituî, restitûtum wiederherstellen",
+      "target": "restituere,"
+    },
+    {
+      "source": "Sebastian (christl. Märtyrer)",
+      "target": "Sebastiânus"
+    },
+    {
+      "source": "sustineô, sustinuî ertragen, standhalten",
+      "target": "sustinêre,"
+    },
+    {
+      "source": "tribuô, tribuî, tribûtum schenken, zuteilen",
+      "target": "tribuere,"
+    },
+    {
+      "source": "(prîmum) Subj. m. Ind. sobald",
+      "target": "ubî"
+    },
+    {
+      "source": "claudô, clausî, clausum schließen, abschließen, einschließen",
+      "target": "claudere,"
+    },
+    {
+      "source": "collocô aufstellen, unterbringen",
+      "target": "collocâre,"
+    },
+    {
+      "source": "cônscrîbô, cônscrîpsî, cônscrîptum aufschreiben, verfassen",
+      "target": "cônscrîbere,"
+    },
+    {
+      "source": "cônspiciô, cônspexî, cônspectum erblicken",
+      "target": "cônspicere,"
+    },
+    {
+      "source": "Konstantin (der Große; röm. Kaiser 306-337 n. Chr.)",
+      "target": "Cônstantînus"
+    },
+    {
+      "source": "convocô zusammenrufen, versammeln",
+      "target": "convocâre,"
+    },
+    {
+      "source": "exeô, exiî, exitum herausgehen, hinausgehen; enden",
+      "target": "exîre,"
+    },
+    {
+      "source": "Vertrauen",
+      "target": "fîdûcia"
+    },
+    {
+      "source": "suî Selbstvertrauen",
+      "target": "fîdûcia"
+    },
+    {
+      "source": "Präp. m. Akk. unter, während, zwischen",
+      "target": "inter"
+    },
+    {
+      "source": "lîberôs unter den Kindern, zwischen den Kindern",
+      "target": "inter"
+    },
+    {
+      "source": "cênam während des Essens",
+      "target": "inter"
+    },
+    {
+      "source": "nôscô, nôvî, nôtum erkennen, kennenlernen; Perf. wissen, kennen",
+      "target": "nôscere,"
+    },
+    {
+      "source": "Adv. insgesamt, überhaupt, völlig",
+      "target": "omnînô"
+    },
+    {
+      "source": "pontis m (Gen. Pl. -ium) Brücke",
+      "target": "pôns,"
+    },
+    {
+      "source": "ruô, ruî stürzen, eilen, stürmen",
+      "target": "ruere,"
+    },
+    {
+      "source": "tegô, têxî, têctum bedecken, schützen, verbergen",
+      "target": "tegere,"
+    },
+    {
+      "source": "Tiberis m (Akk. -im, Abl. -î) der Tiber (Fluss durch Rom)",
+      "target": "Tiberis,"
+    },
+    {
+      "source": "vêris n Frühling",
+      "target": "vêr,"
+    },
+    {
+      "source": "arboris f Baum",
+      "target": "arbor,"
+    },
+    {
+      "source": "côgô, coêgî, coâctum (ver)sammeln; zwingen",
+      "target": "côgere,"
+    },
+    {
+      "source": "côgere die Soldaten versammeln",
+      "target": "mîlitês"
+    },
+    {
+      "source": "côgente ohne Zwang",
+      "target": "nûllô"
+    },
+    {
+      "source": "cognôscô, cognôvî, cognitum erkennen, kennenlernen; Perf. kennen, wissen",
+      "target": "cognôscere,"
+    },
+    {
+      "source": "cognôvî. Ich habe dich kennengelernt. Ich kenne dich.",
+      "target": "Tê"
+    },
+    {
+      "source": "dêcernô, dêcrêvî, dêcrêtum beschließen, entscheiden",
+      "target": "dêcernere,"
+    },
+    {
+      "source": "grâtiâs Gott sei Dank!",
+      "target": "deô"
+    },
+    {
+      "source": "a, um germanisch, Subst. Germane",
+      "target": "Germânus,"
+    },
+    {
+      "source": "kleines Buch, Heft",
+      "target": "libellus"
+    },
+    {
+      "source": "a, um der größte, sehr groß",
+      "target": "maximus,"
+    },
+    {
+      "source": "nûminis n Gottheit, göttlicher Wille",
+      "target": "nûmen,"
+    },
+    {
+      "source": "plûris mehr",
+      "target": "plûs,"
+    },
+    {
+      "source": "praesentis anwesend, gegenwärtig",
+      "target": "praesêns,"
+    },
+    {
+      "source": "gestae f Pl. Taten",
+      "target": "rês"
+    },
+    {
+      "source": "a, um schrecklich, wild, wütend",
+      "target": "saevus,"
+    },
+    {
+      "source": "a, um echt, richtig, wahr",
+      "target": "vêrus,"
+    },
+    {
+      "source": "a, um ausländisch, unzivilisiert; Subst. Barbar",
+      "target": "barbarus,"
+    },
+    {
+      "source": "auctôre auf Veranlassung Karls",
+      "target": "Carolô"
+    },
+    {
+      "source": "Magnô imperâtôre unter der Herrschaft Karls des Großen",
+      "target": "Carolô"
+    },
+    {
+      "source": "Magnus Karl der Große (König des Frankenreiches 768-814)",
+      "target": "Carolus"
+    },
+    {
+      "source": "cênseô, cênsuî, cênsum (m. Akk.) meinen, einschätzen; seine Stimme abgeben (für)",
+      "target": "cênsêre,"
+    },
+    {
+      "source": "Latînam pulchram esse cênseô. Ich meine, dass die lateinische Sprache schön ist.",
+      "target": "Linguam"
+    },
+    {
+      "source": "pâcem cênsent. Die Senatoren stimmen für (den) Frieden.",
+      "target": "Senâtôrês"
+    },
+    {
+      "source": "doceô, docuî, doctum lehren, unterrichten",
+      "target": "docêre,"
+    },
+    {
+      "source": "îgnôscô, îgnôvî, îgnôtum verzeihen",
+      "target": "îgnôscere,"
+    },
+    {
+      "source": "Gesandter, Bevollmächtigter",
+      "target": "lêgâtus"
+    },
+    {
+      "source": "invîtô gegen meinen Willen",
+      "target": "mê"
+    },
+    {
+      "source": "praesente in meiner Anwesenheit",
+      "target": "mê"
+    },
+    {
+      "source": "mûneris n Geschenk; Aufgabe",
+      "target": "mûnus,"
+    },
+    {
+      "source": "mittere Geschenke schicken",
+      "target": "mûnera"
+    },
+    {
+      "source": "ab omnî mûnere frei von jeder Aufgabe (Verpflichtung)",
+      "target": "lîber"
+    },
+    {
+      "source": "namens",
+      "target": "nômine"
+    },
+    {
+      "source": "Adv. neulich, vor kurzem",
+      "target": "nûper"
+    },
+    {
+      "source": "pâcis f Frieden",
+      "target": "pâx,"
+    },
+    {
+      "source": "Persârum m Pl. die Perser",
+      "target": "Persae,"
+    },
+    {
+      "source": "vîvô zu Lebzeiten des Königs",
+      "target": "rêge"
+    },
+    {
+      "source": "a, um lebend, lebendig",
+      "target": "vîvus,"
+    },
+    {
+      "source": "a, um fremd",
+      "target": "aliênus,"
+    },
+    {
+      "source": "auctôritâtis f Ansehen, Einfluss, Macht",
+      "target": "auctôritâs,"
+    },
+    {
+      "source": "Augustus (erster röm. Kaiser 27 v. Chr. – 14 n. Chr.)",
+      "target": "Augustus"
+    },
+    {
+      "source": "Bequemlichkeit, Vorteil",
+      "target": "commodum"
+    },
+    {
+      "source": "corripiô, corripuî, correptum ergreifen, gewaltsam an sich reißen",
+      "target": "corripere,"
+    },
+    {
+      "source": "Germanien",
+      "target": "Germânia"
+    },
+    {
+      "source": "hûmânitâtis f Menschlichkeit, Menschenfreundlichkeit; Bildung",
+      "target": "hûmânitâs,"
+    },
+    {
+      "source": "intellegô, intellêxî, intellêctum (be)merken, verstehen",
+      "target": "intellegere,"
+    },
+    {
+      "source": "… an (Wahlfrage im Hauptsatz) … oder",
+      "target": "-ne"
+    },
+    {
+      "source": "obtineô (in Besitz) haben, (besetzt) halten",
+      "target": "obtinêre,"
+    },
+    {
+      "source": "orbis m Kreis(lauf); Erdkreis, Welt",
+      "target": "orbis,"
+    },
+    {
+      "source": "weshalb? wodurch?",
+      "target": "quârê?"
+    },
+    {
+      "source": "quae, quod adj. welcher, welche, welches",
+      "target": "quî,"
+    },
+    {
+      "source": "was denn?",
+      "target": "quidnam?"
+    },
+    {
+      "source": "Jahrhundert, Menschenalter, Zeit(alter)",
+      "target": "saeculum"
+    },
+    {
+      "source": "Adv. ohne Unterbrechung;",
+      "target": "ûsque"
+    },
+    {
+      "source": "… an (Wahlfrage im Hauptsatz) … oder",
+      "target": "utrum"
+    },
+    {
+      "source": "cîvitâtis f Gemeinde, Staat; Bürgerrecht",
+      "target": "cîvitâs,"
+    },
+    {
+      "source": "dêficiô, dêfêcî, dêfectum (â m. Abl.) abnehmen, ermatten, abfallen (von)",
+      "target": "dêficere,"
+    },
+    {
+      "source": "exstinguô, exstînxî, exstînctum auslöschen, vernichten",
+      "target": "exstinguere,"
+    },
+    {
+      "source": "Adv. ebenso, gleichfalls",
+      "target": "item"
+    },
+    {
+      "source": "mentis f (Gen. Pl. -ium) Geist, Sinn, Verstand; Meinung",
+      "target": "mêns,"
+    },
+    {
+      "source": "posterôrum m Pl. Nachkommen",
+      "target": "posterî,"
+    },
+    {
+      "source": "praestô, praestitî m. Akk. gewähren, leisten, zeigen;",
+      "target": "praestâre,"
+    },
+    {
+      "source": "praestâre seine Pflicht erfüllen",
+      "target": "officium"
+    },
+    {
+      "source": "praestâre den Freund übertreffen",
+      "target": "amîcô"
+    },
+    {
+      "source": "prôdô, prôdidî, prôditum verraten; überliefern",
+      "target": "prôdere,"
+    },
+    {
+      "source": "nê m. Konj. daran hindern, dass",
+      "target": "prohibêre,"
+    },
+    {
+      "source": "Adv. also, daher",
+      "target": "proinde"
+    },
+    {
+      "source": "Subj. m. Konj. wenn auch, obwohl",
+      "target": "quamvîs"
+    },
+    {
+      "source": "quiêscô, quiêvî, quiêtum (aus)ruhen, schlafen",
+      "target": "quiêscere,"
+    },
+    {
+      "source": "meâ (tuâ, suâ) freiwillig, von selbst",
+      "target": "sponte"
+    },
+    {
+      "source": "f (Akk. vim, Abl. vî) Gewalt, Kraft, Menge",
+      "target": "vîs"
+    },
+    {
+      "source": "absum, âfuî (â m. Abl.) entfernt sein, abwesend sein, fehlen",
+      "target": "abesse,"
+    },
+    {
+      "source": "urbe abesse von der Stadt entfernt sein",
+      "target": "ab"
+    },
+    {
+      "source": "mihi absunt. Mir fehlt viel(es).",
+      "target": "Multa"
+    },
+    {
+      "source": "artis f (Gen. Pl. -ium) Kunst, Fertigkeit, Eigenschaft",
+      "target": "ars,"
+    },
+    {
+      "source": "indekl. hundert",
+      "target": "centum"
+    },
+    {
+      "source": "e schwer, schwierig",
+      "target": "difficilis,"
+    },
+    {
+      "source": "locô aufstellen, setzen; vermieten",
+      "target": "locâre,"
+    },
+    {
+      "source": "locâre Stadtmauern errichten",
+      "target": "moenia"
+    },
+    {
+      "source": "locâre ein Haus vermieten",
+      "target": "domum"
+    },
+    {
+      "source": "a, um lang, weit",
+      "target": "longus,"
+    },
+    {
+      "source": "mîlium Pl. tausend, Tausende",
+      "target": "mîlia,"
+    },
+    {
+      "source": "Sg. indekl. tausend",
+      "target": "mîlle"
+    },
+    {
+      "source": "dubitô, quîn m. Konj. Ich zweifle nicht (daran), dass …",
+      "target": "nôn"
+    },
+    {
+      "source": "Adv. gleichsam",
+      "target": "quasi"
+    },
+    {
+      "source": "(im Hauptsatz) warum nicht?",
+      "target": "quîn?"
+    },
+    {
+      "source": "dubitô, quîn m. Konj. Ich zweifle nicht (daran), dass …",
+      "target": "nôn"
+    },
+    {
+      "source": "Adv. auf dem Land",
+      "target": "rûrî"
+    },
+    {
+      "source": "rûris n Feld, Land (im Gegensatz zu Stadt), Landgut",
+      "target": "rûs,"
+    },
+    {
+      "source": "e nützlich",
+      "target": "ûtilis,"
+    },
+    {
+      "source": "aeris n Erz, Geld",
+      "target": "aes,"
+    },
+    {
+      "source": "aliênum Schulden",
+      "target": "aes"
+    },
+    {
+      "source": "êdô, êdidî, êditum herausgeben, bekannt machen, veranstalten",
+      "target": "êdere,"
+    },
+    {
+      "source": "emô, êmî, êmptum kaufen",
+      "target": "emere,"
+    },
+    {
+      "source": "êveniô, êvênî, êventum sich ereignen",
+      "target": "êvenîre,"
+    },
+    {
+      "source": "exigô, exêgî, exâctum (ein)fordern, vollenden",
+      "target": "exigere,"
+    },
+    {
+      "source": "nê m. Konj. (ver)hindern, dass",
+      "target": "impedîre,"
+    },
+    {
+      "source": "a, um schlecht, unanständig",
+      "target": "improbus,"
+    },
+    {
+      "source": "a, um ungewiss, unsicher",
+      "target": "incertus,"
+    },
+    {
+      "source": "Adv. von dort; darauf; deshalb",
+      "target": "inde"
+    },
+    {
+      "source": "mûnîtiônis f Bau, Befestigung",
+      "target": "mûnîtiô,"
+    },
+    {
+      "source": "… nisî nichts … außer, nichts (anderes) … als, nur",
+      "target": "nihil"
+    },
+    {
+      "source": "(im Gliedsatz) ob, ob nicht",
+      "target": "num?"
+    },
+    {
+      "source": "pôscô, popôscî fordern, verlangen",
+      "target": "pôscere,"
+    },
+    {
+      "source": "Subj. m. Ind. da ja, da nun",
+      "target": "quoniam"
+    },
+    {
+      "source": "… an (im Gliedsatz) ob … oder",
+      "target": "utrum"
+    },
+    {
+      "source": "Adv. anders; sonst",
+      "target": "aliter"
+    },
+    {
+      "source": "ambae, ambô beide (zusammen)",
+      "target": "ambô,"
+    },
+    {
+      "source": "aspiciô, aspexî, aspectum erblicken, ansehen",
+      "target": "aspicere,"
+    },
+    {
+      "source": "Schuld",
+      "target": "culpa"
+    },
+    {
+      "source": "facinoris n Handlung; Untat",
+      "target": "facinus,"
+    },
+    {
+      "source": "Adv. zufällig",
+      "target": "forte"
+    },
+    {
+      "source": "iactô schleudern, werfen; rühmen",
+      "target": "iactâre,"
+    },
+    {
+      "source": "iûdicô urteilen, beurteilen",
+      "target": "iûdicâre,"
+    },
+    {
+      "source": "magistrâtûs m Amt, Beamter",
+      "target": "magistrâtus,"
+    },
+    {
+      "source": "Adv. am wenigsten, überhaupt nicht",
+      "target": "minimê"
+    },
+    {
+      "source": "Adv. ebenso, gleichzeitig",
+      "target": "pariter"
+    },
+    {
+      "source": "Adv. (zu) wenig",
+      "target": "parum"
+    },
+    {
+      "source": "praetôris m Prätor (für die Rechtsprechung zuständiger Beamter)",
+      "target": "praetor,"
+    },
+    {
+      "source": "Adv. nahe, in der Nähe; beinahe",
+      "target": "prope"
+    },
+    {
+      "source": "afferô, attulî, allâtum bringen, herbeibringen, mitbringen; melden",
+      "target": "afferre,"
+    },
+    {
+      "source": "aspera, asperum rau; streng",
+      "target": "asper,"
+    },
+    {
+      "source": "cônferô, contulî, collâtum vergleichen, zusammentragen",
+      "target": "cônferre,"
+    },
+    {
+      "source": "crêscô, crêvî wachsen",
+      "target": "crêscere,"
+    },
+    {
+      "source": "dêferô, dêtulî, dêlâtum hinbringen, melden, übertragen",
+      "target": "dêferre,"
+    },
+    {
+      "source": "differô, distulî, dîlâtum (â m. Abl.) aufschieben; sich unterscheiden (von)",
+      "target": "differre,"
+    },
+    {
+      "source": "differre die Hinrichtung aufschieben",
+      "target": "supplicium"
+    },
+    {
+      "source": "frâtre differre sich vom Bruder unterscheiden",
+      "target": "â"
+    },
+    {
+      "source": "efferô, extulî, êlâtum herausheben, hervorbringen",
+      "target": "efferre,"
+    },
+    {
+      "source": "ferô, tulî, lâtum bringen, tragen; ertragen",
+      "target": "ferre,"
+    },
+    {
+      "source": "înferô, intulî, illâtum hineintragen, zufügen",
+      "target": "înferre,"
+    },
+    {
+      "source": "offerô, obtulî, oblâtum anbieten, entgegenbringen",
+      "target": "offerre,"
+    },
+    {
+      "source": "perferô, pertulî, perlâtum (über)bringen, ertragen",
+      "target": "perferre,"
+    },
+    {
+      "source": "praeferô, praetulî, praelâtum vorziehen",
+      "target": "praeferre,"
+    },
+    {
+      "source": "recentis frisch, neu",
+      "target": "recêns,"
+    },
+    {
+      "source": "referô, rettulî, relâtum (zurück)bringen, berichten",
+      "target": "referre,"
+    },
+    {
+      "source": "vêndô, vêndidî, vênditum verkaufen",
+      "target": "vêndere,"
+    },
+    {
+      "source": "aliqua, aliquod adj. (irgend)ein",
+      "target": "aliquî,"
+    },
+    {
+      "source": "aliquid subst. (irgend)jemand",
+      "target": "aliquis,"
+    },
+    {
+      "source": "câsûs m Fall, Zufall",
+      "target": "câsus,"
+    },
+    {
+      "source": "nôminâtîvus der (Fall) Nominativ",
+      "target": "câsus"
+    },
+    {
+      "source": "cîvitâtis der Untergang des Staates",
+      "target": "câsus"
+    },
+    {
+      "source": "êvenîre sich zufällig ereignen",
+      "target": "câsû"
+    },
+    {
+      "source": "cernô sehen, bemerken",
+      "target": "cernere,"
+    },
+    {
+      "source": "cônstô, cônstitî ex m. Abl. bestehen aus",
+      "target": "cônstâre,"
+    },
+    {
+      "source": "e complûribus partibus cônstat. Eine Rede besteht aus mehreren Teilen.",
+      "target": "Ôrâtiô"
+    },
+    {
+      "source": "a, um (m. Gen.) (be)gierig (nach)",
+      "target": "cupidus,"
+    },
+    {
+      "source": "pecûniae gierig nach Geld, geldgierig",
+      "target": "cupidus"
+    },
+    {
+      "source": "cursûs m Lauf",
+      "target": "cursus,"
+    },
+    {
+      "source": "Adv. besonders, vor allem",
+      "target": "imprîmîs"
+    },
+    {
+      "source": "misceô, miscuî, mixtum mischen, verwirren, durcheinanderbringen",
+      "target": "miscêre,"
+    },
+    {
+      "source": "môtûs m Bewegung",
+      "target": "môtus,"
+    },
+    {
+      "source": "/ neque und nicht, auch nicht",
+      "target": "nec"
+    },
+    {
+      "source": "a, um nächtlich",
+      "target": "nocturnus,"
+    },
+    {
+      "source": "opîniônis f Meinung, (guter) Ruf",
+      "target": "opîniô,"
+    },
+    {
+      "source": "Adv. einmal, einst; manchmal",
+      "target": "quondam"
+    },
+    {
+      "source": "sapiô, sapîvî Verstand haben, Geschmack haben",
+      "target": "sapere,"
+    },
+    {
+      "source": "sîderis n Stern, Sternbild",
+      "target": "sîdus,"
+    },
+    {
+      "source": "Thalis m Thales (griech. Philosoph aus Milet, um 600 v. Chr.)",
+      "target": "Thalês,"
+    },
+    {
+      "source": "Gold",
+      "target": "aurum"
+    },
+    {
+      "source": "e kurz",
+      "target": "brevis,"
+    },
+    {
+      "source": "comparô vergleichen",
+      "target": "comparâre,"
+    },
+    {
+      "source": "Krösus (König von Lydien, 6. Jh. v. Chr.)",
+      "target": "Croesus"
+    },
+    {
+      "source": "Adv. endlich, erst",
+      "target": "dêmum"
+    },
+    {
+      "source": "a, um göttlich",
+      "target": "dîvînus,"
+    },
+    {
+      "source": "Präp. m. Akk. außerhalb (von)",
+      "target": "extrâ"
+    },
+    {
+      "source": "Schicksal, Götterspruch",
+      "target": "fâtum"
+    },
+    {
+      "source": "Griechenland",
+      "target": "Graecia"
+    },
+    {
+      "source": "a, um menschlich; gebildet",
+      "target": "hûmânus,"
+    },
+    {
+      "source": "Adv. inzwischen, unterdessen",
+      "target": "intereâ"
+    },
+    {
+      "source": "a, um der kleinste, der geringste",
+      "target": "minimus,"
+    },
+    {
+      "source": "opis f Hilfe, Kraft; Pl. Macht, Mittel, Reichtum",
+      "target": "ops,"
+    },
+    {
+      "source": "opem ferre dem Bruder Hilfe bringen",
+      "target": "frâtrî"
+    },
+    {
+      "source": "opês große Macht, großer Reichtum",
+      "target": "magnae"
+    },
+    {
+      "source": "recipiô, recêpî, receptum zurücknehmen, aufnehmen, wiederbekommen",
+      "target": "recipere,"
+    },
+    {
+      "source": "a, um königlich",
+      "target": "rêgius,"
+    },
+    {
+      "source": "rêgia königliches Haus, (Königs-)Palast",
+      "target": "(domus)"
+    },
+    {
+      "source": "(Königs-)Herrschaft, Reich",
+      "target": "rêgnum"
+    },
+    {
+      "source": "Solônis m Solon (athenischer Gesetzgeber im 6. Jh. v. Chr.)",
+      "target": "Solô,"
+    },
+    {
+      "source": "(3. Pers. Sg. ait, 3. Pers. Pl. âiunt) behaupte(te) ich, sag(t)e ich",
+      "target": "âiô"
+    },
+    {
+      "source": "Alkaios (griech. Dichter, um 600 v. Chr.)",
+      "target": "Alcaeus"
+    },
+    {
+      "source": "compônô, composuî, compositum abfassen, ordnen, schlichten; vergleichen",
+      "target": "compônere,"
+    },
+    {
+      "source": "contingô, contigî, contâctum berühren; gelingen",
+      "target": "contingere,"
+    },
+    {
+      "source": "mihi, ut veniam. Es gelingt mir zu kommen.",
+      "target": "Contingit"
+    },
+    {
+      "source": "Brief",
+      "target": "epistula"
+    },
+    {
+      "source": "Exil, Verbannung",
+      "target": "exilium"
+    },
+    {
+      "source": "Freude",
+      "target": "gaudium"
+    },
+    {
+      "source": "Anfang, Eingang",
+      "target": "initium"
+    },
+    {
+      "source": "e weich, angenehm; freundlich",
+      "target": "mollis,"
+    },
+    {
+      "source": "nûptiârum f Pl. Hochzeit",
+      "target": "nûptiae,"
+    },
+    {
+      "source": "perficiô, perfêcî, perfectum erreichen, fertigstellen, vollenden",
+      "target": "perficere,"
+    },
+    {
+      "source": "prius (Gen. priôris) der erste, der frühere, der vordere",
+      "target": "prior,"
+    },
+    {
+      "source": "dîcere (m. Dat.) (jdn.) grüßen, begrüßen",
+      "target": "salûtem"
+    },
+    {
+      "source": "Alcaeô amîcô salûtem dîcit. Sappho grüßt ihren Freund Alkaios.",
+      "target": "Sapphô"
+    },
+    {
+      "source": "Sapphûs f Sappho (griech. Dichterin, um 600 v. Chr.)",
+      "target": "Sapphô,"
+    },
+    {
+      "source": "Trost, Trostmittel",
+      "target": "sôlâcium"
+    },
+    {
+      "source": "esse Trost bringen",
+      "target": "sôlâciô"
+    },
+    {
+      "source": "versûs m Vers",
+      "target": "versus,"
+    },
+    {
+      "source": "vocâre zu Hilfe rufen",
+      "target": "auxiliô"
+    },
+    {
+      "source": "f Korinth (Stadt in Griechenland)",
+      "target": "Corinthus"
+    },
+    {
+      "source": "cupiditâtis f (m. Gen.) (heftiges) Verlangen (nach), Leidenschaft",
+      "target": "cupiditâs,"
+    },
+    {
+      "source": "glôriae das Verlangen nach Ruhm",
+      "target": "cupiditâs"
+    },
+    {
+      "source": "Ibykos (griech. Dichter, um 550 v. Chr.)",
+      "target": "Îbycus"
+    },
+    {
+      "source": "mâius (Gen. mâiôris) größer",
+      "target": "mâior,"
+    },
+    {
+      "source": "melius (Gen. meliôris) besser",
+      "target": "melior,"
+    },
+    {
+      "source": "minus (Gen. minôris) kleiner, geringer",
+      "target": "minor,"
+    },
+    {
+      "source": "necis f Mord, (gewaltsamer) Tod",
+      "target": "nex,"
+    },
+    {
+      "source": "a, um dunkel, unbekannt",
+      "target": "obscûrus,"
+    },
+    {
+      "source": "a, um der beste, sehr gut",
+      "target": "optimus,"
+    },
+    {
+      "source": "pêius (Gen. pêiôris) schlechter, schlimmer",
+      "target": "pêior,"
+    },
+    {
+      "source": "a, um der schlechteste, der schlimmste",
+      "target": "pessimus,"
+    },
+    {
+      "source": "ae, a die meisten, sehr viele",
+      "target": "plûrimî,"
+    },
+    {
+      "source": "poêtae m Dichter",
+      "target": "poêta,"
+    },
+    {
+      "source": "testis m/f (Gen. Pl. -ium) Zeuge, Zeugin",
+      "target": "testis,"
+    },
+    {
+      "source": "Adv. zugleich, zusammen",
+      "target": "ûnâ"
+    },
+    {
+      "source": "cum patre zusammen mit dem Vater",
+      "target": "ûnâ"
+    },
+    {
+      "source": "Antigone (Tochter des Ödipus)",
+      "target": "Antigona"
+    },
+    {
+      "source": "(nachgestellt) m. Gen. wegen",
+      "target": "causâ"
+    },
+    {
+      "source": "causâ wegen des Ruhms",
+      "target": "glôriae"
+    },
+    {
+      "source": "caveô, câvî, cautum (m. Akk.) sich hüten (vor), Vorsorge treffen",
+      "target": "cavêre,"
+    },
+    {
+      "source": "îram! Hüte dich vor Zorn!",
+      "target": "Cavê"
+    },
+    {
+      "source": "(nê) cadâs! Hüte dich zu fallen!",
+      "target": "Cavê,"
+    },
+    {
+      "source": "Creontis m Kreon (König von Theben, Onkel der Antigone)",
+      "target": "Creôn,"
+    },
+    {
+      "source": "a, um hart, hartherzig",
+      "target": "dûrus,"
+    },
+    {
+      "source": "a, um gottlos, gewissenlos",
+      "target": "impius,"
+    },
+    {
+      "source": "impônô, imposuî, impositum auferlegen, einsetzen",
+      "target": "impônere,"
+    },
+    {
+      "source": "lêgem impônere den Bürgern ein Gesetz auferlegen",
+      "target": "cîvibus"
+    },
+    {
+      "source": "a, um gerecht",
+      "target": "iûstus,"
+    },
+    {
+      "source": "nôlô, nôluî nicht wollen",
+      "target": "nôlle,"
+    },
+    {
+      "source": "a, um heimisch, väterlich",
+      "target": "patrius,"
+    },
+    {
+      "source": "peccô sündigen, einen Fehler machen",
+      "target": "peccâre,"
+    },
+    {
+      "source": "a, um fromm, gerecht, pflichtbewusst",
+      "target": "pius,"
+    },
+    {
+      "source": "(Wach-)Posten, Schutztruppe",
+      "target": "praesidium"
+    },
+    {
+      "source": "wer denn?",
+      "target": "quisnam"
+    },
+    {
+      "source": "Meinung, Satz, Sinn, Antrag (im Senat)",
+      "target": "sententia"
+    },
+    {
+      "source": "Stolz, Überheblichkeit",
+      "target": "superbia"
+    },
+    {
+      "source": "adulêscentis m (Gen. Pl. -ium) jung; Subst. junger Mann",
+      "target": "adulêscêns,"
+    },
+    {
+      "source": "aedis f (Gen. Pl. -ium) Tempel, Pl. Haus",
+      "target": "aedis,"
+    },
+    {
+      "source": "attingô, attigî, attâctum berühren",
+      "target": "attingere,"
+    },
+    {
+      "source": "canis m Hund",
+      "target": "canis,"
+    },
+    {
+      "source": "committô, commîsî, commissum anvertrauen; veranstalten; zustande bringen",
+      "target": "committere,"
+    },
+    {
+      "source": "committere Spiele veranstalten, eröffnen",
+      "target": "lûdôs"
+    },
+    {
+      "source": "committere eine Schlacht liefern, kämpfen",
+      "target": "proelium"
+    },
+    {
+      "source": "Gefängnis, Haft, Wache",
+      "target": "cûstôdia"
+    },
+    {
+      "source": "dôtis f Mitgift",
+      "target": "dôs,"
+    },
+    {
+      "source": "a, um wild",
+      "target": "ferus,"
+    },
+    {
+      "source": "e unglaublich",
+      "target": "incrêdibilis,"
+    },
+    {
+      "source": "a, um (m. Abl.) unwürdig (einer Sache)",
+      "target": "indîgnus,"
+    },
+    {
+      "source": "indîgnus der Ehre unwürdig",
+      "target": "honôre"
+    },
+    {
+      "source": "iungô, iûnxî, iûnctum verbinden, vereinigen",
+      "target": "iungere,"
+    },
+    {
+      "source": "iûris n Recht",
+      "target": "iûs,"
+    },
+    {
+      "source": "puduit m. Akk. es beschämt (jdn.)",
+      "target": "pudet,"
+    },
+    {
+      "source": "mê huius facinoris. Ich schäme mich wegen dieser Untat.",
+      "target": "Pudet"
+    },
+    {
+      "source": "sermônis m Gespräch, Sprache, Gerede",
+      "target": "sermô,"
+    },
+    {
+      "source": "a, um allein, einzig",
+      "target": "sôlus,"
+    },
+    {
+      "source": "Catônis m Cato (röm. Politiker und Feldherr)",
+      "target": "Catô,"
+    },
+    {
+      "source": "corrumpô, corrûpî, corruptum bestechen, verderben",
+      "target": "corrumpere,"
+    },
+    {
+      "source": "corrumpere den Richter bestechen",
+      "target": "iûdicem"
+    },
+    {
+      "source": "corrumpere die Jugend verderben",
+      "target": "iuventûtem"
+    },
+    {
+      "source": "dîligô, dîlêxî, dîlêctum hochachten, lieben",
+      "target": "dîligere,"
+    },
+    {
+      "source": "Adv. leicht",
+      "target": "facile"
+    },
+    {
+      "source": "Flamininus (röm. Politiker und Feldherr)",
+      "target": "Flâminînus"
+    },
+    {
+      "source": "a, um griechisch; Subst. Grieche",
+      "target": "Graecus,"
+    },
+    {
+      "source": "e leicht, leichtsinnig",
+      "target": "levis,"
+    },
+    {
+      "source": "mâiôrum m Pl. Vorfahren",
+      "target": "mâiôrês,"
+    },
+    {
+      "source": "… modo manchmal … manchmal",
+      "target": "modo"
+    },
+    {
+      "source": "Graecôrum nach Art der Griechen",
+      "target": "môre"
+    },
+    {
+      "source": "optô wünschen",
+      "target": "optâre,"
+    },
+    {
+      "source": "operis n Arbeit, Werk",
+      "target": "opus,"
+    },
+    {
+      "source": "perturbô in Verwirrung bringen",
+      "target": "perturbâre,"
+    },
+    {
+      "source": "Philosoph",
+      "target": "philosophus"
+    },
+    {
+      "source": "Adv. eher, lieber",
+      "target": "potius"
+    },
+    {
+      "source": "m. Konj. hoffentlich, wenn doch",
+      "target": "utinam"
+    },
+    {
+      "source": "veniâs! Hoffentlich kommst du!",
+      "target": "Utinam"
+    },
+    {
+      "source": "vênissês! Wenn du doch gekommen wärest!",
+      "target": "Utinam"
+    },
+    {
+      "source": "Fehler, schlechte Eigenschaft",
+      "target": "vitium"
+    },
+    {
+      "source": "voluptâtis f Lust, Vergnügen",
+      "target": "voluptâs,"
+    },
+    {
+      "source": "afficiô, affêcî, affectum m. Abl. versehen mit etw.",
+      "target": "afficere,"
+    },
+    {
+      "source": "afficere bestrafen",
+      "target": "poenâ"
+    },
+    {
+      "source": "afficere hinrichten lassen",
+      "target": "suppliciô"
+    },
+    {
+      "source": "Adv. übrigens, im Übrigen",
+      "target": "cêterum"
+    },
+    {
+      "source": "colligô, collêgî, collêctum sammeln",
+      "target": "colligere,"
+    },
+    {
+      "source": "Adv. dort",
+      "target": "illîc"
+    },
+    {
+      "source": "Brand, Feuer",
+      "target": "incendium"
+    },
+    {
+      "source": "Laelius (röm. Politiker und Feldherr)",
+      "target": "Laelius"
+    },
+    {
+      "source": "lêgâtiônis f Gesandtschaft",
+      "target": "lêgâtiô,"
+    },
+    {
+      "source": "memoris m. Gen. in Erinnerung an",
+      "target": "memor,"
+    },
+    {
+      "source": "e adelig, berühmt, vornehm",
+      "target": "nôbilis,"
+    },
+    {
+      "source": "Adv. wie",
+      "target": "quî"
+    },
+    {
+      "source": "restô, restitî übrig bleiben; Widerstand leisten",
+      "target": "restâre,"
+    },
+    {
+      "source": "dîcere restat. Das bleibt (noch) zu sagen übrig.",
+      "target": "Hoc"
+    },
+    {
+      "source": "hostibus fortiter restitêrunt. Die Soldaten leisteten den Feinden tapfer Widerstand.",
+      "target": "Mîlitês"
+    },
+    {
+      "source": "rumpô, rûpî, ruptum zerbrechen",
+      "target": "rumpere,"
+    },
+    {
+      "source": "Scîpiônis m Scipio (röm. Politiker und Feldherr)",
+      "target": "Scîpiô,"
+    },
+    {
+      "source": "Raum, Strecke, Zeit(raum)",
+      "target": "spatium"
+    },
+    {
+      "source": "Troja (Stadt in Kleinasien)",
+      "target": "Trôia"
+    },
+    {
+      "source": "accêdô, accessî, accessum (ad m. Akk.) herbeikommen, hinzukommen",
+      "target": "accêdere,"
+    },
+    {
+      "source": "rem pûblicam accêdere sich politisch betätigen",
+      "target": "ad"
+    },
+    {
+      "source": "Atticus (Freund und Verleger Ciceros)",
+      "target": "Atticus"
+    },
+    {
+      "source": "Catull (röm. Dichter, 1. Jh. v. Chr.)",
+      "target": "Catullus"
+    },
+    {
+      "source": "coniûrâtiônis f Verschwörung",
+      "target": "coniûrâtiô,"
+    },
+    {
+      "source": "cônservô (â m. Abl.) retten (vor), bewahren",
+      "target": "cônservâre,"
+    },
+    {
+      "source": "vitiô cônservâre vor einem Fehler bewahren",
+      "target": "â"
+    },
+    {
+      "source": "Gastmahl, Gelage",
+      "target": "convîvium"
+    },
+    {
+      "source": "e freundschaftlich, vertraut; Subst. Freund",
+      "target": "familiâris,"
+    },
+    {
+      "source": "e militärisch, Kriegs-",
+      "target": "mîlitâris,"
+    },
+    {
+      "source": "freie Zeit, Ruhe (von berufl. Tätigkeit); Frieden",
+      "target": "ôtium"
+    },
+    {
+      "source": "Adv. bekannt, in aller Öffentlichkeit",
+      "target": "palam"
+    },
+    {
+      "source": "Adv. dann, später",
+      "target": "post"
+    },
+    {
+      "source": "wie oft, sooft",
+      "target": "quotiêns"
+    },
+    {
+      "source": "venîs, gaudeô. Sooft du kommst, freue ich mich.",
+      "target": "Quotiêns"
+    },
+    {
+      "source": "nach Rom (wohin?)",
+      "target": "Rômam"
+    },
+    {
+      "source": "Adv. genug",
+      "target": "satis"
+    },
+    {
+      "source": "Adv. damals, dann",
+      "target": "tunc"
+    },
+    {
+      "source": "aditûs m Zugang, Eingang",
+      "target": "aditus,"
+    },
+    {
+      "source": "… aut entweder … oder",
+      "target": "aut"
+    },
+    {
+      "source": "Adv. dahin, dorthin",
+      "target": "illûc"
+    },
+    {
+      "source": "(3. Pers. Sg. inquit) sag(t)e ich",
+      "target": "inquam"
+    },
+    {
+      "source": "Adv. da, dort",
+      "target": "istîc"
+    },
+    {
+      "source": "Maecênâtis m Mäzenas (Förderer der Künste zur Zeit des Augustus)",
+      "target": "Maecênâs,"
+    },
+    {
+      "source": "Glied, (Körper-)Teil",
+      "target": "membrum"
+    },
+    {
+      "source": "corporis die Glieder des Körpers",
+      "target": "membra"
+    },
+    {
+      "source": "ôrâtiônis die Teile einer Rede",
+      "target": "membra"
+    },
+    {
+      "source": "occurrô, occurrî begegnen, entgegentreten",
+      "target": "occurrere,"
+    },
+    {
+      "source": "Adv. am meisten, sehr viel",
+      "target": "plûrimum"
+    },
+    {
+      "source": "Adv. mehr",
+      "target": "plûs"
+    },
+    {
+      "source": "possideô, possêdî, possessum besitzen",
+      "target": "possidêre,"
+    },
+    {
+      "source": "Adv. außerdem",
+      "target": "praetereâ"
+    },
+    {
+      "source": "prehendô, prehendî, prehênsum ergreifen, nehmen",
+      "target": "prehendere,"
+    },
+    {
+      "source": "amîcî prehendere die Hand des Freundes ergreifen",
+      "target": "manum"
+    },
+    {
+      "source": "als, wie",
+      "target": "quam"
+    },
+    {
+      "source": "celerrimê möglichst schnell",
+      "target": "quam"
+    },
+    {
+      "source": "vîsô, vîsî, vîsum besichtigen, besuchen",
+      "target": "vîsere,"
+    },
+    {
+      "source": "carpô, carpsî, carptum pflücken, genießen; nutzen",
+      "target": "carpere,"
+    },
+    {
+      "source": "diem! Genieße den Tag! Nutze den Tag (die Zeit)!",
+      "target": "Carpe"
+    },
+    {
+      "source": "Ausspruch, Wort",
+      "target": "dictum"
+    },
+    {
+      "source": "a, um göttlich",
+      "target": "dîvus,"
+    },
+    {
+      "source": "Epikur (griech. Philosoph, um 341 – 270 v. Chr.)",
+      "target": "Epicûrus"
+    },
+    {
+      "source": "a, um dankbar, willkommen, beliebt",
+      "target": "grâtus,"
+    },
+    {
+      "source": "grâtum ein willkommenes Geschenk",
+      "target": "dônum"
+    },
+    {
+      "source": "grâtus ein beliebter Mensch",
+      "target": "homô"
+    },
+    {
+      "source": "Horaz (röm. Dichter, 65-8 v. Chr.)",
+      "target": "Horâtius"
+    },
+    {
+      "source": "Neid",
+      "target": "invidia"
+    },
+    {
+      "source": "a, um angenehm, erfreulich",
+      "target": "iûcundus,"
+    },
+    {
+      "source": "… nec weder … noch",
+      "target": "nec"
+    },
+    {
+      "source": "a, um (in m. Abl.) beschäftigt (mit)",
+      "target": "occupâtus,"
+    },
+    {
+      "source": "in negôtiîs occupâtî sunt. Die Beamten sind mit ihren Aufgaben beschäftigt.",
+      "target": "Magistrâtûs"
+    },
+    {
+      "source": "pecoris n Vieh, Tier",
+      "target": "pecus,"
+    },
+    {
+      "source": "Adv. selten",
+      "target": "rârô"
+    },
+    {
+      "source": "recipere sich zurückziehen",
+      "target": "sê"
+    },
+    {
+      "source": "in castra sê recepêrunt. Die Truppen haben sich ins Lager zurückgezogen.",
+      "target": "Côpiae"
+    },
+    {
+      "source": "Tibull (röm. Dichter, um 55 - 19 v. Chr.)",
+      "target": "Tibullus"
+    },
+    {
+      "source": "Adv. gegenüber, dagegen",
+      "target": "contrâ"
+    },
+    {
+      "source": "dîgnitâtis f Ansehen, Würde; (gesellschaftliche) Stellung",
+      "target": "dîgnitâs,"
+    },
+    {
+      "source": "a, um verschieden, entgegengesetzt, feindlich",
+      "target": "dîversus,"
+    },
+    {
+      "source": "dîversa verschiedene (entgegengesetzte) Interessen",
+      "target": "studia"
+    },
+    {
+      "source": "a, um ausgezeichnet, hervorragend",
+      "target": "êgregius,"
+    },
+    {
+      "source": "Beispiel, Vorbild",
+      "target": "exemplum"
+    },
+    {
+      "source": "e alt; bedeutend, groß",
+      "target": "grandis,"
+    },
+    {
+      "source": "nicht",
+      "target": "haud"
+    },
+    {
+      "source": "incendô, incendî, incênsum entflammen, in Brand stecken",
+      "target": "incendere,"
+    },
+    {
+      "source": "est m. Abl. es ist nötig, man braucht (etw.)",
+      "target": "opus"
+    },
+    {
+      "source": "amîcîs opus est. Wir brauchen Freunde.",
+      "target": "Nôbîs"
+    },
+    {
+      "source": "Ovid (röm. Dichter, 43 v. Chr. - 17 n. Chr.)",
+      "target": "Ovidius"
+    },
+    {
+      "source": "permittô, permîsî, permissum erlauben, überlassen",
+      "target": "permittere,"
+    },
+    {
+      "source": "a, um anständig, gut",
+      "target": "probus,"
+    },
+    {
+      "source": "prôferô, prôtulî, prôlâtum (hervor)holen, zur Sprache bringen",
+      "target": "prôferre,"
+    },
+    {
+      "source": "in Rom (wo?)",
+      "target": "Rômae"
+    },
+    {
+      "source": "praebêre sich zeigen",
+      "target": "sê"
+    },
+    {
+      "source": "Vergil (röm. Dichter, 70 - 19 v. Chr.)",
+      "target": "Vergilius"
+    },
+    {
+      "source": "a, um eben, gleich, gerecht, gnädig",
+      "target": "aequus,"
+    },
+    {
+      "source": "aequus ein eben (freies) Feld",
+      "target": "campus"
+    },
+    {
+      "source": "aequus ein gerechter Richter",
+      "target": "iûdex"
+    },
+    {
+      "source": "aequum gleiches Recht, Rechtsgleichheit",
+      "target": "iûs"
+    },
+    {
+      "source": "aequus Ausgeglichenheit; Gleichgültigkeit",
+      "target": "animus"
+    },
+    {
+      "source": "auferô, abstulî, ablâtum wegbringen, rauben",
+      "target": "auferre,"
+    },
+    {
+      "source": "discêdô, discessî, discessum auseinandergehen, weggehen",
+      "target": "discêdere,"
+    },
+    {
+      "source": "Diebstahl, Hinterlist",
+      "target": "fûrtum"
+    },
+    {
+      "source": "committere einen Diebstahl begehen",
+      "target": "fûrtum"
+    },
+    {
+      "source": "e unverletzt, wohlbehalten",
+      "target": "incolumis,"
+    },
+    {
+      "source": "quisque gerade die Besten",
+      "target": "optimus"
+    },
+    {
+      "source": "quisque reî pûblicae prôvidet. Gerade die Besten sorgen für den Staat.",
+      "target": "Optimus"
+    },
+    {
+      "source": "permoveô, permôvî, permôtum beunruhigen, veranlassen",
+      "target": "permovêre,"
+    },
+    {
+      "source": "Präp. m. Akk. außer",
+      "target": "praeter"
+    },
+    {
+      "source": "a, um der nächste",
+      "target": "proximus,"
+    },
+    {
+      "source": "pudôris m Scham(gefühl), Anstand",
+      "target": "pudor,"
+    },
+    {
+      "source": "quaeque, quodque adj. jeder",
+      "target": "quisque,"
+    },
+    {
+      "source": "quidque subst. jeder",
+      "target": "quisque,"
+    },
+    {
+      "source": "a, um der äußerste, der entfernteste, der letzte",
+      "target": "ultimus,"
+    },
+    {
+      "source": "arbitror, arbitrâtus sum glauben, meinen",
+      "target": "arbitrârî,"
+    },
+    {
+      "source": "fateor, fassus sum bekennen, gestehen",
+      "target": "fatêrî,"
+    },
+    {
+      "source": "Beim Herkules!",
+      "target": "Herc(u)le!"
+    },
+    {
+      "source": "incêdô, incessî, incessum heranrücken, eintreten; (jdn.) befallen",
+      "target": "incêdere,"
+    },
+    {
+      "source": "hostês incêdimus. Wir rücken gegen die Feinde vor.",
+      "target": "In"
+    },
+    {
+      "source": "cûra incessit. Große Sorge kam auf (trat ein).",
+      "target": "Magna"
+    },
+    {
+      "source": "mê incêdit. Furcht befällt mich.",
+      "target": "Metus"
+    },
+    {
+      "source": "memorô erwähnen, sagen",
+      "target": "memorâre,"
+    },
+    {
+      "source": "moror, morâtus sum (sich) aufhalten",
+      "target": "morârî,"
+    },
+    {
+      "source": "polliceor, pollicitus sum versprechen",
+      "target": "pollicêrî,"
+    },
+    {
+      "source": "precor, precâtus sum bitten",
+      "target": "precârî,"
+    },
+    {
+      "source": "von fern, weit weg; â m. Abl. fern von",
+      "target": "procul"
+    },
+    {
+      "source": "reor, ratus sum meinen",
+      "target": "rêrî,"
+    },
+    {
+      "source": "suspicor, suspicâtus sum vermuten",
+      "target": "suspicârî,"
+    },
+    {
+      "source": "tueor betrachten, schützen, (milit.) sichern",
+      "target": "tuêrî,"
+    },
+    {
+      "source": "tuêrî die Natur betrachten",
+      "target": "nâtûram"
+    },
+    {
+      "source": "tuêrî die Grenzen (das Gebiet) sichern",
+      "target": "fînês"
+    },
+    {
+      "source": "vereor, veritus sum fürchten, sich scheuen; verehren",
+      "target": "verêrî,"
+    },
+    {
+      "source": "vereor. Ich fürchte die Gefahr.",
+      "target": "Perîculum"
+    },
+    {
+      "source": "vereor. Ich verehre die Götter.",
+      "target": "Deôs"
+    },
+    {
+      "source": "Adv. aber; in der Tat, wirklich",
+      "target": "vêrô"
+    },
+    {
+      "source": "aggredior, aggressus sum angreifen, herangehen",
+      "target": "aggredî,"
+    },
+    {
+      "source": "agere Prozesse führen",
+      "target": "causâs"
+    },
+    {
+      "source": "cônsequor, cônsecûtus sum m. Akk. erreichen, nachfolgen",
+      "target": "cônsequî,"
+    },
+    {
+      "source": "experior, expertus sum erfahren, versuchen",
+      "target": "experîrî,"
+    },
+    {
+      "source": "Adv. fast, beinahe; ungefähr",
+      "target": "ferê"
+    },
+    {
+      "source": "loquor, locûtus sum reden, sprechen",
+      "target": "loquî,"
+    },
+    {
+      "source": "môlior, môlîtus sum (an)treiben; planen, unternehmen",
+      "target": "môlîrî,"
+    },
+    {
+      "source": "patior, passus sum (er)leiden, ertragen, zulassen",
+      "target": "patî,"
+    },
+    {
+      "source": "patior. Ich erleiden (ertragen) Schmerzen.",
+      "target": "Dolôrês"
+    },
+    {
+      "source": "numquam patiar. Das werde ich niemals zulassen.",
+      "target": "Hoc"
+    },
+    {
+      "source": "queror, questus sum (m. Akk.) klagen, sich beklagen über",
+      "target": "querî,"
+    },
+    {
+      "source": "dare sich widmen, sich hingeben",
+      "target": "sê"
+    },
+    {
+      "source": "mê dô. Ich gebe mich der Ruhe hin. Ich widme mich der Ruhe.",
+      "target": "Ôtiô"
+    },
+    {
+      "source": "sensûs m Gefühl, Sinn, Verstand",
+      "target": "sensus,"
+    },
+    {
+      "source": "sequor, secûtus sum m. Akk. folgen",
+      "target": "sequî,"
+    },
+    {
+      "source": "sequî dem Freund folgen",
+      "target": "amîcum"
+    },
+    {
+      "source": "sûmô, sûmpsî, sûmptum nehmen",
+      "target": "sûmere,"
+    },
+    {
+      "source": "wie, wie zum Beispiel",
+      "target": "velut"
+    },
+    {
+      "source": "Atem, Leben, Seele",
+      "target": "anima"
+    },
+    {
+      "source": "colloquor, collocûtus sum sich unterhalten; verhandeln, besprechen",
+      "target": "colloquî,"
+    },
+    {
+      "source": "cônor, cônâtus sum versuchen",
+      "target": "cônârî,"
+    },
+    {
+      "source": "hortor, hortâtus sum auffordern, ermahnen",
+      "target": "hortârî,"
+    },
+    {
+      "source": "intueor anschauen",
+      "target": "intuêrî,"
+    },
+    {
+      "source": "mîror, mîrâtus sum bewundern, sich wundern",
+      "target": "mîrârî,"
+    },
+    {
+      "source": "morior, mortuus sum sterben",
+      "target": "morî,"
+    },
+    {
+      "source": "opînor, opînatus sum glauben, meinen",
+      "target": "opînârî,"
+    },
+    {
+      "source": "orior, ortus sum entstehen, sich erheben",
+      "target": "orîrî,"
+    },
+    {
+      "source": "oritur. Die Sonne geht auf.",
+      "target": "Sôl"
+    },
+    {
+      "source": "oritur. Geschrei erhebt sich.",
+      "target": "Clâmor"
+    },
+    {
+      "source": "oritur. Ein Krieg bricht aus.",
+      "target": "Bellum"
+    },
+    {
+      "source": "proficîscor, profectus sum (ab)reisen, aufbrechen",
+      "target": "proficîscî,"
+    },
+    {
+      "source": "ratiône ohne jeden Grund",
+      "target": "nûllâ"
+    },
+    {
+      "source": "ratiône auf dieselbe Weise",
+      "target": "eâdem"
+    },
+    {
+      "source": "agere mit Vernunft (vernünftig) handeln",
+      "target": "ratiône"
+    },
+    {
+      "source": "spîritûs m Atem, Seele",
+      "target": "spîritus,"
+    },
+    {
+      "source": "nê m. Konj. fürchten, dass",
+      "target": "verêrî,"
+    },
+    {
+      "source": "versor, versâtus sum sich aufhalten, sich befinden, sich beschäftigen",
+      "target": "versârî,"
+    },
+    {
+      "source": "rê pûblicâ versârî politisch tätig sein",
+      "target": "in"
+    },
+    {
+      "source": "a, um zufrieden",
+      "target": "contentus,"
+    },
+    {
+      "source": "imitor, imitâtus sum nachahmen",
+      "target": "imitârî,"
+    },
+    {
+      "source": "nâscor, nâtus sum entstehen, geboren werden",
+      "target": "nâscî,"
+    },
+    {
+      "source": "genere nâtus est. Er stammt aus einem alten Geschlecht.",
+      "target": "Antîquô"
+    },
+    {
+      "source": "ab invidiâ nâtum est. Das Verbrechen entstand aus Neid.",
+      "target": "Scelus"
+    },
+    {
+      "source": "Arbeit, Mühe",
+      "target": "opera"
+    },
+    {
+      "source": "paris gleich, ebenbürtig",
+      "target": "pâr,"
+    },
+    {
+      "source": "persequor, persecûtus sum verfolgen; erstreben",
+      "target": "persequî,"
+    },
+    {
+      "source": "plêraeque, plêraque die meisten, sehr viele",
+      "target": "plêrîque,"
+    },
+    {
+      "source": "praecipiô, praecêpî, praeceptum (be)lehren, vorschreiben",
+      "target": "praecipere,"
+    },
+    {
+      "source": "a, um persönlich, privat; Subst. Privatperson",
+      "target": "prîvâtus,"
+    },
+    {
+      "source": "prôgredior, prôgressus sum vorrücken, weitergehen",
+      "target": "prôgredî,"
+    },
+    {
+      "source": "a, um öffentlich, staatlich",
+      "target": "pûblicus,"
+    },
+    {
+      "source": "a, um gerade, recht, richtig",
+      "target": "rêctus,"
+    },
+    {
+      "source": "Adv. freiwillig, noch dazu",
+      "target": "ultrô"
+    },
+    {
+      "source": "ûtor, ûsus sum m. Abl. benutzen, gebrauchen",
+      "target": "ûtî,"
+    },
+    {
+      "source": "dolô ûtitur. Odysseus wendet eine List an.",
+      "target": "Ulixês"
+    },
+    {
+      "source": "ûtor amîcô. Ich habe Markus als Freund.",
+      "target": "Mârcô"
+    },
+    {
+      "source": "capere ê / ex Freude haben an",
+      "target": "voluptâtem"
+    },
+    {
+      "source": "/ atque und, und auch; im Vergleich: wie, als",
+      "target": "ac"
+    },
+    {
+      "source": "âctiônis f Tätigkeit; Gerichtsverhandlung; Rede",
+      "target": "âctiô,"
+    },
+    {
+      "source": "agitô betreiben; überlegen",
+      "target": "agitâre,"
+    },
+    {
+      "source": "/ ac und, und auch; im Vergleich: wie, als",
+      "target": "atque"
+    },
+    {
+      "source": "cônfiteor, cônfessus sum (ein)gestehen",
+      "target": "cônfitêrî,"
+    },
+    {
+      "source": "cônsuêscô, cônsuêvî, cônsuêtum m. Inf. sich daran gewöhnen",
+      "target": "cônsuêscere,"
+    },
+    {
+      "source": "pârêre cônsuêscit. Das Pferd gewöhnt sich daran zu gehorchen.",
+      "target": "Equus"
+    },
+    {
+      "source": "cordis n Herz",
+      "target": "cor,"
+    },
+    {
+      "source": "esse am Herzen liegen",
+      "target": "cordî"
+    },
+    {
+      "source": "ac / atque derselbe wie",
+      "target": "îdem"
+    },
+    {
+      "source": "dîcitis ac amîcî. Ihr sagt dasselbe wie die Freunde.",
+      "target": "Idem"
+    },
+    {
+      "source": "ingredior, ingressus sum betreten; beginnen",
+      "target": "ingredî,"
+    },
+    {
+      "source": "înstruô, înstrûxî, înstrûctum aufstellen, ausrüsten; unterrichten",
+      "target": "înstruere,"
+    },
+    {
+      "source": "a, um offenkundig; überführt",
+      "target": "manifestus,"
+    },
+    {
+      "source": "oneris n Last",
+      "target": "onus,"
+    },
+    {
+      "source": "a, um wie groß, wie viel",
+      "target": "quantus,"
+    },
+    {
+      "source": "remittô, remîsî, remissum zurückschicken; nachlassen, vermindern",
+      "target": "remittere,"
+    },
+    {
+      "source": "Adv. freilich, natürlich",
+      "target": "scîlicet"
+    },
+    {
+      "source": "videor, vîsus sum scheinen, gelten (als)",
+      "target": "vidêrî,"
+    },
+    {
+      "source": "aciêî f Schlachtordnung, Schärfe",
+      "target": "aciês,"
+    },
+    {
+      "source": "aetâtis f Lebensalter, Zeit, Zeitalter",
+      "target": "aetâs,"
+    },
+    {
+      "source": "Akk. nach Hause (wohin?)",
+      "target": "domum"
+    },
+    {
+      "source": "êiciô, êiêcî, êiectum hinauswerfen, vertreiben",
+      "target": "êicere,"
+    },
+    {
+      "source": "înstituô, înstituî, înstitûtum beginnen, einrichten, unterrichten",
+      "target": "înstituere,"
+    },
+    {
+      "source": "nepôtis m Enkel",
+      "target": "nepôs,"
+    },
+    {
+      "source": "vêrô aber nicht",
+      "target": "neque"
+    },
+    {
+      "source": "nôbilitâtis f Adel, vornehme Abstammung",
+      "target": "nôbilitâs,"
+    },
+    {
+      "source": "ôrdinis m Ordnung, Reihe, Stand",
+      "target": "ôrdô,"
+    },
+    {
+      "source": "senâtôrum der Senatorenstand",
+      "target": "ôrdô"
+    },
+    {
+      "source": "ôrdinis vom gleichen Rang (Stand)",
+      "target": "eiusdem"
+    },
+    {
+      "source": "familiâs Hausherr, Familienoberhaupt",
+      "target": "pater"
+    },
+    {
+      "source": "Macht",
+      "target": "potentia"
+    },
+    {
+      "source": "prôspiciô, prôspexî, prôspectum achtgeben, dafür sorgen, (vorher)sehen",
+      "target": "prôspicere,"
+    },
+    {
+      "source": "prôspicere den Tod vorhersehen",
+      "target": "mortem"
+    },
+    {
+      "source": "patris prôspicere für das Wohl des Vaters sorgen",
+      "target": "salûtî"
+    },
+    {
+      "source": "a, um übrig, künftig",
+      "target": "reliquus,"
+    },
+    {
+      "source": "familiâris f (Privat-)Vermögen, Besitz",
+      "target": "rês"
+    },
+    {
+      "source": "subiciô, subiêcî, subiectum darunterlegen; unterwerfen",
+      "target": "subicere,"
+    },
+    {
+      "source": "hostibus subiectîs die unterworfenen Feinde schonen",
+      "target": "parcere"
+    },
+    {
+      "source": "oder",
+      "target": "-ve"
+    },
+    {
+      "source": "accendô, accendî, accênsum anfeuern, anzünden",
+      "target": "accendere,"
+    },
+    {
+      "source": "accênsus zornentbrannt, zornerfüllt",
+      "target": "îrâ"
+    },
+    {
+      "source": "admittô, admîsî, admissum hinzuziehen, zulassen",
+      "target": "admittere,"
+    },
+    {
+      "source": "ârdeô, ârsî, ârsûrum brennen",
+      "target": "ârdêre,"
+    },
+    {
+      "source": "zu Hause, daheim (wo?)",
+      "target": "domî"
+    },
+    {
+      "source": "Flamme, Feuer",
+      "target": "flamma"
+    },
+    {
+      "source": "intersum, interfuî (m. Dat.) dazwischen sein; teilnehmen (an)",
+      "target": "interesse,"
+    },
+    {
+      "source": "Gericht, Urteil",
+      "target": "iûdicium"
+    },
+    {
+      "source": "libîdinis f (m. Gen.) Verlangen (nach), Lust, Willkür",
+      "target": "libîdô,"
+    },
+    {
+      "source": "Freiheit, Willkür",
+      "target": "licentia"
+    },
+    {
+      "source": "Ort, Platz, Stelle; Gegend",
+      "target": "locus"
+    },
+    {
+      "source": "locôrum n Pl.",
+      "target": "locâ,"
+    },
+    {
+      "source": "/ nimium Adv. (all)zu, (all)zu sehr",
+      "target": "nimis"
+    },
+    {
+      "source": "lîbertâtis zu viel Freiheit",
+      "target": "nimium"
+    },
+    {
+      "source": "a, um übermäßig, zu groß",
+      "target": "nimius,"
+    },
+    {
+      "source": "quaecumque, quodcumque jeder, der; wer auch immer",
+      "target": "quîcumque,"
+    },
+    {
+      "source": "Adv. freilich",
+      "target": "quippe"
+    },
+    {
+      "source": "quidquid (quicquid) subst. jeder, der; wer auch immer",
+      "target": "quisquis,"
+    },
+    {
+      "source": "Subj. obwohl, wenn auch",
+      "target": "tametsî"
+    },
+    {
+      "source": "a, um entgegengesetzt, feindlich",
+      "target": "adversus,"
+    },
+    {
+      "source": "a, um günstig, angenehm, angemessen",
+      "target": "commodus,"
+    },
+    {
+      "source": "a, um ungerecht, ungleich",
+      "target": "inîquus,"
+    },
+    {
+      "source": "(m. Gen.) es ist wichtig (für jdn.)",
+      "target": "interest"
+    },
+    {
+      "source": "interest tê valêre. Es ist für alle wichtig, dass du gesund bist.",
+      "target": "Omnium"
+    },
+    {
+      "source": "libuit es gefällt",
+      "target": "libet,"
+    },
+    {
+      "source": "mâlô, mâluî lieber wollen",
+      "target": "mâlle,"
+    },
+    {
+      "source": "interest es ist wichtig für mich",
+      "target": "meâ"
+    },
+    {
+      "source": "rêfert es ist wichtig für mich",
+      "target": "meâ"
+    },
+    {
+      "source": "Adv. eben (noch); nur",
+      "target": "modo"
+    },
+    {
+      "source": "obsidis m/f Geisel",
+      "target": "obses,"
+    },
+    {
+      "source": "prîncipis m der Erste, der führende Mann; Kaiser",
+      "target": "prînceps,"
+    },
+    {
+      "source": "(m. Gen.) es ist wichtig (für jdn.)",
+      "target": "rêfert"
+    },
+    {
+      "source": "rêfert tê valêre. Es ist für alle wichtig, dass du gesund bist.",
+      "target": "Omnium"
+    },
+    {
+      "source": "Adv. wieder",
+      "target": "rûrsus"
+    },
+    {
+      "source": "tollô, sustulî, sublâtum aufheben, in die Höhe heben, wegnehmen",
+      "target": "tollere,"
+    },
+    {
+      "source": "ad caelum tollere die Hände zum Himmel erheben",
+      "target": "manûs"
+    },
+    {
+      "source": "tollere ein Gesetz aufheben",
+      "target": "lêgem"
+    },
+    {
+      "source": "Veneris f Venus (die Göttin der Liebe)",
+      "target": "Venus,"
+    },
+    {
+      "source": "adventûs m Ankunft",
+      "target": "adventus,"
+    },
+    {
+      "source": "aequoris n Ebene, Fläche, Meer",
+      "target": "aequor,"
+    },
+    {
+      "source": "Geiz, Habsucht",
+      "target": "avâritia"
+    },
+    {
+      "source": "currûs m Wagen",
+      "target": "currus,"
+    },
+    {
+      "source": "flûctûs m Flut, Strömung",
+      "target": "flûctus,"
+    },
+    {
+      "source": "hiemis f Winter; Unwetter",
+      "target": "hiems,"
+    },
+    {
+      "source": "Adv. weniger",
+      "target": "minus"
+    },
+    {
+      "source": "Adv. früher, zuerst",
+      "target": "prius"
+    },
+    {
+      "source": "quaesô bitten",
+      "target": "quaesere,"
+    },
+    {
+      "source": "Adv. plötzlich, unerwartet",
+      "target": "repente"
+    },
+    {
+      "source": "Ufer",
+      "target": "rîpa"
+    },
+    {
+      "source": "suspîciônis f Verdacht, Vermutung",
+      "target": "suspîciô,"
+    },
+    {
+      "source": "tempestâtis f Sturm, (schlechtes) Wetter; Zeit",
+      "target": "tempestâs,"
+    },
+    {
+      "source": "vehô, vêxî, vectum fahren, tragen, ziehen",
+      "target": "vehere,"
+    },
+    {
+      "source": "vehô. Ich fahre (transportiere) Getreide.",
+      "target": "Frûmentum"
+    },
+    {
+      "source": "vehor, vectus sum sich fortbewegen, fahren",
+      "target": "vehî,"
+    },
+    {
+      "source": "vehor. Ich fahre mit (auf) dem Wagen.",
+      "target": "Carrô"
+    },
+    {
+      "source": "altera, alterum (Gen. alterîus, Dat. alterî) der eine / der andere (von zweien)",
+      "target": "alter,"
+    },
+    {
+      "source": "a, um bedeutend, groß, weit",
+      "target": "amplus,"
+    },
+    {
+      "source": "an nûntius vênerit. Ich weiß nicht, ob nicht eine Nachricht gekommen ist.",
+      "target": "Nesciô,"
+    },
+    {
+      "source": "Hals",
+      "target": "collum"
+    },
+    {
+      "source": "fîô, factus sum gemacht werden; geschehen, werden",
+      "target": "fierî,"
+    },
+    {
+      "source": "a, um (m. Gen.) ohne Kenntnis, unwissend",
+      "target": "îgnârus,"
+    },
+    {
+      "source": "perîculôrum ohne Kenntnis der Gefahren",
+      "target": "îgnârus"
+    },
+    {
+      "source": "impetrô erreichen, durchsetzen",
+      "target": "impetrâre,"
+    },
+    {
+      "source": "îrâscor (m. Dat.) in Zorn geraten, zornig sein (gegen / über)",
+      "target": "îrâscî,"
+    },
+    {
+      "source": "laudis f Lob, Ruhm",
+      "target": "laus,"
+    },
+    {
+      "source": "Präp. m. Akk. wegen; für; gegen(über)",
+      "target": "ob"
+    },
+    {
+      "source": "ob rem weshalb; deshalb",
+      "target": "quam"
+    },
+    {
+      "source": "ob rem weshalb; deshalb",
+      "target": "quam"
+    },
+    {
+      "source": "repetô, repetîvî, repetîtum (zurück)verlangen, wiederholen",
+      "target": "repetere,"
+    },
+    {
+      "source": "repetere Wörter wiederholen",
+      "target": "verba"
+    },
+    {
+      "source": "repetere Geld (zurück)verlangen",
+      "target": "pecûniam"
+    },
+    {
+      "source": "sûmptûs m Aufwand, Kosten",
+      "target": "sûmptus,"
+    },
+    {
+      "source": "utraque, utrumque (Gen. utrîusque, Dat. utrîqueb)eide, jeder (von zweien)",
+      "target": "uterque,"
+    },
+    {
+      "source": "cônsul adest. Beide Konsuln sind anwesend.",
+      "target": "Uterque"
+    },
+    {
+      "source": "caedis f (Gen. Pl. -ium) Mord, Blutbad",
+      "target": "caedês,"
+    },
+    {
+      "source": "contineô, continuî, contentum festhalten, enthalten",
+      "target": "continêre,"
+    },
+    {
+      "source": "dîvidô, dîvîsî, dîvîsum teilen, trennen",
+      "target": "dîvidere,"
+    },
+    {
+      "source": "Adv. dorthin; deswegen",
+      "target": "eô"
+    },
+    {
+      "source": "excipiô, excêpî, exceptum aufnehmen, eine Ausnahme machen",
+      "target": "excipere,"
+    },
+    {
+      "source": "m. Gen. Eigentum (von jdm.) werden",
+      "target": "fierî"
+    },
+    {
+      "source": "mercâtôris fit. Das Haus wird Eigentum des Kaufmanns.",
+      "target": "Domus"
+    },
+    {
+      "source": "Adv. vergeblich",
+      "target": "frûstrâ"
+    },
+    {
+      "source": "Adv. von hier, hierauf",
+      "target": "hinc"
+    },
+    {
+      "source": "mercêdis f Lohn",
+      "target": "mercês,"
+    },
+    {
+      "source": "requîrô, requîsîvî, requîsîtum aufsuchen, sich erkundigen, verlangen",
+      "target": "requîrere,"
+    },
+    {
+      "source": "/ seu oder, oder wenn",
+      "target": "sîve"
+    },
+    {
+      "source": "tendô, tetendî, tentum (aus)strecken, spannen, sich anstrengen",
+      "target": "tendere,"
+    },
+    {
+      "source": "Theater",
+      "target": "theâtrum"
+    },
+    {
+      "source": "cônsuêvî Perf. gewohnt sein",
+      "target": "cônsuêvisse,"
+    },
+    {
+      "source": "lîberôs docêre cônsuêvit. Der Lehrer ist es gewohnt, die Kinder zu unterrichten.",
+      "target": "Magister"
+    },
+    {
+      "source": "fierî cônsuêvit. Das geschieht gewöhnlich.",
+      "target": "Hoc"
+    },
+    {
+      "source": "quî m. Konj. würdig, zu …",
+      "target": "dîgnus,"
+    },
+    {
+      "source": "frûctûs m Frucht, Nutzen, Ertrag",
+      "target": "frûctus,"
+    },
+    {
+      "source": "capere Nutzen ziehen",
+      "target": "frûctum"
+    },
+    {
+      "source": "imâginis f Bild, Abbild",
+      "target": "imâgô,"
+    },
+    {
+      "source": "/ avum meminî. Ich erinnere mich an den Großvater.",
+      "target": "Avî"
+    },
+    {
+      "source": "mê esse amîcum tuum? Denkst du daran, dass ich dein Freund bin?",
+      "target": "Meministîne"
+    },
+    {
+      "source": "est, quî m. Konj. es gibt niemand, der …",
+      "target": "nêmô"
+    },
+    {
+      "source": "nôvî Perf. kennen, wissen",
+      "target": "no(vi)sse,"
+    },
+    {
+      "source": "ôdî Perf. hassen",
+      "target": "ôdisse,"
+    },
+    {
+      "source": "quî (quippe cum) da ja",
+      "target": "quippe"
+    },
+    {
+      "source": "Bild, Schatten (eines Toten)",
+      "target": "simulâcrum"
+    },
+    {
+      "source": "… sîve sei es (dass) … sei es (dass)",
+      "target": "sîve"
+    },
+    {
+      "source": "quî m. Konj. es gibt Leute, die …",
+      "target": "sunt,"
+    },
+    {
+      "source": "a, um gesamt; Pl. alle zusammen",
+      "target": "ûniversus,"
+    },
+    {
+      "source": "nostrum ein jeder von uns",
+      "target": "ûnusquisque"
+    },
+    {
+      "source": "audeô, ausus sum wagen",
+      "target": "audêre,"
+    },
+    {
+      "source": "celeritâtis f Schnelligkeit",
+      "target": "celeritâs,"
+    },
+    {
+      "source": "cônfîdô, cônfîsus sum vertrauen",
+      "target": "cônfîdere,"
+    },
+    {
+      "source": "suîs vîribus im Vertrauen auf seine Kräfte",
+      "target": "cônfîsus"
+    },
+    {
+      "source": "crêbra, crêbrum häufig, zahlreich",
+      "target": "crêber,"
+    },
+    {
+      "source": "Adv. häufig",
+      "target": "crêbrô"
+    },
+    {
+      "source": "fingô, fînxî, fictum gestalten, sich (etw.) ausdenken",
+      "target": "fingere,"
+    },
+    {
+      "source": "fingere eine Statue gestalten (erschaffen)",
+      "target": "statuam"
+    },
+    {
+      "source": "fingere sich Gründe ausdenken",
+      "target": "causâs"
+    },
+    {
+      "source": "gaudeô, gâvîsus sum sich freuen",
+      "target": "gaudêre,"
+    },
+    {
+      "source": "a, um dauerhaft, ewig",
+      "target": "perpetuus,"
+    },
+    {
+      "source": "perpetuum für immer",
+      "target": "in"
+    },
+    {
+      "source": "Adv. ununterbrochen",
+      "target": "perpetuô"
+    },
+    {
+      "source": "perspiciô, perspexî, perspectum durchschauen, genau betrachten, sehen, erkennen",
+      "target": "perspicere,"
+    },
+    {
+      "source": "wie? auf welche Weise?",
+      "target": "quômodo"
+    },
+    {
+      "source": "reperiô, repperî, repertum (wieder)finden",
+      "target": "reperîre,"
+    },
+    {
+      "source": "revertor, revertî, reversum zurückkehren",
+      "target": "revertî,"
+    },
+    {
+      "source": "soleô, solitus sum gewohnt sein, gewöhnlich etw. tun",
+      "target": "solêre,"
+    },
+    {
+      "source": "hoc dîcere solêbat. Cato sagte gewöhnlich dies.",
+      "target": "Catô"
+    },
+    {
+      "source": "Adv. allgemein, gewöhnlich",
+      "target": "vulgô"
+    },
+    {
+      "source": "abdûcô, abdûxî, abductum wegführen",
+      "target": "abdûcere,"
+    },
+    {
+      "source": "Adv. so sehr",
+      "target": "adeô"
+    },
+    {
+      "source": "aestûs m Hitze, Flut",
+      "target": "aestus,"
+    },
+    {
+      "source": "… alter der eine … der andere",
+      "target": "alter"
+    },
+    {
+      "source": "cônsûmô, cônsûmpsî, cônsûmptum verbrauchen, verwenden",
+      "target": "cônsûmere,"
+    },
+    {
+      "source": "êgredior, êgressus sum hinausgehen, verlassen",
+      "target": "êgredî,"
+    },
+    {
+      "source": "êgredî das Maß überschreiten",
+      "target": "modum"
+    },
+    {
+      "source": "a, um vollkommen, vollendet",
+      "target": "perfectus,"
+    },
+    {
+      "source": "Adv. überhaupt, völlig",
+      "target": "prôrsus"
+    },
+    {
+      "source": "sêdis f Platz, Sitz, Wohnsitz",
+      "target": "sêdês,"
+    },
+    {
+      "source": "vâsis n (Pl. vâsa, vâsôrum) Gefäß",
+      "target": "vâs,"
+    },
+    {
+      "source": "magis (um) viel mehr",
+      "target": "multô"
+    },
+    {
+      "source": "Adv. (um) viel",
+      "target": "multô"
+    },
+    {
+      "source": "magis (um) viel mehr",
+      "target": "multô"
+    },
+    {
+      "source": "tamen freilich nicht, jedoch nicht",
+      "target": "neque"
+    },
+    {
+      "source": "nîtor, nîxus sum (m. Abl.) sich stützen auf;",
+      "target": "nîtî,"
+    },
+    {
+      "source": "glôriam nîtî nach Ruhm streben",
+      "target": "ad"
+    },
+    {
+      "source": "parentis m/f Vater, Mutter; Pl. Eltern",
+      "target": "parêns,"
+    },
+    {
+      "source": "Adv. meistens",
+      "target": "plêrumque"
+    },
+    {
+      "source": "(cum) besonders (da / weil)",
+      "target": "praesertim"
+    },
+    {
+      "source": "a, um früher",
+      "target": "prîstinus,"
+    },
+    {
+      "source": "… tantô (m. Kompar.) je … desto",
+      "target": "quantô"
+    },
+    {
+      "source": "altius … tantô melius je höher … desto besser",
+      "target": "quantô"
+    },
+    {
+      "source": "succêdô, successî, successum (nach)folgen, nachrücken",
+      "target": "succêdere,"
+    },
+    {
+      "source": "superius (Gen. superiôris) der frühere, der weiter oben gelegene",
+      "target": "superior,"
+    }
+  ]
+}

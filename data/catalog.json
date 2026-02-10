@@ -5,5 +5,12 @@
     "subtitle": "Englisch, Klasse 6",
     "language": { "source": "de", "target": "en" },
     "wordCount": 885
+  },
+  {
+    "id": "campus_c_1_3",
+    "title": "Campus Latein 1-3",
+    "subtitle": "Latein, Gymnasium",
+    "language": { "source": "de", "target": "la" },
+    "wordCount": 1818
   }
 ]
