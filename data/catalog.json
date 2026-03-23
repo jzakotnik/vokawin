@@ -12,5 +12,12 @@
     "subtitle": "Latein, Gymnasium",
     "language": { "source": "de", "target": "la" },
     "wordCount": 1818
+  },
+  {
+    "id": "aplus_1_3",
+    "title": "A Plus 1, 3",
+    "subtitle": "Französisch, Gymnasium",
+    "language": { "source": "de", "target": "fr" },
+    "wordCount": 63
   }
 ]
