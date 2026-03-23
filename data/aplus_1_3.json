@@ -1,0 +1,258 @@
+{
+  "id": "a-plus-1-3",
+  "title": "A plus 1, Unité 3",
+  "words": [
+    {
+      "source": "der Schreibtisch",
+      "target": "le bureau"
+    },
+    {
+      "source": "ein Regal",
+      "target": "une étagère"
+    },
+    {
+      "source": "ein Schrank",
+      "target": "une armoire"
+    },
+    {
+      "source": "das Bett",
+      "target": "le lit"
+    },
+    {
+      "source": "die Ecke",
+      "target": "le coin"
+    },
+    {
+      "source": "das Foto, die Fotografie",
+      "target": "la photo"
+    },
+    {
+      "source": "die Mauer, die Wand",
+      "target": "le mur"
+    },
+    {
+      "source": "ein Computer",
+      "target": "un ordinateur"
+    },
+    {
+      "source": "die Pflanze",
+      "target": "la plante"
+    },
+    {
+      "source": "die Gitarre",
+      "target": "la guitare"
+    },
+    {
+      "source": "die Konsole",
+      "target": "la console"
+    },
+    {
+      "source": "eine Lautsprecherbox",
+      "target": "une enceinte"
+    },
+    {
+      "source": "das Poster",
+      "target": "le poster"
+    },
+    {
+      "source": "auf, an",
+      "target": "sur"
+    },
+    {
+      "source": "unter",
+      "target": "sous"
+    },
+    {
+      "source": "vor",
+      "target": "devant"
+    },
+    {
+      "source": "hinter",
+      "target": "derrière"
+    },
+    {
+      "source": "links (von)",
+      "target": "à gauche (de)"
+    },
+    {
+      "source": "rechts (von)",
+      "target": "à droite (de)"
+    },
+    {
+      "source": "heute",
+      "target": "aujourd'hui"
+    },
+    {
+      "source": "etw. besichtigen",
+      "target": "visiter qc"
+    },
+    {
+      "source": "eine Wohnung",
+      "target": "un appartement"
+    },
+    {
+      "source": "bei mir (zu Hause)",
+      "target": "chez moi"
+    },
+    {
+      "source": "natürlich, selbstverständlich",
+      "target": "bien sûr"
+    },
+    {
+      "source": "das Durcheinander",
+      "target": "le bazar"
+    },
+    {
+      "source": "ein Ort, eine Stelle",
+      "target": "un endroit"
+    },
+    {
+      "source": "ein Lieblingsort",
+      "target": "un endroit préféré"
+    },
+    {
+      "source": "um etw. zu tun, zum ...",
+      "target": "pour + inf."
+    },
+    {
+      "source": "träumen",
+      "target": "rêver"
+    },
+    {
+      "source": "die Aussicht",
+      "target": "la vue"
+    },
+    {
+      "source": "der Fernseher",
+      "target": "la télé / la télévision"
+    },
+    {
+      "source": "Pst!",
+      "target": "Chut!"
+    },
+    {
+      "source": "das ist nicht mein Ding",
+      "target": "ce n'est pas mon truc"
+    },
+    {
+      "source": "jdn/etw. sehr lieben (zu tun)",
+      "target": "adorer qn/qc"
+    },
+    {
+      "source": "das",
+      "target": "ça / cela"
+    },
+    {
+      "source": "gegenüber von jdm/etw.",
+      "target": "en face de qn/qc"
+    },
+    {
+      "source": "neben",
+      "target": "à côté de"
+    },
+    {
+      "source": "die Dusche",
+      "target": "la douche"
+    },
+    {
+      "source": "sehr",
+      "target": "très"
+    },
+    {
+      "source": "stylish",
+      "target": "design"
+    },
+    {
+      "source": "das Ding, die Sache",
+      "target": "le truc"
+    },
+    {
+      "source": "etw. mögen, etw. zu tun",
+      "target": "aimer + inf."
+    },
+    {
+      "source": "jdn/etw. gern mögen (zu tun)",
+      "target": "aimer bien qn/qc"
+    },
+    {
+      "source": "jdn/etw. (zu tun) hassen",
+      "target": "détester qn/qc"
+    },
+    {
+      "source": "der/die Spieler/in",
+      "target": "le joueur / la joueuse"
+    },
+    {
+      "source": "der/die Lieblingsspieler/in",
+      "target": "le joueur préféré / la joueuse préférée"
+    },
+    {
+      "source": "der/die Sänger/in",
+      "target": "le chanteur / la chanteuse"
+    },
+    {
+      "source": "der/die Lieblingssänger/in",
+      "target": "le chanteur préféré / la chanteuse préférée"
+    },
+    {
+      "source": "die Gruppe, die Band",
+      "target": "le groupe"
+    },
+    {
+      "source": "die Lieblingsband",
+      "target": "le groupe préféré"
+    },
+    {
+      "source": "etw. machen, etw. tun",
+      "target": "faire qc"
+    },
+    {
+      "source": "etw. als Hobby ausüben",
+      "target": "faire du / de la / de l' / des"
+    },
+    {
+      "source": "das Klavier",
+      "target": "le piano"
+    },
+    {
+      "source": "der Comic",
+      "target": "la bédé / BD"
+    },
+    {
+      "source": "der Kampfsport",
+      "target": "les arts martiaux"
+    },
+    {
+      "source": "ich nicht",
+      "target": "moi non"
+    },
+    {
+      "source": "ich auch nicht",
+      "target": "moi non plus"
+    },
+    {
+      "source": "doch, ich schon",
+      "target": "moi si"
+    },
+    {
+      "source": "das Klettern",
+      "target": "l'escalade"
+    },
+    {
+      "source": "weil",
+      "target": "parce que"
+    },
+    {
+      "source": "eine Freizeitaktivität",
+      "target": "une activité"
+    },
+    {
+      "source": "der Rap",
+      "target": "le rap"
+    },
+    {
+      "source": "der Look, das Outfit",
+      "target": "le look"
+    }
+  ]
+}
