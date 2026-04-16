@@ -26,6 +26,8 @@ class GameManager {
     const game = {
       code,
       bookId,
+        wordPool: words,      // ← full range, kept for rematches
+  wordCount,            // ← how many to draw each time
       words: selected,
       leftOrder,
       rightOrder,
@@ -201,10 +203,10 @@ class GameManager {
     const needed = Math.ceil(playerCount / 2);
 
     if (game.rematchVotes.size >= needed) {
-      const selected = shuffleArray(game.words);
-      game.words = selected;
-      game.leftOrder = shuffleArray(selected.map((_, i) => i));
-      game.rightOrder = shuffleArray(selected.map((_, i) => i));
+  const selected = shuffleArray(game.wordPool).slice(0, game.wordCount);
+game.words = selected;
+game.leftOrder = shuffleArray(selected.map((_, i) => i));
+game.rightOrder = shuffleArray(selected.map((_, i) => i));
       game.status = 'countdown';
       game.submissions = {};
       game.rematchVotes = null;
