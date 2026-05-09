@@ -19,5 +19,26 @@
     "subtitle": "Französisch, Gymnasium",
     "language": { "source": "de", "target": "fr" },
     "wordCount": 63
+  },
+
+  {
+    "id": "aplus-1",
+    "title": "À plus! 1",
+    "subtitle": "Französisch, Klasse 6-7",
+    "language": {
+      "source": "de",
+      "target": "fr"
+    },
+    "wordCount": 294
+  },
+  {
+    "id": "aplus-2",
+    "title": "À plus! 2",
+    "subtitle": "Französisch, Klasse 7-8",
+    "language": {
+      "source": "de",
+      "target": "fr"
+    },
+    "wordCount": 620
   }
 ]

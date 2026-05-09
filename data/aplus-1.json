@@ -1,0 +1,1181 @@
+{
+  "id": "aplus-1",
+  "words": [
+    {
+      "source": "der Buntstift",
+      "target": "le crayon de couleur"
+    },
+    {
+      "source": "der Bleistift",
+      "target": "le crayon"
+    },
+    {
+      "source": "der Kugelschreiber",
+      "target": "le stylo"
+    },
+    {
+      "source": "m. der Tintenkiller",
+      "target": "l'effaceur"
+    },
+    {
+      "source": "das Lineal",
+      "target": "le règle"
+    },
+    {
+      "source": "das Heft",
+      "target": "le cahier"
+    },
+    {
+      "source": "das Papier",
+      "target": "le papier"
+    },
+    {
+      "source": "der Ordner",
+      "target": "le classeur"
+    },
+    {
+      "source": "Wie sagt man ...?",
+      "target": "Comment est-ce qu’on dit ...?"
+    },
+    {
+      "source": "auf Französisch /auf Deutsch",
+      "target": "en frangais /en allemand"
+    },
+    {
+      "source": "Man sagt ...",
+      "target": "On dit ..."
+    },
+    {
+      "source": "Ich weiß es nicht.",
+      "target": "Je ne sais pas."
+    },
+    {
+      "source": "wie schreibt man ...?",
+      "target": "Comment est-ce qu'on écrit ….?"
+    },
+    {
+      "source": "Man schreibt …",
+      "target": "On écrit …"
+    },
+    {
+      "source": "der Schuljahresbeginn in Frankreich: Anfang september",
+      "target": "la rentrée"
+    },
+    {
+      "source": "fam. Nallo! auch: Tschüss!",
+      "target": "Salut!"
+    },
+    {
+      "source": "Wie geht's? / Geht's dir gut?",
+      "target": "Ga va?"
+    },
+    {
+      "source": "Es geht (mir) gut.",
+      "target": "Ça va."
+    },
+    {
+      "source": "Und dir? / Und du?",
+      "target": "Et toi?"
+    },
+    {
+      "source": "und",
+      "target": "et"
+    },
+    {
+      "source": "du betonte Form des Persunalpronomens",
+      "target": "toi"
+    },
+    {
+      "source": "fam. Na ja. / Es geht so.",
+      "target": "bof"
+    },
+    {
+      "source": "fam. Bis später!",
+      "target": "À plus!"
+    },
+    {
+      "source": "Bis morgen!",
+      "target": "À demain!"
+    },
+    {
+      "source": "Guten Tag, Guten Morgen!",
+      "target": "Bonjour!"
+    },
+    {
+      "source": "Frau Anrede",
+      "target": "Madame/Mme"
+    },
+    {
+      "source": "Auf Wiedersehen!",
+      "target": "Au revoir!"
+    },
+    {
+      "source": "fam. super, toll",
+      "target": "super"
+    },
+    {
+      "source": "Herr Anrede",
+      "target": "Monsieur/M."
+    },
+    {
+      "source": "das ist",
+      "target": "c'est"
+    },
+    {
+      "source": "sein",
+      "target": "être"
+    },
+    {
+      "source": "das ist auch: Da kommt...",
+      "target": "voilà"
+    },
+    {
+      "source": "die Sechs A (6A)",
+      "target": "la classe de sixième A"
+    },
+    {
+      "source": "die Klasse",
+      "target": "la classe"
+    },
+    {
+      "source": "Die erste Jahrqongsstufe nachBeendigung der fünfjährigenGrundschule",
+      "target": "l sixième /la 6°"
+    },
+    {
+      "source": "ich bin 1 Pers. Sg. von être",
+      "target": "je suis"
+    },
+    {
+      "source": "der/die Französischlehrer/in",
+      "target": "le/la professeur de français"
+    },
+    {
+      "source": "der/die Lehrer/in",
+      "target": "le/la professeur"
+    },
+    {
+      "source": "Französisch Unterrichtsfach, auch: die französische Sprache",
+      "target": "le français"
+    },
+    {
+      "source": "ja",
+      "target": "oui"
+    },
+    {
+      "source": "ich heiße 1. Pers. Sg. vons’appeler",
+      "target": "je m'appelle"
+    },
+    {
+      "source": "ach, ach so",
+      "target": "ah"
+    },
+    {
+      "source": "Verzeihung",
+      "target": "pardon"
+    },
+    {
+      "source": "Ich bin's./Das bin ich.",
+      "target": "C’est moi."
+    },
+    {
+      "source": "ich betonte Form des Personalpronomens",
+      "target": "moi"
+    },
+    {
+      "source": "also",
+      "target": "alors"
+    },
+    {
+      "source": "du bist 2. Pers. Sg. von être",
+      "target": "tu es"
+    },
+    {
+      "source": "du heißt 2. Pers. Sg.",
+      "target": "tu t'appelles"
+    },
+    {
+      "source": "Mit einem C?",
+      "target": "Avec un C?"
+    },
+    {
+      "source": "fam. Nicht wahr?",
+      "target": "Non?"
+    },
+    {
+      "source": "mit",
+      "target": "avec"
+    },
+    {
+      "source": "aus",
+      "target": "de"
+    },
+    {
+      "source": "Berlin",
+      "target": "Berlin"
+    },
+    {
+      "source": "sehr",
+      "target": "très"
+    },
+    {
+      "source": "gut",
+      "target": "bien"
+    },
+    {
+      "source": "sie ist 3. Pers. Sg. f von être",
+      "target": "elle est"
+    },
+    {
+      "source": "da/hier",
+      "target": "là"
+    },
+    {
+      "source": "äh",
+      "target": "euh"
+    },
+    {
+      "source": "zwei",
+      "target": "deux"
+    },
+    {
+      "source": "die Pause",
+      "target": "la récréation"
+    },
+    {
+      "source": "wir sind 1 Pers. PI von être",
+      "target": "nous sommes"
+    },
+    {
+      "source": "in",
+      "target": "à"
+    },
+    {
+      "source": "Straßburg",
+      "target": "Strasbourg"
+    },
+    {
+      "source": "f die Schule",
+      "target": "l'école (la)"
+    },
+    {
+      "source": "m./f. der/die Schüler/in",
+      "target": "l'élève"
+    },
+    {
+      "source": "die Aufsichtsperson",
+      "target": "le surveillant /la surveillante"
+    },
+    {
+      "source": "sie sind 3. Pers. PI m. von être",
+      "target": "ils sont"
+    },
+    {
+      "source": "in",
+      "target": "dans"
+    },
+    {
+      "source": "der Schulhof",
+      "target": "la cour"
+    },
+    {
+      "source": "wie",
+      "target": "comment"
+    },
+    {
+      "source": "oder",
+      "target": "ou"
+    },
+    {
+      "source": "der Junge",
+      "target": "le gargon"
+    },
+    {
+      "source": "Wer ist das?",
+      "target": "C'est qui?"
+    },
+    {
+      "source": "sie sind Personalpron. 3. Pers. PI.von être",
+      "target": "elles sont"
+    },
+    {
+      "source": "adj. fam. cool",
+      "target": "cool"
+    },
+    {
+      "source": "er/sie heißt 3 Pers. Sg. von s’appeler",
+      "target": "il/elle s'appelle"
+    },
+    {
+      "source": "schau mal, guck mal imperativ 2. Pers. Sg. von regarder",
+      "target": "regarde"
+    },
+    {
+      "source": "jdn/etw. ansehen",
+      "target": "regarder (qn/qc)"
+    },
+    {
+      "source": "in der siebten Klasse (fünften)",
+      "target": "en cinquième"
+    },
+    {
+      "source": "entspricht meistens der 7. Klasse in Deutschland",
+      "target": "la cinquième / 5°"
+    },
+    {
+      "source": "das Mädchen |",
+      "target": "la fille"
+    },
+    {
+      "source": "der Junge",
+      "target": "le garçon"
+    },
+    {
+      "source": "auch",
+      "target": "aussi"
+    },
+    {
+      "source": "nicht schlecht",
+      "target": "pas mal"
+    },
+    {
+      "source": "m/f. der/die Freund/in",
+      "target": "l'ami /l'amie"
+    },
+    {
+      "source": "wir sind wôrtlich: man ist 3 Pers... Sg. von être",
+      "target": "on est"
+    },
+    {
+      "source": "man Personalpronomen 3. Pers. $g.",
+      "target": "on"
+    },
+    {
+      "source": "zusarnmen",
+      "target": "ensemble"
+    },
+    {
+      "source": "fam. Das ist total cool!",
+      "target": "C’est trop cool!"
+    },
+    {
+      "source": "ihr scid 2. Pers. Pl. von être auch: Sie sind wenn du jdn siezt",
+      "target": "vous êtes"
+    },
+    {
+      "source": "die DVD",
+      "target": "le DVD"
+    },
+    {
+      "source": "etw. vorbereiten",
+      "target": "préparer qc"
+    },
+    {
+      "source": "das Treffen",
+      "target": "la rencontre"
+    },
+    {
+      "source": "das Hobby",
+      "target": "le hobby"
+    },
+    {
+      "source": "mögen (etw./jdn), lieben Nach aimer steht das Nomen mit dem bestimmten Artikel.",
+      "target": "aimer qc/qn/+ inf."
+    },
+    {
+      "source": "der/die Sänger/in",
+      "target": "le chanteur /la chanteuse"
+    },
+    {
+      "source": "singen",
+      "target": "chanter"
+    },
+    {
+      "source": "Lieblings-",
+      "target": "préféré/préférée adj"
+    },
+    {
+      "source": "etw./jdn (sehr) lieben, es lieben, etw. zu tun. Nach adorer steht dasNomen mit dem bestimmten Artikel.",
+      "target": "adorer qc/qn/+ inf."
+    },
+    {
+      "source": "nicht",
+      "target": "ne ... pas"
+    },
+    {
+      "source": "etw. bevorzugen, lieber mögen Nach preferer steht das Nomen mit dem bestimmten Artikel.",
+      "target": "préférer qn/qc/+ inf."
+    },
+    {
+      "source": "klassische Musik",
+      "target": "la musique classique"
+    },
+    {
+      "source": "die Zeichnung, das Zeichnen",
+      "target": "le dessin"
+    },
+    {
+      "source": "ein Fan von jdm/etw. sein",
+      "target": "être fan de qn/qc"
+    },
+    {
+      "source": "der Fan",
+      "target": "le/la fan"
+    },
+    {
+      "source": "die Rockmusik",
+      "target": "le rock"
+    },
+    {
+      "source": "die Band, die Gruppe",
+      "target": "le groupe"
+    },
+    {
+      "source": "etw./jdn gern môgen: es môgen,etw. zutun",
+      "target": "aimer bien qn/qc/+ inf."
+    },
+    {
+      "source": "Ich auch nicht.",
+      "target": "Moi non plus."
+    },
+    {
+      "source": "Doch, ich schon.",
+      "target": "Moi si."
+    },
+    {
+      "source": "Das ist nicht mein Ding.",
+      "target": "Ce n'est pas mon truc.fam ."
+    },
+    {
+      "source": "das Ding",
+      "target": "le truc"
+    },
+    {
+      "source": "rudern",
+      "target": "faire de l’aviron"
+    },
+    {
+      "source": "das Rudern",
+      "target": "l'aviron m."
+    },
+    {
+      "source": "Rad fahren",
+      "target": "faire du velo"
+    },
+    {
+      "source": "das Fahrrad",
+      "target": "le vélo"
+    },
+    {
+      "source": "etw./jdn hassen Nach detester steht das Nomen mit dem bestimmten Artikel.",
+      "target": "détester qc/qn/+ inf."
+    },
+    {
+      "source": "dıe Natur",
+      "target": "la nature"
+    },
+    {
+      "source": "Ich auch.",
+      "target": "Moi aussi."
+    },
+    {
+      "source": "/ der/die Lehrer/in",
+      "target": "le/la prof fam. le/la professeur"
+    },
+    {
+      "source": "Deutsch Unterrichtsfach",
+      "target": "l'allemand m."
+    },
+    {
+      "source": "Deutschland",
+      "target": "l'Allemagne"
+    },
+    {
+      "source": "die Lektüre, das Lesen",
+      "target": "la lecture"
+    },
+    {
+      "source": "das Kino",
+      "target": "le cinéma"
+    },
+    {
+      "source": "f. die Freizeitaktivität",
+      "target": "l'activité"
+    },
+    {
+      "source": "siemachen 3. Pers. Pl. von faire",
+      "target": "ils font"
+    },
+    {
+      "source": "etw. machen, tun",
+      "target": "faire qc"
+    },
+    {
+      "source": "Leichtathletik treiben",
+      "target": "faire de l’athletisme"
+    },
+    {
+      "source": "m. die Leichtathletik",
+      "target": "l'athlétisme"
+    },
+    {
+      "source": "Theater spielen",
+      "target": "faire du théâtre"
+    },
+    {
+      "source": "das Theater",
+      "target": "le théâtre"
+    },
+    {
+      "source": "Gitarre spielen",
+      "target": "faire de la guitare"
+    },
+    {
+      "source": "Tennis spielen",
+      "target": "faire du tennis"
+    },
+    {
+      "source": "das Tennis, das Tennisspielen",
+      "target": "le tennis"
+    },
+    {
+      "source": "musizieren",
+      "target": "faire de la musique"
+    },
+    {
+      "source": "Flôte spielen",
+      "target": "faire de la flûte"
+    },
+    {
+      "source": "die Flöte",
+      "target": "la flûte"
+    },
+    {
+      "source": "tanzen",
+      "target": "faire de la danse"
+    },
+    {
+      "source": "der Tanz, das Tanzen",
+      "target": "la danse"
+    },
+    {
+      "source": "im Winter",
+      "target": "en hiver"
+    },
+    {
+      "source": "der Winter",
+      "target": "l'hiver m."
+    },
+    {
+      "source": "Ski fahren",
+      "target": "faire du ski"
+    },
+    {
+      "source": "der Ski, das Skifahren",
+      "target": "le ski"
+    },
+    {
+      "source": "die Vogesen Gebirge im Elsass",
+      "target": "les Vosges f. pl"
+    },
+    {
+      "source": "Sport treiben",
+      "target": "faire du sport"
+    },
+    {
+      "source": "der Sport",
+      "target": "le sport"
+    },
+    {
+      "source": "Fußball spielen",
+      "target": "faire du foot"
+    },
+    {
+      "source": "der Fußball, das Fußballspielen",
+      "target": "le foot(ball)"
+    },
+    {
+      "source": "trommeln, Schlagzeug spielen",
+      "target": "faire des percussions"
+    },
+    {
+      "source": "das Schlagzeug, das Trommeln",
+      "target": "les percussions pl."
+    },
+    {
+      "source": "an diesem Wochenende",
+      "target": "ce week-end"
+    },
+    {
+      "source": "bald",
+      "target": "bientôt"
+    },
+    {
+      "source": "sie wollen 3. Pers. PI von vouloir",
+      "target": "ils veulent"
+    },
+    {
+      "source": "etw. wollen, etw. tun wollen",
+      "target": "vouloir qc/+ inf."
+    },
+    {
+      "source": "der Ausflug",
+      "target": "la balade"
+    },
+    {
+      "source": "der Berg",
+      "target": "la montagne"
+    },
+    {
+      "source": "der Affe",
+      "target": "le singe"
+    },
+    {
+      "source": "die Idee",
+      "target": "l'idée f."
+    },
+    {
+      "source": "jdn einladen",
+      "target": "inviter qn"
+    },
+    {
+      "source": "außerdem",
+      "target": "et puis"
+    },
+    {
+      "source": "der Park",
+      "target": "le parc"
+    },
+    {
+      "source": "in Freiheit",
+      "target": "en liberté"
+    },
+    {
+      "source": "die Freiheit",
+      "target": "la liberté"
+    },
+    {
+      "source": "wird nicht übersetzt, zeigt dir an,dass es sich um eine Frage handelt",
+      "target": "est-ce que"
+    },
+    {
+      "source": "ich kann 1. Pers. Sg. von pouvoir",
+      "target": "je peux"
+    },
+    {
+      "source": "etw. tun können hier: etw. dürfen",
+      "target": "pouvoir + inf."
+    },
+    {
+      "source": "nicht so (sehr, gern)",
+      "target": "ne … pas trop"
+    },
+    {
+      "source": ". ruhig hier: Ruhe haben, in Ruhe gelassen werden",
+      "target": "tranquille m./f. adj"
+    },
+    {
+      "source": "Wir holen ihn ab.",
+      "target": "On passe le chercher"
+    },
+    {
+      "source": "(bei jdm) vorbeikommen",
+      "target": "passer (chez qn}"
+    },
+    {
+      "source": "Gute Idee!",
+      "target": "Bonne idée!"
+    },
+    {
+      "source": "Um wie viel Uhr?",
+      "target": "À quelle heure?"
+    },
+    {
+      "source": "die Stunde, Uhr zur Angabe der Uhrzeit",
+      "target": "l'heure f"
+    },
+    {
+      "source": "um 10 Uhr",
+      "target": "à 10 heures"
+    },
+    {
+      "source": "In Ordnung?",
+      "target": "Ça va?"
+    },
+    {
+      "source": "Geht klar.",
+      "target": "Ça marche. fam."
+    },
+    {
+      "source": "(jdn) anrufen",
+      "target": "appeler qn"
+    },
+    {
+      "source": "Ja, bitte?, Hallo? In Frankreich meldet sich die Person, die angerufen wird, nicht mit dem Namen, sondern mit Allô!",
+      "target": "Allô!"
+    },
+    {
+      "source": "das Elsass Region im Osten Frankreichs",
+      "target": "l'Alsace"
+    },
+    {
+      "source": "Ich lade dich ein.",
+      "target": "Je t'invite."
+    },
+    {
+      "source": "jdn (nach etw, fragen",
+      "target": "demander (qc) à qn"
+    },
+    {
+      "source": "unser/unsere Possesivbegleiter,1 Pers. Pl, steht vor Nomen im Sg.",
+      "target": "notre"
+    },
+    {
+      "source": "die Sekundarstufe! Schultyp ın Frankreich, entspricht etwa der Sekundarstufe I. Im Anschluss an die ‚fünfjährige Grundschule gehen alle für vier Jahre auf dos College.",
+      "target": "le college"
+    },
+    {
+      "source": "jdn. /etw. vorstellen",
+      "target": "presenter qn/gc"
+    },
+    {
+      "source": "der Tag der offenen Tür",
+      "target": "la journée portes ouvertes"
+    },
+    {
+      "source": "der Tag",
+      "target": "la journée"
+    },
+    {
+      "source": "offen",
+      "target": "ouvert/ouverte adj."
+    },
+    {
+      "source": "unsere, Possessivbegleiter der 1. Pers.PI, steht vor Nomen im Pl.",
+      "target": "nos"
+    },
+    {
+      "source": "der Ort",
+      "target": "l'endroit m."
+    },
+    {
+      "source": "die Schulbibliothek Bezeichnung für die Bibliothek an französischen Colleges. Zugang zu Materialien wie Büchern, Zeitschriften, CDs oder DVDs und zum Internet.",
+      "target": "le CDI (= le Centre de Documentation et d’Information)"
+    },
+    {
+      "source": "Person, die für das Einhalten der Regeln an der Schule zuständig ist. Sie kümern sich um die Probleme der Schüler und steht in Kontakt mit Lehrern und Eltern",
+      "target": "le/la CPE (= le/la Conseiller/-ère principal/e d'Éducation)"
+    },
+    {
+      "source": "das Sekretariat",
+      "target": "le secretariat"
+    },
+    {
+      "source": "der/die Dokumentalist/in Person, an die sich die Schüler im CDI wenden, um Medien zu entleihen.",
+      "target": "le/la documentaliste"
+    },
+    {
+      "source": "etw. ausleihen",
+      "target": "emprunter qc"
+    },
+    {
+      "source": "die Krankenstation",
+      "target": "l'infirmerie f."
+    },
+    {
+      "source": "der/die Krankenpfleger/in",
+      "target": "l'infirmier / l'infirmière"
+    },
+    {
+      "source": "die Kantine. der Speisesaal",
+      "target": "la cantine"
+    },
+    {
+      "source": "die Turnhalle",
+      "target": "le gymnase"
+    },
+    {
+      "source": "das Gymnasium",
+      "target": "le lycée"
+    },
+    {
+      "source": "der Sportunterricht Schulfach",
+      "target": "l'EPS (= l'Éducation physique et sportive)"
+    },
+    {
+      "source": "im Aufenthaltsraum",
+      "target": "en permanence"
+    },
+    {
+      "source": "der Aufenthaltsraum für Schüler, die keinen Unterricht haben. Sie werden von surveillant(e)s beaufsichtigt. Dabei machen sie z.B ihre Hausaufgaben oder sie lernen für die nächste Stunde.",
+      "target": "la (salle de) permanence"
+    },
+    {
+      "source": "pl. die Toilette",
+      "target": "les toilettes f."
+    },
+    {
+      "source": "euer, eure Possessivbegleiter der 2. Pers. Pl, steht vor Nomen im Sg.",
+      "target": "votre"
+    },
+    {
+      "source": "eure/lhre Possessivhegleiter der 2. Pers. PI, steht vor Nomen im PI.",
+      "target": "vos"
+    },
+    {
+      "source": "Es kommt darauf an.",
+      "target": "Ça dépend."
+    },
+    {
+      "source": "das Lehrerzimmer",
+      "target": "la salle des profs"
+    },
+    {
+      "source": "der Klassenraum",
+      "target": "la salle de classe"
+    },
+    {
+      "source": "Viertel nach",
+      "target": "et quart"
+    },
+    {
+      "source": "die Viertelstunde",
+      "target": "le quart"
+    },
+    {
+      "source": "der Stundenplan",
+      "target": "l'emploi du temps m."
+    },
+    {
+      "source": "der Unterricht",
+      "target": "le cours"
+    },
+    {
+      "source": "weil",
+      "target": "parce que"
+    },
+    {
+      "source": "jdn treffen",
+      "target": "retrouver qn"
+    },
+    {
+      "source": "Mathe",
+      "target": "les maths fam. es mathématiques f. pl."
+    },
+    {
+      "source": "von... bis...",
+      "target": "de..à.."
+    },
+    {
+      "source": "das Schulfach",
+      "target": "la matière"
+    },
+    {
+      "source": "der Morgen, morgens",
+      "target": "le matin"
+    },
+    {
+      "source": "danach",
+      "target": "après"
+    },
+    {
+      "source": "Biologie Schulfach, das Biologie und Geologie umfasst.",
+      "target": "les SVT {= les sciences de la vie et de la Terre)f. pl"
+    },
+    {
+      "source": "interessant",
+      "target": "intéressant/intéressante adj."
+    },
+    {
+      "source": "mittags, um 12.00 Uhr",
+      "target": "à midi"
+    },
+    {
+      "source": "essen / wir essen",
+      "target": "manger / nous mangeons"
+    },
+    {
+      "source": "die Spaghetti",
+      "target": "les spaghettis m. pl."
+    },
+    {
+      "source": "er/sie geht 3. Pers. Sg. von aller",
+      "target": "il/elle va [il/elva)"
+    },
+    {
+      "source": "gehen",
+      "target": "aller"
+    },
+    {
+      "source": "der Nachmittag",
+      "target": "l'après-midi m."
+    },
+    {
+      "source": "Englisch",
+      "target": "l'anglais m."
+    },
+    {
+      "source": "um .. Uhr",
+      "target": "ä.... heure(s)"
+    },
+    {
+      "source": "bis",
+      "target": "jusqu'à"
+    },
+    {
+      "source": "halb",
+      "target": "demi/demie adj."
+    },
+    {
+      "source": "Es ist 10 Uhr 30 / halb elf",
+      "target": "il est dix heures et demie."
+    },
+    {
+      "source": "Es ist 12 Uhr 30 / halb Ein",
+      "target": "Il est midi et demi."
+    },
+    {
+      "source": "Viertel vor",
+      "target": "moins le quart"
+    },
+    {
+      "source": "der Abend",
+      "target": "le soir"
+    },
+    {
+      "source": "oft",
+      "target": "souvent"
+    },
+    {
+      "source": "die Mail",
+      "target": "le mail"
+    },
+    {
+      "source": "liebe/r Anrede",
+      "target": "cher/chère adj."
+    },
+    {
+      "source": "Oma Kindersprache",
+      "target": "mamie f."
+    },
+    {
+      "source": "Opa Kindersprache",
+      "target": "papi m."
+    },
+    {
+      "source": "heute Nachmittag",
+      "target": "cet après-midi"
+    },
+    {
+      "source": "heute Morgen",
+      "target": "ce matin"
+    },
+    {
+      "source": "heute Abend",
+      "target": "ce soir"
+    },
+    {
+      "source": "Ich habe keinen Unterricht",
+      "target": "Je n’ai pas cours."
+    },
+    {
+      "source": "morgen",
+      "target": "demain"
+    },
+    {
+      "source": "Jugendtheater in Straßburg",
+      "target": "le TJP (le Théâtre Jeune Public)"
+    },
+    {
+      "source": "fam. der Test",
+      "target": "l`interro l`interrogation f."
+    },
+    {
+      "source": "(sehr) schlecht, mies",
+      "target": "nul/nulle adj."
+    },
+    {
+      "source": "in etw. schlecht sein, eine Niete sein",
+      "target": "être nul/nulle en"
+    },
+    {
+      "source": "gut",
+      "target": "bon/bonne adj."
+    },
+    {
+      "source": "in etw. gut sein",
+      "target": "être bon/bonne en"
+    },
+    {
+      "source": "Warum?",
+      "target": "Pourquoi?"
+    },
+    {
+      "source": "liebe Grüße in einem Brief, wörtlich: dicke Küsse",
+      "target": "grosses bises f. pl."
+    },
+    {
+      "source": "der Kuss",
+      "target": "la bise fam."
+    },
+    {
+      "source": "das Programm",
+      "target": "le programme"
+    },
+    {
+      "source": "ihre Possessivbegleiter der 3. Pers. Pl, steht vor Nomen im Pl.",
+      "target": "leurs"
+    },
+    {
+      "source": "der/die Austauschpartner/in",
+      "target": "le/la corres fam. le correspondant/la correspondante"
+    },
+    {
+      "source": "ihr, ihre Possessivbegleiter der 3. Pers. Pl, steht vor Nomen im Sg.",
+      "target": "leur"
+    },
+    {
+      "source": "etw. aufschreiben, notieren",
+      "target": "noter (qc)"
+    },
+    {
+      "source": "Wann?",
+      "target": "Quand est-ce que ...?"
+    },
+    {
+      "source": "ankommen",
+      "target": "arriver"
+    },
+    {
+      "source": "zuerst",
+      "target": "d'abord"
+    },
+    {
+      "source": "etw. besichtigen",
+      "target": "visiter qc"
+    },
+    {
+      "source": "das Museum",
+      "target": "le musée"
+    },
+    {
+      "source": "die Schokolade",
+      "target": "le chocolat"
+    },
+    {
+      "source": "dort",
+      "target": "Là-bas"
+    },
+    {
+      "source": "außerdem",
+      "target": "en plus"
+    },
+    {
+      "source": "geschlossen",
+      "target": "fermé/fermée adj."
+    },
+    {
+      "source": "geöffnet",
+      "target": "ouvert/e"
+    },
+    {
+      "source": "Wohin ...?",
+      "target": "Où est-ce que ...?"
+    },
+    {
+      "source": "Zentrum zur Entdeckung der Wissenschaft und der Technik",
+      "target": "le Vaisseau"
+    },
+    {
+      "source": "der Workshop",
+      "target": "l´atelier m."
+    },
+    {
+      "source": "das Fossil",
+      "target": "le fossile"
+    },
+    {
+      "source": "zurzeit, im Moment",
+      "target": "en ce moment"
+    },
+    {
+      "source": "Ach doch!",
+      "target": "Oh si!"
+    },
+    {
+      "source": "die Bootsfahrt",
+      "target": "la balade en bateau"
+    },
+    {
+      "source": "das Schiff, Boot hier: der Ausflugsdampfer",
+      "target": "le bateau / les bateaux"
+    },
+    {
+      "source": "die Besichtigung auch:der Besuch",
+      "target": "la visite"
+    },
+    {
+      "source": "gegen zeitlich",
+      "target": "vers"
+    },
+    {
+      "source": "die Rallye",
+      "target": "le rallye"
+    },
+    {
+      "source": "vor",
+      "target": "avant"
+    },
+    {
+      "source": "sich über etw. einig sein",
+      "target": "être d'accord sur qc"
+    },
+    {
+      "source": "die Ankunft",
+      "target": "l'arrivée f."
+    },
+    {
+      "source": "die Abfahrt",
+      "target": "le départ"
+    },
+    {
+      "source": "die Rückkehr",
+      "target": "le retour"
+    },
+    {
+      "source": "mit dem Reisebus",
+      "target": "en car"
+    },
+    {
+      "source": "der Reisebus",
+      "target": "le car"
+    },
+    {
+      "source": "das Mittagessen",
+      "target": "le déjeuner"
+    },
+    {
+      "source": "das Stadtzentrum",
+      "target": "le centre-ville"
+    },
+    {
+      "source": "die Mimram-Brücke Fußgänger- und Radfahrerbrücke über den Rhein",
+      "target": "la Passerelle Mimram"
+    },
+    {
+      "source": "vor der Pause",
+      "target": "avant la récréation"
+    },
+    {
+      "source": "vor dem Haus",
+      "target": "devant la maison"
+    },
+    {
+      "source": "nach der Pause",
+      "target": "après la récréation"
+    },
+    {
+      "source": "hinter dem Haus",
+      "target": "derrière la maison"
+    }
+  ]
+}

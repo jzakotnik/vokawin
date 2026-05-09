@@ -1,0 +1,2485 @@
+{
+  "id": "aplus-2",
+  "words": [
+    {
+      "source": "verbessern, korrigieren",
+      "target": "corriger v"
+    },
+    {
+      "source": "Ich habe etwas vergessen.",
+      "target": "J'ai oublié quelque chose."
+    },
+    {
+      "source": "Ich habe (es) nicht verstanden.",
+      "target": "Je n'ai pas compris."
+    },
+    {
+      "source": "Ich habe eine andere Übung gemacht.",
+      "target": "J'ai fait un autre exercice."
+    },
+    {
+      "source": "anderer (1), [andere], [anderes]",
+      "target": "autre pron"
+    },
+    {
+      "source": "Was hast du geschrieben?",
+      "target": "Qu'est-ce que tu as écrit?"
+    },
+    {
+      "source": "Ich habe etwas anderes geschrieben.",
+      "target": "J'ai écrit autre chose."
+    },
+    {
+      "source": "lesen Présent",
+      "target": "lire Présent"
+    },
+    {
+      "source": "lesen Passé composé",
+      "target": "lire Passé composé"
+    },
+    {
+      "source": "das Mal",
+      "target": "la fois/les fois"
+    },
+    {
+      "source": "den Ton lauter stellen",
+      "target": "mettre le son plus fort"
+    },
+    {
+      "source": "das Blatt",
+      "target": "la feuille"
+    },
+    {
+      "source": "die Nummer",
+      "target": "le numéro"
+    },
+    {
+      "source": "Auf welcher Seite ist/steht das?",
+      "target": "C'est à quelle page?"
+    },
+    {
+      "source": "Das ist/steht auf Seite 25.",
+      "target": "C'est à la page 25."
+    },
+    {
+      "source": "still",
+      "target": "en silence"
+    },
+    {
+      "source": "Was sollen wir machen?",
+      "target": "Qu'est-ce qu'il faut faire?"
+    },
+    {
+      "source": "erklären",
+      "target": "expliquer v"
+    },
+    {
+      "source": "(devoir) die Aufgabe (travail) die Arbeit",
+      "target": "la tâche"
+    },
+    {
+      "source": "verschieden, unterschiedlich",
+      "target": "différent, différente"
+    },
+    {
+      "source": "Seid ihr fertig?",
+      "target": "Vous avez fini?"
+    },
+    {
+      "source": "die Minute",
+      "target": "la minute"
+    },
+    {
+      "source": "Ich bin noch nicht fertig!",
+      "target": "Je n'ai pas fini!"
+    },
+    {
+      "source": "Wer ist dran?",
+      "target": "C'est à qui?"
+    },
+    {
+      "source": "Ich bin dran.",
+      "target": "C'est à moi."
+    },
+    {
+      "source": "... ist dran.",
+      "target": "C'est à ..."
+    },
+    {
+      "source": "lernen",
+      "target": "apprendre"
+    },
+    {
+      "source": "der Wortschatz",
+      "target": "le vocabulaire"
+    },
+    {
+      "source": "die Lektion",
+      "target": "l' unité f"
+    },
+    {
+      "source": "nächste(r)",
+      "target": "prochain, prochaine"
+    },
+    {
+      "source": "Willkommen!, Herzlich willkommen!",
+      "target": "Bienvenue!"
+    },
+    {
+      "source": "Stadt im Dep. Hérault",
+      "target": "Montpellier"
+    },
+    {
+      "source": "die Altstadt",
+      "target": "la vieille ville"
+    },
+    {
+      "source": "die Fußgängerzone",
+      "target": "la rue piétonne"
+    },
+    {
+      "source": "historischer Platz in Montpellier",
+      "target": "la place de la Canourgue"
+    },
+    {
+      "source": "spielen (Instrument)",
+      "target": "jouer de qc"
+    },
+    {
+      "source": "das Instrument",
+      "target": "l'instrument m"
+    },
+    {
+      "source": "das Klavier, das Piano",
+      "target": "le piano"
+    },
+    {
+      "source": "der Chor",
+      "target": "la chorale"
+    },
+    {
+      "source": "der Schwimmsport, das Schwimmen",
+      "target": "la natation"
+    },
+    {
+      "source": "der Schwimmverein",
+      "target": "le club de natation"
+    },
+    {
+      "source": "der Verein",
+      "target": "le club"
+    },
+    {
+      "source": "berühmt",
+      "target": "célèbre m./f. adj."
+    },
+    {
+      "source": "französische Schwimmerin",
+      "target": "Camille Muffat"
+    },
+    {
+      "source": "kommen Présent",
+      "target": "venir Présent"
+    },
+    {
+      "source": "das Ferienheft (1)",
+      "target": "le cahier de vacances"
+    },
+    {
+      "source": "beliebter Platz in Montpellier",
+      "target": "la place de la Comédie"
+    },
+    {
+      "source": "zwölfeinhalb (Jahre)",
+      "target": "douze ans et demi"
+    },
+    {
+      "source": "tunesische Insel",
+      "target": "Djerba"
+    },
+    {
+      "source": "Tunesien",
+      "target": "la Tunisie"
+    },
+    {
+      "source": "geboren sein (in/am)",
+      "target": "être né/née (à/le)"
+    },
+    {
+      "source": "Viertel in Montpellier",
+      "target": "Antigone"
+    },
+    {
+      "source": "die Physik",
+      "target": "la physique"
+    },
+    {
+      "source": "spielen",
+      "target": "jouer à v"
+    },
+    {
+      "source": "das Tischtennis",
+      "target": "le ping-pong (1)"
+    },
+    {
+      "source": "Handball Sportart",
+      "target": "le handball"
+    },
+    {
+      "source": "französischer Handballspieler",
+      "target": "William Accambray"
+    },
+    {
+      "source": "am Ufer von",
+      "target": "au bord de"
+    },
+    {
+      "source": "Rom",
+      "target": "Rome"
+    },
+    {
+      "source": "Beach-Volleyball",
+      "target": "le beach-volley"
+    },
+    {
+      "source": "das Akkordeon, die Ziehharmonika",
+      "target": "l'accordéon m"
+    },
+    {
+      "source": "Brüssel",
+      "target": "Bruxelles"
+    },
+    {
+      "source": "seit; seitdem",
+      "target": "depuis"
+    },
+    {
+      "source": "meuble,_voiture zerkratzen (a disque) verschrammen mot (durch)streichen",
+      "target": "rayer v/t (1)"
+    },
+    {
+      "source": "etw. befindet sich/liegt",
+      "target": "quelque chose se trouve"
+    },
+    {
+      "source": "die Gegend, die Region",
+      "target": "la région (1)"
+    },
+    {
+      "source": "das Mittelmeer",
+      "target": "la mer Méditérranée"
+    },
+    {
+      "source": "Mittelgebirge im Süden Frankreichs",
+      "target": "les Cévennes f pl."
+    },
+    {
+      "source": "ins Wochenende fahren",
+      "target": "partir en week-end"
+    },
+    {
+      "source": "Naturschutzgebiet an der Mündung der Rhône",
+      "target": "la Camarque"
+    },
+    {
+      "source": "wandern gehen",
+      "target": "partir en randonnée"
+    },
+    {
+      "source": "Stadt und beliebter Badeort am Mittelmeer südlich von Montpellier",
+      "target": "Palavas-les-Flots"
+    },
+    {
+      "source": "der, [die], [das]",
+      "target": "qui pron"
+    },
+    {
+      "source": "jdn anziehen, anlocken",
+      "target": "attirer qn"
+    },
+    {
+      "source": "modern",
+      "target": "moderne m/f adj"
+    },
+    {
+      "source": "angesagt",
+      "target": "branché/branchée adj. fam"
+    },
+    {
+      "source": "die Leute",
+      "target": "les gens m,_Pl"
+    },
+    {
+      "source": "ausgehen, hinausgehen",
+      "target": "sortir v"
+    },
+    {
+      "source": "das Festival",
+      "target": "le festival"
+    },
+    {
+      "source": "den, [die], [das]",
+      "target": "que pron"
+    },
+    {
+      "source": "Museum für bildende Kunst in Montpellier",
+      "target": "le musée Fabre"
+    },
+    {
+      "source": "anbieten; vorschlagen",
+      "target": "proposer"
+    },
+    {
+      "source": "die Ausstellung",
+      "target": "l'exposition f"
+    },
+    {
+      "source": "das Planetarium",
+      "target": "le planétarium"
+    },
+    {
+      "source": "fantastisch; großartig",
+      "target": "fantastique"
+    },
+    {
+      "source": "der Stern",
+      "target": "l'étoile f"
+    },
+    {
+      "source": "das Aquarium",
+      "target": "l' aquarium m"
+    },
+    {
+      "source": "sehen Présent",
+      "target": "voir Présent"
+    },
+    {
+      "source": "adj herrlich, prächtig, prachtvoll, großartig; wunderschön",
+      "target": "magnifique"
+    },
+    {
+      "source": "draußen",
+      "target": "dehors adv"
+    },
+    {
+      "source": "zum Beispiel/z.B.",
+      "target": "par exemple/p.ex."
+    },
+    {
+      "source": "das Beispiel",
+      "target": "l'exemple m"
+    },
+    {
+      "source": "die Terrasse",
+      "target": "la terrasse"
+    },
+    {
+      "source": "um ... zu + inf",
+      "target": "pour + inf"
+    },
+    {
+      "source": "etw. zu sich nehmen",
+      "target": "prendre qc"
+    },
+    {
+      "source": "etwas",
+      "target": "quelque chose pron"
+    },
+    {
+      "source": "der Einkaufsbummel",
+      "target": "le shopping"
+    },
+    {
+      "source": "ideal",
+      "target": "idéal/idéale"
+    },
+    {
+      "source": "manchmal",
+      "target": "parfois adv"
+    },
+    {
+      "source": "Einkaufszentrum in Montpellier",
+      "target": "le Polygone"
+    },
+    {
+      "source": "weggehen",
+      "target": "partir Présent"
+    },
+    {
+      "source": "Badeort am Mittelmeer",
+      "target": "Carnon"
+    },
+    {
+      "source": "die Freizeit",
+      "target": "le temps libre"
+    },
+    {
+      "source": "frei",
+      "target": "libre m./f. adj."
+    },
+    {
+      "source": "zeichnen contours hervortreten lassen",
+      "target": "dessiner v/t"
+    },
+    {
+      "source": "gestern",
+      "target": "hier adv"
+    },
+    {
+      "source": "beendet",
+      "target": "terminé"
+    },
+    {
+      "source": "beenden, abschließen",
+      "target": "terminer v"
+    },
+    {
+      "source": "lieu,_temps zwischen (+ dat; question\"wohin?\" + acc) (parmi) unter (+ dat)",
+      "target": "entre prép"
+    },
+    {
+      "source": "das Sandwich, das belegte Baguette",
+      "target": "le sandwich (1)"
+    },
+    {
+      "source": "das Picknick",
+      "target": "le pique-nique [pl. pique-niques]"
+    },
+    {
+      "source": "tun, machen Passé composé",
+      "target": "faire Passé composé"
+    },
+    {
+      "source": "nie",
+      "target": "ne...jamais"
+    },
+    {
+      "source": "schließlich, endlich",
+      "target": "enfin"
+    },
+    {
+      "source": "Na los!",
+      "target": "Allez !"
+    },
+    {
+      "source": "nach unten bringen, hinuntergehen",
+      "target": "descendre v (1)"
+    },
+    {
+      "source": "wir gehen hinunter",
+      "target": "on descend"
+    },
+    {
+      "source": "erzählen",
+      "target": "raconter v"
+    },
+    {
+      "source": "vergessen",
+      "target": "oublier"
+    },
+    {
+      "source": "nichts",
+      "target": "ne...rien"
+    },
+    {
+      "source": "hineingehen, betreten",
+      "target": "entrer"
+    },
+    {
+      "source": "das Tagebuch, die Zeitung",
+      "target": "le journal"
+    },
+    {
+      "source": "gewöhnlich; normalerweise",
+      "target": "d'habitude"
+    },
+    {
+      "source": "malerisches Dorf in der Region Languedoc-Roussillon",
+      "target": "Minerve"
+    },
+    {
+      "source": "sein Passé composé",
+      "target": "être Passé composé"
+    },
+    {
+      "source": "krank",
+      "target": "malade"
+    },
+    {
+      "source": "aufräumen",
+      "target": "ranger"
+    },
+    {
+      "source": "müssen Présent",
+      "target": "devoir Présent"
+    },
+    {
+      "source": "jeden Samstag",
+      "target": "tous les samedis"
+    },
+    {
+      "source": "die Tasche n, die Tüte n, der Sack n",
+      "target": "le sac n"
+    },
+    {
+      "source": "12 Uhr mittags",
+      "target": "midi"
+    },
+    {
+      "source": "weggehen Passé composé",
+      "target": "partir Passé composé"
+    },
+    {
+      "source": "gehen Passé composé",
+      "target": "aller Passé composé"
+    },
+    {
+      "source": "treffen",
+      "target": "rencontrer"
+    },
+    {
+      "source": "kommen Passé composé",
+      "target": "venir Passé composé"
+    },
+    {
+      "source": "die Zitrone",
+      "target": "le citron"
+    },
+    {
+      "source": "die Katastrophe n",
+      "target": "la catastrophe n"
+    },
+    {
+      "source": "Berg in der Region Languedoc-Roussillon",
+      "target": "le pic Saint-Loup"
+    },
+    {
+      "source": "die Mahlzeit",
+      "target": "le repas"
+    },
+    {
+      "source": "der Spielfilm",
+      "target": "le film"
+    },
+    {
+      "source": "schlafen Passé composé",
+      "target": "dormir Passé composé"
+    },
+    {
+      "source": "schlafen Présent",
+      "target": "dormir Présent"
+    },
+    {
+      "source": "lange zeitlich",
+      "target": "longtemps adv"
+    },
+    {
+      "source": "es war zu spät",
+      "target": "c'était trop tard"
+    },
+    {
+      "source": "übrigens",
+      "target": "à propos adv"
+    },
+    {
+      "source": "schon; bereits",
+      "target": "déjà"
+    },
+    {
+      "source": "müde",
+      "target": "fatigué, fatiguée"
+    },
+    {
+      "source": "der Schluss , das Ende",
+      "target": "la fin"
+    },
+    {
+      "source": "das Abenteuer",
+      "target": "l'aventure f"
+    },
+    {
+      "source": "unglaublich",
+      "target": "incroyable adj"
+    },
+    {
+      "source": "können Passé composé",
+      "target": "pouvoir Passé composé"
+    },
+    {
+      "source": "wollen Passé composé",
+      "target": "vouloir Passé composé"
+    },
+    {
+      "source": "wir treffen uns in/im/am...",
+      "target": "rendez-vous + Ort/Zeit"
+    },
+    {
+      "source": "das Auto",
+      "target": "la voiture"
+    },
+    {
+      "source": "sehen Passé composé",
+      "target": "voir Passé composé"
+    },
+    {
+      "source": "der Stier",
+      "target": "le taureau (1)"
+    },
+    {
+      "source": "das Feld",
+      "target": "le champ"
+    },
+    {
+      "source": "haben Passé composé",
+      "target": "avoir Passé composé"
+    },
+    {
+      "source": "dumm, töricht, fam blöd(sinnig), fam idiotisch",
+      "target": "idiot adj (1)"
+    },
+    {
+      "source": "fotografieren",
+      "target": "photographier v"
+    },
+    {
+      "source": "der Torero",
+      "target": "le toréro"
+    },
+    {
+      "source": "plötzlich",
+      "target": "tout à coup adv"
+    },
+    {
+      "source": "(hin)fallen",
+      "target": "tomber"
+    },
+    {
+      "source": "direkt auf jdn. zukommen",
+      "target": "venir droit sur qn"
+    },
+    {
+      "source": "Angst haben, Angst bekommen",
+      "target": "avoir peur"
+    },
+    {
+      "source": "die Angst",
+      "target": "la peur"
+    },
+    {
+      "source": "Das war der Horror!",
+      "target": "C'était l'horreur!"
+    },
+    {
+      "source": "(serré) knapp; gerade noch",
+      "target": "juste adj"
+    },
+    {
+      "source": "deswegen",
+      "target": "à cause de ça"
+    },
+    {
+      "source": "wegen",
+      "target": "à cause de prep"
+    },
+    {
+      "source": "aufpassen",
+      "target": "faire attention"
+    },
+    {
+      "source": "nehmen Passé composé",
+      "target": "prendre Passé composé"
+    },
+    {
+      "source": "schlecht; hier: falsch",
+      "target": "mauvais, [mauvaise adj]"
+    },
+    {
+      "source": "(jdn) nach dem Weg fragen",
+      "target": "demander son chemin (à qn)"
+    },
+    {
+      "source": "der Weg",
+      "target": "le chemin"
+    },
+    {
+      "source": "müssen Passé composé",
+      "target": "devoir Passé composé"
+    },
+    {
+      "source": "verloren objet a verloren gegangen temps a vertan occasion verpasst lieu entlegen abgelegen",
+      "target": "perdu p/p -> perdre et adj →[perdue]"
+    },
+    {
+      "source": "verlieren",
+      "target": "perdre v (1)"
+    },
+    {
+      "source": "antworten, sich melden, ans Telefon gehen",
+      "target": "répondre v (1)"
+    },
+    {
+      "source": "geantwortet (1)",
+      "target": "répondu"
+    },
+    {
+      "source": "nichts Besonderes",
+      "target": "rien de spécial"
+    },
+    {
+      "source": "darauf bestehen; hier: nachhaken",
+      "target": "insister v"
+    },
+    {
+      "source": "Ich muss dir was sagen! , Ich muss dir was erzählen!",
+      "target": "Il faut que je te dise un truc!"
+    },
+    {
+      "source": "vor zeitlich",
+      "target": "il y a prep"
+    },
+    {
+      "source": "die Beine in die Hand nehmen",
+      "target": "prendre ses jambes à son cou"
+    },
+    {
+      "source": "das Bein",
+      "target": "la jambe"
+    },
+    {
+      "source": "der Hals",
+      "target": "le cou"
+    },
+    {
+      "source": "die Welt",
+      "target": "le monde"
+    },
+    {
+      "source": "der Test",
+      "target": "le test"
+    },
+    {
+      "source": "ruhig",
+      "target": "calme adj"
+    },
+    {
+      "source": "der Bus",
+      "target": "le bus"
+    },
+    {
+      "source": "die Zeitschrift",
+      "target": "le magazine"
+    },
+    {
+      "source": "die SMS n",
+      "target": "le texto n"
+    },
+    {
+      "source": "welcher, [welche], [welches]",
+      "target": "quel (1), [quelle pron]"
+    },
+    {
+      "source": "die Farbe",
+      "target": "la couleur"
+    },
+    {
+      "source": "rot",
+      "target": "rouge"
+    },
+    {
+      "source": "blau",
+      "target": "bleu, bleue"
+    },
+    {
+      "source": "REL der Götze, das Götzenbild das Idol fig der Abgott das Idol die Kultfigur",
+      "target": "l'idole f"
+    },
+    {
+      "source": "der Schauspieler, [die Schauspielerin n]",
+      "target": "l'acteur, [l'actrice n-m/f]"
+    },
+    {
+      "source": "(relatif au sport) Sport... personne,_allure sportlich (beau joueur) sportlich fair",
+      "target": "sportif adj (1)"
+    },
+    {
+      "source": "INFORM vers l'internaute herunterladen",
+      "target": "télécharger v/t (1)"
+    },
+    {
+      "source": "der Titel n",
+      "target": "le titre n"
+    },
+    {
+      "source": "die Elektromusik",
+      "target": "l'électro f"
+    },
+    {
+      "source": "MUS der Hip-Hop",
+      "target": "le hip-hop m (1)"
+    },
+    {
+      "source": "die Kleider, die Kleidungsstücke",
+      "target": "les vêtements m,_Pl"
+    },
+    {
+      "source": "tragen",
+      "target": "porter"
+    },
+    {
+      "source": "die Hose",
+      "target": "le pantalon"
+    },
+    {
+      "source": "das Hemd",
+      "target": "la chemise"
+    },
+    {
+      "source": "die Jeans",
+      "target": "le jean"
+    },
+    {
+      "source": "das T-Shirt n",
+      "target": "le tee-shirt n"
+    },
+    {
+      "source": "der Gegenstand n",
+      "target": "l'objet n-m"
+    },
+    {
+      "source": "der Glücksbringer",
+      "target": "le porte-bonheur (1)"
+    },
+    {
+      "source": "der Helm (a MIL) d'ouvrier der Schutzhelm de motard der Sturzhelm (sèche-cheveux) die Trockenhaube ÉLECTRON der Kopfhörer",
+      "target": "le casque"
+    },
+    {
+      "source": "das Ergebnis",
+      "target": "le résultat"
+    },
+    {
+      "source": "mehr",
+      "target": "plus"
+    },
+    {
+      "source": "lieber; eher",
+      "target": "plutôt adv"
+    },
+    {
+      "source": "sich bewegen",
+      "target": "bouger v (1)"
+    },
+    {
+      "source": "der Stress n",
+      "target": "le stress n"
+    },
+    {
+      "source": "Kaufgutschein",
+      "target": "le bon d'achat"
+    },
+    {
+      "source": "sich melden",
+      "target": "lever le doigt"
+    },
+    {
+      "source": "Wir hatten eine gute Zeit.",
+      "target": "Nous avons passé un bon moment."
+    },
+    {
+      "source": "der (Werbe)Prospekt",
+      "target": "le prospectus"
+    },
+    {
+      "source": "d'une montagne der Gipfel (a fig), d'un arbre der Wipfel, d'une tour,_d'un rocher die Spitze, MATH der Scheitel",
+      "target": "le sommet"
+    },
+    {
+      "source": "die Höhe (über dem Meeresspiegel)",
+      "target": "l' altitude f"
+    },
+    {
+      "source": "der Rucksack",
+      "target": "le sac à dos"
+    },
+    {
+      "source": "die Spinne [Spinne],[Spinnen]",
+      "target": "l'araignée f"
+    },
+    {
+      "source": "TECH die Sondierung forage die Probebohrung (enquête) die Umfrage",
+      "target": "le sondage"
+    },
+    {
+      "source": "livre (ein)binden, (joindre) (miteinander) verbinden",
+      "target": "relier v/t"
+    },
+    {
+      "source": "vor allem",
+      "target": "surtout"
+    },
+    {
+      "source": "emphatique (ich) selbst, réfléchi mich selbst",
+      "target": "moi-même pr/pers"
+    },
+    {
+      "source": "fam. das ist mir schnuppe",
+      "target": "je m'en fiche"
+    },
+    {
+      "source": "ausziehen, entfernen, wegnehmen",
+      "target": "enlever v"
+    },
+    {
+      "source": "die Art die Art und Weise die Weise COUT die Fasson die Ausführung die Verarbeitung",
+      "target": "la façon"
+    },
+    {
+      "source": "das steht dir",
+      "target": "ça te va"
+    },
+    {
+      "source": "sich umziehen",
+      "target": "se changer v"
+    },
+    {
+      "source": "hier: geben",
+      "target": "passer"
+    },
+    {
+      "source": "fam. etw. klauen",
+      "target": "piquer qc"
+    },
+    {
+      "source": "v/t verschweigen",
+      "target": "taire (1)"
+    },
+    {
+      "source": "(rigolo) lustig, spaßig, fam ulkig, (bizarre) komisch, fam ulkig",
+      "target": "marrant adj fam (1)"
+    },
+    {
+      "source": "f der Eindringling, ungebetener Gast",
+      "target": "l'intrus m, intruse"
+    },
+    {
+      "source": "sich wohl fühlen",
+      "target": "être bien dans ses baskets"
+    },
+    {
+      "source": "die Untersuchung, die Erhebung, (sondage) die Umfrage, die Befragung, JUR die Ermittlungen f/pl, die Untersuchung",
+      "target": "l'enquête f"
+    },
+    {
+      "source": "der Stil n",
+      "target": "le style n"
+    },
+    {
+      "source": "der Look, das Aussehen",
+      "target": "le look"
+    },
+    {
+      "source": "hier: etw. tragen, anziehen, auch: setzen, stellen, legen, legen",
+      "target": "mettre qc"
+    },
+    {
+      "source": "die Marke n",
+      "target": "la marque n"
+    },
+    {
+      "source": "die Turnschuhe",
+      "target": "les baskets f plr"
+    },
+    {
+      "source": "wichtig",
+      "target": "important, importante"
+    },
+    {
+      "source": "französischer Rapper",
+      "target": "Soprano"
+    },
+    {
+      "source": "neu",
+      "target": "nouveau/nouvel m, nouvelle f, nouveaux m pl., nouvelles f pl."
+    },
+    {
+      "source": "(son) das Klingeln, das Läuten MIL,_CH das (Horn-,_Trompeten)Signal mécanisme die Klingel(anlage) d'une horloge das Schlagwerk d'un réveil das Läut(e)werk; hier: der Klingelton",
+      "target": "la sonnerie"
+    },
+    {
+      "source": "nach etwas süchtig sein",
+      "target": "être accro à qc"
+    },
+    {
+      "source": "der R&B Rhythm & Blues",
+      "target": "le R&B"
+    },
+    {
+      "source": "französische Sängerin (Le sens de la vie)",
+      "target": "Tal"
+    },
+    {
+      "source": "schön",
+      "target": "beau/bel m, belle f, beaux m pl., belles f pl."
+    },
+    {
+      "source": "die Stimme",
+      "target": "la voix (1)"
+    },
+    {
+      "source": "so...wie",
+      "target": "aussi...que"
+    },
+    {
+      "source": "der Pullover",
+      "target": "le pull-over"
+    },
+    {
+      "source": "der Pulli n",
+      "target": "le pull n"
+    },
+    {
+      "source": "orange(farben) (2)",
+      "target": "orange adj (1)"
+    },
+    {
+      "source": "grün",
+      "target": "vert, verte"
+    },
+    {
+      "source": "Das gefällt mir.",
+      "target": "Ça me plaît."
+    },
+    {
+      "source": "die Mode",
+      "target": "la mode"
+    },
+    {
+      "source": "das Kleid",
+      "target": "la robe"
+    },
+    {
+      "source": "ausgeben",
+      "target": "dépenser v"
+    },
+    {
+      "source": "hundertfünfzig",
+      "target": "cent-cinquante"
+    },
+    {
+      "source": "zweihundert",
+      "target": "deux cents"
+    },
+    {
+      "source": "die Sachen",
+      "target": "les affaires f pl"
+    },
+    {
+      "source": "weniger...als",
+      "target": "moins...que"
+    },
+    {
+      "source": "mehr...als",
+      "target": "plus...que"
+    },
+    {
+      "source": "das Album, das Fotoalbum",
+      "target": "l'album m"
+    },
+    {
+      "source": "französische Sängerin (Mna na Heireann)",
+      "target": "Nolwenn Leroy"
+    },
+    {
+      "source": "französische Rockgruppe (Il est des jours sans toi)",
+      "target": "Barrio Populo"
+    },
+    {
+      "source": "der Rhythmus n",
+      "target": "le rythme n"
+    },
+    {
+      "source": "das Schlagzeug n",
+      "target": "la batterie n"
+    },
+    {
+      "source": "man muss; wir müssen",
+      "target": "il faut + inf."
+    },
+    {
+      "source": "wir dürfen/sollten nicht, man darf/sollte nicht",
+      "target": "il ne faut pas + inf"
+    },
+    {
+      "source": "übertreiben",
+      "target": "exagérer"
+    },
+    {
+      "source": "Recht haben",
+      "target": "avoir raison"
+    },
+    {
+      "source": "v/t beschlagnahmen; wegnehmen",
+      "target": "confisquer"
+    },
+    {
+      "source": "finden, dass",
+      "target": "trouver que"
+    },
+    {
+      "source": "zurückrufen",
+      "target": "rappeler (1)"
+    },
+    {
+      "source": "das Telefon",
+      "target": "le téléphone"
+    },
+    {
+      "source": "Essen!,_Zu Tisch!",
+      "target": "Á table!"
+    },
+    {
+      "source": "die Note n, die Notiz n",
+      "target": "la note n"
+    },
+    {
+      "source": "adj katastrophal, verheerend (a fam péj)",
+      "target": "catastrophique"
+    },
+    {
+      "source": "letzte(r)",
+      "target": "dernier, dernière"
+    },
+    {
+      "source": "wahr",
+      "target": "vrai, [vraie adj]"
+    },
+    {
+      "source": "sagen Présent",
+      "target": "dire Présent"
+    },
+    {
+      "source": "die ganze Zeit etw. tun, wörtlich: seine Zeit damit verbringen, etw. zu tun",
+      "target": "passer son temps à + inf"
+    },
+    {
+      "source": "senden Présent",
+      "target": "envoyer Présent"
+    },
+    {
+      "source": "(ver)schicken",
+      "target": "envoyer"
+    },
+    {
+      "source": "-verbot haben",
+      "target": "être privé/privée de qc"
+    },
+    {
+      "source": "die Diskussion n",
+      "target": "la discussion n"
+    },
+    {
+      "source": "noch einmal mit jdm über etwas sprechen",
+      "target": "reparler de qc à qn"
+    },
+    {
+      "source": "denken, dass",
+      "target": "penser que"
+    },
+    {
+      "source": "der/die/das beste",
+      "target": "le meilleur/la meilleure adj (1)"
+    },
+    {
+      "source": "die Lösung n",
+      "target": "la solution n"
+    },
+    {
+      "source": "meiner Meinung nach",
+      "target": "à mon avis"
+    },
+    {
+      "source": "die Ansicht n",
+      "target": "l'avis n-m"
+    },
+    {
+      "source": "schlimm; ernst",
+      "target": "grave"
+    },
+    {
+      "source": "schrecklich; furchtbar",
+      "target": "terrible adj"
+    },
+    {
+      "source": "aufgeben, wörtlich: die Arme senken",
+      "target": "baisser les bras"
+    },
+    {
+      "source": "der Arm",
+      "target": "le bras"
+    },
+    {
+      "source": "das Argument",
+      "target": "l'argument m"
+    },
+    {
+      "source": "wiedererlangen, -bekommen heures de travail nachholen, -arbeiten engin spatial bergen ferraille,_etc (wieder)verwerten (ramasser) sammeln chaleur,_énergie zurückgewinnen fam (aller chercher) délinquants,_drogués wieder eingliedern resozialisieren POL (für sich) vereinnahmen; etw. zurückbekommen",
+      "target": "récupérer v/t (1)"
+    },
+    {
+      "source": "v/i sich erholen wieder zu Kräften kommen; etw. zurückbekommen",
+      "target": "récupérer (1)"
+    },
+    {
+      "source": "Viel Glück!",
+      "target": "Bonne chance!"
+    },
+    {
+      "source": "das Glück",
+      "target": "la chance"
+    },
+    {
+      "source": "vielleicht",
+      "target": "peut-être"
+    },
+    {
+      "source": "begrenzen; beschränken",
+      "target": "limiter v"
+    },
+    {
+      "source": "der Anruf",
+      "target": "l'appel m (1)"
+    },
+    {
+      "source": "versuchen; (an)probieren",
+      "target": "essayer (1)"
+    },
+    {
+      "source": "Belgien",
+      "target": "la Belgique"
+    },
+    {
+      "source": "die Jugendherberge",
+      "target": "l'auberge de jeunesse f"
+    },
+    {
+      "source": "das Turnier",
+      "target": "le tournoi"
+    },
+    {
+      "source": "stattfinden",
+      "target": "avoir lieu"
+    },
+    {
+      "source": "das Lüttich",
+      "target": "Liège"
+    },
+    {
+      "source": "die Mannschaft",
+      "target": "l'équipe f"
+    },
+    {
+      "source": "der Zug",
+      "target": "le train"
+    },
+    {
+      "source": "an etw. teilnehmen",
+      "target": "participer à qc"
+    },
+    {
+      "source": "das Spiel, der Wettkampf",
+      "target": "le match"
+    },
+    {
+      "source": "der Trainer, die Trainerin",
+      "target": "l'entraîneur m, l'entraîneuse f"
+    },
+    {
+      "source": "ältester Platz in Lüttich",
+      "target": "la place du Marché"
+    },
+    {
+      "source": "eines der ältesten Viertel in Lüttich",
+      "target": "le Carré"
+    },
+    {
+      "source": "denken an",
+      "target": "penser à v"
+    },
+    {
+      "source": "die Kreuzung",
+      "target": "le carrefour"
+    },
+    {
+      "source": "abbiegen",
+      "target": "tourner"
+    },
+    {
+      "source": "geradeaus",
+      "target": "tout droit"
+    },
+    {
+      "source": "der Plan",
+      "target": "le plan"
+    },
+    {
+      "source": "hinterlassen; lassen; liegen lassen",
+      "target": "laisser"
+    },
+    {
+      "source": "das GPS",
+      "target": "le GPS"
+    },
+    {
+      "source": "das Netz (a INFORM) ANAT a das Geflecht",
+      "target": "le réseau →[réseaux]"
+    },
+    {
+      "source": "wir könnten, man könnte",
+      "target": "on pourrait"
+    },
+    {
+      "source": "jemand",
+      "target": "quelqu'un pron"
+    },
+    {
+      "source": "belgischer Schriftsteller (Inspector Maigret)",
+      "target": "Georges Simenon"
+    },
+    {
+      "source": "dritte(r)",
+      "target": "troisième"
+    },
+    {
+      "source": "die Ampel",
+      "target": "le feu rouge"
+    },
+    {
+      "source": "zweite(r)",
+      "target": "deuxième"
+    },
+    {
+      "source": "zentraler Platz in Lüttich",
+      "target": "la place Saint-Lambert"
+    },
+    {
+      "source": "überqueren, gehen über, fahren über",
+      "target": "traverser"
+    },
+    {
+      "source": "der Bahnhof",
+      "target": "la gare"
+    },
+    {
+      "source": "noch einmal fragen",
+      "target": "redemander"
+    },
+    {
+      "source": "vorhin",
+      "target": "tout à l'heure"
+    },
+    {
+      "source": "vorhin",
+      "target": "adv tout à l'heure à l'instant"
+    },
+    {
+      "source": "f der Organisator, die Organisatorin der (die) Veranstalter(in) m(f)",
+      "target": "l'organisateur m, organisatrice"
+    },
+    {
+      "source": "ihr seid da",
+      "target": "vous y êtes"
+    },
+    {
+      "source": "der Spieler, [die Spielerin]",
+      "target": "le joueur, [la joueuse]"
+    },
+    {
+      "source": "der Schiedsrichter, [die Schiedsrichterin]",
+      "target": "l'arbitre m"
+    },
+    {
+      "source": "der Ball",
+      "target": "le ballon (1)"
+    },
+    {
+      "source": "der Spielstand",
+      "target": "le score"
+    },
+    {
+      "source": "der/die Torwart/in",
+      "target": "le gardien de but, la gardienne de but"
+    },
+    {
+      "source": "die gelbe Karte",
+      "target": "le carton jaune"
+    },
+    {
+      "source": "der Fehler",
+      "target": "la faute"
+    },
+    {
+      "source": "ein Tor schießen, einen Treffer erzielen",
+      "target": "marquer un but"
+    },
+    {
+      "source": "das Ziel , das Tor",
+      "target": "le but"
+    },
+    {
+      "source": "das Frühstück",
+      "target": "le petit-déjeuner →[petits-déjeuners]"
+    },
+    {
+      "source": "v/t wieder beginnen (qc etwas; à + inf zu + inf) noch einmal von vorn anfangen (a abs) (refaire) noch einmal machen",
+      "target": "recommencer (1)"
+    },
+    {
+      "source": "v/i wieder beginnen, anfangen",
+      "target": "recommencer (1)"
+    },
+    {
+      "source": "verdienen, gewinnen, siegen",
+      "target": "gagner v"
+    },
+    {
+      "source": "gegen",
+      "target": "contre prep"
+    },
+    {
+      "source": "das Freiburg",
+      "target": "Fribourg"
+    },
+    {
+      "source": "talent,_projet fördern",
+      "target": "encourager v/t (1)"
+    },
+    {
+      "source": "toll",
+      "target": "formidable adj"
+    },
+    {
+      "source": "leicht",
+      "target": "facile"
+    },
+    {
+      "source": "v/i kämpfen ringen (a SPORTS, fig)",
+      "target": "lutter"
+    },
+    {
+      "source": "bis zum Ende, hier: bis zum bitteren Ende",
+      "target": "jusqu'au bout"
+    },
+    {
+      "source": "die Verteidigung",
+      "target": "la défense"
+    },
+    {
+      "source": "reagiert Parizip Perfect von réagir",
+      "target": "réagi"
+    },
+    {
+      "source": "reagieren Présent",
+      "target": "réagir Présent"
+    },
+    {
+      "source": "der Angriff",
+      "target": "l'attaque f"
+    },
+    {
+      "source": "klatschen; wird wie réagir konjugiert",
+      "target": "applaudir v"
+    },
+    {
+      "source": "stark personne a kräftig vent,_coup a heftig voix kräftig laut fièvre a hoch fromage scharf monnaie stark hart (corpulent) stark",
+      "target": "fort/ forte adj (1)"
+    },
+    {
+      "source": "stark, kräftig, heftig, fest, fam fig, (très) sehr",
+      "target": "fort adv"
+    },
+    {
+      "source": "der Starke(r) d'une personne die Stärke starke Seite MIL das Fort",
+      "target": "le fort"
+    },
+    {
+      "source": "schnell",
+      "target": "rapide m./f. adj (1)"
+    },
+    {
+      "source": "handeln; wird wie réagir konjugiert",
+      "target": "agir v"
+    },
+    {
+      "source": "ganzer/ganze/ganzes",
+      "target": "tout/toute adj."
+    },
+    {
+      "source": "alle, jeder, jede, jedes",
+      "target": "tous/toutes adj. pl."
+    },
+    {
+      "source": "jdm etw. geben",
+      "target": "donner qc à qn v"
+    },
+    {
+      "source": "beenden",
+      "target": "finir"
+    },
+    {
+      "source": "beenden Passé composé",
+      "target": "finir Passé composé"
+    },
+    {
+      "source": "beenden Présent",
+      "target": "finir Présent"
+    },
+    {
+      "source": "vorhin; gleich, in Kürze",
+      "target": "adv tout à l'heure à l'instant"
+    },
+    {
+      "source": "SPORTS das Halb-, Semifinale",
+      "target": "la demi-finale"
+    },
+    {
+      "source": "adj belgisch",
+      "target": "belge"
+    },
+    {
+      "source": "Stadt in Belgien",
+      "target": "Namur"
+    },
+    {
+      "source": "jdm. etw. zeigen",
+      "target": "montrer qc à qn"
+    },
+    {
+      "source": "die Stärke",
+      "target": "le point fort"
+    },
+    {
+      "source": "behalten",
+      "target": "garder v"
+    },
+    {
+      "source": "das Endspiel n, das Finale n",
+      "target": "la finale n"
+    },
+    {
+      "source": "möglich",
+      "target": "possible"
+    },
+    {
+      "source": "zählen auf, sich verlassen auf",
+      "target": "compter sur v"
+    },
+    {
+      "source": "v/t erfolgreich durchführen zustande bringen examen bestehen; wird konjugiert wie réagir",
+      "target": "réussir"
+    },
+    {
+      "source": "kennen Présent",
+      "target": "connaître Présent"
+    },
+    {
+      "source": "einige, ein paar",
+      "target": "quelques"
+    },
+    {
+      "source": "Zürich",
+      "target": "Zurich"
+    },
+    {
+      "source": "etw. aufbauen, errichten",
+      "target": "monter qc"
+    },
+    {
+      "source": "etw. aufbauen",
+      "target": "installer qc"
+    },
+    {
+      "source": "die Sardine; hier: der (Zelt-)Hering",
+      "target": "la sardine"
+    },
+    {
+      "source": "objet (hin)stellen, (-)setzen, (-)legen",
+      "target": "poser v/t"
+    },
+    {
+      "source": "die Platte",
+      "target": "le plat"
+    },
+    {
+      "source": "was",
+      "target": "quoi pron"
+    },
+    {
+      "source": "kennen",
+      "target": "connaître (1)"
+    },
+    {
+      "source": "der Milchreiskuchen",
+      "target": "la tarte au riz"
+    },
+    {
+      "source": "der Kuchen",
+      "target": "la tarte"
+    },
+    {
+      "source": "der Reis",
+      "target": "le riz"
+    },
+    {
+      "source": "die Spezialität",
+      "target": "la spécialité"
+    },
+    {
+      "source": "läuten",
+      "target": "sonner"
+    },
+    {
+      "source": "er/sie will wissen, ob",
+      "target": "il/elle veut savoir si"
+    },
+    {
+      "source": "hier: man braucht",
+      "target": "il faut"
+    },
+    {
+      "source": "das Getränk",
+      "target": "la boisson"
+    },
+    {
+      "source": "die (Coca-)Cola",
+      "target": "le Coca(-Cola)"
+    },
+    {
+      "source": "das Mineralwasser",
+      "target": "l'eau minérale f"
+    },
+    {
+      "source": "jdn fragen, ob",
+      "target": "demander à qn si"
+    },
+    {
+      "source": "aussehen",
+      "target": "avoir l'air"
+    },
+    {
+      "source": "der Käse",
+      "target": "le fromage"
+    },
+    {
+      "source": "die Metzgerei, die Wurstwaren",
+      "target": "la charcuterie"
+    },
+    {
+      "source": "die Hackbällchen",
+      "target": "les boulettes (à la liégeoise) f pl"
+    },
+    {
+      "source": "die Siegerehrung",
+      "target": "la remise des médailles"
+    },
+    {
+      "source": "Wir müssen los!",
+      "target": "Il faut qu'on y aille!"
+    },
+    {
+      "source": "die Garderobe; der Umkleideraum",
+      "target": "le vestiaire"
+    },
+    {
+      "source": "hinzufügen",
+      "target": "ajouter v"
+    },
+    {
+      "source": "die Solidarität",
+      "target": "la solidarité"
+    },
+    {
+      "source": "die Nachricht, die Novelle , die Kurzgeschichte",
+      "target": "la nouvelle"
+    },
+    {
+      "source": "das Gesetz",
+      "target": "la loi"
+    },
+    {
+      "source": "die Persönlichkeit n",
+      "target": "la personnalité"
+    },
+    {
+      "source": "der Humor n",
+      "target": "l'humour m"
+    },
+    {
+      "source": "einsam, allein, einzig",
+      "target": "seul, [seule adj]"
+    },
+    {
+      "source": "der Filmstar",
+      "target": "la star (1)"
+    },
+    {
+      "source": "v/t überwachen beaufsichtigen (a enfant) SPORTS adversaire bewachen",
+      "target": "surveiller"
+    },
+    {
+      "source": "der Rohling p/fort die Bestie; der Grobian",
+      "target": "la brute"
+    },
+    {
+      "source": "die Schlägerei, die Prügelei, die Rauferei, fam fig harter Kampf, fam das Gerangel",
+      "target": "la bagarre"
+    },
+    {
+      "source": "das Opfer",
+      "target": "la victime"
+    },
+    {
+      "source": "adj schüchtern zaghaft",
+      "target": "timide"
+    },
+    {
+      "source": "m,f schüchterner Mensch",
+      "target": "timide"
+    },
+    {
+      "source": "jmd etw. melden",
+      "target": "signaler qc à qn"
+    },
+    {
+      "source": "der/die Chef/in",
+      "target": "le/la chef"
+    },
+    {
+      "source": "f der Vermittler, die Vermittlerin, der (die) Schlichter(in) m(f)",
+      "target": "le médiateur, médiatrice"
+    },
+    {
+      "source": "der Konflikt",
+      "target": "le conflit"
+    },
+    {
+      "source": "Hilfe!",
+      "target": "Au secours!"
+    },
+    {
+      "source": "überfallen, anfallen, (gêner) belästigen, MÉD belasten",
+      "target": "agresser v/t"
+    },
+    {
+      "source": "jdn verhauen fam",
+      "target": "casser la figure à qn fam"
+    },
+    {
+      "source": "bewegen, rühren, berühren",
+      "target": "toucher v"
+    },
+    {
+      "source": "erschrecken; Angst machen",
+      "target": "faire peur à (1)"
+    },
+    {
+      "source": "jmd am Arm festhalten",
+      "target": "tenir qn par le bras"
+    },
+    {
+      "source": "halten, festhalten",
+      "target": "tenir (1)"
+    },
+    {
+      "source": "jdm wehtun",
+      "target": "faire mal à qn"
+    },
+    {
+      "source": "Au!",
+      "target": "Aïe !"
+    },
+    {
+      "source": "so",
+      "target": "comme ça"
+    },
+    {
+      "source": "aufhören",
+      "target": "arrêter"
+    },
+    {
+      "source": "schlecht ausgehen",
+      "target": "mal finir"
+    },
+    {
+      "source": "schlecht Adverb",
+      "target": "mal"
+    },
+    {
+      "source": "unglücklich",
+      "target": "malheureux, [malheureuse adj]"
+    },
+    {
+      "source": "weinen",
+      "target": "pleurer"
+    },
+    {
+      "source": "jdn schlagen",
+      "target": "frapper qn"
+    },
+    {
+      "source": ", jmd etw. stehlen",
+      "target": "voler qc à qn v"
+    },
+    {
+      "source": "mutig",
+      "target": "courageux, [courageuse adj]"
+    },
+    {
+      "source": "zögern",
+      "target": "hésiter"
+    },
+    {
+      "source": "zwei gegen einen",
+      "target": "à deux contre un"
+    },
+    {
+      "source": "(déshonorant) schändlich, beschämend, capitulation schmachvoll, (qui a honte) verschämt, schamhaft",
+      "target": "'honteux adj (1)"
+    },
+    {
+      "source": "Ich gehe hin!",
+      "target": "J'y vais!"
+    },
+    {
+      "source": "abholen; holen",
+      "target": "aller chercher v (1)"
+    },
+    {
+      "source": "Bescheid sagen; verständigen, benachrichtigen",
+      "target": "prévenir v (1)"
+    },
+    {
+      "source": "die Gewalt",
+      "target": "la violence"
+    },
+    {
+      "source": "an die Tür klopfen",
+      "target": "frapper à la porte"
+    },
+    {
+      "source": "niemand",
+      "target": "ne... personne pron (1)"
+    },
+    {
+      "source": "die Geschichte n",
+      "target": "l'histoire f"
+    },
+    {
+      "source": "der Angreifer (a MIL), der Täter, MIL a der Aggressor",
+      "target": "l'agresseur m"
+    },
+    {
+      "source": "v/t trösten",
+      "target": "consoler"
+    },
+    {
+      "source": "verletzt, soldat verwundet",
+      "target": "blessé adj (1)"
+    },
+    {
+      "source": "anzeigen (à la police bei der Polizei) bassement denunzieren fig abus, etc anprangern accord (auf)kündigen",
+      "target": "dénoncer v/t (1)"
+    },
+    {
+      "source": "sonst",
+      "target": "sinon conj"
+    },
+    {
+      "source": "bedrängen; hier: mobben",
+      "target": "'harceler v/t (1)"
+    },
+    {
+      "source": "haben Impératif",
+      "target": "avoir Impératif"
+    },
+    {
+      "source": "wagen, sich trauen",
+      "target": "oser"
+    },
+    {
+      "source": "bedrohen, drohen",
+      "target": "menacer v"
+    },
+    {
+      "source": "das Boxen, der Boxsport",
+      "target": "la boxe"
+    },
+    {
+      "source": "gewalttätig",
+      "target": "violent, [violente adj]"
+    },
+    {
+      "source": "schwach (a élève,_lumière,_vent) personne fig (sans énergie) charakterschwach (indulgent) zu nachsichtig bruit,_voix a leise pluie leicht raisonnement auf schwachen Füßen stehend hauteur,_poids,_coût gering niedrig monnaie weich",
+      "target": "faible adj"
+    },
+    {
+      "source": "der Schwache(r), péj der Schwächling, (penchant) die Schwäche, das Faible (pour für)",
+      "target": "le faible"
+    },
+    {
+      "source": "feige",
+      "target": "lâche adj"
+    },
+    {
+      "source": "der Zeuge, [die Zeugin]",
+      "target": "le témoin"
+    },
+    {
+      "source": "MIL der Angriff, die Aggression (a PSYCH), der Überfall (a contre une personne), par des nuisances die Belästigung, MÉD die Belastung",
+      "target": "l'agression f"
+    },
+    {
+      "source": "der Rektor, [die Rektorin]",
+      "target": "le principal (1), [la principale ]"
+    },
+    {
+      "source": "die Polizei",
+      "target": "la police"
+    },
+    {
+      "source": "sein Impératif",
+      "target": "être Impératif"
+    },
+    {
+      "source": "beruhigt",
+      "target": "rassuré adj [rassurée]"
+    },
+    {
+      "source": "jmd in Ruhe lassen",
+      "target": "laisser qn tranquille"
+    },
+    {
+      "source": "schreiben Présent",
+      "target": "écrire Présent"
+    },
+    {
+      "source": "schreiben Passé composé",
+      "target": "écrire Passé composé"
+    },
+    {
+      "source": "JUR,_POL die Charta,HIST die Urkunde; hier: Regeln für das Zusammenleben",
+      "target": "la charte"
+    },
+    {
+      "source": "Region in Südfrankreich mit Montpellier als Hauptstadt",
+      "target": "le Languedoc-Roussillon"
+    },
+    {
+      "source": "eintausend, tausend",
+      "target": "mille num"
+    },
+    {
+      "source": "das Gesicht n",
+      "target": "le visage n (1)"
+    },
+    {
+      "source": "die Hauptstadt",
+      "target": "la capitale"
+    },
+    {
+      "source": "der Einwohner, [die Einwohnerin]",
+      "target": "l'habitant, [l'habitante m/f]"
+    },
+    {
+      "source": "die Landschaft",
+      "target": "le paysage"
+    },
+    {
+      "source": "die Million f",
+      "target": "le million"
+    },
+    {
+      "source": "ihr badet (1)",
+      "target": "vous vous baignez"
+    },
+    {
+      "source": "der Badeort",
+      "target": "la station balnéaire"
+    },
+    {
+      "source": "Badeort in der Nähe von Montpellier",
+      "target": "la Grande-Motte"
+    },
+    {
+      "source": "erbaut",
+      "target": "construit/construite adj."
+    },
+    {
+      "source": "Rugby",
+      "target": "le rugby"
+    },
+    {
+      "source": "erster Rugbyclub von Montpellier",
+      "target": "le Montpellier Hérault Rugby"
+    },
+    {
+      "source": "trainieren",
+      "target": "s'entraîner v"
+    },
+    {
+      "source": "werden (2)",
+      "target": "devenir v (1)"
+    },
+    {
+      "source": "SPORTS der Meister, die Meisterin, der Champion, der (die) (Vor)Kämpfer(in) m(f) (d'une cause für eine Sache), der (die) Verfechter(in) m(f) (einer Sache)",
+      "target": "le champion, la championne"
+    },
+    {
+      "source": "das Denkmal, die Sehenswürdigkeit, das Bauwerk",
+      "target": "le monument"
+    },
+    {
+      "source": "römisch",
+      "target": "romain/romaine adj"
+    },
+    {
+      "source": "römischer Aquädukt in Südfrankreich",
+      "target": "le pont du Gard"
+    },
+    {
+      "source": "römisches Amphitheater in der französischen Stadt Nîmes",
+      "target": "les arènes de Nîmes"
+    },
+    {
+      "source": "die Arena",
+      "target": "les arènes f pl"
+    },
+    {
+      "source": "französisches Stadt in der Region Languedoc-Roussillon",
+      "target": "Nîmes"
+    },
+    {
+      "source": "die Epoche; die Zeit",
+      "target": "l'époque f"
+    },
+    {
+      "source": "jdn/etw. mitbringen, hier: leiten",
+      "target": "amener qn/qc (1)"
+    },
+    {
+      "source": "der Gladiator",
+      "target": "le gladiateur"
+    },
+    {
+      "source": "die Person",
+      "target": "la personne"
+    },
+    {
+      "source": "derselbe, [dieselbe], [dasselbe]; der/die/das gleiche; sogar",
+      "target": "le/la même m-f pron"
+    },
+    {
+      "source": "der Stierkampf, fig fam der Zirkus, fam das Theater",
+      "target": "la corrida"
+    },
+    {
+      "source": "das Konzert",
+      "target": "le concert"
+    },
+    {
+      "source": "mittelalterliche Festungsstadt in der Region Languedoc-Roussillon",
+      "target": "la cité de Carcasonne"
+    },
+    {
+      "source": "die Stadt",
+      "target": "la cité"
+    },
+    {
+      "source": "existieren",
+      "target": "exister"
+    },
+    {
+      "source": "sich befinden, liegen",
+      "target": "se trouver"
+    },
+    {
+      "source": "die Festung",
+      "target": "la forteresse"
+    },
+    {
+      "source": "Europa",
+      "target": "l'Europe f"
+    },
+    {
+      "source": "FORTIF die Befestigungsanlage, d'une ville a die Stadtmauer, fig das Bollwerk",
+      "target": "le rempart"
+    },
+    {
+      "source": "der Kilometer",
+      "target": "le kilomètre, Abk. km"
+    },
+    {
+      "source": "spazieren gehen",
+      "target": "se promener"
+    },
+    {
+      "source": "die Mauer",
+      "target": "le mur"
+    },
+    {
+      "source": "die Tradition",
+      "target": "la tradition"
+    },
+    {
+      "source": "Straßenfest in Südfrankreich mit spanischen Einflüssen",
+      "target": "la féria"
+    },
+    {
+      "source": "Stadt im Dep. Hérault",
+      "target": "Béziers"
+    },
+    {
+      "source": "mehrere",
+      "target": "plusieurs"
+    },
+    {
+      "source": "sich amüsieren",
+      "target": "s'amuser"
+    },
+    {
+      "source": "jdn/etw. loslassen",
+      "target": "lâcher qn/qc"
+    },
+    {
+      "source": "sich treffen",
+      "target": "se retrouver"
+    },
+    {
+      "source": "internationale Veranstaltung für Extremsportarten",
+      "target": "le Festival International des Sports Extrêmes"
+    },
+    {
+      "source": "(conte) die Legende, die Sage, d'une illustration die Bildunterschrift, d'une carte die Zeichenerklärung, die Legende",
+      "target": "la légende"
+    },
+    {
+      "source": "der Händler, die Händlerin",
+      "target": "marchand, le/la marchande"
+    },
+    {
+      "source": "der Käfig, à oiseaux a das Bauer",
+      "target": "la cage"
+    },
+    {
+      "source": "Schloss im Languedoc Roussillon,_südwestlich von Montpellier",
+      "target": "le chateau de Margon"
+    },
+    {
+      "source": "sich (an etw.) erinnern",
+      "target": "se souvenir (de qc)"
+    },
+    {
+      "source": "geschehen, spielen",
+      "target": "se passer"
+    },
+    {
+      "source": "jung",
+      "target": "jeune m/f"
+    },
+    {
+      "source": "der Mann, der Mensch",
+      "target": "l'homme m, les hommes"
+    },
+    {
+      "source": "heißen",
+      "target": "s'appeler"
+    },
+    {
+      "source": "verkaufen",
+      "target": "vendre"
+    },
+    {
+      "source": "der Vogel n",
+      "target": "l'oiseau n-m (1)"
+    },
+    {
+      "source": "der Markt n",
+      "target": "le marché n"
+    },
+    {
+      "source": "arm",
+      "target": "pauvre m/f"
+    },
+    {
+      "source": "der Frühling n, das Frühjahr n",
+      "target": "le printemps n"
+    },
+    {
+      "source": "sich niederlassen",
+      "target": "se poser"
+    },
+    {
+      "source": "ich schenke dir",
+      "target": "je t'offre"
+    },
+    {
+      "source": "en cadeau schenken (qc à qn jemandem etwas) (proposer) anbieten (qc à qn jemandem etwas) récompense aussetzen avantages,_difficultés bieten spectacle (dar)bieten",
+      "target": "offrir v/t (1)"
+    },
+    {
+      "source": "personne sich anbieten occasion sich bieten vue sich darbieten",
+      "target": "s'offrir v/pr (1)"
+    },
+    {
+      "source": "noch viel mehr",
+      "target": "bien d'autres choses"
+    },
+    {
+      "source": "verschwinden objets a abhandenkommen tache a weggehen douleurs,_soucis vergehen espèce aussterben (mourir) dahingehen sterben",
+      "target": "disparaître v/i (1)"
+    },
+    {
+      "source": "das",
+      "target": "cela"
+    },
+    {
+      "source": "die Hochzeit n, die Trauung n, die Ehe n",
+      "target": "le mariage n"
+    },
+    {
+      "source": "der Gast n",
+      "target": "l'invité, [l'invitée n-m/f]"
+    },
+    {
+      "source": "der Musiker, [die Musikerin n]",
+      "target": "le musicien, [la musicienne n]"
+    },
+    {
+      "source": "der Bräutigam n",
+      "target": "le marié n"
+    },
+    {
+      "source": "die Braut n",
+      "target": "la mariée n"
+    },
+    {
+      "source": "die Szene n, die Bühne n",
+      "target": "la scène n"
+    },
+    {
+      "source": "der Vorschlag n",
+      "target": "la proposition n"
+    },
+    {
+      "source": "etwas gegen etwas tauschen",
+      "target": "échanger qc contre qc (1)"
+    },
+    {
+      "source": "adj magisch (a fig) Zauber...",
+      "target": "magique"
+    },
+    {
+      "source": "zornig, wütend",
+      "target": "furieux, [furieuse adj]"
+    },
+    {
+      "source": "fig (adopter) sich (dat) zu eigen machen (se modeler sur) sich anpassen, anschmiegen (qc dat)",
+      "target": "épouser v/t"
+    },
+    {
+      "source": "das Auge n",
+      "target": "l'œil n-m (1)"
+    },
+    {
+      "source": "das Haar",
+      "target": "les cheveux m,_Pl"
+    },
+    {
+      "source": "das Gold",
+      "target": "l'or m"
+    },
+    {
+      "source": "jemanden interessieren",
+      "target": "(retenir l'attention) [intéresser] qn"
+    },
+    {
+      "source": "sich für jemanden, etwas interessieren; an jemandem, etwas interessiert sein",
+      "target": "s'[intéresser] à qn, qc"
+    },
+    {
+      "source": "glücklich",
+      "target": "heureux, heureuse"
+    },
+    {
+      "source": "reich",
+      "target": "riche m/f adj"
+    },
+    {
+      "source": "sich aufregen",
+      "target": "s'énerver"
+    },
+    {
+      "source": "fähig sein, etw. zu tun",
+      "target": "être capable de + inf."
+    },
+    {
+      "source": "öffnen",
+      "target": "ouvrir"
+    },
+    {
+      "source": "davonfliegen",
+      "target": "s'envoler"
+    },
+    {
+      "source": "der Kopf",
+      "target": "la tête"
+    },
+    {
+      "source": "das Haar , die Haare pl",
+      "target": "les cheveux m pl"
+    },
+    {
+      "source": "die Nase",
+      "target": "le nez"
+    },
+    {
+      "source": "das Ohr n",
+      "target": "l'oreille n-f"
+    },
+    {
+      "source": "das Auge",
+      "target": "l'œil m, Pl: les yeux"
+    },
+    {
+      "source": "der Mund n",
+      "target": "la bouche n"
+    },
+    {
+      "source": "die Stirn n",
+      "target": "le front n"
+    },
+    {
+      "source": "die Wange n, die Backe n",
+      "target": "la joue n"
+    },
+    {
+      "source": "die Lippe n",
+      "target": "la lèvre n"
+    },
+    {
+      "source": "das Kinn n",
+      "target": "le menton n"
+    },
+    {
+      "source": "der Hals n",
+      "target": "le cou n"
+    },
+    {
+      "source": "die Schulter",
+      "target": "l'épaule f"
+    },
+    {
+      "source": "die Brust [Brust] [Brüste]",
+      "target": "ANAT la poitrine (Brustkorb) le thorax der Frau le sein CUIS (Geflügelbrust) le blanc (Rinderbrust,_Kalbsbrust) la poitrine"
+    },
+    {
+      "source": "der Rücken",
+      "target": "le dos"
+    },
+    {
+      "source": "der Bauch",
+      "target": "le ventre"
+    },
+    {
+      "source": "das Knie",
+      "target": "le genou, Pl: les genoux"
+    },
+    {
+      "source": "die Hand n",
+      "target": "la main n"
+    },
+    {
+      "source": "der Fuß",
+      "target": "le pied"
+    },
+    {
+      "source": "der Finger n",
+      "target": "le doigt n"
+    },
+    {
+      "source": "der Zeh n",
+      "target": "le doigt de pied n"
+    },
+    {
+      "source": "die (Schirm)Mütze",
+      "target": "la casquette"
+    },
+    {
+      "source": "der Stiefel n",
+      "target": "la botte n"
+    },
+    {
+      "source": "der Rock",
+      "target": "la jupe"
+    },
+    {
+      "source": "die Sonnenbrille",
+      "target": "les lunettes de soleil f,_Pl"
+    },
+    {
+      "source": "die Jacke",
+      "target": "la veste"
+    },
+    {
+      "source": "das Tuch, der Schal",
+      "target": "le foulard"
+    },
+    {
+      "source": "der Gürtel n",
+      "target": "la ceinture n"
+    },
+    {
+      "source": "die Mütze n, die Kappe n",
+      "target": "le bonnet n"
+    },
+    {
+      "source": "grau",
+      "target": "gris, [grise adj]"
+    },
+    {
+      "source": "gelb",
+      "target": "jaune"
+    },
+    {
+      "source": "braun",
+      "target": "marron unv."
+    },
+    {
+      "source": "weiß",
+      "target": "blanc, blanche"
+    },
+    {
+      "source": "orange orangefarben",
+      "target": "orange adj (1)"
+    },
+    {
+      "source": "rosa",
+      "target": "rose unv."
+    },
+    {
+      "source": "schwarz",
+      "target": "noir, noire"
+    },
+    {
+      "source": "violett",
+      "target": "violet, violette"
+    },
+    {
+      "source": "das Rätsel n",
+      "target": "la devinette n"
+    },
+    {
+      "source": "Dingsbums",
+      "target": "trucmuche"
+    }
+  ]
+}
