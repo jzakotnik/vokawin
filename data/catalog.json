@@ -40,5 +40,15 @@
       "target": "fr"
     },
     "wordCount": 620
-  }
+  },
+    {
+    "id": "access-1",
+    "title": "Cornelsen Access 1",
+    "subtitle": "Englisch, Klasse 5",
+    "language": {
+      "source": "de",
+      "target": "en"
+    },
+    "wordCount": 30
+  },
 ]
