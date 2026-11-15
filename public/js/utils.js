@@ -1,3 +1,9 @@
+function escapeHtml(value) {
+  return String(value ?? '').replace(/[&<>"']/g, (c) => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+}
+
 function showToast(msg) {
   const el = document.createElement('div');
   el.className = 'toast';

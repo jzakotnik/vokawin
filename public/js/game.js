@@ -2,21 +2,27 @@ const params = new URLSearchParams(window.location.search);
 const gameCode = params.get('code');
 if (!gameCode) window.location.href = '/';
 
-// State
+// --- State ---
 let socket = null;
 let playerNumber = null;
+let playerToken = null; // Fix 1: persistent identity
 let isCreator = false;
 let maxPlayers = 2;
-let words = [];
-let leftOrder = [];
-let rightOrder = [];
+let leftItems = [];   // [{ id, text }] shuffled by server
+let rightItems = [];
 let selectedLeft = null;
 let selectedRight = null;
 let matches = [];
 let timerInterval = null;
-let startTime = null;
+let startTimeLocal = null;  // local timestamp the round started (server elapsed applied)
 let gameLanguage = { source: 'de', target: 'en' };
-let playerStatuses = {}; // playerNumber -> { matched, total, done }
+let playerStatuses = {};
+let hasSubmitted = false;
+let playersInLobby = 0;
+
+// Fix 1: Restore token from sessionStorage if we had one for this game
+const storageKey = `vokawin-token-${gameCode}`;
+playerToken = sessionStorage.getItem(storageKey) || null;
 
 async function init() {
   await i18n.load(i18n.getLang());
@@ -38,15 +44,7 @@ async function init() {
 
 function applyTranslations() {
   document.getElementById('lobby-share-text').textContent = i18n.t('lobby.shareCode');
-  
-  // Adapt button text based on Web Share API availability
-  const shareBtn = document.getElementById('copy-link-btn');
-  if (navigator.share) {
-    shareBtn.textContent = i18n.t('lobby.shareLink');
-  } else {
-    shareBtn.textContent = i18n.t('lobby.copyLink');
-  }
-  
+  document.getElementById('copy-link-btn').textContent = shareButtonLabel();
   document.getElementById('lobby-waiting').innerHTML =
     i18n.t('lobby.waiting') + '<span class="dot-anim"></span>';
   document.getElementById('start-now-btn').textContent = i18n.t('lobby.startNow');
@@ -54,26 +52,111 @@ function applyTranslations() {
   document.getElementById('rematch-btn').textContent = i18n.t('results.rematch');
   document.getElementById('new-game-btn').textContent = i18n.t('results.newGame');
 
-  // Column headers
   document.getElementById('col-left-header').textContent = i18n.langName(gameLanguage.source);
   document.getElementById('col-right-header').textContent = i18n.langName(gameLanguage.target);
 }
 
 function connectSocket() {
-  socket = io();
+  socket = io({
+    reconnection: true,
+    reconnectionAttempts: Infinity,
+    reconnectionDelay: 500,
+    reconnectionDelayMax: 5000,
+  });
 
   document.getElementById('game-code').textContent = gameCode;
-  socket.emit('join-game', gameCode);
+
+  // --- Fix 2: Re-join on every (re)connect ---
+  socket.on('connect', () => {
+    hideConnectionBanner();
+    socket.emit('join-game', {
+      code: gameCode,
+      playerToken: playerToken,
+    });
+  });
+
+  socket.on('disconnect', () => {
+    showConnectionBanner();
+  });
+
+  // --- Socket events ---
 
   socket.on('joined', (data) => {
     playerNumber = data.playerNumber;
     maxPlayers = data.maxPlayers;
     isCreator = data.isCreator;
+
+    // Fix 1: Store the server-assigned token
+    if (data.playerToken) {
+      playerToken = data.playerToken;
+      sessionStorage.setItem(storageKey, playerToken);
+    }
+
+    playersInLobby = data.playerCount;
     renderPlayerSlots(data.playerCount, maxPlayers);
     updateStartButton(data.playerCount);
   });
 
+  // --- Fix 3: Full state sync on reconnect ---
+  socket.on('game-state-sync', (state) => {
+    playerNumber = state.playerNumber;
+    maxPlayers = state.maxPlayers;
+    isCreator = state.isCreator;
+
+    if (state.status === 'waiting') {
+      showScreen('lobby');
+      renderPlayerSlots(state.playerCount, state.maxPlayers);
+      updatePlayerCountText(state.playerCount, state.maxPlayers);
+      updateStartButton(state.playerCount);
+
+    } else if (state.status === 'countdown') {
+      // Countdown is transient — just show countdown screen
+      // The server's ongoing countdown will send ticks
+      showScreen('countdown');
+
+    } else if (state.status === 'playing') {
+      leftItems = state.left;
+      rightItems = state.right;
+      startTimeLocal = Date.now() - (state.elapsedMs || 0);
+      hasSubmitted = state.hasSubmitted;
+      selectedLeft = null;
+      selectedRight = null;
+      matches = [];
+
+      // Rebuild player statuses from server data
+      playerStatuses = {};
+      if (state.submittedPlayers) {
+        for (const pNum of state.submittedPlayers) {
+          if (pNum !== playerNumber) {
+            playerStatuses[pNum] = { matched: 0, total: leftItems.length, done: true };
+          }
+        }
+      }
+
+      startGame();
+      // The server keeps our latest matches, so a reload does not lose them
+      for (const m of state.matches || []) createMatch(m.left, m.right, { silent: true });
+      if (hasSubmitted) {
+        document.getElementById('done-btn').disabled = true;
+        document.getElementById('done-btn').textContent = i18n.t('game.waitingForOthers');
+      }
+
+    } else if (state.status === 'finished' && state.results) {
+      showResults(state.results);
+    }
+  });
+
+  socket.on('creator-changed', () => {
+    isCreator = true;
+    updateStartButton(playersInLobby);
+  });
+
+  socket.on('player-reconnected', () => {
+    showToast(i18n.t('error.playerReconnected'));
+  });
+
   socket.on('player-count', (data) => {
+    playersInLobby = data.count;
     renderPlayerSlots(data.count, data.max);
     updatePlayerCountText(data.count, data.max);
     updateStartButton(data.count);
@@ -89,13 +172,14 @@ function connectSocket() {
   });
 
   socket.on('game-start', (data) => {
-    words = data.words;
-    leftOrder = data.leftOrder;
-    rightOrder = data.rightOrder;
+    leftItems = data.left;
+    rightItems = data.right;
+    startTimeLocal = Date.now();
     selectedLeft = null;
     selectedRight = null;
     matches = [];
     playerStatuses = {};
+    hasSubmitted = false;
     startGame();
   });
 
@@ -134,68 +218,104 @@ function connectSocket() {
   });
 
   socket.on('error-msg', (errorKey) => {
-    showToast(i18n.t(`error.${errorKey}`) || errorKey);
+    const key = `error.${errorKey}`;
+    const text = i18n.t(key);
+    showToast(text !== key ? text : String(errorKey));
     setTimeout(() => window.location.href = '/', 2000);
   });
+
+  // --- Button handlers (bound once) ---
 
   // Share/Copy link with native share support
   document.getElementById('copy-link-btn').addEventListener('click', async () => {
     const url = `${window.location.origin}/game.html?code=${gameCode}`;
     const btn = document.getElementById('copy-link-btn');
-    
-    // Try native share first (mobile devices)
+
     if (navigator.share) {
       try {
         await navigator.share({
           title: 'VokaWin',
           text: i18n.t('lobby.shareMessage', { code: gameCode }),
-          url: url
+          url,
         });
-        // Success - no need to change button text as share dialog handled it
       } catch (err) {
-        // User cancelled or share failed - silently ignore
-        if (err.name !== 'AbortError') {
-          // If it's not a user cancellation, fall back to clipboard
-          fallbackToCopy(url, btn);
-        }
+        if (err.name !== 'AbortError') fallbackToCopy(url, btn);
       }
     } else {
-      // Fallback to clipboard for desktop
       fallbackToCopy(url, btn);
     }
   });
 
-  // Creator start button
   document.getElementById('start-now-btn').addEventListener('click', () => {
     socket.emit('creator-start');
   });
 
-  // Done button
   document.getElementById('done-btn').addEventListener('click', submitAnswer);
 
-  // Rematch
   document.getElementById('rematch-btn').addEventListener('click', () => {
     socket.emit('request-rematch');
     document.getElementById('rematch-btn').textContent = i18n.t('results.rematchWaiting');
   });
 
-  // New game
   document.getElementById('new-game-btn').addEventListener('click', () => {
+    sessionStorage.removeItem(storageKey);
     window.location.href = '/';
+  });
+
+  // --- Fix 4: Visibility API — reconnect when phone wakes up ---
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') {
+      if (!socket.connected) {
+        socket.connect();
+      } else {
+        // Already connected but may have missed events during standby
+        socket.emit('join-game', {
+          code: gameCode,
+          playerToken: playerToken,
+        });
+      }
+    }
   });
 }
 
+// --- Connection status banner ---
+
 function fallbackToCopy(url, btn) {
   navigator.clipboard.writeText(url).then(() => {
-    const originalText = btn.textContent;
     btn.textContent = i18n.t('lobby.copied');
-    setTimeout(() => {
-      btn.textContent = navigator.share ? i18n.t('lobby.shareLink') : i18n.t('lobby.copyLink');
-    }, 2000);
+    setTimeout(() => { btn.textContent = shareButtonLabel(); }, 2000);
   }).catch(() => {
     showToast(i18n.t('lobby.copyFail'));
   });
 }
+
+function shareButtonLabel() {
+  return navigator.share ? i18n.t('lobby.shareLink') : i18n.t('lobby.copyLink');
+}
+
+function showConnectionBanner() {
+  let banner = document.getElementById('connection-banner');
+  if (!banner) {
+    banner = document.createElement('div');
+    banner.id = 'connection-banner';
+    banner.style.cssText = `
+      position: fixed; top: 0; left: 0; right: 0;
+      background: var(--red, #f87171); color: #fff;
+      text-align: center; padding: 8px; font-size: 0.85rem;
+      font-weight: 600; z-index: 300;
+    `;
+    document.body.appendChild(banner);
+  }
+  banner.textContent = i18n.t('error.connectionLost');
+  banner.style.display = 'block';
+}
+
+function hideConnectionBanner() {
+  const banner = document.getElementById('connection-banner');
+  if (banner) banner.style.display = 'none';
+}
+
+// --- Screen management ---
 
 function renderPlayerSlots(count, max) {
   const container = document.getElementById('player-slots');
@@ -228,51 +348,52 @@ function showScreen(name) {
   });
 }
 
+// --- Game board ---
+
 function startGame() {
   showScreen('game');
   applyTranslations();
 
-  // Render left column (source language)
   const leftCol = document.getElementById('left-col');
   leftCol.innerHTML = '';
-  for (const idx of leftOrder) {
+  for (const item of leftItems) {
     const card = document.createElement('div');
     card.className = 'word-card';
-    card.textContent = words[idx].source;
-    card.dataset.wordIdx = idx;
-    card.addEventListener('click', () => handleCardClick('left', idx, card));
+    card.textContent = item.text;
+    card.dataset.wordIdx = item.id;
+    card.addEventListener('click', () => handleCardClick('left', item.id, card));
     leftCol.appendChild(card);
   }
 
-  // Render right column (target language)
   const rightCol = document.getElementById('right-col');
   rightCol.innerHTML = '';
-  for (const idx of rightOrder) {
+  for (const item of rightItems) {
     const card = document.createElement('div');
     card.className = 'word-card';
-    card.textContent = words[idx].target;
-    card.dataset.wordIdx = idx;
-    card.addEventListener('click', () => handleCardClick('right', idx, card));
+    card.textContent = item.text;
+    card.dataset.wordIdx = item.id;
+    card.addEventListener('click', () => handleCardClick('right', item.id, card));
     rightCol.appendChild(card);
   }
 
-  // Timer
-  startTime = Date.now();
+  // Fix 3: Timer based on authoritative server time
+  if (timerInterval) clearInterval(timerInterval);
   updateTimer();
   timerInterval = setInterval(updateTimer, 100);
 
-  // Reset UI
   document.getElementById('match-count').textContent =
-    i18n.t('game.matched', { count: 0, total: words.length });
+    i18n.t('game.matched', { count: 0, total: leftItems.length });
   document.getElementById('done-btn').disabled = true;
   document.getElementById('done-btn').textContent = i18n.t('game.done');
   renderPlayersStatus();
 }
 
 function handleCardClick(side, wordIdx, card) {
+  if (hasSubmitted) return; // can't change after submitting
+
   const existingMatch = matches.find(m =>
-    (side === 'left' && m.leftIdx === wordIdx) ||
-    (side === 'right' && m.rightIdx === wordIdx)
+    (side === 'left' && m.leftId === wordIdx) ||
+    (side === 'right' && m.rightId === wordIdx)
   );
 
   if (existingMatch) {
@@ -315,12 +436,12 @@ function handleCardClick(side, wordIdx, card) {
   }
 }
 
-function createMatch(leftIdx, rightIdx) {
+function createMatch(leftId, rightId, { silent = false } = {}) {
   const colorIdx = matches.length % 12;
-  matches.push({ leftIdx, rightIdx, colorIdx });
+  matches.push({ leftId, rightId, colorIdx });
 
-  const leftCard = getCard('left', leftIdx);
-  const rightCard = getCard('right', rightIdx);
+  const leftCard = getCard('left', leftId);
+  const rightCard = getCard('right', rightId);
 
   if (leftCard) {
     leftCard.classList.remove('selected');
@@ -332,27 +453,33 @@ function createMatch(leftIdx, rightIdx) {
   }
 
   updateMatchCount();
-  socket.emit('progress-update', { matched: matches.length });
+  if (!silent) sendProgress();
 }
 
 function removeMatch(match) {
   matches = matches.filter(m => m !== match);
 
-  const leftCard = getCard('left', match.leftIdx);
-  const rightCard = getCard('right', match.rightIdx);
+  const leftCard = getCard('left', match.leftId);
+  const rightCard = getCard('right', match.rightId);
   if (leftCard) leftCard.className = 'word-card';
   if (rightCard) rightCard.className = 'word-card';
 
   matches.forEach((m, i) => {
     m.colorIdx = i % 12;
-    const lc = getCard('left', m.leftIdx);
-    const rc = getCard('right', m.rightIdx);
+    const lc = getCard('left', m.leftId);
+    const rc = getCard('right', m.rightId);
     if (lc) lc.className = `word-card matched-${m.colorIdx}`;
     if (rc) rc.className = `word-card matched-${m.colorIdx}`;
   });
 
   updateMatchCount();
-  socket.emit('progress-update', { matched: matches.length });
+  sendProgress();
+}
+
+function sendProgress() {
+  socket.emit('progress-update', {
+    matches: matches.map(m => ({ left: m.leftId, right: m.rightId })),
+  });
 }
 
 function getCard(side, wordIdx) {
@@ -362,12 +489,14 @@ function getCard(side, wordIdx) {
 
 function updateMatchCount() {
   document.getElementById('match-count').textContent =
-    i18n.t('game.matched', { count: matches.length, total: words.length });
-  document.getElementById('done-btn').disabled = matches.length < words.length;
+    i18n.t('game.matched', { count: matches.length, total: leftItems.length });
+  document.getElementById('done-btn').disabled = matches.length < leftItems.length;
 }
 
 function updateTimer() {
-  const elapsed = (Date.now() - startTime) / 1000;
+  // Fix 3: Use authoritative server start time
+  if (!startTimeLocal) return;
+  const elapsed = (Date.now() - startTimeLocal) / 1000;
   document.getElementById('timer').textContent = elapsed.toFixed(1) + 's';
 }
 
@@ -387,7 +516,7 @@ function renderPlayersStatus() {
       badge.textContent = i18n.t('game.playerProgress', {
         n: pNum,
         count: status.matched,
-        total: status.total || words.length,
+        total: status.total || leftItems.length,
       });
     }
     container.appendChild(badge);
@@ -396,10 +525,11 @@ function renderPlayersStatus() {
 
 function submitAnswer() {
   if (timerInterval) clearInterval(timerInterval);
+  hasSubmitted = true;
 
   const submission = matches.map(m => ({
-    leftIdx: m.leftIdx,
-    rightIdx: m.rightIdx,
+    left: m.leftId,
+    right: m.rightId,
   }));
 
   socket.emit('submit-answer', { matches: submission });
@@ -449,7 +579,6 @@ function showResults(data) {
     });
   }
 
-  // Score cards - ranked list
   const cardsEl = document.getElementById('score-cards');
   const rankIcons = ['🥇', '🥈', '🥉'];
   let cardsHtml = '';
@@ -464,29 +593,25 @@ function showResults(data) {
         <div class="rank">${rankIcon}</div>
         <div class="player-info">
           <div class="player-label">
-            ${i18n.t('game.player', { n: r.playerNumber })}
+            ${escapeHtml(i18n.t('game.player', { n: r.playerNumber }))}
             ${isMe ? `<span class="you-badge">${i18n.t('results.you')}</span>` : ''}
           </div>
         </div>
-        <div class="score">${r.correct}/${r.total}</div>
-        <div class="detail">${r.timeTaken}s</div>
+        <div class="score">${Number(r.correct)}/${Number(r.total)}</div>
+        <div class="detail">${Number(r.timeTaken)}s</div>
       </div>
     `;
   });
 
   cardsEl.innerHTML = cardsHtml;
 
-  // Word results
   const wordsEl = document.getElementById('results-words');
   if (myResult && myResult.matches && myResult.matches.length > 0) {
-    let html = `<h3>${i18n.t('results.yourAnswers')}</h3>`;
+    let html = `<h3>${escapeHtml(i18n.t('results.yourAnswers'))}</h3>`;
     for (const m of myResult.matches) {
-      const correct = m.leftIdx === m.rightIdx;
-      const word = data.words[m.leftIdx];
-      const answered = data.words[m.rightIdx];
-      html += `<div class="result-word-row ${correct ? 'correct' : 'wrong'}">
-        <span>${word.source}</span>
-        <span>${correct ? word.target : `<s>${answered.target}</s> → ${word.target}`}</span>
+      html += `<div class="result-word-row ${m.ok ? 'correct' : 'wrong'}">
+        <span>${escapeHtml(m.source)}</span>
+        <span>${m.ok ? escapeHtml(m.expected) : `<s>${escapeHtml(m.answered)}</s> → ${escapeHtml(m.expected)}`}</span>
       </div>`;
     }
     wordsEl.innerHTML = html;

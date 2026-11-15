@@ -61,5 +61,11 @@
   "error.gameFull": "Game is full.",
   "error.gameNotFound": "Game not found.",
   "error.network": "Network error",
-  "error.disconnected": "A player disconnected"
+  "error.disconnected": "A player disconnected",
+  "error.gameInProgress": "This game has already started.",
+  "error.invalidRequest": "Invalid request.",
+  "error.serverBusy": "The server is busy, please try again later.",
+  "error.rateLimited": "Too many requests, please wait a moment.",
+  "error.connectionLost": "⚡ Connection lost – reconnecting…",
+  "error.playerReconnected": "A player is back"
 }

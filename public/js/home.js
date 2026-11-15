@@ -88,8 +88,8 @@ function renderWordList(filter = '') {
 
     html += `<div class="${cls}" data-idx="${i}">
       <span class="word-num">${i + 1}</span>
-      <span class="source">${w.source}</span>
-      <span class="target">${w.target}</span>
+      <span class="source">${escapeHtml(w.source)}</span>
+      <span class="target">${escapeHtml(w.target)}</span>
     </div>`;
   }
 
@@ -201,7 +201,9 @@ async function createGame() {
     if (data.code) {
       window.location.href = `/game.html?code=${data.code}`;
     } else {
-      showToast(data.error || i18n.t('error.network'));
+      const key = `error.${data.error}`;
+      const text = i18n.t(key);
+      showToast(data.error ? (text !== key ? text : data.error) : i18n.t('error.network'));
       btn.disabled = false;
       btn.textContent = i18n.t('home.createGame');
     }

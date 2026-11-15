@@ -53,9 +53,10 @@ Supported languages: `de`, `en`, `fr`, `la` (UI labels adapt automatically).
 ```
 ├── server/
 │   ├── index.js           Express + routes + startup
-│   ├── gameManager.js     Game state logic (no I/O)
-│   ├── socketHandler.js   Socket.IO event wiring
-│   └── utils.js           Shuffle, code gen, scoring
+│   ├── catalog.js         Loads + validates catalog.json and book files
+│   ├── gameManager.js     Game state, timers, scoring (no socket I/O)
+│   ├── socketHandler.js   Socket.IO event wiring + input validation
+│   └── utils.js           Shuffle, code/token generation
 ├── public/
 │   ├── index.html         Home page (thin shell)
 │   ├── game.html          Game page (thin shell)
@@ -67,11 +68,27 @@ Supported languages: `de`, `en`, `fr`, `la` (UI labels adapt automatically).
 │   │   └── game.js        Game logic
 │   ├── i18n/              Translation files (de, en)
 │   └── images/            Logo, favicons, OG image
+├── test/                  node:test unit + end-to-end tests
 ├── data/
 │   ├── catalog.json       Book index
 │   └── *.json             Per-book word lists
 └── package.json
 ```
+
+## Development
+
+```bash
+npm run dev    # restart on file changes
+npm test       # validates data/*.json, unit tests, end-to-end socket test
+```
+
+`npm test` also checks that every entry in `catalog.json` has a matching, valid
+book file, so a typo in the data is caught before it reaches the server. At
+startup the server refuses to run with a broken `catalog.json` and skips (with a
+logged reason) any book that is missing or invalid.
+
+Optional environment variables: `PORT` (default 3000), `TRUST_PROXY` (set when
+behind a reverse proxy so per-IP rate limiting sees the real client IP).
 
 ## Tech Stack
 

@@ -61,5 +61,11 @@
   "error.gameFull": "Spiel ist voll.",
   "error.gameNotFound": "Spiel nicht gefunden.",
   "error.network": "Netzwerkfehler",
-  "error.disconnected": "Ein Spieler hat die Verbindung verloren"
+  "error.disconnected": "Ein Spieler hat die Verbindung verloren",
+  "error.gameInProgress": "Dieses Spiel hat bereits begonnen.",
+  "error.invalidRequest": "Ungültige Anfrage.",
+  "error.serverBusy": "Der Server ist ausgelastet, bitte später erneut versuchen.",
+  "error.rateLimited": "Zu viele Anfragen, bitte kurz warten.",
+  "error.connectionLost": "⚡ Verbindung unterbrochen – verbinde…",
+  "error.playerReconnected": "Ein Spieler ist wieder da"
 }

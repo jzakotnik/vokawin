@@ -1,24 +1,65 @@
+const { CODE_LENGTH } = require('./utils');
+
+const CODE_RE = new RegExp(`^[A-Z0-9]{${CODE_LENGTH}}$`);
+const EVENT_WINDOW_MS = 10 * 1000;
+const EVENT_LIMIT = 150; // events per socket per window
+
+function isObject(v) {
+  return v !== null && typeof v === 'object' && !Array.isArray(v);
+}
+
 function setupSocketHandler(io, gameManager) {
+  gameManager.setHooks({
+    countdown: (code, n) => io.to(code).emit('countdown', n),
+    gameStart: (code, data) => io.to(code).emit('game-start', data),
+    gameOver: (code, results) => io.to(code).emit('game-over', results),
+    playerRemoved: (code) => {
+      const game = gameManager.getGame(code);
+      if (game) io.to(code).emit('player-count', { count: gameManager.getPlayerCount(code), max: game.maxPlayers });
+    },
+    creatorChanged: (code, socketId) => io.to(socketId).emit('creator-changed'),
+  });
+
   io.on('connection', (socket) => {
     let currentGame = null;
     let currentToken = null;
     let playerNumber = null;
 
-    /**
-     * join-game now accepts { code, playerToken } from client.
-     * playerToken is null for first join, set for reconnects.
-     */
-    socket.on('join-game', (data) => {
-      // Support both old format (string) and new format (object)
-      const code = typeof data === 'string' ? data : data.code;
-      const clientToken = typeof data === 'string' ? null : (data.playerToken || null);
+    // Simple per-socket flood protection
+    let windowStart = Date.now();
+    let eventCount = 0;
+    socket.use((_packet, next) => {
+      const now = Date.now();
+      if (now - windowStart > EVENT_WINDOW_MS) { windowStart = now; eventCount = 0; }
+      if (++eventCount > EVENT_LIMIT) return next(new Error('rateLimited'));
+      next();
+    });
+
+    // Every handler: validated input, errors never escape (an uncaught throw would kill the process).
+    const on = (event, handler) => {
+      socket.on(event, (...args) => {
+        try {
+          handler(...args);
+        } catch (err) {
+          console.error(`[socket] error in "${event}":`, err);
+        }
+      });
+    };
+
+    on('join-game', (data) => {
+      if (!isObject(data) || typeof data.code !== 'string') {
+        return socket.emit('error-msg', 'invalidRequest');
+      }
+      const code = data.code.trim().toUpperCase();
+      const clientToken = typeof data.playerToken === 'string' && data.playerToken.length <= 64
+        ? data.playerToken : null;
+      if (!CODE_RE.test(code)) return socket.emit('error-msg', 'gameNotFound');
+
+      // One socket belongs to one game.
+      if (currentGame && currentGame !== code) return socket.emit('error-msg', 'invalidRequest');
 
       const result = gameManager.joinGame(code, clientToken, socket.id);
-
-      if (result.error) {
-        socket.emit('error-msg', result.error);
-        return;
-      }
+      if (result.error) return socket.emit('error-msg', result.error);
 
       const game = result.game;
       currentGame = code;
@@ -28,7 +69,6 @@ function setupSocketHandler(io, gameManager) {
 
       const playerCount = gameManager.getPlayerCount(code);
 
-      // Send joined confirmation with the authoritative playerToken
       socket.emit('joined', {
         playerNumber,
         playerToken: result.playerToken,
@@ -39,121 +79,56 @@ function setupSocketHandler(io, gameManager) {
       });
 
       if (result.reconnect) {
-        // Send full state sync so client can reconstruct the correct screen
         const state = gameManager.getGameState(code, currentToken);
-        if (state) {
-          socket.emit('game-state-sync', state);
-        }
+        if (state) socket.emit('game-state-sync', state);
+        socket.to(code).emit('player-reconnected', { playerNumber });
       }
 
-      // Notify all players about updated count
-      io.to(code).emit('player-count', {
-        count: playerCount,
-        max: game.maxPlayers,
-      });
+      io.to(code).emit('player-count', { count: playerCount, max: game.maxPlayers });
 
-      // Auto-start if game is exactly full
-      if (playerCount === game.maxPlayers && game.status === 'waiting') {
-        startCountdown(code);
+      // Auto-start when the lobby is full
+      if (!result.reconnect && playerCount === game.maxPlayers && game.status === 'waiting') {
+        gameManager.startCountdown(code);
       }
     });
 
-    socket.on('creator-start', () => {
+    on('creator-start', () => {
       if (!currentGame || !currentToken) return;
-      const game = gameManager.getGame(currentGame);
-      if (!game) return;
-      if (game.creatorToken !== currentToken) return;
-      if (!gameManager.canStart(currentGame)) return;
-
-      startCountdown(currentGame);
+      gameManager.startCountdown(currentGame, currentToken);
     });
 
-    function startCountdown(code) {
-      const game = gameManager.getGame(code);
-      if (!game) return;
-
-      gameManager.startCountdown(code);
-
-      let count = 5;
-      io.to(code).emit('countdown', count);
-
-      game.countdownTimer = setInterval(() => {
-        count--;
-        if (count > 0) {
-          io.to(code).emit('countdown', count);
-        } else {
-          clearInterval(game.countdownTimer);
-          const gameData = gameManager.startPlaying(code);
-          if (gameData) {
-            io.to(code).emit('game-start', gameData);
-          }
-        }
-      }, 1000);
-    }
-
-    socket.on('progress-update', (data) => {
-      if (!currentGame) return;
-      const game = gameManager.getGame(currentGame);
-      if (!game) return;
-
-      socket.to(currentGame).emit('player-progress', {
-        playerNumber,
-        matched: data.matched,
-        total: game.words.length,
-      });
+    on('progress-update', (data) => {
+      if (!currentGame || !currentToken || !isObject(data)) return;
+      const progress = gameManager.updateProgress(currentGame, currentToken, data.matches);
+      if (!progress) return;
+      socket.to(currentGame).emit('player-progress', progress);
     });
 
-    socket.on('submit-answer', (data) => {
-      if (!currentGame || !currentToken) return;
-
+    on('submit-answer', (data) => {
+      if (!currentGame || !currentToken || !isObject(data)) return;
       const result = gameManager.submitAnswer(currentGame, currentToken, data.matches);
       if (!result) return;
-
-      socket.to(currentGame).emit('player-finished', {
-        playerNumber: result.playerNumber,
-      });
-
-      if (result.submissionCount === result.playerCount) {
-        endGame(currentGame);
-      } else if (result.submissionCount === 1) {
-        const game = gameManager.getGame(currentGame);
-        if (game) {
-          game.finishTimeout = setTimeout(() => {
-            endGame(currentGame);
-          }, 30000);
-        }
-      }
+      socket.to(currentGame).emit('player-finished', { playerNumber: result.playerNumber });
     });
 
-    function endGame(code) {
-      const results = gameManager.endGame(code);
-      if (results) {
-        io.to(code).emit('game-over', results);
-      }
-    }
-
-    socket.on('request-rematch', () => {
+    on('request-rematch', () => {
       if (!currentGame || !currentToken) return;
-
       const result = gameManager.addRematchVote(currentGame, currentToken);
       if (!result) return;
 
       if (result.rematchStarting) {
         io.to(currentGame).emit('rematch-start');
-        startCountdown(currentGame);
+        gameManager.runCountdown(currentGame);
       } else {
-        socket.to(currentGame).emit('rematch-requested', {
-          votes: result.votes,
-          needed: result.needed,
-        });
+        socket.to(currentGame).emit('rematch-requested', { votes: result.votes, needed: result.needed });
       }
     });
 
     socket.on('disconnect', () => {
-      if (currentGame && currentToken) {
-        gameManager.disconnectPlayer(currentGame, currentToken);
-        socket.to(currentGame).emit('player-disconnected', { playerNumber });
-      }
+      if (!currentGame || !currentToken) return;
+      const { ignored } = gameManager.disconnectPlayer(currentGame, currentToken, socket.id);
+      if (ignored) return;
+      socket.to(currentGame).emit('player-disconnected', { playerNumber });
     });
   });
 }
